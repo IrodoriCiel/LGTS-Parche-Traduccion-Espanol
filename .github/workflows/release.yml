@@ -20,17 +20,22 @@ jobs:
         run: pip install -r requirements.txt
       - name: Generar el .exe
         run: pyinstaller app/instalador.spec --noconfirm
-      - name: Suma SHA-256
+      # Se publica dentro de un .zip: los navegadores bloquean o avisan más con un .exe suelto.
+      - name: Comprimir y suma SHA-256
         shell: pwsh
-        run: (Get-FileHash dist/Instalar-Traduccion-LGTS.exe -Algorithm SHA256).Hash | Out-File -Encoding ascii dist/Instalar-Traduccion-LGTS.exe.sha256
+        run: |
+          Compress-Archive -Path dist/Instalar-Traduccion-LGTS.exe -DestinationPath dist/Instalar-Traduccion-LGTS.zip
+          (Get-FileHash dist/Instalar-Traduccion-LGTS.zip -Algorithm SHA256).Hash | Out-File -Encoding ascii dist/Instalar-Traduccion-LGTS.zip.sha256
       - uses: actions/upload-artifact@v4
         with:
           name: instalador
-          path: dist/Instalar-Traduccion-LGTS.exe*
+          path: dist/Instalar-Traduccion-LGTS.zip*
       - name: Publicar en Releases
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          name: Parche ${{ github.ref_name }}
+          body_path: .github/release.md
           files: |
-            dist/Instalar-Traduccion-LGTS.exe
-            dist/Instalar-Traduccion-LGTS.exe.sha256
+            dist/Instalar-Traduccion-LGTS.zip
+            dist/Instalar-Traduccion-LGTS.zip.sha256

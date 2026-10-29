@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Descargar%20el%20parche-Instalar--Traduccion--LGTS.exe-c8202f?style=for-the-badge" alt="Descargar el parche"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Descargar%20el%20parche-Instalar--Traduccion--LGTS.zip-c8202f?style=for-the-badge" alt="Descargar el parche"></a>
 </p>
 
 El parche se aplica **directamente a los archivos del juego**: después lo abres desde Steam como siempre y está en español de forma nativa, sin programas externos, mods ni nada ejecutándose aparte.
@@ -45,9 +45,9 @@ El parche se aplica **directamente a los archivos del juego**: después lo abres
 
 **Necesitas:** Windows 10 u 11, el juego de Steam (probado con la versión 1.1.2) y unos 500 MB libres en el disco del juego. No necesitas instalar Python ni nada más.
 
-1. Descarga **`Instalar-Traduccion-LGTS.exe`** de la [última versión](../../releases/latest).
+1. Descarga **`Instalar-Traduccion-LGTS.zip`** de la [última versión](../../releases/latest) y extráelo (clic derecho → *Extraer todo*).
 2. **Cierra el juego.**
-3. Ábrelo. Busca el juego solo en tus bibliotecas de Steam; si lo tienes en otra carpeta, elige **Lo instalé en otra carpeta** (o **Cambiar carpeta**) y selecciona la carpeta `Little Goody Two Shoes`. Comprueba que sea el juego, su versión y que no esté abierto.
+3. Abre `Instalar-Traduccion-LGTS.exe`: busca el juego solo en tus bibliotecas de Steam; si lo tienes en otra carpeta, elige **Lo instalé en otra carpeta** (o **Cambiar carpeta**) y selecciona la carpeta `Little Goody Two Shoes`. Comprueba que sea el juego, su versión y que no esté abierto.
 4. Presiona **Aplicar parche** y espera a que diga «¡Parche aplicado!» (unos 5 minutos). **No abras el juego mientras tanto.**
 5. Pulsa **▶ Jugar** (o abre el juego desde Steam como siempre). No hay que elegir idioma: el español reemplaza al inglés.
 
@@ -124,7 +124,7 @@ pip install -r requirements.txt
 pyinstaller app/instalador.spec --noconfirm
 ```
 
-El `.exe` queda en `dist/`. Al publicar una etiqueta `vX.Y.Z`, GitHub Actions lo genera y lo sube a Releases.
+El `.exe` queda en `dist/`. Al publicar una etiqueta `vX.Y.Z`, GitHub Actions lo genera, lo comprime en `Instalar-Traduccion-LGTS.zip` (con su suma SHA-256) y lo sube a Releases.
 
 ## 🙌 Créditos
 
