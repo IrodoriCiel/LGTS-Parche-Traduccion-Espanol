@@ -1,0 +1,2318 @@
+[
+{
+"id": "UI/CloseAll",
+"es": "Cerrar todo"
+},
+{
+"id": "UI/VA_CHOICE",
+"es": "Elige el idioma de voces:"
+},
+{
+"id": "UI/JPN",
+"es": "Japonés"
+},
+{
+"id": "UI/ENG",
+"es": "Inglés"
+},
+{
+"id": "UI/GIFTS",
+"es": "Obsequios"
+},
+{
+"id": "UI/RELATIONSHIPS",
+"es": "Relaciones"
+},
+{
+"id": "UI/SCROLL_DOWN_QUEST",
+"es": "Desplazar abajo"
+},
+{
+"id": "UI/SCROLL_UP_QUEST",
+"es": "Desplazar arriba"
+},
+{
+"id": "UI/TimeWillPassTextTwo",
+"es": "¡Esta acción <b><color=#E1402C>saltará</color> dos periodos de tiempo</b>!"
+},
+{
+"id": "UI/GOLDEN_GIRLS_INFO",
+"es": "Luciérnagas recolectadas: {0}"
+},
+{
+"id": "UI/STG_RESET",
+"es": "Restaurar valores"
+},
+{
+"id": "UI/WitchingHourAbv",
+"es": "Hora brujas"
+},
+{
+"id": "Video_Subs/SUB_001_001",
+"es": "“¡A partir de ahora, para ti soy la señorita Elise!”"
+},
+{
+"id": "Video_Subs/SUB_001_002",
+"es": "¡Se acabó esta ingrata lucha!\n¡No más recibir órdenes de nadie!"
+},
+{
+"id": "Video_Subs/SUB_001_003",
+"es": "“¡Nunca más!”"
+},
+{
+"id": "Video_Subs/SUB_001_004",
+"es": "Una vida despreocupada en la que yo mando me queda mucho mejor, ¿verdad?"
+},
+{
+"id": "Video_Subs/SUB_001_005",
+"es": "Cada año, sin importar quién me adornara ni cuántas veces,"
+},
+{
+"id": "Video_Subs/SUB_001_006",
+"es": "la pobreza nunca terminaba."
+},
+{
+"id": "Video_Subs/SUB_001_007",
+"es": "Como una rosa que no pudo florecer por sí sola, \nquedé eclipsada."
+},
+{
+"id": "Video_Subs/SUB_001_008",
+"es": "Oh, rubí rojo que guías mis sueños,\n¿no me dejarás ser egoísta por una vez? "
+},
+{
+"id": "Video_Subs/SUB_001_010",
+"es": "Haz que todos me miren\nAunque sea una vez, déjame brillar más que nadie."
+},
+{
+"id": "Video_Subs/SUB_001_011",
+"es": "Oye, mírame más, más"
+},
+{
+"id": "Video_Subs/SUB_001_012",
+"es": "mírame, mírame, mírame, MÍRAME MÍRAME "
+},
+{
+"id": "Video_Subs/SUB_001_013",
+"es": "Oye, mírame…"
+},
+{
+"id": "Video_Subs/SUB_002_001",
+"es": "Mi nacimiento fue en medio del cielo más negro"
+},
+{
+"id": "Video_Subs/SUB_002_002",
+"es": "Ennegrecido y hundido en cenizas por las llamas furiosas"
+},
+{
+"id": "Video_Subs/SUB_002_003",
+"es": "Guiada por el destino que me fue legado"
+},
+{
+"id": "Video_Subs/SUB_002_004",
+"es": "No he hecho más que seguir los sueños que tengo…"
+},
+{
+"id": "Video_Subs/SUB_002_005",
+"es": "Vengan a elevar nuestras plegarias a la corte de estrellas en lo alto — elevémoslas."
+},
+{
+"id": "Video_Subs/SUB_002_006",
+"es": "Grabemos el Rondó de las Seis Estrellas y bailemos..."
+},
+{
+"id": "Video_Subs/SUB_002_007",
+"es": "“Oh, faro que me guías\nConcédeme nuevas visiones..."
+},
+{
+"id": "Video_Subs/SUB_002_008",
+"es": "Aunque solo anuncien un destino ineludible.”"
+},
+{
+"id": "Video_Subs/SUB_002_009",
+"es": "¿Podré llegar al final de este viaje\ncuyo acto final anuncia la luz brillante..."
+},
+{
+"id": "Video_Subs/SUB_002_010",
+"es": "que devora las visiones que guardo tan hondo en mi pecho?"
+},
+{
+"id": "Video_Subs/SUB_002_011",
+"es": "Paso a paso, sigo esta marcha implacable,\nAndando al ritmo de la canción que me anuncia la campana del oráculo celestial."
+},
+{
+"id": "Video_Subs/SUB_002_012",
+"es": "Grabando un nombre tan puro, el verdadero nombre de tu alma\nen lo más profundo de mi corazón,"
+},
+{
+"id": "Video_Subs/SUB_002_013",
+"es": "emprendo mi viaje predestinado hacia ti…"
+},
+{
+"id": "Video_Subs/SUB_002_014",
+"es": "Hacia mi razón de poder vivir esta vida…"
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_001",
+"es": "Ah, antes de que te vayas, Elise..."
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_003",
+"es": "Tengo algo que decirte si..."
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_004",
+"es": "Pudieras venir a verme más tarde hoy..."
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_005",
+"es": "¿Qué te impide decírmelo ahora?"
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_006",
+"es": "Ah, bueno... Es importante, así que..."
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_007",
+"es": "Estaré atrás al anochecer, ¿está bien?"
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_009",
+"es": "Más te vale que valga la pena, ¿me oyes?"
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_010",
+"es": "¡Ah, prometo que no es nada malo...!"
+},
+{
+"id": "Love_Prompt/LVP_2_1_HLR_01_011",
+"es": "¡Eso ya lo veremos!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_001",
+"es": "No dormiste mucho anoche, ¿verdad?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_003",
+"es": "¿Verdad?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_004",
+"es": "No pegué un ojo."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_005",
+"es": "Eso explica la gracia."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_007",
+"es": "¡Eres una causa perdida, Lebkuchen!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_008",
+"es": "Mientras sigas consintiéndome."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_009",
+"es": "Entonces es mi culpa, ¿eh?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_010",
+"es": "Toma, antes de que se me olvide."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_011",
+"es": "¡Oh, me trajiste mi favorito!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_012",
+"es": "El señor Bernhard dijo que llegaste bastante tarde a casa anoche."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_014",
+"es": "Ya te dije que casi era hora de cenar cuando pasaste."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_015",
+"es": "¡Y <i>yo</i> te dije a <i>ti</i> que la señora Elma me hizo trabajar como una mula hasta que anocheció!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_016",
+"es": "El señor Bernhard solo estaba preocupado por ti, eso es todo."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_017",
+"es": "Seguro que el señor Bernhard puede encontrar mejores cosas que hacer con su tiempo."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_018",
+"es": "De verdad eres tan terca, Elise..."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_019",
+"es": "En fin: ya es hora de que me vaya."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_020",
+"es": "Oye, estaré en el campanario toda la tarde, ¿te gustaría hacerme compañía?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_021",
+"es": "¡Allí estaré, Leb!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_022",
+"es": "(Hacerle compañía a Lebkuchen, ¿eh?)"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VCH_01_023",
+"es": "(No puedo negar que tengo ganas...)"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_001",
+"es": "¡Ah, Elise, te estaba esperando!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_002",
+"es": "¿Esperándome a mí?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_003",
+"es": "¡Casi olvido darte esto!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_004",
+"es": "Mencionaste que tus manos se sentían resecas, ¿verdad?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_005",
+"es": "Ay, no tenías que hacerlo, Freya..."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_006",
+"es": "Yo lo uso justo antes de dormir todas las noches: ¡hace maravillas por la piel!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_008",
+"es": "¡También le puse un poco de lavanda!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_009",
+"es": "Espera... ¿Tú lo hiciste?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_010",
+"es": "¡Claro que sí, tontita!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_011",
+"es": "Es el favorito de papá: sus manos siempre están resecas, ¿sabes?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_012",
+"es": "Tienes un talento especial para estas cosas, ¿verdad?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_013",
+"es": "Ah, eso me dicen... Supongo..."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_014",
+"es": "En fin: será mejor que siga mi camino antes de que se haga tarde."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_015",
+"es": "Oye, Elise... Me preguntaba..."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_016",
+"es": "Esta tarde iré a recoger unas flores a las montañas..."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_017",
+"es": "¿Flores?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_018",
+"es": "Pensé que quizás te gustaría acompañarme... ¿Si quieres?"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_019",
+"es": "Está bien, iré, Freya."
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_020",
+"es": "¡Ah! ¡E-Es maravilloso!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_021",
+"es": "¡Que tengas un lindo día, Elise...!"
+},
+{
+"id": "Love_Prompt/LVP_2_2_VSQ_02_022",
+"es": "¿Qué le pasó...?"
+},
+{
+"id": "Pickup/PIC_1_5_001_001",
+"es": "¿En qué estaba pensando al dejarlo aquí?"
+},
+{
+"id": "Pickup/PIC_1_5_001_002",
+"es": "Ahora debería <color=#D90000>encender el fuego</color>."
+},
+{
+"id": "Pickup/PIC_D_WSN-A_01_001",
+"es": "Mejor lo pienso dos veces antes de usar esto..."
+},
+{
+"id": "Pickup/PIC_D_WSN-B_01_001",
+"es": "Esto se ve raro..."
+},
+{
+"id": "Pickup/PIC_D_WSN-B_01_002",
+"es": "¿Qué <i>es</i> esta cosa...?"
+},
+{
+"id": "Pickup/PIC_D_WSN-B_01_004",
+"es": "Veamos..."
+},
+{
+"id": "Pickup/PIC_D_WSN-B_01_005",
+"es": "Mejor me mantengo fuera de problemas..."
+},
+{
+"id": "Pickup/PIC_D_WSN-F_05_001",
+"es": "Siento que esto podría estar relacionado con aquella... cosa..."
+},
+{
+"id": "Pickup/PIC_D_WSN-F_06_001",
+"es": "Supongo que esta es la llave que me falta..."
+},
+{
+"id": "Pickup/PIC_D_WSN-G_06_001",
+"es": "Esta debe ser."
+},
+{
+"id": "Pickup/PIC_D_WSN-G_06_002",
+"es": "Mejor busco la otra..."
+},
+{
+"id": "Pickup/PIC_D_WSN-J_01_001",
+"es": "De nada sirve darle vueltas..."
+},
+{
+"id": "Pickup/PIC_D_WSN-J_01_002",
+"es": "Mejor averiguo qué hacer con esta cosa."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_001",
+"es": "¿Una lira?"
+},
+{
+"id": "Pickup/PIC_WSV-C_01_002",
+"es": "Que tu deseo más profundo se haga realidad, Elise..."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_003",
+"es": "Esta estatua... Me está hablando..."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_004",
+"es": "¡Vaya, no pongas esa cara de sorpresa!"
+},
+{
+"id": "Pickup/PIC_WSV-C_01_005",
+"es": "¿No estabas hablando con tu propio reflejo hace un momento?"
+},
+{
+"id": "Pickup/PIC_WSV-C_01_006",
+"es": "¡Ay, jamás me acostumbraré a estas tonterías!"
+},
+{
+"id": "Pickup/PIC_WSV-C_01_007",
+"es": "Todo depende de ti, Elise: de hasta dónde estés dispuesta a llegar."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_008",
+"es": "De los sacrificios que estés dispuesta a hacer..."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_009",
+"es": "He llegado hasta aquí, ¿no es cierto?"
+},
+{
+"id": "Pickup/PIC_WSV-C_01_010",
+"es": "Este no es el último de tus peligros..."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_011",
+"es": "Debes encontrar tu determinación en lo más profundo de ti, Elise."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_012",
+"es": "Supongo que hasta ahora he sido bastante indecisa..."
+},
+{
+"id": "Pickup/PIC_WSV-C_01_013",
+"es": "Si tú no luchas por ti, Elise, ¿quién lo hará?"
+},
+{
+"id": "Pickup/PIC_WSV-C_01_014",
+"es": "Solo puedo depender de mí misma, ¿eh?"
+},
+{
+"id": "Pickup/PIC_WSV-C_01_015",
+"es": "Pues que así sea."
+},
+{
+"id": "Pickup/PIC_WSV-D_01_001",
+"es": "¿Una botella?"
+},
+{
+"id": "Pickup/PIC_WSV-D_01_002",
+"es": "Para tu <b>néctar más dulce</b>..."
+},
+{
+"id": "Pickup/PIC_4_5_WCR_C_03_001",
+"es": "¿Qué es esta losa de piedra?"
+},
+{
+"id": "Pickup/PIC_D_WSN-F_06_002",
+"es": "No me desvíes de mi camino predestinado, ¿eh?"
+},
+{
+"id": "Pickup/PIC_4_2_OVP_01_001",
+"es": "Esta cueva... Está partida por la mitad..."
+},
+{
+"id": "Pickup/PIC_4_2_OVP_01_002",
+"es": "¿Y qué hace esta muñeca en un lugar así?"
+},
+{
+"id": "Pickup/PIC_4_2_OVP_02_001",
+"es": "Parece un pez... Me pregunto para qué servirá..."
+},
+{
+"id": "Pickup/PIC_4_2_OVP_02_002",
+"es": "Alguien tiene que estar detrás de todas estas tonterías..."
+},
+{
+"id": "Pickup/PIC_4_2_OVP_02_003",
+"es": "Tengo un muy mal presentimiento sobre todo esto."
+},
+{
+"id": "Pickup/PIC_4_2_OVP_03_001",
+"es": "Esto está empapado..."
+},
+{
+"id": "Pickup/PIC_4_2_OVP_03_002",
+"es": "Es otra de esas oraciones, ¿verdad?"
+},
+{
+"id": "Pickup/PIC_4_2_OVP_03_003",
+"es": "No puedo leer casi nada, pero hay algo aquí..."
+},
+{
+"id": "Pickup/PIC_4_2_OVP_03_004",
+"es": "<i>\"Ofrenda... a la que la llave conduce...\"</i>"
+},
+{
+"id": "Pickup/PIC_4_2_OVP_03_005",
+"es": "<i>\"Enterrada... en lo profundo de Kieferberg... pozo...\"</i>"
+},
+{
+"id": "Pickup/PIC_4_2_OVP_03_006",
+"es": "¿El pozo de Kieferberg? ¿El pozo de agua?"
+},
+{
+"id": "Pickup/PIC_4_2_OVP_03_007",
+"es": "Supongo que podría echarle un vistazo..."
+},
+{
+"id": "Pickup/PIC_6_2_VWW_01_001",
+"es": "Otra llave..."
+},
+{
+"id": "Pickup/PIC_6_2_VWW_01_002",
+"es": "Me pregunto para qué será esta..."
+},
+{
+"id": "Pickup/PIC_7_2_VWW_01_002",
+"es": "Tiene una etiqueta, aunque está bastante desvaída..."
+},
+{
+"id": "Pickup/PIC_7_2_VWW_01_003",
+"es": "<i>\"Estudio\"</i>... Creo que eso es lo que dice..."
+},
+{
+"id": "Pickup/PIC_8_3_VCS_01_002",
+"es": "¿Podré usarla en esta habitación?"
+},
+{
+"id": "Pickup/PIC_4_2_OVP_01_003",
+"es": "Es tan frágil también: podría romperla con bastante facilidad, ¿no?"
+},
+{
+"id": "Pickup/PIC_7_2_VWW_01_004",
+"es": "Esto es todo lo que tengo ahora, supongo..."
+},
+{
+"id": "Pickup/PIC_7_2_VWW_01_005",
+"es": "El estudio del Padre Hans... Debería encontrar la forma de colarme..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_002",
+"es": "<i>\"Venerada Walpurga, santificado sea tu nombre.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_003",
+"es": "<i>\"Que tu voluntad sea eterna y tu gracia lo abarque todo.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_004",
+"es": "<i>\"Saciada serás, en este Sabbat de la Luna Llena.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_005",
+"es": "<i>\"Que esta oración halle su lugar de reposo en tu arboleda dadora de vida.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_006",
+"es": "¿Una oración?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_008",
+"es": "<i>\"La ofrenda de Kieferberg yace en la <b><color=#DB4D35>encrucijada</color></b>, más allá del <b><color=#DB4D35>palo de mayo</color></b>.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_009",
+"es": "<i>\"Que tu sed sea saciada y tus bendiciones, recibidas.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CHR_01_010",
+"es": "<i>\"En la encrucijada\"</i>..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_01_001",
+"es": "(Pensar que había algo así bajo ese montón de escombros...)"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_01_002",
+"es": "Hay tanto aire viciado... Debo tener cuidado aquí dentro..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_02_001",
+"es": "Una muñeca..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_02_002",
+"es": "Me pregunto quién la habrá dejado aquí, de todos los lugares..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_03_001",
+"es": "¿Se desarmó...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_03_002",
+"es": "¡Quien haya hecho esta muñeca no era muy hábil...!"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_03_003",
+"es": "¿Eh...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_03_004",
+"es": "¿Qué fue eso...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_03_005",
+"es": "Mejor encuentro pronto la salida de aquí..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_04_002",
+"es": "Debería darme prisa, sin embargo... No vaya a ser que estos túneles se derrumben..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_05_001",
+"es": "¿Es esto...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_05_002",
+"es": "¿Santa Walpurga...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_05_003",
+"es": "(¿Qué hace esto en un lugar así...?)"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_05_004",
+"es": "Hecha pedazos, la imagen de Santa Walpurga se alza sobre una pila de agua opaca y desbordante."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_06_001",
+"es": "¿Qué voy a hacer con esto...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_07_001",
+"es": "Supongo que no puedo abrirla..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_07_002",
+"es": "Me pregunto si estoy tropezando con algo que siempre ha estado aquí, o..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_07_003",
+"es": "¿Si hay alguien armando todas estas tonterías...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_CSM2_07_004",
+"es": "Alguien de Kieferberg, seguramente..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_002",
+"es": "Otra oración..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_004",
+"es": "<i>\"Te imploro una señal: un testimonio de mi ruego.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_005",
+"es": "<i>\"Que aceptes esta ofrenda, los restos de tu milagro.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_006",
+"es": "<i>\"Kieferberg acoge tus bendiciones, tu guía.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_007",
+"es": "Alguien debe estar dejando estas cosas por ahí... ¿Pero quién?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_009",
+"es": "<i>\"Encuentra la prueba de nuestra fe en las cumbres.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_010",
+"es": "<i>\"Enterrada dentro del <color=#DB4D35><b>molino</b></color> que alguna vez fue.\"</i>"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_01_011",
+"es": "Este es... ¡Ese viejo molino de las montañas...!"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_04_001",
+"es": "¿Qué...? ¿Qué era esa cosa...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_04_002",
+"es": "Yo... ¿Estaba soñando, o...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_04_003",
+"es": "Creo que necesito algo para despejar la mente..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_02_001",
+"es": "(Una puerta...)"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_02_002",
+"es": "(Y está cerrada con llave...)"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_03_001",
+"es": "¿Estaba esta abertura aquí antes, me pregunto?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_03_002",
+"es": "Este lugar es tan sofocante..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_01_002",
+"es": "¿Ya conociste a la <color=#934494><b>bruja</b></color>?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_01_003",
+"es": "¡Está tan ansiosa por verte de nuevo, ¿lo creerías?!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_01_005",
+"es": "Tu camino y el suyo están destinados a cruzarse pronto, pero..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_01_006",
+"es": "¡Dudo que dures mucho en el páramo negro!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_001",
+"es": "Me dijeron que tienes un corazón valiente."
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_002",
+"es": "¿Te dijeron? ¿Quién?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_003",
+"es": "Tu gran deseo de fortuna y comodidad es aún más profundo que el mío."
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_004",
+"es": "Yo también anhelaba gloria, una oportunidad de ser feliz, igual que tú."
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_005",
+"es": "Esta nuestra plegaria malhadada..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_006",
+"es": "Es una quimera de sueño, nada más que un cofre dorado."
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_007",
+"es": "¿Y qué? ¿Es algún tipo de advertencia?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_008",
+"es": "¡Ay, muchacha arrogante y necia...!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_02_009",
+"es": "(No es mi culpa que a ella no le haya funcionado, ¿verdad?)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_03_001",
+"es": "¡Cuánto detesto a ustedes, ovejas ingenuas!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_03_002",
+"es": "Siguiendo la dichosa palabra de <b>Él</b> hacia este nuestro infierno sin luna..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_03_003",
+"es": "¿Qué eres?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_03_004",
+"es": "¡Todas alimentamos la gula de <b>Él</b>, una tras otra!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_03_005",
+"es": "¡Nuestros pecados desenterrados, convertidos en espectáculo para todos!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_03_007",
+"es": "¡Tu destino como una de nosotras está sellado, muchacha necia!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_03_008",
+"es": "(¿De qué demonios está parloteando?)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_001",
+"es": "Vas a seguir adelante con la invitación de <b>Él</b>, ya veo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_002",
+"es": "¿Qué te importa a ti?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_003",
+"es": "Yo estuve una vez en tu lugar, ¡con todo y arrogancia!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_004",
+"es": "Ay, pero falta poco ya, ¿no?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_005",
+"es": "¿Para qué?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_006",
+"es": "Cuando te abran los ojos a la fuerza, entonces verás..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_007",
+"es": "Que esta imitación suya no carece de razón, muchacha."
+},
+{
+"id": "Cursed_Memories/CSM_GG_04_008",
+"es": "(¡Sé cuándo se burlan de mí, muchas gracias!)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_001",
+"es": "Ay, qué necia fui..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_002",
+"es": "Pensar que <b>Él</b> me habría concedido todo lo que mi corazón deseaba..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_003",
+"es": "¿<b>Él</b> no lo hizo?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_004",
+"es": "Flaqueé en mi resolución, en mi determinación..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_005",
+"es": "Si tan solo hubiera dado ese último paso..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_006",
+"es": "¿Por qué no lo hiciste?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_007",
+"es": "Lo sabrás, con el tiempo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_05_008",
+"es": "(Supongo que sí...)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_06_001",
+"es": "¡No se debe mirar con desdén a las doncellas doradas!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_06_002",
+"es": "Lo entenderás con el tiempo, estoy segura."
+},
+{
+"id": "Cursed_Memories/CSM_GG_06_004",
+"es": "Vaya, ¡no puedes pensar de verdad que <b>Él</b> te dará <b>Su</b> bendición!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_06_005",
+"es": "A mí me dijeron lo contrario."
+},
+{
+"id": "Cursed_Memories/CSM_GG_06_006",
+"es": "¡Ay, qué ingenuidad!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_06_007",
+"es": "Qué divertida eres: ¡no puedo esperar a darte la bienvenida!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_06_008",
+"es": "(¡Qué personaje tan exasperante!)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_07_001",
+"es": "¡Los has conocido! ¡Los has conocido!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_07_002",
+"es": "¡Te estás burlando de mí, tú...!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_07_003",
+"es": "Ellos también: esos miserables mirlos."
+},
+{
+"id": "Cursed_Memories/CSM_GG_07_004",
+"es": "Todos ellos... los despreciables vasallos de <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_07_006",
+"es": "<sprite=\"murim\" name=\"black\">... el fiel cuervo de <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_07_007",
+"es": "No confíes en él, por muy amistoso que parezca."
+},
+{
+"id": "Cursed_Memories/CSM_GG_07_008",
+"es": "(¡Como si fuera a confiar en esa rata emplumada!)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_001",
+"es": "¡Ten cuidado! Se está aprovechando de ti."
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_002",
+"es": "¿Quién?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_003",
+"es": "Esa criatura... Pasa hambre..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_005",
+"es": "Es a ti a quien quiere... Tu carne..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_004",
+"es": "La <color=#934494><b>bruja</b></color>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_006",
+"es": "No permitas que interfiera con tu deseo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_007",
+"es": "¿Cómo interferiría, exactamente?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_08_009",
+"es": "(Su interferencia, dice...)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_001",
+"es": "Tú también serás bañada en oro, muchacha..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_002",
+"es": "Todos los que conocen a <b>Él</b> comparten el mismo destino..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_003",
+"es": "¿<b>Él</b> no concedió tu deseo?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_004",
+"es": "Las Doncellas Doradas pertenecemos a <b>Él</b>, muchacha."
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_005",
+"es": "Sin importar si es tu deseo el que <b>Él</b> ha concedido, o..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_006",
+"es": "Si fuiste <i>obsequiada</i> a <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_008",
+"es": "Pensar que yo estuve una vez en tu lugar..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_09_009",
+"es": "(¿<i>Obsequiada</i> a <b>Él</b>...?)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_001",
+"es": "Compartimos el mismo destino, muchacha."
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_003",
+"es": "Lo entenderás con el tiempo, estoy segura..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_004",
+"es": "Si sigues este camino, claro."
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_005",
+"es": "¿Eres un fantasma?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_006",
+"es": "Tienes un deseo, ¿verdad?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_007",
+"es": "¿Un deseo?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_008",
+"es": "Tu deseo más profundo, más querido..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_009",
+"es": "Si de verdad lo quieres, tendrás que aceptar la bendición de <b>Él</b>, tomar la mano de <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_011",
+"es": "Te estaremos esperando, muchacha."
+},
+{
+"id": "Cursed_Memories/CSM_GG_00_012",
+"es": "¿Estaremos? ¿Qué eres...?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_001",
+"es": "¡Oh, nuestra querida Kieferberg!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_002",
+"es": "¿Kieferberg? ¿Eres de Kieferberg?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_003",
+"es": "¡Pues unas cuantas lo somos!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_004",
+"es": "¡Qué pueblo tan encantador, cuánto anhelo verlo una vez más!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_005",
+"es": "¿Qué tiene de bueno Kieferberg, dirías?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_006",
+"es": "No lo sabrás hasta que sea demasiado tarde, me temo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_007",
+"es": "¡Ay, cómo desearía estar en tu lugar!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_008",
+"es": "No creo que sepas lo que eso significa..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_009",
+"es": "¡Nosotras ciertamente no lo sabíamos, y mucho menos alguien como tú!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_12_010",
+"es": "¿Nosotras?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_001",
+"es": "Renacer..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_002",
+"es": "Eso fue lo que deseé... hace mucho, mucho tiempo."
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_003",
+"es": "¿Querías renacer?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_004",
+"es": "En un lugar seguro... En algún lugar lejos, muy lejos..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_005",
+"es": "Superé todas sus pruebas, reuní todos los <color=#ed1c24><b>Obsequios</b></color> de <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_007",
+"es": "En efecto, renací..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_008",
+"es": "Mi deseo fue concedido, pero..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_009",
+"es": "¿Pero?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_18_010",
+"es": "Pensar que acabaría así..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_20_001",
+"es": "Ay, muchacha..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_20_002",
+"es": "Pensar que estaría rodeada de demonios en mi lecho de muerte..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_20_003",
+"es": "¿Tu lecho de muerte?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_20_004",
+"es": "Aquella noche fatídica..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_20_005",
+"es": "Me llevaron a la morada de <b>Él</b> bajo el pretexto de la gloria..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_20_007",
+"es": "La bendición de <b>Él</b>, la dichosa palabra de <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_20_008",
+"es": "No deberías creer nada de eso..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_001",
+"es": "¿Te sientes bastante perdida, eh?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_002",
+"es": "¿Qué sabrías tú de eso?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_003",
+"es": "¡Vaya, no hay nada que temer, muchacha!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_004",
+"es": "¡<b>Él</b> es en verdad bastante misericordioso a pesar de todo!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_006",
+"es": "¡Tu deseo está en buenas manos, igual que el nuestro!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_007",
+"es": "Pero no olvides que compartirás nuestro destino si traicionas a <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_008",
+"es": "¿Traicionar a <b>Él</b>? ¿Por qué lo haría?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_23_009",
+"es": "¿Por qué lo haría cualquiera, eh?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_001",
+"es": "Ah, ¿cuánto tiempo habrá pasado...?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_002",
+"es": "Dime: ¿cuánto tiempo ha pasado?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_004",
+"es": "¡Desde que una de nosotras te embaucó!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_006",
+"es": "¡No soy como las demás! ¡No soy de las que comparten sus penas!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_007",
+"es": "¡Pronto te unirás a nosotras, quieras o no!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_008",
+"es": "¡Fuera de mi vista, tú...!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_009",
+"es": "¡Mira tu cara! ¡Mira tu cara!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_10_010",
+"es": "¡Por Dios! ¡Todo aquí es exasperante!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_001",
+"es": "¡La ignorancia es felicidad! ¿Nadie te lo ha dicho nunca?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_002",
+"es": "Muchas veces, supongo."
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_003",
+"es": "No poder comprender lo afortunadas que somos hasta que es demasiado tarde..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_004",
+"es": "Encantadoramente trágico, ¿no?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_005",
+"es": "No veo qué tiene de encantador."
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_006",
+"es": "Tú también te enfrentarás a ello."
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_007",
+"es": "La ruinosa angustia de tu mayor y más pesado remordimiento..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_008",
+"es": "¿Y cuál es el tuyo, entonces?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_009",
+"es": "El mismo que el tuyo: todas compartimos la misma penitencia."
+},
+{
+"id": "Cursed_Memories/CSM_GG_11_010",
+"es": "(Hablar con muchachas así nunca es una experiencia muy agradable, ¿verdad?)"
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_001",
+"es": "Qué cruel eres, ¿no?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_003",
+"es": "¿Tu deseo realmente vale lo que estás sacrificando?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_004",
+"es": "No creo que eso sea asunto tuyo."
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_005",
+"es": "Ya te han marcado, ¿verdad?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_006",
+"es": "¿A qué vienen todas estas preguntas?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_007",
+"es": "¡Vaya, solo intento decírtelo!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_008",
+"es": "¡Yo sé que cometí muchos errores, y también las demás!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_009",
+"es": "Pues no tengo la menor intención de acabar como todas ustedes."
+},
+{
+"id": "Cursed_Memories/CSM_GG_17_010",
+"es": "Entonces nos veremos de nuevo... más pronto que tarde..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_001",
+"es": "Has venido para quedarte, ya veo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_002",
+"es": "¿Quién lo dice?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_003",
+"es": "Un lugar de consuelo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_004",
+"es": "Eso es lo que nuestro querido <sprite=\"aziel\" name=\"black\"> nos brinda aquí..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_005",
+"es": "¡Pero lo único que he oído aquí dentro son sollozos!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_006",
+"es": "Estamos condenadas... todas nosotras..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_007",
+"es": "¡Lo hemos perdido todo! Solo nos quedan estas profundidades..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_008",
+"es": "¿Qué tiene de bueno este lugar, dirías?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_009",
+"es": "El silencio... <b>Él</b> jamás nos visita aquí..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_21_010",
+"es": "No puedo decir que lo entienda..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_13_001",
+"es": "¡Oh, mi amada Kieferberg!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_13_009",
+"es": "¡Tú tampoco, hasta yo lo noto!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_001",
+"es": "Otra más, ya veo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_003",
+"es": "Oye, ¿para qué quieres encontrarte con <b>Él</b>?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_005",
+"es": "Entonces déjame decirte algo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_006",
+"es": "Renuncia a todo lo que crees saber de ti misma."
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_008",
+"es": "No hay determinación que pueda salvarte de <b>Él</b>."
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_009",
+"es": "Una vez que estés en esos bosques... Una vez que cruces esa puerta..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_011",
+"es": "No te quedará más que un angustiante remordimiento..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_14_012",
+"es": "¿Por qué me cuentas todo esto?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_001",
+"es": "¡Debes estar desesperada!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_002",
+"es": "¿Te parezco desesperada?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_003",
+"es": "¡Ay, todas lo estuvimos, muchachita!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_004",
+"es": "¿Todas ustedes?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_005",
+"es": "¡Pronto lo sabrás todo sobre nosotras, no te preocupes!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_006",
+"es": "¡He visto ir y venir a tantas como tú a lo largo de los años!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_007",
+"es": "¿Muchas como yo, dices?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_008",
+"es": "Hace tantos años... si no hubiera conocido a <b>Él</b> en el bosque..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_009",
+"es": "Sería una anciana a estas alturas, pero... lo único que soy es..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_15_010",
+"es": "¡Termina tu historia, por Dios!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_001",
+"es": "Solo otra muchacha con un deseo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_002",
+"es": "¿No tiene todo el mundo uno o dos deseos?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_003",
+"es": "No todos los que conocen a <b>Él</b> lo tienen."
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_004",
+"es": "Yo fui lo que se llamaría la <color=#ed1c24><b>Buena Compañía</b></color>, a pesar de estos zapatos rojos..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_005",
+"es": "El objeto de su afecto, supongo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_007",
+"es": "Fui abandonada en la guarida de <b>Él</b> por la persona que amaba..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_008",
+"es": "A quien sea que lleves para hacerle compañía a <b>Él</b>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_009",
+"es": "Ten presente: este será su destino."
+},
+{
+"id": "Cursed_Memories/CSM_GG_16_010",
+"es": "La <color=#ed1c24><b>Buena Compañía</b></color>..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_001",
+"es": "¿No te unirás a nosotras?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_003",
+"es": "Tomemos venganza contra ese engendro..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_004",
+"es": "Cuando te conviertas en una Doncella Dorada como yo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_006",
+"es": "Cuando lo hagas... reunámonos..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_007",
+"es": "¿Qué te hace estar tan segura de que lo haré?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_008",
+"es": "¡Pues todas lo hacemos!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_009",
+"es": "¡Por eso quiero acabar con <b>Él</b>!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_010",
+"es": "¡Por traicionarnos! ¡Por condenarnos a todas a esto...!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_011",
+"es": "¡Esta miserable eternidad!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_19_012",
+"es": "¿Traicionarlas...?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_001",
+"es": "¿Has venido a rezar?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_002",
+"es": "No..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_003",
+"es": "A estas alturas ya te da igual, ¿verdad?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_004",
+"es": "Verás... Las Doncellas Doradas somos seres contradictorios..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_006",
+"es": "<b>Él</b> nos ha salvado, en cierto modo..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_007",
+"es": "Con las bendiciones de <b>Él</b> y los sacrificios que hicimos..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_008",
+"es": "Basta para perder nuestro derecho a la salvación divina, ¿no?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_009",
+"es": "¿Qué intentas decir?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_010",
+"es": "Que prefiero compartir la eternidad con <b>Él</b> y <b>Su</b> séquito..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_22_011",
+"es": "Que enfrentar mi justo castigo en los abismos del infierno."
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_001",
+"es": "¡Una más que se une a nuestro séquito, ya veo!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_003",
+"es": "¡Ay, es maravilloso! ¡Seguro que estarás de acuerdo!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_004",
+"es": "¡Los banquetes, los espectáculos, el prestigio!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_006",
+"es": "¡Lo verás cuando llegues!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_007",
+"es": "¡Ay, <b>Él</b> me ha dado todo lo que podría desear!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_008",
+"es": "¿Que era...?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_009",
+"es": "¡Pues lujo! ¡Riqueza! ¡Opulencia!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_010",
+"es": "¡Ay, no puedo esperar a tenerlas a ti y a tu enamorada con nosotras!"
+},
+{
+"id": "Cursed_Memories/CSM_GG_24_011",
+"es": "¿Mi qué...?"
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_05_001",
+"es": "Me pregunto si habrá algo allá arriba en ese molino..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_05_002",
+"es": "No sé qué fue eso, ni qué era esa <i>cosa</i>, pero..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OCR_05_003",
+"es": "Lo que vi allí dentro era una especie de ritual: no cabe duda."
+},
+{
+"id": "Cursed_Memories/CSM_2_2_OVP_01_001",
+"es": "\"El molino que alguna vez fue...\""
+},
+{
+"id": "Cursed_Memories/CSM_2_2_OVP_01_002",
+"es": "Seguramente es este... Pero no puedo quitar esto del camino..."
+},
+{
+"id": "Cursed_Memories/CSM_2_2_OVP_01_003",
+"es": "Quizás debería volver otro día..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OVP_01_001",
+"es": "Esto no estaba abierto antes..."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OVP_01_002",
+"es": "Alguien ha estado aquí hace poco: debo tener cuidado."
+},
+{
+"id": "Cursed_Memories/CSM_3_2_OVP_02_001",
+"es": "Supongo que esto podría ir aquí..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_001",
+"es": "Todavía llevas puesto mi broche..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_003",
+"es": "¿Qué se supone que haga uno cuando el Señor le falla, dirías?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_004",
+"es": "Espera, ¿qué estás...?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_005",
+"es": "Nuestra unión fue favorecida por el mismísimo Señor, y aun así..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_006",
+"es": "Mi incapacidad de tener un hijo abrió una brecha entre nosotros..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_007",
+"es": "¿Quién <i>eres</i>...?"
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_008",
+"es": "Así que hice lo que pude... Recurrí a la bendición de <b>Él</b> en su lugar..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_009",
+"es": "Le llevé a <b>Él</b> a mi amado a cambio de un bebé..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_010",
+"es": "Espera... No puedes ser..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_011",
+"es": "Todo lo que puedo decirte, Elise... A ti, que sigues mis pasos..."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_012",
+"es": "Es que esto es lo que mi alma gemela habría querido que hiciera."
+},
+{
+"id": "Cursed_Memories/CSM_GG_WCW_HOUSE_01_013",
+"es": "Por mi bien, por el bien de nuestra unión... y también por el tuyo..."
+},
+{
+"id": "Images/IMG_Place",
+"es": "EN/Place"
+},
+{
+"id": "Quests/FIND_BURGLAR",
+"es": "¡Encuentra al ladrón!"
+},
+{
+"id": "Quests/FIND_TINDERBOX",
+"es": "¡Encuentra el Yesquero!"
+},
+{
+"id": "Quests/GO_TO_BED",
+"es": "¡Ve a la cama!"
+},
+{
+"id": "Quests/HEAD_HOME",
+"es": "¡Encuentra el camino a casa!"
+},
+{
+"id": "Quests/LIGHT_FIREPLACE",
+"es": "¡Enciende la chimenea!"
+},
+{
+"id": "Quests/ATTEND_SUNDAY_MASS",
+"es": "¡Asiste a la misa del domingo!"
+},
+{
+"id": "Quests/FIND_ROZENMARINE",
+"es": "¡Encuentra a Rozenmarine!"
+},
+{
+"id": "Quests/FREYA_LVE_1",
+"es": "¡Reúnete con Freya en el Mirador por la tarde!"
+},
+{
+"id": "Quests/LEB_LVE_1",
+"es": "¡Reúnete con Lebkuchen en la torre de la iglesia por la tarde!"
+},
+{
+"id": "Quests/ROZEN_LVE_1",
+"es": "¡Reúnete con Rozenmarine en el patio trasero al anochecer!"
+},
+{
+"id": "Quests/DINNER_WITH_ROZEN",
+"es": "¡Cena con Rozenmarine!"
+},
+{
+"id": "Quests/MEET_LEBKUCHEN_AT_BAKERY",
+"es": "¡Reúnete con Lebkuchen en la panadería!"
+},
+{
+"id": "Quests/TEND_BACKYARD",
+"es": "¡Atiende el patio trasero!"
+},
+{
+"id": "Quests/TALK_ROZEN",
+"es": "¡Habla con Rozenmarine!"
+},
+{
+"id": "Quests/FREYA_LVE_2",
+"es": "¡Reúnete con Freya junto al pozo de agua al anochecer!"
+},
+{
+"id": "Quests/LEB_LVE_2",
+"es": "¡Reúnete con Lebkuchen en la iglesia al anochecer!"
+},
+{
+"id": "Quests/ROZEN_LVE_2",
+"es": "¡Reúnete con Rozenmarine en el ático al anochecer!"
+},
+{
+"id": "Quests/FREYA_LVE_3",
+"es": "¡Reúnete con Freya en su casa!"
+},
+{
+"id": "Quests/LEB_LVE_3",
+"es": "¡Reúnete con Lebkuchen en la plaza del pueblo!"
+},
+{
+"id": "Quests/ROZEN_LVE_3",
+"es": "¡Reúnete con Rozenmarine en la encrucijada!"
+},
+{
+"id": "Quests/TELL_VILLAGERS",
+"es": "¡Cuéntales a todos lo del caballo!"
+},
+{
+"id": "Quests/ENTER_WOODS",
+"es": "¡Encuentra el camino al bosque!"
+},
+{
+"id": "Quests/FIND_KEY_01",
+"es": "¡Habla con la gente e investiga!"
+},
+{
+"id": "Quests/MEET_LISBETH_CHURCH",
+"es": "¡Habla con Lisbeth en la iglesia!"
+},
+{
+"id": "Quests/ROZEN_LVE_4",
+"es": "¡Reúnete con Rozenmarine en el Mirador!"
+},
+{
+"id": "Quests/FREYA_LVE_4",
+"es": "¡Reúnete con Freya en la posada del pueblo!"
+},
+{
+"id": "Quests/LEB_LVE_4",
+"es": "¡Reúnete con Lebkuchen junto a la panadería!"
+},
+{
+"id": "Quests/SEARCH_APFEL_WOODS",
+"es": "¡Busca a Apfel en el bosque!"
+},
+{
+"id": "Quests/FIND_KEY_04",
+"es": "¡Pregúntale a Eugen por la llave!"
+},
+{
+"id": "Quests/CURSED_BREAD",
+"es": "¡Elabora la Carne tierna!"
+},
+{
+"id": "Quests/CHECK_OUTSIDE",
+"es": "¡Revisa afuera!"
+},
+{
+"id": "Quests/GO_TO_CHURCH",
+"es": "¡Ve a la iglesia!"
+},
+{
+"id": "Quests/GO_TO_VILLAGE",
+"es": "¡Ve a la aldea de Kieferberg!"
+},
+{
+"id": "Quests/LEB_LVE_5",
+"es": "¡Reúnete con Lebkuchen en su casa!"
+},
+{
+"id": "Quests/LEB_LVE_7",
+"es": "¡Reúnete con Lebkuchen en el festival!"
+},
+{
+"id": "Quests/FREYA_LVE_6",
+"es": "¡Reúnete con Freya en el sendero de las vides!"
+},
+{
+"id": "Quests/FREYA_LVE_7",
+"es": "¡Reúnete con Freya en el festival!"
+},
+{
+"id": "Quests/ROZEN_LVE_5",
+"es": "¡Reúnete con Rozenmarine en el molino!"
+},
+{
+"id": "Quests/ROZEN_LVE_6",
+"es": "¡Reúnete con Rozenmarine junto al arroyo!"
+},
+{
+"id": "Quests/ROZEN_LVE_7",
+"es": "¡Reúnete con Rozenmarine en el festival!"
+},
+{
+"id": "Quests/GO_TO_COUNCIL",
+"es": "¡Asiste al consejo del pueblo en la iglesia!"
+},
+{
+"id": "Quests/GO_TO_VIGIL",
+"es": "Ve a la vigilia."
+},
+{
+"id": "Quests/MAKE_WINE",
+"es": "¡Elabora el Néctar más dulce!"
+},
+{
+"id": "Quests/TASK_ELMA_APPLES",
+"es": "¡Ayuda a Elma con las manzanas!"
+},
+{
+"id": "Quests/TASK_ARIANE_CHICKENS",
+"es": "¡Ayuda a Ariane con las gallinas!"
+},
+{
+"id": "Quests/TASK_LISBETH_APPLES",
+"es": "¡Ayuda a Lisbeth con las manzanas!"
+},
+{
+"id": "Quests/TASK_LISBETH_WOOD",
+"es": "¡Ayuda a Lisbeth a cortar leña!"
+},
+{
+"id": "Quests/TASK_LINDA_CHICKEN",
+"es": "¡Ayuda a Linda con las gallinas!"
+},
+{
+"id": "Quests/TASK_PLAY_KIDS",
+"es": "¡Juega al Beso a la Rata con los niños!"
+},
+{
+"id": "Quests/TASK_MARLEN_APPLES",
+"es": "¡Ayuda a Marlen con las manzanas!"
+},
+{
+"id": "Quests/TASK_LINDA_WOOD",
+"es": "¡Ayuda a Linda a cortar leña!"
+},
+{
+"id": "Quests/TASK_EUGEN_CHICKENS",
+"es": "¡Ayuda a Eugen con las gallinas!"
+},
+{
+"id": "Quests/TASK_DOROTHEA_WOOD",
+"es": "¡Ayuda a Dorothea a cortar leña!"
+},
+{
+"id": "Quests/TASK_WILMA_CHICKENS",
+"es": "¡Ayuda a Wilma con las gallinas!"
+},
+{
+"id": "Quests/TASK_LORELEY_APPLES",
+"es": "¡Ayuda a Loreley con las manzanas!"
+},
+{
+"id": "Quests/TASK_DOROTHEA_CHICKENS",
+"es": "¡Ayuda a Dorothea con las gallinas!"
+},
+{
+"id": "Quests/TASK_BERTHA_WOOD",
+"es": "¡Ayuda a Bertha a cortar leña!"
+},
+{
+"id": "Quests/TASK_LINDA_APPLES",
+"es": "¡Ayuda a Linda con las manzanas!"
+},
+{
+"id": "Quests/TASK_MARIELE_CHICKENS",
+"es": "¡Ayuda a Mariele con las gallinas!"
+},
+{
+"id": "Quests/TASK_GUIDO_WOOD",
+"es": "¡Ayuda a Guido a cortar leña!"
+},
+{
+"id": "Quests/TASK_MARLEN_CHICKENS",
+"es": "¡Ayuda a Marlen con las gallinas!"
+},
+{
+"id": "Quests/TASK_MARIELE_WOOD",
+"es": "¡Ayuda a Mariele a cortar leña!"
+},
+{
+"id": "Quests/TASK_ELMA_CHICKENS",
+"es": "¡Ayuda a Elma con las gallinas!"
+},
+{
+"id": "Quests/TASK_LUDWIG_CHICKENS",
+"es": "¡Ayuda a Ludwig con las manzanas!"
+},
+{
+"id": "Quests/TASK_BERTHA_CHICKENS",
+"es": "¡Ayuda a Bertha con las gallinas!"
+},
+{
+"id": "Quests/TASK_ODILIE_CHICKENS",
+"es": "¡Ayuda a Odilie con las gallinas!"
+},
+{
+"id": "Quests/TASK_WILHELM_CHICKENS",
+"es": "¡Ayuda a Wilhelm con las gallinas!"
+},
+{
+"id": "Quests/CURSED_MEMORY_1_RIDDLE",
+"es": "¡Investiga más a fondo las notas!"
+},
+{
+"id": "Quests/OVERARCHING_BREAD",
+"es": "La <b>Carne tierna</b>"
+},
+{
+"id": "Quests/OVERARCHING_WINE",
+"es": "El <b>Néctar más dulce</b>"
+},
+{
+"id": "Quests/OVERARCHING_VIRGIN",
+"es": "La <b>Buena Compañía</b>"
+},
+{
+"id": "Quests/TALK_ROZENMARINE",
+"es": "¡Habla con Rozenmarine sobre los Obsequios!"
+},
+{
+"id": "Quests/TALK_ROZENMARINE_2",
+"es": "¡Habla con Rozenmarine afuera!"
+},
+{
+"id": "Quests/TAKE_ROZEN_HOME",
+"es": "¡Lleva a Rozenmarine a casa!"
+},
+{
+"id": "Quests/FIND_MUFFY",
+"es": "¡Encuentra el origen del ruido!"
+},
+{
+"id": "Quests/EXPLORE_ROOM",
+"es": "¡Explora la habitación!"
+},
+{
+"id": "Quests/LEAVE_ROOM",
+"es": "¡Sal de la habitación!"
+},
+{
+"id": "Quests/ESCAPE_ROOM",
+"es": "¡Escapa de la habitación!"
+},
+{
+"id": "Quests/GET_READY_WORK",
+"es": "¡Prepárate para el trabajo!"
+},
+{
+"id": "Quests/CURSED_MEMORY_1",
+"es": "¡Investiga las notas que encontraste!"
+},
+{
+"id": "Quests/HEAD_TO_WORK",
+"es": "¡Vuelve al trabajo!"
+},
+{
+"id": "Quests/EXPLORE_WOODLAND",
+"es": "¡Explora el bosque!"
+},
+{
+"id": "Quests/FIND_OUT",
+"es": "¡Descubre lo que pasó!"
+},
+{
+"id": "Quests/CHASE_ROZEN",
+"es": "¡Persigue a Rozenmarine!"
+},
+{
+"id": "Quests/RETRIEVE_RING",
+"es": "¡Recupera el anillo!"
+},
+{
+"id": "Quests/ESCAPE_WOODLAND",
+"es": "¡Escapa del bosque!"
+},
+{
+"id": "Quests/MEET_SNAKE",
+"es": "¡Conoce a la serpiente en el bosque!"
+},
+{
+"id": "Quests/ATTEND_VIGIL",
+"es": "¡Asiste a la vigilia!"
+},
+{
+"id": "Quests/FIND_WAY_CHURCH",
+"es": "¡Encuentra la manera de entrar a la iglesia!"
+},
+{
+"id": "Quests/LEB_CHURCH",
+"es": "¡Busca a Lebkuchen en la iglesia!"
+},
+{
+"id": "Quests/GO_TO_FESTIVAL",
+"es": "¡Ve al festival!"
+},
+{
+"id": "Quests/MAKE_COMPANY",
+"es": "¡Consigue a la Buena Compañía!"
+},
+{
+"id": "Quests/EXPLORE_WOODLAND_FINAL",
+"es": "¡Explora el bosque y encuentra a <b>Él</b>!"
+},
+{
+"id": "Quests/FIND_HIM",
+"es": "¡Encuentra a <b>Él</b>!"
+},
+{
+"id": "Quests/GO_TO_INN",
+"es": "¡Reúnete con la gente junto a la posada!"
+},
+{
+"id": "Quests/FIND_SECRET",
+"es": "¡Encuentra el Secreto en el bosque!"
+},
+{
+"id": "Quests/FIND_SNAKE_KEYS",
+"es": "¡Encuentra las llaves de la puerta!"
+},
+{
+"id": "Quests/OPEN_GATE",
+"es": "¡Abre la puerta y conoce a <sprite=\"aziel\" name=\"black\">!"
+},
+{
+"id": "Quests/TASK_PLAY_JAKOB",
+"es": "¡Juega al Beso a la Rata con Jakob!"
+},
+{
+"id": "World_Map/BACKYARD",
+"es": "Patio trasero de Elise"
+},
+{
+"id": "World_Map/ELISE_HOUSE",
+"es": "Casa de Elise"
+},
+{
+"id": "World_Map/CROSSROADS",
+"es": "Encrucijada"
+},
+{
+"id": "World_Map/GRAPES",
+"es": "Sendero de las vides"
+},
+{
+"id": "World_Map/CREEK",
+"es": "Arroyo"
+},
+{
+"id": "World_Map/WOODS_ENTRANCE",
+"es": "El bosque"
+},
+{
+"id": "World_Map/VIEWPOINT",
+"es": "Mirador"
+},
+{
+"id": "World_Map/LEB_MAP",
+"es": "Entrada de la aldea"
+},
+{
+"id": "World_Map/VILLAGE_SQUARE",
+"es": "Plaza del pueblo"
+},
+{
+"id": "World_Map/VILLAGE_ALLEY",
+"es": "Callejones traseros"
+},
+{
+"id": "World_Map/VILLAGE_INN",
+"es": "Posada del pueblo"
+},
+{
+"id": "World_Map/VILLAGE_WELL",
+"es": "Pozo de agua"
+},
+{
+"id": "World_Map/STABLES",
+"es": "Establos"
+},
+{
+"id": "World_Map/WINDMILL",
+"es": "Molino"
+},
+{
+"id": "World_Map/ELISE_FRONTYARD",
+"es": "Patio delantero de Elise"
+},
+{
+"id": "World_Map/ELISE_GRANNARY",
+"es": "Granero de Elise"
+},
+{
+"id": "World_Map/DEMON_PARADE",
+"es": "Desfile del demonio"
+},
+{
+"id": "World_Map/CHURCH_HALL",
+"es": "Salón de la iglesia"
+},
+{
+"id": "World_Map/CHURCH_TOWER",
+"es": "Torre de la iglesia"
+},
+{
+"id": "World_Map/LEBKUCHENS_BAKERY",
+"es": "Panadería de Lebkuchen"
+},
+{
+"id": "World_Map/SNAKE_WOODS",
+"es": "Bosque de bayas cubierto de rocío"
+},
+{
+"id": "World_Map/CROW_WOODS",
+"es": "Arboleda cerámica de trigo"
+},
+{
+"id": "World_Map/WITCH_WOODS",
+"es": "Soto sagrado viviente"
+},
+{
+"id": "World_Map/DEMON_WOODS",
+"es": "Árbol secreto de la creación"
+},
+{
+"id": "World_Map/ELISE_HOUSE_DESC",
+"es": "Se la dejó la abuelita Holle tras su fallecimiento."
+},
+{
+"id": "World_Map/CROSSROADS_DESC",
+"es": "La encrucijada que conecta la casa de Elise con la aldea, Primeldorf y el bosque."
+},
+{
+"id": "World_Map/BACKYARD_DESC",
+"es": "La cima de una montaña que domina toda la aldea de Kieferberg."
+},
+{
+"id": "World_Map/GRAPES_DESC",
+"es": "Un estrecho pasaje rodeado de vides."
+},
+{
+"id": "World_Map/CREEK_DESC",
+"es": "Un arroyo que desciende entre las cimas de las montañas de Kieferberg."
+},
+{
+"id": "World_Map/WOODS_ENTRANCE_DESC",
+"es": "La entrada al bosque que rodea la aldea de Kieferberg."
+},
+{
+"id": "World_Map/VIEWPOINT_DESC",
+"es": "Donde el viejo molino de Kieferberg domina las tierras que se extienden más allá."
+},
+{
+"id": "World_Map/LEB_MAP_DESC",
+"es": "Donde puedes encontrar la casa y la panadería de Lebkuchen."
+},
+{
+"id": "World_Map/VILLAGE_SQUARE_DESC",
+"es": "La plaza de Kieferberg, hogar de la fuente y de la iglesia del pueblo."
+},
+{
+"id": "World_Map/VILLAGE_ALLEY_DESC",
+"es": "El angosto callejón donde viven Freya y Gustav."
+},
+{
+"id": "World_Map/VILLAGE_INN_DESC",
+"es": "El lado este del pueblo, donde se encuentra la única posada de Kieferberg."
+},
+{
+"id": "World_Map/VILLAGE_WELL_DESC",
+"es": "El pozo de agua del pueblo, con lavadero y una vista impresionante."
+},
+{
+"id": "World_Map/STABLES_DESC",
+"es": "Los establos y el huerto comunitario de Kieferberg."
+},
+{
+"id": "World_Map/WINDMILL_DESC",
+"es": "El nuevo molino del pueblo, construido en lo alto de la montaña más ventosa de Kieferberg."
+},
+{
+"id": "World_Map/NO_TASKS_AVAILABLE",
+"es": "No hay tareas disponibles."
+},
+{
+"id": "World_Map/LEB_HOUSE",
+"es": "Dormitorio de Lebkuchen"
+},
+{
+"id": "World_Map/FREYA_HOUSE",
+"es": "Dormitorio de Freya"
+},
+{
+"id": "Endings/ENDING_1",
+"es": "Moira"
+},
+{
+"id": "Endings/ENDING_2",
+"es": "Rosa traicionera"
+},
+{
+"id": "Endings/ENDING_3",
+"es": "Beso de Judas"
+},
+{
+"id": "Endings/ENDING_4",
+"es": "Apostasía"
+},
+{
+"id": "Endings/ENDING_5",
+"es": "Desventurados"
+},
+{
+"id": "Endings/ENDING_6",
+"es": "Joya de uva"
+},
+{
+"id": "Endings/ENDING_7",
+"es": "Campanas del alba"
+},
+{
+"id": "Endings/ENDING_8",
+"es": "El beso"
+},
+{
+"id": "Endings/ENDING_9",
+"es": "Auto de fe"
+},
+{
+"id": "Endings/ENDING_10",
+"es": "Capullo materno"
+},
+{
+"id": "Endings/ENDING_1_Number",
+"es": "Final n.º 1"
+},
+{
+"id": "Endings/ENDING_2_Number",
+"es": "Final n.º 2"
+},
+{
+"id": "Endings/ENDING_3_Number",
+"es": "Final n.º 3"
+},
+{
+"id": "Endings/ENDING_4_Number",
+"es": "Final n.º 4"
+},
+{
+"id": "Endings/ENDING_5_Number",
+"es": "Final n.º 5"
+},
+{
+"id": "Endings/ENDING_6_Number",
+"es": "Final n.º 6"
+},
+{
+"id": "Endings/ENDING_7_Number",
+"es": "Final n.º 7"
+},
+{
+"id": "Endings/ENDING_8_Number",
+"es": "Final n.º 8"
+},
+{
+"id": "Endings/ENDING_9_Number",
+"es": "Final n.º 9"
+},
+{
+"id": "Endings/ENDING_10_Number",
+"es": "Final n.º 10"
+},
+{
+"id": "Hints/HINT_1",
+"es": "¡No olvides encender tu <b>Farol</b> en los lugares oscuros!"
+},
+{
+"id": "Hints/HINT_2",
+"es": "¡Consume <b>alimentos</b> para mantener sana a Elise!"
+},
+{
+"id": "Hints/HINT_3",
+"es": "¡Abastécete de objetos útiles antes de explorar el bosque!"
+},
+{
+"id": "Hints/HINT_4",
+"es": "¡Cuanto mejor sea tu desempeño en una tarea, mejor será tu recompensa!"
+},
+{
+"id": "Hints/HINT_5",
+"es": "¡Cuida lo que dices para que la gente no sospeche de ti!"
+},
+{
+"id": "Hints/HINT_6",
+"es": "¡Mantén bien alimentada a Muffy y se convertirá en una poderosa aliada!"
+},
+{
+"id": "Hints/HINT_7",
+"es": "¡Pasa tiempo de calidad con tu <b>amor</b> todos los días!"
+},
+{
+"id": "Hints/HINT_8",
+"es": "¡Hay muchos misterios por descubrir en Kieferberg!"
+},
+{
+"id": "Hints/HINT_9",
+"es": "¡Conserva tus <b>Fósforos</b>! ¡Nunca sabes cuándo los necesitarás!"
+},
+{
+"id": "Hints/HINT_10",
+"es": "¿Te queda poco <b>tiffle</b>? ¡Prueba a vender objetos valiosos en la tienda!"
+}
+]

@@ -1,0 +1,2586 @@
+[
+{
+"id": "Chores/CHR_001_037",
+"es": "Heinrich se va a llevar una buena decepción, el pobre muchacho..."
+},
+{
+"id": "Chores/CHR_001_038",
+"es": "Por tu tiempo, Elise."
+},
+{
+"id": "Chores/CHR_001_040",
+"es": "¡Vaya, qué es esto!"
+},
+{
+"id": "Chores/CHR_001_041",
+"es": "Sus huevos, señora Ariane."
+},
+{
+"id": "Chores/CHR_001_042",
+"es": "¿Te estás burlando de mí, muchacha?"
+},
+{
+"id": "Chores/CHR_001_044",
+"es": "Supongo que aun así debo compensarte."
+},
+{
+"id": "Chores/CHR_001_045",
+"es": "¡Señora Ariane...!"
+},
+{
+"id": "Chores/CHR_001_046",
+"es": "Eso es todo lo que vas a recibir, Elise. Ahora, largo de aquí."
+},
+{
+"id": "Chores/CHR_001_047",
+"es": "¡Ay, por el amor de Dios!"
+},
+{
+"id": "Chores/CHR_004_001",
+"es": "¡Ah, llegas justo a tiempo, Elise!"
+},
+{
+"id": "Chores/CHR_004_002",
+"es": "Parece algo inquieta, señora Elma."
+},
+{
+"id": "Chores/CHR_004_003",
+"es": "¿Cómo no estarlo, con toda esta basura esparcida por el pueblo?"
+},
+{
+"id": "Chores/CHR_004_004",
+"es": "En fin, ¿podrías traerme unas manzanas?"
+},
+{
+"id": "Chores/CHR_004_005",
+"es": "Está bien, lo haré."
+},
+{
+"id": "Chores/CHR_004_006",
+"es": "Le echaré una mano, señora Elma."
+},
+{
+"id": "Chores/CHR_004_007",
+"es": "Procura traerme las más maduras de todas, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_004_008",
+"es": "(Me dan ganas de traerle las podridas...)"
+},
+{
+"id": "Chores/CHR_004_010",
+"es": "Tengo otras cosas de qué ocuparme ahora mismo, señora Elma."
+},
+{
+"id": "Chores/CHR_004_011",
+"es": "¡Siempre te ha gustado hacerme perder el tiempo, eso es lo que pasa!"
+},
+{
+"id": "Chores/CHR_004_012",
+"es": "Claro, como no tengo nada mejor que hacer en todo el día..."
+},
+{
+"id": "Chores/CHR_004_013",
+"es": "Avísame si cambias de parecer, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_004_014",
+"es": "¿Entraste en razón, eh?"
+},
+{
+"id": "Chores/CHR_004_015",
+"es": "Tráeme esas manzanas antes del mediodía, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_004_016",
+"es": "Está bien, si insiste tanto, señora Elma..."
+},
+{
+"id": "Chores/CHR_004_017",
+"es": "Lo haré."
+},
+{
+"id": "Chores/CHR_004_018",
+"es": "¡Vaya, Elise, hablas como si te estuviera obligando!"
+},
+{
+"id": "Chores/CHR_004_019",
+"es": "Para nada, señora Elma."
+},
+{
+"id": "Chores/CHR_004_020",
+"es": "No lo creo."
+},
+{
+"id": "Chores/CHR_004_021",
+"es": "Quizá más tarde, señora Elma. Todavía tengo mucho que hacer, ya ve..."
+},
+{
+"id": "Chores/CHR_004_022",
+"es": "<i>Alguien</i> amaneció de mal humor, por lo que veo."
+},
+{
+"id": "Chores/CHR_004_023",
+"es": "Somos dos, diría yo."
+},
+{
+"id": "Chores/CHR_004_024",
+"es": "O cambias de parecer, o se lo pediré a Freya, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_004_025",
+"es": "¡Perfecto, Elise!"
+},
+{
+"id": "Chores/CHR_004_026",
+"es": "Qué motivada estás hoy, ¿no?"
+},
+{
+"id": "Chores/CHR_004_027",
+"es": "No estoy segura de que así lo diría yo, pero supongo que sí."
+},
+{
+"id": "Chores/CHR_004_028",
+"es": "¡Pues yo diría que ya es hora de que aprendas a aceptar un cumplido, jovencita!"
+},
+{
+"id": "Chores/CHR_004_029",
+"es": "Gracias, señora Elma."
+},
+{
+"id": "Chores/CHR_004_030",
+"es": "¡Vaya, Elise, esto servirá de maravilla!"
+},
+{
+"id": "Chores/CHR_004_031",
+"es": "Toma, muchacha, por las molestias."
+},
+{
+"id": "Chores/CHR_004_033",
+"es": "Esta vez fui bastante generosa, ¡más te vale agradecerlo!"
+},
+{
+"id": "Chores/CHR_004_034",
+"es": "Por supuesto, señora Elma."
+},
+{
+"id": "Chores/CHR_004_035",
+"es": "Supongo que esto servirá."
+},
+{
+"id": "Chores/CHR_004_036",
+"es": "Quizá habría sido mejor pedírselo a Freya..."
+},
+{
+"id": "Chores/CHR_004_037",
+"es": "Entonces, ¿por qué no se lo pidió a ella?"
+},
+{
+"id": "Chores/CHR_004_038",
+"es": "¡Oh, la próxima vez lo haré!"
+},
+{
+"id": "Chores/CHR_004_039",
+"es": "(¡Qué vieja arpía tan engreída!)"
+},
+{
+"id": "Chores/CHR_004_040",
+"es": "Dime, Elise, ¿qué es esto?"
+},
+{
+"id": "Chores/CHR_004_041",
+"es": "Sus manzanas, señora Elma."
+},
+{
+"id": "Chores/CHR_004_042",
+"es": "En serio... Qué pérdida de mi tiempo..."
+},
+{
+"id": "Chores/CHR_004_043",
+"es": "¡Tú, pequeña...!"
+},
+{
+"id": "Chores/CHR_004_044",
+"es": "¿Qué dijiste, jovencita?"
+},
+{
+"id": "Chores/CHR_004_045",
+"es": "(¡Ay, qué exasperante es!)"
+},
+{
+"id": "Chores/CHR_010_001",
+"es": "Ah, Elise, ¿podrías echarme una mano?"
+},
+{
+"id": "Chores/CHR_010_002",
+"es": "¿Podrías cortarme algo de leña para esta noche?"
+},
+{
+"id": "Chores/CHR_010_003",
+"es": "¿Y si usa esas ramas que están tiradas por el pueblo?"
+},
+{
+"id": "Chores/CHR_010_004",
+"es": "Ay, no querría tocar esas cosas..."
+},
+{
+"id": "Chores/CHR_010_005",
+"es": "¡Déjemelo a mí!"
+},
+{
+"id": "Chores/CHR_010_006",
+"es": "¿Cuántos troncos necesita, señora Lisbeth?"
+},
+{
+"id": "Chores/CHR_010_007",
+"es": "Voy a necesitar bastantes para hacer queso más tarde, ¡así que no te contengas!"
+},
+{
+"id": "Chores/CHR_010_008",
+"es": "¡De acuerdo, voy para allá!"
+},
+{
+"id": "Chores/CHR_010_009",
+"es": "Lo lamento, pero..."
+},
+{
+"id": "Chores/CHR_010_010",
+"es": "Estoy algo ocupada, señora Lisbeth."
+},
+{
+"id": "Chores/CHR_010_011",
+"es": "Yo misma puedo encargarme más tarde, ¡no te preocupes!"
+},
+{
+"id": "Chores/CHR_010_012",
+"es": "Pero avísame si encuentras tiempo, ¿de acuerdo?"
+},
+{
+"id": "Chores/CHR_010_014",
+"es": "¡Veo que encontraste tiempo, Elise!"
+},
+{
+"id": "Chores/CHR_010_015",
+"es": "¡Con gusto le echo una mano!"
+},
+{
+"id": "Chores/CHR_010_016",
+"es": "Veo que está ocupada, señora Lisbeth. ¡Permítame ayudarla!"
+},
+{
+"id": "Chores/CHR_010_017",
+"es": "¡Ay, Elise, gracias!"
+},
+{
+"id": "Chores/CHR_010_018",
+"es": "Ten cuidado con el hacha, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_010_019",
+"es": "Lo siento, señora Lisbeth..."
+},
+{
+"id": "Chores/CHR_010_020",
+"es": "Puedo intentar encontrar tiempo, pero no puedo prometer nada."
+},
+{
+"id": "Chores/CHR_010_021",
+"es": "No te preocupes, querida, lo entiendo."
+},
+{
+"id": "Chores/CHR_010_022",
+"es": "No te mates trabajando, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_010_023",
+"es": "¡Santo cielo, Elise!"
+},
+{
+"id": "Chores/CHR_010_024",
+"es": "Pensé que estaría ocupada preparando el festival, señora Lisbeth."
+},
+{
+"id": "Chores/CHR_010_025",
+"es": "¡Ay, Elise! Esto ni de cerca alcanza para pagar tu trabajo, pero..."
+},
+{
+"id": "Chores/CHR_010_026",
+"es": "¡Te daré uno de mis quesos en cuanto estén listos!"
+},
+{
+"id": "Chores/CHR_010_027",
+"es": "¡Muchas gracias, señora Lisbeth!"
+},
+{
+"id": "Chores/CHR_010_028",
+"es": "¡Santo cielo, Elise! ¡No tendré que cortar leña en toda una semana!"
+},
+{
+"id": "Chores/CHR_010_029",
+"es": "¡Creo que me dejé llevar un poco!"
+},
+{
+"id": "Chores/CHR_010_030",
+"es": "Esto ni de cerca alcanza para compensarte, pero..."
+},
+{
+"id": "Chores/CHR_010_031",
+"es": "Es más que suficiente, señora Lisbeth. Gracias."
+},
+{
+"id": "Chores/CHR_010_032",
+"es": "Ah, sabía que podía contar contigo, Elise."
+},
+{
+"id": "Chores/CHR_010_033",
+"es": "Espero que esto sea suficiente, señora Lisbeth."
+},
+{
+"id": "Chores/CHR_010_034",
+"es": "Por supuesto, querida. Toma."
+},
+{
+"id": "Chores/CHR_010_035",
+"es": "¡Hiciste justo lo que te pedí!"
+},
+{
+"id": "Chores/CHR_010_036",
+"es": "Gracias, señora Lisbeth."
+},
+{
+"id": "Chores/CHR_010_037",
+"es": "Estoy segura de que esto bastará por hoy."
+},
+{
+"id": "Chores/CHR_010_038",
+"es": "Sé que pude haberlo hecho mejor, señora Lisbeth..."
+},
+{
+"id": "Chores/CHR_010_039",
+"es": "Tonterías, Elise."
+},
+{
+"id": "Chores/CHR_010_040",
+"es": "Fuiste de gran ayuda, querida."
+},
+{
+"id": "Chores/CHR_010_041",
+"es": "(La señora Lisbeth solo está siendo amable, estoy segura...)"
+},
+{
+"id": "Chores/CHR_002_001",
+"es": "¡Ah, Elise! ¿Estás ocupada hoy?"
+},
+{
+"id": "Chores/CHR_002_002",
+"es": "¿Necesita algo, señora Linda?"
+},
+{
+"id": "Chores/CHR_002_003",
+"es": "Esperaba que pudieras recoger unos huevos para mí, si tienes tiempo."
+},
+{
+"id": "Chores/CHR_002_004",
+"es": "He estado ayudando en los callejones, ¿sabes?"
+},
+{
+"id": "Chores/CHR_002_005",
+"es": "Por supuesto, señora Linda."
+},
+{
+"id": "Chores/CHR_002_006",
+"es": "No es molestia. ¡Puedo traerle unos cuantos!"
+},
+{
+"id": "Chores/CHR_002_007",
+"es": "¡Ay, gracias, Elise!"
+},
+{
+"id": "Chores/CHR_002_008",
+"es": "Cuidado con que te picoteen, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_002_009",
+"es": "Estoy bastante ocupada..."
+},
+{
+"id": "Chores/CHR_002_010",
+"es": "Quizá más tarde, señora Linda. Ahora mismo tengo las manos llenas."
+},
+{
+"id": "Chores/CHR_002_011",
+"es": "Ay, no importa..."
+},
+{
+"id": "Chores/CHR_002_012",
+"es": "Se lo pediría a Jakob, pero el pobre muchacho le tiene miedo a las gallinas..."
+},
+{
+"id": "Chores/CHR_002_013",
+"es": "¡Ay, dime que cambiaste de parecer, Elise!"
+},
+{
+"id": "Chores/CHR_002_014",
+"es": "Le echaré una mano, señora Linda."
+},
+{
+"id": "Chores/CHR_002_015",
+"es": "Dudo que tarde demasiado."
+},
+{
+"id": "Chores/CHR_002_016",
+"es": "¡Ah, sabía que podía contar contigo, Elise!"
+},
+{
+"id": "Chores/CHR_002_017",
+"es": "Me temo que no..."
+},
+{
+"id": "Chores/CHR_002_018",
+"es": "Lo siento, señora Linda, pero quizá más tarde."
+},
+{
+"id": "Chores/CHR_002_020",
+"es": "Avísame si cambias de parecer, ¿de acuerdo?"
+},
+{
+"id": "Chores/CHR_002_021",
+"es": "¡Oh...! ¡Ay, cielos...!"
+},
+{
+"id": "Chores/CHR_002_022",
+"es": "Esas gallinas se emocionaron demasiado, supongo..."
+},
+{
+"id": "Chores/CHR_002_023",
+"es": "Esto es todo lo que traigo encima ahora, pero..."
+},
+{
+"id": "Chores/CHR_002_024",
+"es": "¡Realmente te superaste a ti misma!"
+},
+{
+"id": "Chores/CHR_002_025",
+"es": "¡Ah, supongo!"
+},
+{
+"id": "Chores/CHR_002_026",
+"es": "¡Así se hace, Elise, esto es justo lo que necesitaba!"
+},
+{
+"id": "Chores/CHR_002_027",
+"es": "Toma, por tu tiempo."
+},
+{
+"id": "Chores/CHR_002_028",
+"es": "¡Gracias, señora Linda!"
+},
+{
+"id": "Chores/CHR_002_029",
+"es": "¡No, no! ¡Gracias a ti, Elise!"
+},
+{
+"id": "Chores/CHR_002_030",
+"es": "Me habrían venido bien unos cuantos más, pero supongo que estos bastarán."
+},
+{
+"id": "Chores/CHR_002_031",
+"es": "¿Unos cuantos más?"
+},
+{
+"id": "Chores/CHR_002_032",
+"es": "¡No, no importa! Toma, Elise."
+},
+{
+"id": "Chores/CHR_002_033",
+"es": "(¿Cuántos huevos se pueden comer estas personas de una sentada?)"
+},
+{
+"id": "Chores/CHR_002_034",
+"es": "Bueno, en fin..."
+},
+{
+"id": "Chores/CHR_002_035",
+"es": "Supongo que con estos bastará por hoy."
+},
+{
+"id": "Chores/CHR_002_036",
+"es": "Lo siento, señora Linda..."
+},
+{
+"id": "Chores/CHR_002_037",
+"es": "No, no te preocupes, Elise. Yo misma puedo traer un par más después."
+},
+{
+"id": "Chores/CHR_002_038",
+"es": "Supongo..."
+},
+{
+"id": "Chores/CHR_003_001",
+"es": "¡Ah, E-Elise!"
+},
+{
+"id": "Chores/CHR_003_002",
+"es": "¡N-necesito tu ayuda! ¡Por favor!"
+},
+{
+"id": "Chores/CHR_003_003",
+"es": "¿Qué podría ser tan urgente, Mindy?"
+},
+{
+"id": "Chores/CHR_003_004",
+"es": "¡Los chicos quieren que juegue otra vez a \"Besa a la Rata\" con ellos...!"
+},
+{
+"id": "Chores/CHR_003_005",
+"es": "¡Hasta me están a-amenazando ahora!"
+},
+{
+"id": "Chores/CHR_003_006",
+"es": "Está bien, Molly..."
+},
+{
+"id": "Chores/CHR_003_007",
+"es": "Jugaré en tu lugar, ¡pero más te vale tener algo para mí!"
+},
+{
+"id": "Chores/CHR_003_008",
+"es": "¡Ay, Elise! ¡Te daré todo lo que tengo!"
+},
+{
+"id": "Chores/CHR_003_009",
+"es": "No es mi problema, Murphy."
+},
+{
+"id": "Chores/CHR_003_010",
+"es": "¿Por qué no vas a jugar tú con ellos?"
+},
+{
+"id": "Chores/CHR_003_011",
+"es": "¡Ay, E-Elise! Son implacables, ¡ya estoy harta de este juego!"
+},
+{
+"id": "Chores/CHR_003_012",
+"es": "Te avisaré si cambio de parecer, supongo."
+},
+{
+"id": "Chores/CHR_003_013",
+"es": "¡Ay, Elise! ¡Eres mi salvadora!"
+},
+{
+"id": "Chores/CHR_003_014",
+"es": "Está bien..."
+},
+{
+"id": "Chores/CHR_003_015",
+"es": "Jugaré a \"Besa a la Rata\" por ti, supongo..."
+},
+{
+"id": "Chores/CHR_003_017",
+"es": "No tengo tiempo."
+},
+{
+"id": "Chores/CHR_003_018",
+"es": "¿Por qué no les dices que ya estás harta, Melly?"
+},
+{
+"id": "Chores/CHR_003_019",
+"es": "¡No aceptan un no por respuesta, Elise!"
+},
+{
+"id": "Chores/CHR_003_021",
+"es": "¡L-les ganaste, Elise!"
+},
+{
+"id": "Chores/CHR_003_022",
+"es": "¡Por el amor de Dios, Miffy! ¡Es un juego tan fácil!"
+},
+{
+"id": "Chores/CHR_003_023",
+"es": "¡T-toma!"
+},
+{
+"id": "Chores/CHR_003_024",
+"es": "¡Es todo lo que traigo encima!"
+},
+{
+"id": "Chores/CHR_003_025",
+"es": "(Parece que tuve suerte, ¿eh?)"
+},
+{
+"id": "Chores/CHR_003_026",
+"es": "¡Eso les enseñará, Elise!"
+},
+{
+"id": "Chores/CHR_003_027",
+"es": "¡Puedes q-quedarte con esto por t-tus molestias!"
+},
+{
+"id": "Chores/CHR_003_028",
+"es": "Muy bien, esto servirá."
+},
+{
+"id": "Chores/CHR_003_029",
+"es": "¡Ay, q-qué alivio no tener que jugar a ese juego!"
+},
+{
+"id": "Chores/CHR_003_030",
+"es": "Eso no fue m-muy impresionante, Elise..."
+},
+{
+"id": "Chores/CHR_003_032",
+"es": "¡E-es todo lo que vas a r-recibir!"
+},
+{
+"id": "Chores/CHR_003_033",
+"es": "(¡Por el amor de Dios! Yo me lo busqué, supongo...)"
+},
+{
+"id": "Chores/CHR_003_034",
+"es": "¡Vaya, p-podría haber jugado yo misma con ellos!"
+},
+{
+"id": "Chores/CHR_003_036",
+"es": "¡Tienes s-suerte de que te dé siquiera esto!"
+},
+{
+"id": "Chores/CHR_003_037",
+"es": "¡Ya verás...!"
+},
+{
+"id": "Chores/CHR_005_001",
+"es": "¡Ay, eres una bendición, Elise!"
+},
+{
+"id": "Chores/CHR_005_002",
+"es": "¡Vaya manera de decirme que necesita una mano, señora Marlen!"
+},
+{
+"id": "Chores/CHR_005_003",
+"es": "¡Pero lo digo en serio, muchacha! ¡Hoy ha sido un desastre!"
+},
+{
+"id": "Chores/CHR_005_004",
+"es": "¿Serías tan amable de traerme unas manzanas?"
+},
+{
+"id": "Chores/CHR_005_005",
+"es": "Por supuesto, señora Marlen..."
+},
+{
+"id": "Chores/CHR_005_006",
+"es": "Seré tan amable de traerle unas manzanas, supongo..."
+},
+{
+"id": "Chores/CHR_005_007",
+"es": "¡Ay, no hace falta que te enfurruñes, Elise!"
+},
+{
+"id": "Chores/CHR_005_008",
+"es": "Estoy ocupada."
+},
+{
+"id": "Chores/CHR_005_009",
+"es": "Quizá tenga tiempo más tarde, pero ahora no."
+},
+{
+"id": "Chores/CHR_005_010",
+"es": "Bueno, está bien. Por favor, avísame si cambias de parecer, Elise."
+},
+{
+"id": "Chores/CHR_005_011",
+"es": "Ah, ¿cambiaste de parecer?"
+},
+{
+"id": "Chores/CHR_005_012",
+"es": "Está bien, está bien..."
+},
+{
+"id": "Chores/CHR_005_015",
+"es": "Sigo ocupada, señora Marlen."
+},
+{
+"id": "Chores/CHR_005_016",
+"es": "Todavía no estoy segura de poder ayudarla hoy..."
+},
+{
+"id": "Chores/CHR_005_017",
+"es": "No importa, Elise. Puedo enviar a Jakob."
+},
+{
+"id": "Chores/CHR_005_018",
+"es": "(Parece que Jakob es su criado personal...)"
+},
+{
+"id": "Chores/CHR_005_019",
+"es": "¡Vaya! ¡No tenías que traerme el huerto entero!"
+},
+{
+"id": "Chores/CHR_005_020",
+"es": "Solo hice lo que me dijeron, señora Marlen."
+},
+{
+"id": "Chores/CHR_005_021",
+"es": "¡Toma, Elise! Muy bien hecho."
+},
+{
+"id": "Chores/CHR_005_022",
+"es": "Gracias, señora Marlen."
+},
+{
+"id": "Chores/CHR_005_023",
+"es": "¡Ay, no sé qué voy a hacer con todas estas!"
+},
+{
+"id": "Chores/CHR_005_024",
+"es": "Nunca decepcionas, ¿verdad, Elise?"
+},
+{
+"id": "Chores/CHR_005_025",
+"es": "Puedes quedarte con esto por tu tiempo."
+},
+{
+"id": "Chores/CHR_005_027",
+"es": "¡Hasta podría tener que hornear un pastel!"
+},
+{
+"id": "Chores/CHR_005_028",
+"es": "Ah, esto servirá de maravilla."
+},
+{
+"id": "Chores/CHR_005_030",
+"es": "Me atrevo a decir que pudiste haberlo hecho un poco mejor."
+},
+{
+"id": "Chores/CHR_005_031",
+"es": "Quizá..."
+},
+{
+"id": "Chores/CHR_005_032",
+"es": "Bueno, supongo que no está tan mal..."
+},
+{
+"id": "Chores/CHR_005_033",
+"es": "Toma, debería darte algo..."
+},
+{
+"id": "Chores/CHR_005_034",
+"es": "Esto casi no vale la pena, señora Marlen."
+},
+{
+"id": "Chores/CHR_005_035",
+"es": "Tampoco puedo decir que tú valieras el mío, Elise."
+},
+{
+"id": "Chores/CHR_006_001",
+"es": "¡Vaya espectáculo el de hace un momento, jovencita!"
+},
+{
+"id": "Chores/CHR_006_002",
+"es": "Vamos, Loreley, necesito que Elise me eche una mano."
+},
+{
+"id": "Chores/CHR_006_003",
+"es": "¿Qué ocurre, señora Marlen?"
+},
+{
+"id": "Chores/CHR_006_004",
+"es": "Esperaba que me recogieras unas manzanas hoy, Elise."
+},
+{
+"id": "Chores/CHR_006_005",
+"es": "¡Está bien!"
+},
+{
+"id": "Chores/CHR_006_006",
+"es": "Déjemelo a mí, señora Marlen."
+},
+{
+"id": "Chores/CHR_006_007",
+"es": "¿No se te van a ensuciar los zapatos, Elise?"
+},
+{
+"id": "Chores/CHR_006_008",
+"es": "Estoy segura de que estarán bien."
+},
+{
+"id": "Chores/CHR_006_009",
+"es": "Estoy algo ocupada..."
+},
+{
+"id": "Chores/CHR_006_010",
+"es": "Quizá más tarde, señora Marlen..."
+},
+{
+"id": "Chores/CHR_006_011",
+"es": "¡Apuesto a que te pasarás todo el día lustrando esos zapatos!"
+},
+{
+"id": "Chores/CHR_006_012",
+"es": "No te preocupes, Elise. Aquí estaré."
+},
+{
+"id": "Chores/CHR_006_013",
+"es": "Ah, ¿cambiaste de parecer?"
+},
+{
+"id": "Chores/CHR_006_014",
+"es": "Así es, señora Marlen."
+},
+{
+"id": "Chores/CHR_006_015",
+"es": "Después de todo, puedo arreglármelas."
+},
+{
+"id": "Chores/CHR_006_016",
+"es": "¡Procura no ensuciarte los zapatos, Elise!"
+},
+{
+"id": "Chores/CHR_006_017",
+"es": "Estoy segura de que estarán bien."
+},
+{
+"id": "Chores/CHR_006_018",
+"es": "No, todavía estoy..."
+},
+{
+"id": "Chores/CHR_006_019",
+"es": "Le avisaré si encuentro tiempo, señora Marlen."
+},
+{
+"id": "Chores/CHR_006_020",
+"es": "¿Cuándo hará que Mindy nos eche una mano, Loreley?"
+},
+{
+"id": "Chores/CHR_006_021",
+"es": "Pues solo haría un desastre... Y seguramente se comería todas las manzanas también."
+},
+{
+"id": "Chores/CHR_006_022",
+"es": "(Con razón Mindy evita a su tía como a la peste...)"
+},
+{
+"id": "Chores/CHR_006_023",
+"es": "¡Excelente trabajo, Elise!"
+},
+{
+"id": "Chores/CHR_006_024",
+"es": "Apuesto a que los zapatos ayudaron."
+},
+{
+"id": "Chores/CHR_006_025",
+"es": "¡Puede que tenga razón, señora Loreley!"
+},
+{
+"id": "Chores/CHR_006_026",
+"es": "Por tu arduo trabajo, muchacha. Te lo mereces."
+},
+{
+"id": "Chores/CHR_006_027",
+"es": "¡Gracias, señora Marlen!"
+},
+{
+"id": "Chores/CHR_006_028",
+"es": "¡Bien hecho, Elise! ¡Con estas puedo hacer todo el pastel que se me antoje!"
+},
+{
+"id": "Chores/CHR_006_029",
+"es": "¿No has comido demasiados dulces últimamente, Marlen?"
+},
+{
+"id": "Chores/CHR_006_030",
+"es": "Toma, querida."
+},
+{
+"id": "Chores/CHR_006_032",
+"es": "¡Ah, estas servirán de maravilla!"
+},
+{
+"id": "Chores/CHR_006_033",
+"es": "Por tus molestias, Elise."
+},
+{
+"id": "Chores/CHR_006_035",
+"es": "¿No podías haberlo hecho un poco mejor que esto?"
+},
+{
+"id": "Chores/CHR_006_036",
+"es": "Son los zapatos, apuesto."
+},
+{
+"id": "Chores/CHR_006_037",
+"es": "Si usted lo dice, señora Loreley..."
+},
+{
+"id": "Chores/CHR_006_038",
+"es": "Bueno... Podría ser peor, supongo..."
+},
+{
+"id": "Chores/CHR_006_041",
+"es": "Gracias, señora Marlen..."
+},
+{
+"id": "Chores/CHR_006_042",
+"es": "¡Vaya, qué generosa eres, Marlen! ¡Yo no le daría ni medio tiffle!"
+},
+{
+"id": "Chores/CHR_006_043",
+"es": "No importa, Loreley. Estas cosas pasan."
+},
+{
+"id": "Chores/CHR_006_044",
+"es": "(¡Al diablo con estas viejas arpías!)"
+},
+{
+"id": "Chores/CHR_007_001",
+"es": "¡Elise!"
+},
+{
+"id": "Chores/CHR_007_002",
+"es": "¡Mamá no me deja cortarle leña!"
+},
+{
+"id": "Chores/CHR_007_003",
+"es": "No seas tonto, Jakob, eres demasiado pequeño para manejar un hacha."
+},
+{
+"id": "Chores/CHR_007_004",
+"es": "¿Puedes traernos leña para el hogar, Elise?"
+},
+{
+"id": "Chores/CHR_007_006",
+"es": "Tu madre tiene razón, Jakob, ¡eres muy pequeño!"
+},
+{
+"id": "Chores/CHR_007_007",
+"es": "¡No lo soy!"
+},
+{
+"id": "Chores/CHR_007_008",
+"es": "¡Eres un muchacho terco, eso es lo que eres!"
+},
+{
+"id": "Chores/CHR_007_010",
+"es": "Pero quizá pueda hacerme un tiempo más tarde, señora Linda."
+},
+{
+"id": "Chores/CHR_007_011",
+"es": "No importa, Elise. Avísame si cambias de parecer."
+},
+{
+"id": "Chores/CHR_007_012",
+"es": "¡Eso significa que puedo hacerlo yo por ti, mamá!"
+},
+{
+"id": "Chores/CHR_007_013",
+"es": "¡No es no, Jakob! ¡Cielo santo!"
+},
+{
+"id": "Chores/CHR_007_014",
+"es": "¿Y ahora, Elise? ¿Puedes echarme una mano?"
+},
+{
+"id": "Chores/CHR_007_015",
+"es": "¡Con gusto, señora Linda!"
+},
+{
+"id": "Chores/CHR_007_016",
+"es": "Entonces me voy."
+},
+{
+"id": "Chores/CHR_007_017",
+"es": "¡Voy contigo, Elise!"
+},
+{
+"id": "Chores/CHR_007_018",
+"es": "¡Ay, no, tú no vas, Jakob!"
+},
+{
+"id": "Chores/CHR_007_019",
+"es": "¡Pero mamá...!"
+},
+{
+"id": "Chores/CHR_007_020",
+"es": "Todavía no..."
+},
+{
+"id": "Chores/CHR_007_023",
+"es": "¡Ay, mamá! ¡Por favor! ¿Puedo ir ya, por favor?"
+},
+{
+"id": "Chores/CHR_007_025",
+"es": "¿Cómo cortaste toda esa leña, Elise?"
+},
+{
+"id": "Chores/CHR_007_026",
+"es": "Ah... Bueno..."
+},
+{
+"id": "Chores/CHR_007_027",
+"es": "Espero que esto alcance por lo que pasaste, Elise..."
+},
+{
+"id": "Chores/CHR_007_028",
+"es": "(No es un trato tan bueno, ¿verdad...?)"
+},
+{
+"id": "Chores/CHR_007_029",
+"es": "¡Ah, sabía que podía confiar en ti, Elise!"
+},
+{
+"id": "Chores/CHR_007_030",
+"es": "¡Qué cantidad de troncos!"
+},
+{
+"id": "Chores/CHR_007_033",
+"es": "¿Ves, mamá...?"
+},
+{
+"id": "Chores/CHR_007_034",
+"es": "¡Yo podría cortarte tanta leña!"
+},
+{
+"id": "Chores/CHR_007_035",
+"es": "Puedes quedarte con esto, Elise. Gracias."
+},
+{
+"id": "Chores/CHR_007_036",
+"es": "¡Ah, gracias, señora Linda!"
+},
+{
+"id": "Chores/CHR_007_037",
+"es": "¿Puedo intentarlo mañana, mamá?"
+},
+{
+"id": "Chores/CHR_007_038",
+"es": "¡Una palabra más sobre esto y le diré a tu padre que perdiste su navaja!"
+},
+{
+"id": "Chores/CHR_007_039",
+"es": "¡Ay!"
+},
+{
+"id": "Chores/CHR_007_040",
+"es": "Ay, Elise..."
+},
+{
+"id": "Chores/CHR_007_041",
+"es": "¡Más me habría valido enviar a Jakob!"
+},
+{
+"id": "Chores/CHR_007_042",
+"es": "¡Hmpf!"
+},
+{
+"id": "Chores/CHR_007_043",
+"es": "Procura hacer un mejor trabajo la próxima vez, ¿de acuerdo?"
+},
+{
+"id": "Chores/CHR_011_001",
+"es": "¡Ah, por fin...!"
+},
+{
+"id": "Chores/CHR_011_002",
+"es": "¡Yo aquí pensando que tendría que entrar yo misma a ese asqueroso gallinero!"
+},
+{
+"id": "Chores/CHR_011_003",
+"es": "¿Qué le hace pensar que lo haré, señora Wilma?"
+},
+{
+"id": "Chores/CHR_011_004",
+"es": "¡Pues porque no estás tan ocupada, Elise!"
+},
+{
+"id": "Chores/CHR_011_005",
+"es": "Haré una excepción."
+},
+{
+"id": "Chores/CHR_011_006",
+"es": "Solo para que no tenga que entrar usted misma a ese gallinero."
+},
+{
+"id": "Chores/CHR_011_007",
+"es": "¡Vaya, qué caritativa eres, Elise!"
+},
+{
+"id": "Chores/CHR_011_008",
+"es": "(¡Esta vieja malagradecida...!)"
+},
+{
+"id": "Chores/CHR_011_009",
+"es": "Pues sí lo soy, señora Wilma."
+},
+{
+"id": "Chores/CHR_011_010",
+"es": "Supongo que tendrá que entrar usted misma a ese gallinero, después de todo."
+},
+{
+"id": "Chores/CHR_011_013",
+"es": "¡Vamos, no tengo todo el día, jovencita!"
+},
+{
+"id": "Chores/CHR_011_014",
+"es": "La ayudaré, señora Wilma."
+},
+{
+"id": "Chores/CHR_011_015",
+"es": "¡Antes de que pierdas el juicio por unas gallinas!"
+},
+{
+"id": "Chores/CHR_011_016",
+"es": "Estoy muy ocupada, muchacha. ¡No tengo tiempo para estas tonterías!"
+},
+{
+"id": "Chores/CHR_011_017",
+"es": "(¡Ay, pero yo por alguna razón sí lo tengo, claro!)"
+},
+{
+"id": "Chores/CHR_011_018",
+"es": "Yo tampoco, señora Wilma."
+},
+{
+"id": "Chores/CHR_011_019",
+"es": "Mejor póngase en marcha, ¿no cree?"
+},
+{
+"id": "Chores/CHR_011_022",
+"es": "¡Ay, qué agradable sorpresa, Elise!"
+},
+{
+"id": "Chores/CHR_011_023",
+"es": "Ni siquiera fue mi mejor esfuerzo, señora Wilma. Apenas veo razón para tanta sorpresa."
+},
+{
+"id": "Chores/CHR_011_024",
+"es": "Pequeña mentirosa..."
+},
+{
+"id": "Chores/CHR_011_025",
+"es": "Seré generosa, ya que hiciste un buen trabajo."
+},
+{
+"id": "Chores/CHR_011_026",
+"es": "Pues gracias, señora Wilma."
+},
+{
+"id": "Chores/CHR_011_027",
+"es": "Supongo."
+},
+{
+"id": "Chores/CHR_011_028",
+"es": "¿Supones?"
+},
+{
+"id": "Chores/CHR_011_030",
+"es": "(¡Ay, si pudiera tirar a esta vieja arpía al pozo...!)"
+},
+{
+"id": "Chores/CHR_011_031",
+"es": "¿Nos estamos volviendo descuidadas, eh?"
+},
+{
+"id": "Chores/CHR_011_033",
+"es": "Toma, jovencita."
+},
+{
+"id": "Chores/CHR_011_034",
+"es": "Si tu ética de trabajo fuera tan afilada como tu lengua, ¿eh?"
+},
+{
+"id": "Chores/CHR_011_035",
+"es": "(¡Al infierno con esta vieja arpía, no vale la pena!)"
+},
+{
+"id": "Chores/CHR_011_036",
+"es": "¡¿Te estás burlando de mí, jovencita?!"
+},
+{
+"id": "Chores/CHR_011_038",
+"es": "¡Al infierno contigo! ¡Fuera de mi vista!"
+},
+{
+"id": "Chores/CHR_012_001",
+"es": "¡Ay, eres un regalo del cielo, Elise!"
+},
+{
+"id": "Chores/CHR_012_002",
+"es": "¿Yo?"
+},
+{
+"id": "Chores/CHR_012_003",
+"es": "Tengo las manos llenas, ¿sabes?"
+},
+{
+"id": "Chores/CHR_012_004",
+"es": "¿Podrías traerme algo de leña, querida?"
+},
+{
+"id": "Chores/CHR_012_005",
+"es": "Por supuesto, señora Dorothea."
+},
+{
+"id": "Chores/CHR_012_006",
+"es": "¡Seré rápida!"
+},
+{
+"id": "Chores/CHR_012_007",
+"es": "No importa, Elise, ¡tómate tu tiempo!"
+},
+{
+"id": "Chores/CHR_012_008",
+"es": "Me temo que estoy ocupada, señora Dorothea..."
+},
+{
+"id": "Chores/CHR_012_009",
+"es": "Quizá en un momento, veré qué puedo hacer."
+},
+{
+"id": "Chores/CHR_012_010",
+"es": "Ay, no importa, Elise, no te preocupes."
+},
+{
+"id": "Chores/CHR_012_011",
+"es": "Por cierto, ¿en qué estás tan ocupada?"
+},
+{
+"id": "Chores/CHR_012_012",
+"es": "Ay, es que los niños se niegan a hacer sus lecturas diarias, eso es todo..."
+},
+{
+"id": "Chores/CHR_012_013",
+"es": "Ay, ¿volviste por mí, Elise?"
+},
+{
+"id": "Chores/CHR_012_014",
+"es": "Así es, señora Dorothea."
+},
+{
+"id": "Chores/CHR_012_015",
+"es": "¡Vamos a cortar unos troncos!"
+},
+{
+"id": "Chores/CHR_012_016",
+"es": "Ten mucho cuidado con el hacha, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_012_017",
+"es": "Por supuesto, señora Dorothea. ¡Puede confiar en mí!"
+},
+{
+"id": "Chores/CHR_012_018",
+"es": "¡Ay, de todos modos me la pasaré preocupada todo el rato!"
+},
+{
+"id": "Chores/CHR_012_019",
+"es": "Todavía no, señora Dorothea..."
+},
+{
+"id": "Chores/CHR_012_020",
+"es": "Quizá no pueda, a decir verdad..."
+},
+{
+"id": "Chores/CHR_012_021",
+"es": "Ah, no importa, Elise..."
+},
+{
+"id": "Chores/CHR_012_022",
+"es": "Quizá le pida a Freya, si no está ocupada..."
+},
+{
+"id": "Chores/CHR_012_023",
+"es": "¡Ay, cielos...!"
+},
+{
+"id": "Chores/CHR_012_024",
+"es": "¡Esto es bastante leña!"
+},
+{
+"id": "Chores/CHR_012_025",
+"es": "Ah, bueno, ¡puede que me haya dejado llevar!"
+},
+{
+"id": "Chores/CHR_012_026",
+"es": "Muchas gracias, Elise."
+},
+{
+"id": "Chores/CHR_012_027",
+"es": "¡Gracias a <i>usted</i>, señora Dorothea!"
+},
+{
+"id": "Chores/CHR_012_028",
+"es": "¡Ah, ahí estás, Elise!"
+},
+{
+"id": "Chores/CHR_012_029",
+"es": "Muchas gracias otra vez por tu tiempo, querida."
+},
+{
+"id": "Chores/CHR_012_030",
+"es": "Para nada, señora Dorothea."
+},
+{
+"id": "Chores/CHR_012_031",
+"es": "Te estás volviendo buena en esto, ¿verdad?"
+},
+{
+"id": "Chores/CHR_012_033",
+"es": "Esto servirá de maravilla, Elise."
+},
+{
+"id": "Chores/CHR_012_034",
+"es": "Toma, por todo tu arduo trabajo."
+},
+{
+"id": "Chores/CHR_012_035",
+"es": "Gracias, señora Dorothea."
+},
+{
+"id": "Chores/CHR_012_036",
+"es": "Ay, ojalá los niños se parecieran a ti..."
+},
+{
+"id": "Chores/CHR_012_037",
+"es": "Me preocupa que Apfel y Mindy no quieran hacer sus lecturas diarias..."
+},
+{
+"id": "Chores/CHR_012_038",
+"es": "¡Veré si puedo hablar con ellos, señora Dorothea!"
+},
+{
+"id": "Chores/CHR_012_039",
+"es": "¡Ay, no! No te molestes, Elise, ¡puedo manejarlo yo!"
+},
+{
+"id": "Chores/CHR_012_040",
+"es": "Ah, con esto bastará por esta noche, Elise."
+},
+{
+"id": "Chores/CHR_012_041",
+"es": "No te sientas mal por eso, ¿de acuerdo?"
+},
+{
+"id": "Chores/CHR_012_042",
+"es": "Aun así..."
+},
+{
+"id": "Chores/CHR_012_043",
+"es": "¡Lo único que importa es que no te lastimaste, Elise!"
+},
+{
+"id": "Chores/CHR_008_001",
+"es": "¡Así que no mentías, Melly!"
+},
+{
+"id": "Chores/CHR_008_002",
+"es": "¡T-te lo dije! ¡S-sé lo que vi!"
+},
+{
+"id": "Chores/CHR_008_003",
+"es": "¿Qué les dijiste a estos dos, Melissa?"
+},
+{
+"id": "Chores/CHR_008_004",
+"es": "Ah, quizá sea mejor no molestarla, Elise..."
+},
+{
+"id": "Chores/CHR_008_005",
+"es": "¡Tú cállate, Rosmarine!"
+},
+{
+"id": "Chores/CHR_008_006",
+"es": "Ay, ¿no jugarías con nosotros a \"Besa a la Rata\" tú y tu prima, Elise?"
+},
+{
+"id": "Chores/CHR_008_007",
+"es": "¡Está bien!"
+},
+{
+"id": "Chores/CHR_008_008",
+"es": "Supongo que podemos jugar con ustedes."
+},
+{
+"id": "Chores/CHR_008_009",
+"es": "¡Oh! ¿Un juego?"
+},
+{
+"id": "Chores/CHR_008_010",
+"es": "Quédate cerca de mí, Rosmarine..."
+},
+{
+"id": "Chores/CHR_008_011",
+"es": "¡Iré a llamar a Grüne!"
+},
+{
+"id": "Chores/CHR_008_012",
+"es": "Ahora no."
+},
+{
+"id": "Chores/CHR_008_013",
+"es": "¡Tenemos cosas mejores que hacer que jugar a juegos tontos con ustedes!"
+},
+{
+"id": "Chores/CHR_008_014",
+"es": "¡Pero Elise!"
+},
+{
+"id": "Chores/CHR_008_016",
+"es": "¡No es no!"
+},
+{
+"id": "Chores/CHR_008_017",
+"es": "¡Ah! ¡Volviste!"
+},
+{
+"id": "Chores/CHR_008_018",
+"es": "Jugaremos con ustedes."
+},
+{
+"id": "Chores/CHR_008_019",
+"es": "Rosmarine parecía querer jugar, así que, ¿por qué no?"
+},
+{
+"id": "Chores/CHR_008_020",
+"es": "¡Ay, Elise!"
+},
+{
+"id": "Chores/CHR_008_022",
+"es": "Dije que no."
+},
+{
+"id": "Chores/CHR_008_023",
+"es": "¡Rosmarine me está ayudando con tareas de verdad, no con estas tonterías!"
+},
+{
+"id": "Chores/CHR_008_025",
+"es": "¡Es obvio que quiere jugar, Elise!"
+},
+{
+"id": "Chores/CHR_008_026",
+"es": "¡Nos vamos, Rosmarine!"
+},
+{
+"id": "Chores/CHR_008_027",
+"es": "¡Lo lograste! ¡Lo lograste!"
+},
+{
+"id": "Chores/CHR_008_028",
+"es": "Estás demasiado emocionado con esto, ¿no crees?"
+},
+{
+"id": "Chores/CHR_008_029",
+"es": "¡Gracias por jugar con nosotros, Elise!"
+},
+{
+"id": "Chores/CHR_008_030",
+"es": "¡Ay, no tenías que hacerlo...!"
+},
+{
+"id": "Chores/CHR_008_031",
+"es": "¡Claro que tenía! ¡Gracias a <i>ti</i>, Jakob!"
+},
+{
+"id": "Chores/CHR_008_032",
+"es": "¡Deberías venir a jugar con nosotros otra vez, Rozenmarine!"
+},
+{
+"id": "Chores/CHR_008_033",
+"es": "¡Ay, me encantaría!"
+},
+{
+"id": "Chores/CHR_008_034",
+"es": "¡Nada mal!"
+},
+{
+"id": "Chores/CHR_008_035",
+"es": "¡Ay, qué divertido fue!"
+},
+{
+"id": "Chores/CHR_008_037",
+"es": "¡Toma, Elise! "
+},
+{
+"id": "Chores/CHR_008_038",
+"es": "Este juego tonto casi vale la pena, supongo."
+},
+{
+"id": "Chores/CHR_008_039",
+"es": "¡Ay, no puedo esperar a la próxima vez!"
+},
+{
+"id": "Chores/CHR_008_040",
+"es": "¡Es un empate, eh!"
+},
+{
+"id": "Chores/CHR_008_041",
+"es": "Grüne ya se fue, ¡pero puedes quedarte con esto, Elise!"
+},
+{
+"id": "Chores/CHR_008_042",
+"es": "¡Es de parte de los dos!"
+},
+{
+"id": "Chores/CHR_008_043",
+"es": "¿Así gastan ustedes dos su mesada?"
+},
+{
+"id": "Chores/CHR_008_044",
+"es": "Ay, me siento mal por aceptarlo..."
+},
+{
+"id": "Chores/CHR_008_045",
+"es": "¡Pues yo no! ¡Ya estoy harto de este juego!"
+},
+{
+"id": "Chores/CHR_008_046",
+"es": "¡Ustedes dos son pésimos en esto!"
+},
+{
+"id": "Chores/CHR_008_047",
+"es": "¡Ay, cállate, Apfel!"
+},
+{
+"id": "Chores/CHR_008_048",
+"es": "Ah, de todos modos quiero que te quedes con esto, al menos..."
+},
+{
+"id": "Chores/CHR_008_049",
+"es": "No tenías que hacerlo, Jakob... Después de todo, perdimos..."
+},
+{
+"id": "Chores/CHR_009_001",
+"es": "¡Ah, ahí están!"
+},
+{
+"id": "Chores/CHR_009_002",
+"es": "¿Tu prima, dices?"
+},
+{
+"id": "Chores/CHR_009_003",
+"es": "¡Es un placer conocerla!"
+},
+{
+"id": "Chores/CHR_009_004",
+"es": "Vino desde Primeldorf, nada menos."
+},
+{
+"id": "Chores/CHR_009_005",
+"es": "¡Primeldorf! ¡Eso queda muy lejos de aquí!"
+},
+{
+"id": "Chores/CHR_009_006",
+"es": "¡Ah, así es!"
+},
+{
+"id": "Chores/CHR_009_007",
+"es": "Pensaba pedirte que recogieras unos huevos para mí, Elise."
+},
+{
+"id": "Chores/CHR_009_009",
+"es": "¡Rosmarine puede venir conmigo y echarme una mano!"
+},
+{
+"id": "Chores/CHR_009_010",
+"es": "¡Ah, sí!"
+},
+{
+"id": "Chores/CHR_009_011",
+"es": "Dame un momento..."
+},
+{
+"id": "Chores/CHR_009_012",
+"es": "Todavía tengo mucho que mostrarle a Rosmarine, ¿sabe?"
+},
+{
+"id": "Chores/CHR_009_013",
+"es": "Ustedes dos se llevan bastante bien, ¿no?"
+},
+{
+"id": "Chores/CHR_009_014",
+"es": "No importa, Elise. Tómate tu tiempo."
+},
+{
+"id": "Chores/CHR_009_015",
+"es": "¿Encontraste tiempo, Elise?"
+},
+{
+"id": "Chores/CHR_009_017",
+"es": "Además, lo haremos mejor si lo hacemos juntas."
+},
+{
+"id": "Chores/CHR_009_019",
+"es": "¿Ya pones a trabajar a tu prima, eh?"
+},
+{
+"id": "Chores/CHR_009_020",
+"es": "(¡Este viejo entrometido...!)"
+},
+{
+"id": "Chores/CHR_009_021",
+"es": "No lo creo..."
+},
+{
+"id": "Chores/CHR_009_022",
+"es": "Le avisaré si encontramos tiempo, señor Eugen."
+},
+{
+"id": "Chores/CHR_009_023",
+"es": "Por supuesto, no te preocupes, Elise."
+},
+{
+"id": "Chores/CHR_009_024",
+"es": "¡Ah, buen día!"
+},
+{
+"id": "Chores/CHR_009_025",
+"es": "¡Cuántos huevos, muchacha!"
+},
+{
+"id": "Chores/CHR_009_026",
+"es": "Ustedes dos trabajan bien juntas, ¿verdad?"
+},
+{
+"id": "Chores/CHR_009_027",
+"es": "Ah, supongo que sí."
+},
+{
+"id": "Chores/CHR_009_028",
+"es": "Toma, Elise, por un trabajo bien hecho."
+},
+{
+"id": "Chores/CHR_009_029",
+"es": "¡Gracias, señor Eugen!"
+},
+{
+"id": "Chores/CHR_009_030",
+"es": "Buen trabajo, las dos."
+},
+{
+"id": "Chores/CHR_009_031",
+"es": "¡Ay, qué divertido fue! ¿No, Elise?"
+},
+{
+"id": "Chores/CHR_009_032",
+"es": "¡Me cuesta entender qué tiene de divertido recoger huevos!"
+},
+{
+"id": "Chores/CHR_009_033",
+"es": "¿Por qué no se compran algo rico para la cena?"
+},
+{
+"id": "Chores/CHR_009_034",
+"es": "¡Ay, muchísimas gracias!"
+},
+{
+"id": "Chores/CHR_009_035",
+"es": "¡Yo que pensaba que dos personas juntarían más huevos!"
+},
+{
+"id": "Chores/CHR_009_036",
+"es": "Rosmarine todavía no está acostumbrada, señor Wilhelm."
+},
+{
+"id": "Chores/CHR_009_037",
+"es": "No importa, Elise. Toma."
+},
+{
+"id": "Chores/CHR_009_038",
+"es": "Aun así hicieron un buen trabajo."
+},
+{
+"id": "Chores/CHR_009_039",
+"es": "Gracias, señor Eugen."
+},
+{
+"id": "Chores/CHR_009_041",
+"es": "Toma, Elise."
+},
+{
+"id": "Chores/CHR_009_042",
+"es": "Lo siento..."
+},
+{
+"id": "Chores/CHR_009_043",
+"es": "Cállate, Rosmarine."
+},
+{
+"id": "Chores/CHR_013_001",
+"es": "¡Ah, ya empezaba a preocuparme, Elise!"
+},
+{
+"id": "Chores/CHR_013_002",
+"es": "¿Por qué, señora Elma?"
+},
+{
+"id": "Chores/CHR_013_003",
+"es": "Freya no está disponible ahora, así que tendrás que servir tú."
+},
+{
+"id": "Chores/CHR_013_004",
+"es": "¿Podrías traerme unas manzanas del huerto, Elise?"
+},
+{
+"id": "Chores/CHR_013_005",
+"es": "Está bien, supongo..."
+},
+{
+"id": "Chores/CHR_013_006",
+"es": "Aunque no estoy segura de que Freya lo haga mejor que yo."
+},
+{
+"id": "Chores/CHR_013_007",
+"es": "Ah, ¿nunca la has visto trabajar?"
+},
+{
+"id": "Chores/CHR_013_008",
+"es": "(¡Una experiencia fascinante, seguro!)"
+},
+{
+"id": "Chores/CHR_013_009",
+"es": "Me temo que no puedo."
+},
+{
+"id": "Chores/CHR_013_010",
+"es": "No tengo tiempo ahora, señora Elma."
+},
+{
+"id": "Chores/CHR_013_011",
+"es": "Por supuesto."
+},
+{
+"id": "Chores/CHR_013_012",
+"es": "(¡Esta vieja arpía...!)"
+},
+{
+"id": "Chores/CHR_013_013",
+"es": "¿Cambiaste de parecer, por lo que veo?"
+},
+{
+"id": "Chores/CHR_013_014",
+"es": "Lo haré por usted, señora Elma."
+},
+{
+"id": "Chores/CHR_013_015",
+"es": "No tardaré mucho."
+},
+{
+"id": "Chores/CHR_013_016",
+"es": "¡Entonces debiste hacerlo la primera vez, muchacha!"
+},
+{
+"id": "Chores/CHR_013_017",
+"es": "(¡Qué descaro...!)"
+},
+{
+"id": "Chores/CHR_013_018",
+"es": "Me temo que no."
+},
+{
+"id": "Chores/CHR_013_019",
+"es": "Sigo bastante ocupada, ya ve..."
+},
+{
+"id": "Chores/CHR_013_020",
+"es": "¡Ay, si Freya no estuviera ocupada...!"
+},
+{
+"id": "Chores/CHR_013_021",
+"es": "Eres bastante buena en esto, ¿verdad?"
+},
+{
+"id": "Chores/CHR_013_022",
+"es": "Freya quizá sea mejor, ¿quién sabe?"
+},
+{
+"id": "Chores/CHR_013_023",
+"es": "Eso fue un cumplido, Elise."
+},
+{
+"id": "Chores/CHR_013_024",
+"es": "Toma, por tu arduo trabajo."
+},
+{
+"id": "Chores/CHR_013_025",
+"es": "(¡Un cumplido, dice...!)"
+},
+{
+"id": "Chores/CHR_013_026",
+"es": "Ay, qué bien, Elise."
+},
+{
+"id": "Chores/CHR_013_029",
+"es": "Mmm..."
+},
+{
+"id": "Chores/CHR_013_030",
+"es": "Toma."
+},
+{
+"id": "Chores/CHR_013_031",
+"es": "¿Eso es todo, señora Elma?"
+},
+{
+"id": "Chores/CHR_013_032",
+"es": "¿Qué más quieres, una palmadita en la espalda?"
+},
+{
+"id": "Chores/CHR_013_034",
+"es": "Ay, deberías darte vergüenza..."
+},
+{
+"id": "Chores/CHR_013_035",
+"es": "¡Mira esto...!"
+},
+{
+"id": "Chores/CHR_013_037",
+"es": "¡Fuera, ya! ¡Estoy harta de esta tontería, Elise!"
+},
+{
+"id": "Chores/CHR_013_038",
+"es": "(¡Nunca más volveré a hacer nada por esta vieja arpía!)"
+},
+{
+"id": "Chores/CHR_014_001",
+"es": "¡Mira, Grüne, aquí está!"
+},
+{
+"id": "Chores/CHR_014_002",
+"es": "¡Ah, Elise!"
+},
+{
+"id": "Chores/CHR_014_003",
+"es": "¿Qué les pasa a ustedes dos?"
+},
+{
+"id": "Chores/CHR_014_004",
+"es": "¿No juegas con nosotros, Elise?"
+},
+{
+"id": "Chores/CHR_014_005",
+"es": "Está bien."
+},
+{
+"id": "Chores/CHR_014_006",
+"es": "¡Pero más les vale tener algo por mi tiempo!"
+},
+{
+"id": "Chores/CHR_014_007",
+"es": "¡Solo queremos jugar un ratito, Elise!"
+},
+{
+"id": "Chores/CHR_014_008",
+"es": "¡Está bien, está bien!"
+},
+{
+"id": "Chores/CHR_014_009",
+"es": "Ahora no."
+},
+{
+"id": "Chores/CHR_014_010",
+"es": "¿No tienen ustedes dos cosas mejores que hacer?"
+},
+{
+"id": "Chores/CHR_014_011",
+"es": "Ah, esperábamos poder distraer a Grüne un rato..."
+},
+{
+"id": "Chores/CHR_014_012",
+"es": "Lo pensaré, Jakob."
+},
+{
+"id": "Chores/CHR_014_013",
+"es": "¡Ven a jugar con nosotros, Elise, porfa, porfa!"
+},
+{
+"id": "Chores/CHR_014_015",
+"es": "Claro, supongo que puedo jugar un rato con ustedes, mocosos..."
+},
+{
+"id": "Chores/CHR_014_016",
+"es": "¡Hurra! ¡Hurra!"
+},
+{
+"id": "Chores/CHR_014_018",
+"es": "Todavía tengo mucho que hacer, Grüne."
+},
+{
+"id": "Chores/CHR_014_019",
+"es": "¡Pero Elise...!"
+},
+{
+"id": "Chores/CHR_014_020",
+"es": "¡Vamos, Grüne, podemos encontrar otra cosa que hacer!"
+},
+{
+"id": "Chores/CHR_014_021",
+"es": "¡Ay, qué aburrido!"
+},
+{
+"id": "Chores/CHR_014_022",
+"es": "¡Nos ganaste, Elise!"
+},
+{
+"id": "Chores/CHR_014_023",
+"es": "Soy yo contra ustedes dos, ¿qué esperaban?"
+},
+{
+"id": "Chores/CHR_014_024",
+"es": "¡Puedes quedarte con esto, Elise!"
+},
+{
+"id": "Chores/CHR_014_025",
+"es": "¡Esa es tu mesada, Jakob!"
+},
+{
+"id": "Chores/CHR_014_026",
+"es": "¡Ah, estuvimos tan cerca...!"
+},
+{
+"id": "Chores/CHR_014_027",
+"es": "¡La próxima vez te ganaremos, Elise!"
+},
+{
+"id": "Chores/CHR_014_028",
+"es": "¡Toma, Elise! ¡Ven a jugar con nosotros otra vez más tarde!"
+},
+{
+"id": "Chores/CHR_014_029",
+"es": "¡Está bien, quizá si tengo tiempo!"
+},
+{
+"id": "Chores/CHR_014_030",
+"es": "¡Eres malísima en esto, Elise!"
+},
+{
+"id": "Chores/CHR_014_031",
+"es": "¡Aun así, aquí está lo que te debemos!"
+},
+{
+"id": "Chores/CHR_014_032",
+"es": "¡Me contuve a propósito, Grüne!"
+},
+{
+"id": "Chores/CHR_014_033",
+"es": "¡No es cierto, mentirosa!"
+},
+{
+"id": "Chores/CHR_014_035",
+"es": "¡Ganamos! ¡Ganamos!"
+},
+{
+"id": "Chores/CHR_014_036",
+"es": "¿Estás bien, Elise?"
+},
+{
+"id": "Chores/CHR_014_037",
+"es": "Te golpearon bastante..."
+},
+{
+"id": "Chores/CHR_014_038",
+"es": "¡Silencio! ¡Y dame lo que me debes!"
+},
+{
+"id": "Chores/CHR_014_040",
+"es": "¡Elise es una perdedora! ¡Elise es una perdedora!"
+},
+{
+"id": "Chores/CHR_015_001",
+"es": "¿Podrías echarme una mano, por favor, Elise?"
+},
+{
+"id": "Chores/CHR_015_002",
+"es": "¿Tan educada de repente, eh?"
+},
+{
+"id": "Chores/CHR_015_003",
+"es": "¡Ay, no empieces, muchacha!"
+},
+{
+"id": "Chores/CHR_015_004",
+"es": "Está bien, señora Bertha."
+},
+{
+"id": "Chores/CHR_015_005",
+"es": "Ya que lo pidió tan amablemente, por una vez."
+},
+{
+"id": "Chores/CHR_015_006",
+"es": "No tengo tiempo para discutir, Elise. ¡Ponte a ello!"
+},
+{
+"id": "Chores/CHR_015_007",
+"es": "¡Ya voy, ya voy!"
+},
+{
+"id": "Chores/CHR_015_008",
+"es": "No tengo tiempo."
+},
+{
+"id": "Chores/CHR_015_009",
+"es": "Lo siento, señora Bertha, puedo encargarme más tarde."
+},
+{
+"id": "Chores/CHR_015_010",
+"es": "Ay, espero que Freya aparezca, entonces..."
+},
+{
+"id": "Chores/CHR_015_012",
+"es": "Lo haré, señora Bertha."
+},
+{
+"id": "Chores/CHR_015_013",
+"es": "Está bien, puedo hacerle un tiempo."
+},
+{
+"id": "Chores/CHR_015_014",
+"es": "¡Ay, de verdad me estás salvando!"
+},
+{
+"id": "Chores/CHR_015_015",
+"es": "(¡Es que no quiere hacerlo ella misma, eso es todo!)"
+},
+{
+"id": "Chores/CHR_015_016",
+"es": "No, señora Bertha."
+},
+{
+"id": "Chores/CHR_015_017",
+"es": "Me temo que sigo bastante ocupada."
+},
+{
+"id": "Chores/CHR_015_018",
+"es": "No importa, muchacha. Avísame si cambias de parecer."
+},
+{
+"id": "Chores/CHR_015_019",
+"es": "¡Oh...!"
+},
+{
+"id": "Chores/CHR_015_020",
+"es": "¡No tienes que demostrarme nada, Elise!"
+},
+{
+"id": "Chores/CHR_015_021",
+"es": "¡Qué...!"
+},
+{
+"id": "Chores/CHR_015_022",
+"es": "Toma, jovencita, por un trabajo bien hecho."
+},
+{
+"id": "Chores/CHR_015_024",
+"es": "Vaya, sí que aprovechaste bien tu tiempo, Elise."
+},
+{
+"id": "Chores/CHR_015_025",
+"es": "Puedes quedarte con esto."
+},
+{
+"id": "Chores/CHR_015_026",
+"es": "Gracias, señora Bertha."
+},
+{
+"id": "Chores/CHR_015_027",
+"es": "Bueno..."
+},
+{
+"id": "Chores/CHR_015_028",
+"es": "Será mejor que baje mis expectativas para la próxima, supongo..."
+},
+{
+"id": "Chores/CHR_015_030",
+"es": "¿Quejándonos, eh?"
+},
+{
+"id": "Chores/CHR_015_031",
+"es": "No, señora Bertha. Gracias, señora Bertha."
+},
+{
+"id": "Chores/CHR_015_032",
+"es": "¡Cielo santo, muchacha!"
+},
+{
+"id": "Chores/CHR_015_033",
+"es": "Lo que usted diga, señora Bertha..."
+},
+{
+"id": "Chores/CHR_016_001",
+"es": "¡Ah, cuánto me alegra verte, Elise!"
+},
+{
+"id": "Chores/CHR_016_002",
+"es": "¿En qué puedo ayudarla, señora Dorothea?"
+},
+{
+"id": "Chores/CHR_016_003",
+"es": "¡Te lo agradecería mucho si pudieras recoger unos huevos!"
+},
+{
+"id": "Chores/CHR_016_005",
+"es": "Me encontró en el momento perfecto."
+},
+{
+"id": "Chores/CHR_016_006",
+"es": "¡Ay, muchísimas gracias, querida!"
+},
+{
+"id": "Chores/CHR_016_008",
+"es": "No tengo tiempo ahora mismo."
+},
+{
+"id": "Chores/CHR_016_009",
+"es": "¡Ah, no importa, no te preocupes!"
+},
+{
+"id": "Chores/CHR_016_010",
+"es": "Puedo hacerlo yo misma más tarde, ¡pero avísame si cambias de parecer!"
+},
+{
+"id": "Chores/CHR_016_011",
+"es": "¿Lo has pensado, Elise?"
+},
+{
+"id": "Chores/CHR_016_012",
+"es": "¡Puedo hacerlo ahora, señora Dorothea!"
+},
+{
+"id": "Chores/CHR_016_013",
+"es": "¡Vuelvo enseguida con sus huevos!"
+},
+{
+"id": "Chores/CHR_016_014",
+"es": "¡Ay, qué buena muchacha eres, Elise!"
+},
+{
+"id": "Chores/CHR_016_016",
+"es": "Parece que no logro encontrar tiempo, señora Dorothea."
+},
+{
+"id": "Chores/CHR_016_017",
+"es": "Ah, no importa. ¡Avísame si lo encuentras, Elise!"
+},
+{
+"id": "Chores/CHR_016_018",
+"es": "¡Ay, sabía que podía contar contigo, Elise!"
+},
+{
+"id": "Chores/CHR_016_019",
+"es": "¡Y aquí tienes un poquito extra también!"
+},
+{
+"id": "Chores/CHR_016_020",
+"es": "No tenía por qué, señora Dorothea."
+},
+{
+"id": "Chores/CHR_016_021",
+"es": "Sí tenía, querida. Haz buen uso de ello, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_016_023",
+"es": "De verdad has sido de gran ayuda."
+},
+{
+"id": "Chores/CHR_016_024",
+"es": "Gracias, señora Dorothea. ¡Me alegra haber podido ayudar!"
+},
+{
+"id": "Chores/CHR_016_025",
+"es": "Ah, ahí estás, Elise."
+},
+{
+"id": "Chores/CHR_016_026",
+"es": "Muchas gracias por tu tiempo."
+},
+{
+"id": "Chores/CHR_016_027",
+"es": "No fue ningún problema, señora Dorothea."
+},
+{
+"id": "Chores/CHR_016_028",
+"es": "¡Ay, esto nos dará tanto consuelo después de un día como el de hoy!"
+},
+{
+"id": "Chores/CHR_016_030",
+"es": "¿Quizá deberías tomarte un pequeño descanso?"
+},
+{
+"id": "Chores/CHR_017_002",
+"es": "¿Sintiendo la presión, señora Linda?"
+},
+{
+"id": "Chores/CHR_017_003",
+"es": "¿Y quién no?"
+},
+{
+"id": "Chores/CHR_017_004",
+"es": "Odio pedirlo, pero ¿podrías traerme unas manzanas, querida?"
+},
+{
+"id": "Chores/CHR_017_006",
+"es": "Ya voy en camino."
+},
+{
+"id": "Chores/CHR_017_007",
+"es": "Gracias, Elise. Tengo las manos llenas con la cena, ¿sabes...?"
+},
+{
+"id": "Chores/CHR_017_010",
+"es": "No importa, Elise. Avísame cuando puedas, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_017_011",
+"es": "Ah, ¿cambiaste de parecer?"
+},
+{
+"id": "Chores/CHR_017_012",
+"es": "Lo haré por usted, señora Linda."
+},
+{
+"id": "Chores/CHR_017_013",
+"es": "Logré encontrar algo de tiempo, después de todo."
+},
+{
+"id": "Chores/CHR_017_014",
+"es": "Me alegra tanto oírlo, Elise. ¡Gracias!"
+},
+{
+"id": "Chores/CHR_017_016",
+"es": "Todavía no encuentro tiempo."
+},
+{
+"id": "Chores/CHR_017_017",
+"es": "No importa, Elise. Avísame si lo encuentras, ¿de acuerdo?"
+},
+{
+"id": "Chores/CHR_017_018",
+"es": "¡Ay, de dónde <i>sacas</i> tanta energía!"
+},
+{
+"id": "Chores/CHR_017_019",
+"es": "No es para tanto, señora Linda..."
+},
+{
+"id": "Chores/CHR_017_020",
+"es": "Gracias por tu tiempo, Elise."
+},
+{
+"id": "Chores/CHR_017_021",
+"es": "Asegúrate de descansar bien esta noche, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_017_022",
+"es": "Por supuesto, señora Linda. Gracias."
+},
+{
+"id": "Chores/CHR_017_023",
+"es": "¡Ay, esto es justo lo que necesitaba, Elise!"
+},
+{
+"id": "Chores/CHR_017_024",
+"es": "Muchas gracias, querida."
+},
+{
+"id": "Chores/CHR_017_027",
+"es": "Gracias, Elise."
+},
+{
+"id": "Chores/CHR_017_028",
+"es": "No hay de qué, señora Linda."
+},
+{
+"id": "Chores/CHR_017_029",
+"es": "Ay, me pregunto si alguien podrá dormir esta noche..."
+},
+{
+"id": "Chores/CHR_017_030",
+"es": "No importa, Elise. Por favor, no te sientas mal..."
+},
+{
+"id": "Chores/CHR_017_031",
+"es": "¿No lo estoy?"
+},
+{
+"id": "Chores/CHR_017_033",
+"es": "(Hice lo mejor que pude... ¿Qué más quiere de mí?)"
+},
+{
+"id": "Chores/CHR_018_002",
+"es": "¡Lo que sea menos este horrible juego, Jakob!"
+},
+{
+"id": "Chores/CHR_018_003",
+"es": "¡¿Cómo lo supiste?!"
+},
+{
+"id": "Chores/CHR_018_004",
+"es": "¡Es lo único que ustedes quieren hacer!"
+},
+{
+"id": "Chores/CHR_018_005",
+"es": "Ay, esperaba mantener distraído a Grüne..."
+},
+{
+"id": "Chores/CHR_018_007",
+"es": "¡Jugaré con ustedes dos!"
+},
+{
+"id": "Chores/CHR_018_009",
+"es": "No puedo, Jakob."
+},
+{
+"id": "Chores/CHR_018_010",
+"es": "No tengo tiempo para jugar."
+},
+{
+"id": "Chores/CHR_018_011",
+"es": "Ay, bueno... Supongo que puedo encontrar otra manera..."
+},
+{
+"id": "Chores/CHR_018_012",
+"es": "(No puedo evitar sentirme culpable...)"
+},
+{
+"id": "Chores/CHR_018_013",
+"es": "¡Ah, cambiaste de parecer!"
+},
+{
+"id": "Chores/CHR_018_015",
+"es": "¡Jugaré con ustedes!"
+},
+{
+"id": "Chores/CHR_018_017",
+"es": "La verdad no, Jakob."
+},
+{
+"id": "Chores/CHR_018_018",
+"es": "Todavía tengo demasiado que hacer hoy."
+},
+{
+"id": "Chores/CHR_018_019",
+"es": "Entonces, ¿para qué molestarte en volver?"
+},
+{
+"id": "Chores/CHR_018_021",
+"es": "¡Pensé que no querías jugar a \"Besa a la Rata\", Elise!"
+},
+{
+"id": "Chores/CHR_018_022",
+"es": "¡Gané solo por rencor a este juego tonto!"
+},
+{
+"id": "Chores/CHR_018_023",
+"es": "A este paso me quedaré sin recompensas para ti..."
+},
+{
+"id": "Chores/CHR_018_024",
+"es": "¡Entonces deja de pedirme que juegue!"
+},
+{
+"id": "Chores/CHR_018_025",
+"es": "¡Ah, eres demasiado buena en esto, Elise!"
+},
+{
+"id": "Chores/CHR_018_026",
+"es": "¡Toma! ¡Le pedí a mamá algo para dártelo!"
+},
+{
+"id": "Chores/CHR_018_027",
+"es": "A este paso te vas a ganar un regaño, Jakob."
+},
+{
+"id": "Chores/CHR_018_028",
+"es": "De hecho, ya me regañó..."
+},
+{
+"id": "Chores/CHR_018_029",
+"es": "¡Empate! ¡Empate!"
+},
+{
+"id": "Chores/CHR_018_030",
+"es": "¡Estaba distraído, eso es todo!"
+},
+{
+"id": "Chores/CHR_018_031",
+"es": "Toma, Elise, algo digno de un empate."
+},
+{
+"id": "Chores/CHR_018_033",
+"es": "¡Grüne te ganó, Elise!"
+},
+{
+"id": "Chores/CHR_018_034",
+"es": "¡No hay de qué, mocoso!"
+},
+{
+"id": "Chores/CHR_018_035",
+"es": "Mira, si calculas mejor el momento de tus golpes..."
+},
+{
+"id": "Chores/CHR_018_036",
+"es": "¡Gracias, Jakob!"
+},
+{
+"id": "Chores/CHR_019_001",
+"es": "¡Cuervos, cuervos y más cuervos!"
+},
+{
+"id": "Chores/CHR_019_002",
+"es": "Están por todas partes, ¿verdad, señora Marlen?"
+},
+{
+"id": "Chores/CHR_019_003",
+"es": "¡Solo nos queda esperar que no hayan entrado al gallinero!"
+},
+{
+"id": "Chores/CHR_019_004",
+"es": "¿Podrías ir a echar un vistazo por mí, Elise?"
+},
+{
+"id": "Chores/CHR_019_005",
+"es": "Por supuesto, señora Marlen."
+},
+{
+"id": "Chores/CHR_019_006",
+"es": "Si soy sincera, no creo que lo hayan hecho."
+},
+{
+"id": "Chores/CHR_019_007",
+"es": "¡Pues esos cuervos bien podrían haberse comido todos los huevos ya!"
+},
+{
+"id": "Chores/CHR_019_008",
+"es": "Estoy ocupada, señora Marlen."
+},
+{
+"id": "Chores/CHR_019_009",
+"es": "Lo siento, no tengo tiempo ahora mismo..."
+},
+{
+"id": "Chores/CHR_019_010",
+"es": "¡Supongo que le pediré a alguien más que revise esas gallinas!"
+},
+{
+"id": "Chores/CHR_019_011",
+"es": "Ah, ¿te hiciste tiempo, Elise?"
+},
+{
+"id": "Chores/CHR_019_012",
+"es": "Lo haré por usted, señora Marlen."
+},
+{
+"id": "Chores/CHR_019_013",
+"es": "Veamos si esas gallinas sobrevivieron la noche..."
+},
+{
+"id": "Chores/CHR_019_014",
+"es": "¡Ay, por favor, no digas esas cosas, muchacha...!"
+},
+{
+"id": "Chores/CHR_019_015",
+"es": "(¡Pero eso fue lo que me pidió que hiciera!)"
+},
+{
+"id": "Chores/CHR_019_016",
+"es": "Sigo ocupada..."
+},
+{
+"id": "Chores/CHR_019_017",
+"es": "Le avisaré si me hago tiempo, señora Marlen."
+},
+{
+"id": "Chores/CHR_019_018",
+"es": "Ay, solo espero que no les haya pasado nada..."
+},
+{
+"id": "Chores/CHR_019_019",
+"es": "¡Ah, entonces estaban bien, ya veo!"
+},
+{
+"id": "Chores/CHR_019_020",
+"es": "Al contrario: estaban bastante agitadas."
+},
+{
+"id": "Chores/CHR_019_021",
+"es": "¡Presienten a los cuervos, apuesto!"
+},
+{
+"id": "Chores/CHR_019_022",
+"es": "Toma, Elise, por tu tiempo."
+},
+{
+"id": "Chores/CHR_019_024",
+"es": "¡Ah, qué alivio ver estos huevos!"
+},
+{
+"id": "Chores/CHR_019_025",
+"es": "Puedes quedarte con esto, muchacha. Gracias."
+},
+{
+"id": "Chores/CHR_019_027",
+"es": "Ah, ¿así que sí robaron algunos?"
+},
+{
+"id": "Chores/CHR_019_029",
+"es": "Bueno, no diría que haya escasez de huevos..."
+},
+{
+"id": "Chores/CHR_019_030",
+"es": "Ah, así que no fuiste lo bastante rápida. ¡Qué alivio!"
+},
+{
+"id": "Chores/CHR_019_032",
+"es": "¡Cielo santo, Elise!"
+},
+{
+"id": "Chores/CHR_019_033",
+"es": "¡Esas gallinas deben de estar todas muertas!"
+},
+{
+"id": "Chores/CHR_019_034",
+"es": "No están muertas, señora Marlen. ¡Solo tuve algunas dificultades!"
+},
+{
+"id": "Chores/CHR_019_035",
+"es": "Ah, en ese caso... Toma..."
+},
+{
+"id": "Chores/CHR_019_036",
+"es": "Habría jurado que..."
+},
+{
+"id": "Chores/CHR_020_001",
+"es": "¡Ah, eres justo a quien necesitaba, Elise!"
+},
+{
+"id": "Chores/CHR_020_002",
+"es": "¿Puedo ayudarlo en algo, señor Guido?"
+},
+{
+"id": "Chores/CHR_020_003",
+"es": "Hoy no tengo tiempo de cortar leña para la chimenea, ¿sabes?"
+},
+{
+"id": "Chores/CHR_020_004",
+"es": "¡Lo haré por usted!"
+},
+{
+"id": "Chores/CHR_020_005",
+"es": "¿Estará de patrulla, señor Guido?"
+},
+{
+"id": "Chores/CHR_020_006",
+"es": "¡Montando guardia junto al molino, muchacha!"
+},
+{
+"id": "Chores/CHR_020_007",
+"es": "¡Alguien tiene que mantener a esos malditos cuervos lejos de nuestro grano!"
+},
+{
+"id": "Chores/CHR_020_008",
+"es": "Quizá más tarde..."
+},
+{
+"id": "Chores/CHR_020_009",
+"es": "Quizá encuentre tiempo más tarde, señor Guido."
+}
+]

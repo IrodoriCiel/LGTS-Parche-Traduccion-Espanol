@@ -1,0 +1,36 @@
+name: Generar instalador
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  exe:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+      - name: Generar el .exe
+        run: pyinstaller app/instalador.spec --noconfirm
+      - name: Suma SHA-256
+        shell: pwsh
+        run: (Get-FileHash dist/Instalar-Traduccion-LGTS.exe -Algorithm SHA256).Hash | Out-File -Encoding ascii dist/Instalar-Traduccion-LGTS.exe.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: instalador
+          path: dist/Instalar-Traduccion-LGTS.exe*
+      - name: Publicar en Releases
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/Instalar-Traduccion-LGTS.exe
+            dist/Instalar-Traduccion-LGTS.exe.sha256

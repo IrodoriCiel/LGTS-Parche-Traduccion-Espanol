@@ -1,0 +1,89 @@
+{
+ "_ayuda": "Guiones con texto directo (TextAsset). Los usa parche.py con traduccion/guiones/es.json.",
+ "guiones": [
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 653,
+   "nombre": "ClueHiddenObject"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 729,
+   "nombre": "SNK_Boss_Freya"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 843,
+   "nombre": "CUT_BOSS_Text"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 937,
+   "nombre": "Basket_Choice"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1110,
+   "nombre": "ResetAcknowledge"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1190,
+   "nombre": "PathBlockMonday"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1286,
+   "nombre": "SNK_Boss_Rozen"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1341,
+   "nombre": "ShopChoiceText"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1375,
+   "nombre": "LoopChoiceText_3"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1435,
+   "nombre": "RedDoorText"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1562,
+   "nombre": "SNK_Boss_Leb"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1660,
+   "nombre": "SSS1"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1761,
+   "nombre": "ShopLebText"
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1861,
+   "nombre": "LoopChoiceText_2"
+  }
+ ]
+}

@@ -1,0 +1,1914 @@
+[
+{
+"id": "Flavour/FLV_4_5_WCR_D_01_006",
+"es": "Vámonos de aquí, Rosmarine."
+},
+{
+"id": "Flavour/FLV_4_5_WCR_D_02_001",
+"es": "¡Debo ir a buscar a Rosmarine...!\t\t\t\t\t\t"
+},
+{
+"id": "Flavour/FLV_2_3_VWM_05_001",
+"es": "Supongo que no entraré aquí hasta que consiga esa llave..."
+},
+{
+"id": "Flavour/FLV_5_1_HFY_01_001",
+"es": "No puedo ir al pueblo sin hablar con Rosmarine..."
+},
+{
+"id": "Flavour/FLV_5_1_HBR_01_001",
+"es": "Me pregunto si involucrarme en este lío es lo mejor..."
+},
+{
+"id": "Flavour/FLV_5_1_HBR_01_002",
+"es": "Pero rendirme después de todo eso es un poco..."
+},
+{
+"id": "Flavour/FLV_5_1_HBY_01_001",
+"es": "(Me siento bastante indefensa ahora, ¿no?)"
+},
+{
+"id": "Flavour/FLV_5_1_HBY_01_002",
+"es": "(No creo poder confiar en nadie más que en Lebkuchen después de lo que pasó en el pueblo...)"
+},
+{
+"id": "Flavour/FLV_5_1_OVP_01_002",
+"es": "(Si eso es lo que se necesita para llegar allí, ¡mejor le doy a <b>Él</b> todo lo que tengo!)"
+},
+{
+"id": "Flavour/FLV_5_5_OCR_01_001",
+"es": "(¡No puedo andar vagando: debo encontrar a Apfel!)"
+},
+{
+"id": "Flavour/FLV_5_6_VWM_01_001",
+"es": "¡He llegado hasta aquí, no puedo rendirme ahora!"
+},
+{
+"id": "Flavour/FLV_5_6_VWM_02_001",
+"es": "Uf... Esto está asqueroso..."
+},
+{
+"id": "Flavour/FLV_5_6_VWM_02_002",
+"es": "Repleto de plumas de cuervo, el horno de ladrillo rojo se alza contra la pared del molino."
+},
+{
+"id": "Flavour/FLV_5_6_VWM_04_001",
+"es": "Mejor me voy de aquí antes de que alguien venga a buscarme...."
+},
+{
+"id": "Flavour/FLV_5_6_VWM_03_001",
+"es": "No creo que vaya a necesitar nada de esto..."
+},
+{
+"id": "Flavour/FLV_5_6_VWM_03_002",
+"es": "Alineadas sobre las distintas superficies hay ollas variadas que contienen harina, sal y mermelada."
+},
+{
+"id": "Flavour/FLV_WCW_WCW_B_MIRROR_01",
+"es": "¡Debo seguir adelante!"
+},
+{
+"id": "Flavour/FLV_6_1_VWM_01_001",
+"es": "Supongo que no entraré aquí pronto, ¿eh?"
+},
+{
+"id": "Flavour/FLV_6_1_HBR_01_001",
+"es": "Lo logré... Tengo uno de los <color=#ed1c24><b>Testamentos</b></color>..."
+},
+{
+"id": "Flavour/FLV_6_1_HBR_01_002",
+"es": "Todo lo que ha pasado hasta ahora... ¡es real!"
+},
+{
+"id": "Flavour/FLV_6_1_HBR_01_003",
+"es": "Más vale que me decida: ya es hora de tomarme esto más en serio."
+},
+{
+"id": "Flavour/FLV_6_1_HBY_01_001",
+"es": "Que me celebraran así anoche fue bastante agradable, pero..."
+},
+{
+"id": "Flavour/FLV_6_1_HBY_01_002",
+"es": "Solo espero que Apfel no diga nada que me comprometa..."
+},
+{
+"id": "Flavour/FLV_6_1_OVP_01_001",
+"es": "Estoy tan cerca de alcanzar la bendición de <b>Él</b>..."
+},
+{
+"id": "Flavour/FLV_6_1_OVP_01_002",
+"es": "Si lo que dijeron ese cuervo y esa serpiente es cierto, entonces..."
+},
+{
+"id": "Flavour/FLV_6_1_OVP_01_003",
+"es": "No me queda más remedio que seguir adelante, por mi propio bien."
+},
+{
+"id": "Flavour/FLV_6_5_HBR_01_001",
+"es": "Supongo que yo misma soy un poco <color=#934494><b>bruja</b></color>, en cierto modo..."
+},
+{
+"id": "Flavour/FLV_6_5_HBR_01_002",
+"es": "Los cuervos de ayer, y esa serpiente que saqué de la fuente..."
+},
+{
+"id": "Flavour/FLV_6_5_HBR_01_003",
+"es": "También irrumpir en el molino: todo esto es culpa mía, ¿eh?"
+},
+{
+"id": "Flavour/FLV_6_5_HBY_01_001",
+"es": "La gente incluso empieza a acusarse entre sí..."
+},
+{
+"id": "Flavour/FLV_6_5_HBY_01_002",
+"es": "Debo tener cuidado, no sea que empiecen a sospechar de mí..."
+},
+{
+"id": "Flavour/FLV_6_5_OVP_01_001",
+"es": "Estoy un paso más cerca de conocer a <b>Él</b>, parece."
+},
+{
+"id": "Flavour/FLV_6_5_OVP_01_002",
+"es": "No puedo vacilar, ahora no..."
+},
+{
+"id": "Flavour/FLV_6_5_OVP_01_003",
+"es": "<i>Voy</i> a salir de este pueblo, cueste lo que cueste."
+},
+{
+"id": "Flavour/FLV_D_WSN-A_01_002",
+"es": "¿Qué es eso?"
+},
+{
+"id": "Flavour/FLV_D_WSN-A_04_003",
+"es": "Debo encontrar la manera de pasar de estas cosas, como sea..."
+},
+{
+"id": "Flavour/FLV_D_WSN-A_05_003",
+"es": "Una alta puerta de hierro se alza imponente, con sus barrotes de metal decorados con inquietantes motivos esculpidos."
+},
+{
+"id": "Flavour/FLV_7_1_HBR_01_001",
+"es": "Las cosas que me dijo esa serpiente..."
+},
+{
+"id": "Flavour/FLV_7_1_HBR_01_002",
+"es": "Que me permita complacerme, y... todo eso."
+},
+{
+"id": "Flavour/FLV_7_1_HBR_01_003",
+"es": "Sé lo que quiso decir esa serpiente, pero ¿estoy lista para afrontarlo?"
+},
+{
+"id": "Flavour/FLV_7_1_HBY_01_001",
+"es": "¿Kieferberg, eh?"
+},
+{
+"id": "Flavour/FLV_7_1_HBY_01_002",
+"es": "Debo decir que nunca me había sentido tan distante..."
+},
+{
+"id": "Flavour/FLV_7_1_OVP_01_001",
+"es": "No se puede confiar en esa serpiente, lo sé, pero..."
+},
+{
+"id": "Flavour/FLV_7_1_OVP_01_002",
+"es": "Aun así, todavía lo quiero: todavía quiero que <b>Él</b> cumpla mi deseo."
+},
+{
+"id": "Flavour/FLV_7_1_OVP_01_003",
+"es": "¡Volverme rica, escapar de este pueblo y vivir la vida que merezco!"
+},
+{
+"id": "Flavour/FLV_7_5_HBR_01_001",
+"es": "Es hora de tomar una decisión, pero..."
+},
+{
+"id": "Flavour/FLV_7_5_HBR_01_002",
+"es": "¿Podré confiar en mí misma para tomar la correcta, me pregunto?"
+},
+{
+"id": "Flavour/FLV_7_5_HBY_01_001",
+"es": "Lo que pasó hoy debería haber bastado para decidirme..."
+},
+{
+"id": "Flavour/FLV_7_5_HBY_01_002",
+"es": "No es a Kieferberg a lo que estoy apegada; es al tiempo que pasé aquí con la abuelita Holle..."
+},
+{
+"id": "Flavour/FLV_7_5_HBY_01_003",
+"es": "Con Rosmarine..."
+},
+{
+"id": "Flavour/FLV_7_5_HBY_01_004",
+"es": "Con Freya..."
+},
+{
+"id": "Flavour/FLV_7_5_HBY_01_005",
+"es": "Y con Lebkuchen..."
+},
+{
+"id": "Flavour/FLV_7_5_HBY_01_006",
+"es": "Todos mis buenos recuerdos están aquí, no solo los malos."
+},
+{
+"id": "Flavour/FLV_7_5_OVP_01_001",
+"es": "La gente no me quiere aquí, eso es seguro..."
+},
+{
+"id": "Flavour/FLV_7_5_OVP_01_002",
+"es": "Aunque tenga que dejar atrás todos mis buenos recuerdos, yo..."
+},
+{
+"id": "Flavour/FLV_7_5_OVP_01_003",
+"es": "Debo hacerlo: al menos debo conocer a <b>Él</b>."
+},
+{
+"id": "Flavour/FLV_WSV_Z_Intro_01_001",
+"es": "No, debo seguir adelante..."
+},
+{
+"id": "Flavour/FLV_WSV_Z_Intro_01_002",
+"es": "Debieron traerme aquí por algún motivo..."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_01_001",
+"es": "Estoy en las profundidades de esa serpiente, sin duda..."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_01_002",
+"es": "Una fuente delicadamente decorada se alza en la plaza del pueblo, con su superficie de piedra adornada con inquietantes motivos."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_02_001",
+"es": "La casa de la señora Linda..."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_02_002",
+"es": "Partido en dos por espinas y ramas, el techo de la casa flota sobre sus cimientos."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_03_001",
+"es": "Es como una especie de burbuja..."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_03_002",
+"es": "Todo parece estar bajo el agua, pero puedo respirar perfectamente."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_03_003",
+"es": "Quizás sea mejor echar un vistazo por el pueblo..."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_04_001",
+"es": "Esto no puede ser real..."
+},
+{
+"id": "Flavour/FLV_D_WSV_A_04_002",
+"es": "Invadida por espinas, la estructura de la casa se ve comprometida."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_01_001",
+"es": "Estos árboles están por todas partes, ¿eh?"
+},
+{
+"id": "Flavour/FLV_D_WSV_B_01_002",
+"es": "Colgando de sus ramas teñidas de azul, las numerosas bayas relucientes se mecen suavemente en el agua."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_02_001",
+"es": "Las fases de la luna otra vez..."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_02_002",
+"es": "Necesito interpretarlas para encontrar la salida de aquí..."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_02_003",
+"es": "Si mal no recuerdo..."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_02_004",
+"es": "Esta es la luna nueva, la media luna y la luna llena, ¿era así?"
+},
+{
+"id": "Flavour/FLV_D_WSV_B_02_005",
+"es": "Algo se ve distinto al bosque de esa serpiente, sin embargo..."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_02_006",
+"es": "Quizás pueda usar esto como guía de alguna manera..."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_03_001",
+"es": "No puedo pasar de estos..."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_03_002",
+"es": "¡Debería hacer algo!"
+},
+{
+"id": "Flavour/FLV_D_WSV_B_04_001",
+"es": "Esa serpiente pudo haberse esmerado más con la posada de la señora Wilma, diría yo."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_04_002",
+"es": "Agrietadas y plagadas de espinas, las paredes de la posada de Kieferberg yacen profanadas."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_06_001",
+"es": "Realmente destrozaron Kieferberg, ¿eh?"
+},
+{
+"id": "Flavour/FLV_D_WSV_B_06_002",
+"es": "¡Si tan solo pudieran ver esto!"
+},
+{
+"id": "Flavour/FLV_D_WSV_B_06_003",
+"es": "Invadidas por el bosque, las numerosas casas de Kieferberg quedan ahora a su merced."
+},
+{
+"id": "Flavour/FLV_D_WSV_B_07_001",
+"es": "Lo reinició todo..."
+},
+{
+"id": "Flavour/FLV_8_1_HBR_01_001",
+"es": "Supongo que hoy es el día..."
+},
+{
+"id": "Flavour/FLV_8_1_HBR_01_002",
+"es": "Quizás pueda conocer a <b>Él</b>, y quizás <b>Él</b> cumpla mi deseo, pero..."
+},
+{
+"id": "Flavour/FLV_8_1_HBR_01_003",
+"es": "Todavía no logro entender nada de esto, ¿verdad?"
+},
+{
+"id": "Flavour/FLV_8_1_HBY_01_001",
+"es": "Esta podría ser la última vez que contemplo Kieferberg así..."
+},
+{
+"id": "Flavour/FLV_8_1_HBY_01_002",
+"es": "Pensar que por fin podré irme de este lugar..."
+},
+{
+"id": "Flavour/FLV_8_1_OVP_01_001",
+"es": "Estoy tan cerca..."
+},
+{
+"id": "Flavour/FLV_8_1_OVP_01_002",
+"es": "Todavía tengo tantas preguntas, pero..."
+},
+{
+"id": "Flavour/FLV_8_1_OVP_01_003",
+"es": "¡Haré todo lo que pueda para lograrlo: para por fin llegar a ese castillo!"
+},
+{
+"id": "Flavour/FLV_8_5_OCR_01_001",
+"es": "(Mejor no perder más tiempo...)"
+},
+{
+"id": "Flavour/FLV_8_5_OCR_01_002",
+"es": "(¡Debería ir ya al bosque!)"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_01_001",
+"es": "(La <color=#ed1c24><b>Carne tierna</b></color> del deseo terrenal...)"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_01_002",
+"es": "Hacer una ofrenda"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_01_003",
+"es": "No hacer una ofrenda"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_01_004",
+"es": "(Supongo que esto bastará...)"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_02_001",
+"es": "(El <color=#ed1c24><b>Néctar más dulce</b></color>, para beberse con fervor...)"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_03_001",
+"es": "(La <color=#ed1c24><b>Buena compañía</b></color>, objeto de los afectos...)"
+},
+{
+"id": "Flavour/CSM_4_2_OVP_01_001",
+"es": "Otra cueva... Aquí hay un aire muy cargado, además..."
+},
+{
+"id": "Flavour/CSM_4_2_OVP_01_002",
+"es": "Quien sea que deja esas notas por el pueblo también ha estado aquí, estoy segura..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_02_001",
+"es": "Un ciervo..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_02_002",
+"es": "Parece una especie de altar..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_03_001",
+"es": "Esto parece una puerta..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_03_002",
+"es": "Me pregunto si podré abrirla de alguna manera..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_04_001",
+"es": "Me pregunto si habrá algo que pueda colocar aquí..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_05_001",
+"es": "Supongo que podría probar esto también del otro lado."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_07_001",
+"es": "He visto este símbolo antes, ¿verdad?"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_07_002",
+"es": "Debería preguntarme qué significa esto..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_07_003",
+"es": "Un sello del tamaño de un hombre aparece cincelado en la superficie áspera de la puerta, rodeado de grietas irregulares y dispersas."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_06_001",
+"es": "Esa es Santa Walpurga..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_06_002",
+"es": "¿Qué hace esto aquí?"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_06_003",
+"es": "Hecha pedazos, la imagen de Santa Walpurga se alza sobre una pila de agua opaca y quieta."
+},
+{
+"id": "Flavour/FLV_4_2_VWW_01_001",
+"es": "(El lavadero... Supongo que podría ser este, pero...)"
+},
+{
+"id": "Flavour/FLV_4_2_VWW_01_002",
+"es": "(Está lleno de agua, no creo que pueda hacer mucho por ahora...)"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_01_001",
+"es": "(Tengo esa llave en el bolsillo, pero...)"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_01_002",
+"es": "(No creo poder investigar esto con gente rondando el pozo...)"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_01_003",
+"es": "(Es mejor que vuelva en otro momento.)"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_02_001",
+"es": "El lavadero está vacío..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_02_002",
+"es": "Esa nota... y esa llave..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_02_003",
+"es": "Quien haya estado haciendo esos rituales pudo haber manipulado este grifo..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_05_001",
+"es": "Me pregunto si habrá algo que pueda colocar aquí..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_06_001",
+"es": "Hay algo ahí dentro, pero no puedo alcanzarlo..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_06_002",
+"es": "Además brilla muchísimo..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_07_001",
+"es": "El camino termina aquí, pero me parece que se derrumbó..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_07_002",
+"es": "Me pregunto si esto antes conectaba con algún lugar..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_08_001",
+"es": "¿Una vela, eh?"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_08_002",
+"es": "¿Habrá sido una especie de señal, me pregunto?"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_08_003",
+"es": "¿Para qué sirven estos túneles?"
+},
+{
+"id": "Flavour/FLV_7_2_VWW_01_001",
+"es": "Podría probar una de estas llaves; quizás encajen."
+},
+{
+"id": "Flavour/FLV_7_2_VWW_02_001",
+"es": "Se derrumbó, ¿eh?"
+},
+{
+"id": "Flavour/FLV_7_2_VWW_02_002",
+"es": "Me pregunto adónde llevaba esto antes..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_01_001",
+"es": "¿Demonología...?"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_01_002",
+"es": "¿Qué ha estado investigando el Padre Hans?"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_01_003",
+"es": "<i>\"Los demonios, deidades malévolas adoradas por algunos y temidas por muchos, son el corazón del mal.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_02_001",
+"es": "Hace tiempo que no usa esto, ¿eh?"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_02_002",
+"es": "Completamente limpia, la chimenea de piedra yace sin uso."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_001",
+"es": "Este es un diario bastante viejo..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_002",
+"es": "<i>\"Solo puedo esperar que mis sacrificios valgan la pena, que mi tormento traiga gloria a Kieferberg.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_003",
+"es": "<i>\"No hay otro camino que invocar a Walpurga, la <color=#934494><b>bruja</b></color>, en persona.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_004",
+"es": "<i>\"Para ello, sin embargo... debo darle la espalda a mi amado Kieferberg...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_001",
+"es": "Libro de texto tras libro de texto tras libro de texto..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_002",
+"es": "¿Qué es esto? ¿Un diario?"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_003",
+"es": "<i>\"Walpurga, la <color=#934494><b>bruja</b></color>...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_004",
+"es": "<i>\"Sin embargo, la creación de vida no figuraba, de ningún modo, entre sus muchas bendiciones...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_005",
+"es": "<i>\"Eso es precisamente lo que la vieja Holle afirmó haber obtenido del bosque: un bebé.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_006",
+"es": "<i>\"¿Cómo puede ser? ¿Fue alguna vez la <color=#934494><b>bruja</b></color> capaz de engendrar vida?\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_007",
+"es": "<i>\"Homúnculos, gólems... He investigado esos asuntos heréticos y, sin embargo...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_008",
+"es": "<i>\"Nada de lo que he reunido apunta hacia esta posibilidad.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_04_009",
+"es": "<i>\"Tampoco el aquelarre de Walpurga tenía interés en la creación de vida...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_07_001",
+"es": "Mejor no acercarme demasiado: no quisiera que la gente note que estoy aquí."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_05_001",
+"es": "Creo que todos estos tratan sobre Santa Walpurga..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_05_003",
+"es": "<i>\"Santa Walpurga, santa patrona de Kieferberg...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_05_004",
+"es": "<i>\"Toda su misericordia, su benevolencia es la razón de mi devoción incansable.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_05_005",
+"es": "<i>\"Al igual que sus raíces paganas, las bendiciones de Santa Walpurga no sirven a nadie más que al pueblo de Kieferberg.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCC_01_001",
+"es": "Una herradura..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_01_002",
+"es": "Es demasiado grande para ponerla en un casco, pero..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_01_003",
+"es": "Una herradura nueva, con su superficie de acero sin desgaste y opaca."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_02_001",
+"es": "Una muñeca de madera..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_02_002",
+"es": "Esta gorra se parece tanto a la de Apfel..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_02_003",
+"es": "Apoyado contra la pared, el títere de madera yace inexpresivo."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_03_001",
+"es": "Esto me está provocando náuseas..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_03_002",
+"es": "Está pintada para parecerse a mí... y este listón..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_03_003",
+"es": "Apoyado contra la pared, el títere pintado yace inexpresivo."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_04_001",
+"es": "Está vacío..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_04_002",
+"es": "A juzgar por lo que he visto, todavía falta algo..."
+},
+{
+"id": "Flavour/FLV_8_1_VSQ_01_001",
+"es": "Supongo que no puedo evitar ir a esa procesión..."
+},
+{
+"id": "Flavour/FLV_8_3_VSQ_01_001",
+"es": "Seguro que todos ya están en el festival."
+},
+{
+"id": "Flavour/FLV_8_3_VIN_01_001",
+"es": "Al menos no quisiera irme sin hablar con ella..."
+},
+{
+"id": "Flavour/FLV_8_END_W_01_002",
+"es": "¡Esto es... un bebé!"
+},
+{
+"id": "Flavour/FLV_8_END_W_01_003",
+"es": "La silueta translúcida de un feto se estremece apenas, envuelta en su palpitante saco amniótico."
+},
+{
+"id": "Flavour/FLV_8_END_W_02_001",
+"es": "Se está... retorciendo..."
+},
+{
+"id": "Flavour/FLV_8_END_W_02_002",
+"es": "Creo que voy a vomitar..."
+},
+{
+"id": "Flavour/FLV_8_END_W_02_003",
+"es": "Un miembro cercenado se retuerce en el suelo, con sus dedos arañando el aire."
+},
+{
+"id": "Flavour/FLV_8_END_W_03_001",
+"es": "¡Esta cosa... me está mirando!"
+},
+{
+"id": "Flavour/FLV_8_END_W_03_002",
+"es": "Retorciéndose lentamente en el suelo, la extraña criatura deforme jadea como si luchara por respirar."
+},
+{
+"id": "Flavour/FLV_8_WDS_SAC_01_001",
+"es": "No puedo volver ahí dentro..."
+},
+{
+"id": "Flavour/FLV_8_WDS_SAC_02_001",
+"es": "¿Qué <i>es</i> este lugar?"
+},
+{
+"id": "Flavour/FLV_8_WDS_SAC_02_002",
+"es": "Visiones infernales de tierras desoladas se extienden hasta el horizonte."
+},
+{
+"id": "Flavour/FLV_8_WDS_SAC_03_001",
+"es": "Este mural..."
+},
+{
+"id": "Flavour/FLV_8_WDS_SAC_03_002",
+"es": "No quiero mirarlo por mucho tiempo..."
+},
+{
+"id": "Flavour/FLV_8_3_VCC_05_001",
+"es": "No me iré de aquí hasta que lo averigüe..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_09_001",
+"es": "No puedo dejar mi broche aquí..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_005",
+"es": "<i>\"Atraer a Walpurga requiere sacrificios cuantiosos.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_006",
+"es": "<i>\"Una bestia para que la monte, un hombre para que se dé un festín con él y, por último...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_01_001",
+"es": "Esto se parece muchísimo a la túnica de ese viejo cascarrabias..."
+},
+{
+"id": "Flavour/FLV_3_2_OCR_01_002",
+"es": "No quisiera pensar que el Padre Hans ha estado aquí, pero..."
+},
+{
+"id": "Flavour/FLV_3_2_OCR_01_003",
+"es": "Una túnica vieja y andrajosa yace en el suelo."
+},
+{
+"id": "Flavour/FLV_7_5_VIN_01_001",
+"es": "Es mejor que no ande vagando demasiado..."
+},
+{
+"id": "Flavour/FLV_WDM_04_001",
+"es": "He llegado hasta aquí..."
+},
+{
+"id": "Flavour/FLV_WDM_04_002",
+"es": "¡No pienso rendirme ahora!"
+},
+{
+"id": "Flavour/FLV_2_1_VSQ_01_001",
+"es": "¡Qué desastre!"
+},
+{
+"id": "Flavour/FLV_2_1_VSQ_01_002",
+"es": "Supongo que no pasaré por aquí pronto..."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_13_001",
+"es": "Hay algo en la parte de atrás de este estante..."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_13_002",
+"es": "Tengo que estirar el brazo para alcanzarlo, pero..."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_13_003",
+"es": "Alcanzarlo."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_13_004",
+"es": "Dejarlo."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_13_005",
+"es": "Esto es..."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_A_10_001",
+"es": "Parece que está cerrado con llave..."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_A_10_002",
+"es": "¡Y apuesto a que también hay algo bonito adentro!"
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_14_001",
+"es": "Está atascado..."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_14_002",
+"es": "Podría intentar abrirlo a la fuerza, pero..."
+},
+{
+"id": "Flavour/FLV_2_5_DPL_CCandles_14_003",
+"es": "Abrirlo a la fuerza."
+},
+{
+"id": "Flavour/FLV_3_6_OCR_01_001",
+"es": "Es mejor que no me adentre en el pueblo..."
+},
+{
+"id": "Flavour/FLV_3_6_OCR_01_002",
+"es": "No quiero que la gente me vea aquí afuera tan entrada la noche."
+},
+{
+"id": "Flavour/FLV_3_6_OWE_01_001",
+"es": "No quiero volver a entrar ahí..."
+},
+{
+"id": "Flavour/FLV_3_6_OWE_01_002",
+"es": "Mejor me voy a casa y busco a Rosmarine..."
+},
+{
+"id": "Flavour/FLV_4_1_OWE_01_001",
+"es": "Todavía no logro entender nada de eso..."
+},
+{
+"id": "Flavour/FLV_4_1_OWE_01_002",
+"es": "Es mejor que lo piense más tarde..."
+},
+{
+"id": "Flavour/FLV_4_5_OWE_01_001",
+"es": "¡Tengo que encontrar a Rosmarine!"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_01_001",
+"es": "¿Un búho?"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_10_001",
+"es": "Hasta el lavadero está completamente seco..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_10_002",
+"es": "El lavadero de Kieferberg, con su poco profunda superficie totalmente drenada de agua."
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_001",
+"es": "Esto se parece muchísimo a la túnica de ese viejo cascarrabias, ¿no?"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_003",
+"es": "<i>\"El milagro de nuestra amada patrona, Santa Walpurga...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_004",
+"es": "<i>\"Tras los sucesos de anoche... no me queda más remedio que asumir la responsabilidad...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_005",
+"es": "<i>\"No solo por Santa Walpurga, sino también por la vieja Holle.\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_007",
+"es": "¿La abuelita Holle...?"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_008",
+"es": "<i>\"En su lecho de muerte, la vieja Holle confesó todos sus pecados.\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_009",
+"es": "<i>\"Entre sus tropiezos más mundanos, me habló de Elise...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_010",
+"es": "<i>\"De sus muchas plegarias para curarse de su falta de hijos.\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_011",
+"es": "<i>\"Sin embargo, lo que me pareció notable fue el milagro que afirmó haber recibido...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_012",
+"es": "<i>\"Que el bosque mismo le concedió su deseo de tener un hijo...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_013",
+"es": "<i>\"Según sus propias palabras...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_014",
+"es": "<i>\"<b>Él</b> le concedió su deseo a un <b>alto precio</b>.\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_015",
+"es": "<i>\"¿Cómo puede ser? ¿Qué quiso decir realmente la vieja Holle?\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_016",
+"es": "<i>\"Si esto realmente ocurrió y Elise fue concebida por intervención divina de Santa Walpurga...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_017",
+"es": "<i>\"Pero si no fue por la bendición de Santa Walpurga, ¿quién es <b>Él</b>?\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_018",
+"es": "<i>\"La vieja Holle no parecía delirar, ni perdió la compostura...\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_019",
+"es": "<i>\"Tengo más preguntas de las que puedo responder en este momento.\"</i>"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_020",
+"es": "¿Qué está pasando aquí...?"
+},
+{
+"id": "Flavour/FLV_3_2_OCR_02_021",
+"es": "Mejor me quedo con este trozo de papel..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_001",
+"es": "¿Qué es este papel húmedo?"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_002",
+"es": "<i>\"La creencia es un asunto complejo, como lo son sus diversas manifestaciones.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_003",
+"es": "<i>\"La necesidad humana de fe ha llevado a muchos por el camino de la ruina...\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_004",
+"es": "<i>\"Herejes paganos, aquelarres e incrédulos: todos abundantes y diversos.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_005",
+"es": "<i>\"Eso fue hasta que la palabra y la gloria de nuestro Señor los rescataron de los abismos del Infierno.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_006",
+"es": "<i>\"La guía del Señor, Su benevolencia ha purificado a las deidades y purgado sus actos pecaminosos...\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_007",
+"es": "<i>\"Convirtió su falsa piedad pagana en adoración al Señor, ahora como santos reconocidos por la Iglesia.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_008",
+"es": "<i>\"Desterró a las brujas, sus aquelarres y cultos, para revivirlas como líderes de la fe.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_009",
+"es": "<i>\"La propia Santa Walpurga, nacida <color=#934494><b>bruja</b></color> y luego bautizada por el Señor...\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_010",
+"es": "<i>\"Su alma santificada, divorciada de la <color=#934494><b>bruja</b></color> Walpurga...\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_011",
+"es": "<i>\"Santa Walpurga no puede ser capaz de obrar tales milagros... El nacimiento de un niño, nada menos...\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_012",
+"es": "<i>\"Debería profundizar en el pasado de nuestra patrona, en lo que la vieja Holle pudo haber querido decir.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_013",
+"es": "<i>\"Por el bien de Kieferberg, y de todos los que dependen de mí para su salvación.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_014",
+"es": "<i>\"Debo averiguar qué, exactamente, vio e hizo la vieja Holle hace años...\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_015",
+"es": "<i>\"Debo continuar mi investigación: también por el bien de Elise.\"</i>"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_016",
+"es": "¿Qué...?"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_017",
+"es": "Si esta es la letra del Padre Hans..."
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_018",
+"es": "¿Qué sabe él sobre la abuelita Holle que yo no sé?"
+},
+{
+"id": "Flavour/FLV_4_2_OVP_10_019",
+"es": "¿Y por qué está haciendo esto...?"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_001",
+"es": "Esto fue arrancado de algún diario..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_002",
+"es": "La mayor parte fue anotada con prisa, pero..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_003",
+"es": "<i>\"Walpurga, la <color=#934494><b>bruja</b></color>... ¡por fin he descubierto sus raíces!\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_004",
+"es": "<i>\"Todo apunta de vuelta a Kieferberg: la cuna de la <color=#934494><b>bruja</b></color> Walpurga y de su culto.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_005",
+"es": "Esto no puede ser..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_006",
+"es": "Si de verdad hay una <color=#934494><b>bruja</b></color> en Kieferberg, entonces..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_007",
+"es": "<i>\"Adorado y celebrado durante siglos, se decía que el bosque que rodea este pueblo tenía conciencia propia.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_008",
+"es": "<i>\"Esta conciencia, lo que hoy llamamos una <color=#934494><b>bruja</b></color>, recibía el nombre de Walpurga.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_009",
+"es": "<i>\"La fe de la gente en sus milagros data de muchos años antes de que la gloria de la Iglesia alcanzara estas cumbres.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_010",
+"es": "<i>\"Se decía que concedía a sus creyentes buena salud, sustento y protección...\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_011",
+"es": "<i>\"El bosque, o Walpurga, albergaba las voluntades, los anhelos, los deseos y los pecados de la gente.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_012",
+"es": "<i>\"De tal manera, de hecho, que se les aparecía bajo la apariencia de una mujer.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_013",
+"es": "<i>\"Susurrar a los fieles, tomar la forma de sus seres queridos, de una vieja bruja, de una cierva, entre otras.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_014",
+"es": "<i>\"El mástil de mayo de seis anillos, el símbolo de la benevolencia de Santa Walpurga que hoy adoramos...\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_015",
+"es": "<i>\"Fue adorado por primera vez como símbolo de los milagros y la misericordia de la <color=#934494><b>bruja</b></color>.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_016",
+"es": "<i>\"Eso ya no es así: Santa Walpurga es una patrona de la Iglesia, una figura benevolente de nuestra fe.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_017",
+"es": "<i>\"Con la llegada de los mensajeros del Señor a estas cumbres, el culto de Walpurga fue erradicado.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_018",
+"es": "<i>\"Es un hecho, sin embargo, que los pocos que sobrevivieron se convirtieron en una especie de nómadas.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_019",
+"es": "<i>\"Lo que más me desconcierta es que mi investigación y toda esta Historia...\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_020",
+"es": "<i>\"No encajan del todo con la confesión de la vieja Holle.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_021",
+"es": "<i>\"De Walpurga, la <color=#934494><b>bruja</b></color>, jamás se dijo que pidiera nada a cambio de sus bendiciones...\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_022",
+"es": "<i>\"Tampoco se le llamó nunca un Dios, ni una deidad masculina, sino una mujer.\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_023",
+"es": "<i>\"¿Cómo pudo un <b>Él</b> haberle concedido un deseo a la vieja Holle?\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_024",
+"es": "<i>\"Esta <color=#934494><b>bruja</b></color>... ¿Cómo podría una deidad pagana hacer lo que el Señor mismo no hace?\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_025",
+"es": "<i>\"Estoy bastante seguro de que los pecados de la vieja Holle son más de lo que parece...\"</i>"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_026",
+"es": "¡Los pecados de la abuelita Holle, dice!"
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_027",
+"es": "Nada de esto es cierto... El Padre Hans está perdiendo la cabeza..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_028",
+"es": "La abuelita Holle jamás..."
+},
+{
+"id": "Flavour/FLV_6_2_VWW_20_029",
+"es": "¡Ella nunca me ocultaría nada...!"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_001",
+"es": "¿Una carta? Está rota, pero..."
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_002",
+"es": "<i>\"No logro convencerme de que fue Walpurga, la <color=#934494><b>bruja</b></color>, quien le concedió a la vieja Holle su pecaminoso deseo.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_003",
+"es": "<i>\"Ninguna parte de mi investigación corrobora su confesión; nada de ello menciona a <b>Él</b>.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_004",
+"es": "<i>\"Estoy seguro de que <b>Él</b>, quienquiera que sea <b>Él</b>, es la clave de las últimas palabras de la vieja Holle.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_005",
+"es": "<i>\"Lamentablemente, debo confesar mis propios pecados mediante esta carta...\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_006",
+"es": "<i>\"Como mi única oportunidad de salvación después de lo que estoy a punto de traer sobre todo Kieferberg.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_007",
+"es": "<i>\"No hay otro camino que invocar yo mismo a Walpurga, la <color=#934494><b>bruja</b></color>.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_008",
+"es": "<i>\"Una vez que conozca a esta <color=#934494><b>bruja</b></color>, podré determinar una de dos cosas.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_009",
+"es": "<i>\"Si realmente es nuestra patrona, Santa Walpurga, en su gloria reformada según lo dicta el Señor...\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_010",
+"es": "<i>\"Podré dedicar por completo el resto de mi vida como clérigo a su adoración y a la celebración de sus milagros.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_011",
+"es": "<i>\"Si, en cambio... no es solo una <color=#934494><b>bruja</b></color>, sino una entidad demoníaca que se hace pasar por una...\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_012",
+"es": "<i>\"No me quedará más remedio que traer la justicia del Señor sobre su alma y la de Elise, almas miserables...\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_013",
+"es": "<i>\"Y poner fin a su reinado de una vez por todas.\"</i>"
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_014",
+"es": "No... No, esto no puede ser..."
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_015",
+"es": "Esto no puede ser verdad..."
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_016",
+"es": "Debería..."
+},
+{
+"id": "Flavour/FLV_7_2_OVP_01_017",
+"es": "Tengo que averiguar más... ¡Tengo que entrar a su estudio...!"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_001",
+"es": "El diario abierto del Padre Hans..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_002",
+"es": "<i>\"El Señor no puede perdonarme por tales pecados.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_003",
+"es": "<i>\"Tenga éxito o no en mis empeños, mi papel como pastor ya está comprometido.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_004",
+"es": "<i>\"Invocar a Walpurga, la <color=#934494><b>bruja</b></color>, conlleva sus sacrificios...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_005",
+"es": "<i>\"Los caballos de Eugen, el muchacho de Lisbeth e incluso sus cabras...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_006",
+"es": "<i>\"La propia Elise...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_007",
+"es": "¿Yo...?"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_008",
+"es": "<i>\"Todo Kieferberg ha sido comprometido con el fin de acabar con este mal.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_009",
+"es": "<i>\"Para que nadie más cometa jamás los mismos pecados miserables que la vieja Holle.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_010",
+"es": "<i>\"Para que ninguna cría maldita del mismo Diablo vuelva a traerse a este mundo...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_011",
+"es": "<i>\"No estoy orgulloso de lo que he hecho, pero creo que es un procedimiento necesario.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_012",
+"es": "<i>\"Que este sacrificio mío permita a mi amado Kieferberg alcanzar las puertas del Cielo.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_013",
+"es": "Amado Kieferberg..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_014",
+"es": "Fue él todo este tiempo... Quien montaba esos rituales..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_015",
+"es": "Invitando todo este caos a Kieferberg..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_10_016",
+"es": "¡Debo llegar al fondo de esto!"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_01_004",
+"es": "<i>\"Los llamados <b>Señores Demonio</b> tiranizan y gobiernan a Marqueses, Diablillos y similares.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_01_005",
+"es": "<i>\"Cada uno de estos demonios menores puede, a su vez, domar y mantener familiares, espíritus malignos y otras criaturas por el estilo para que cumplan sus órdenes.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_01_006",
+"es": "<i>\"Las brujas, mujeres humanas cuyos malévolos planes y deseos gobiernan la noche, son seres inferiores.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_01_007",
+"es": "<i>\"A menudo se las usa para establecer un perverso parentesco entre este reino y el inframundo.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_05_006",
+"es": "<i>\"Protección, guía, esperanza... En verdad, una sierva de la voluntad del Señor.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_05_007",
+"es": "<i>\"Que Santa Walpurga purgue todo mal, que me proteja en mis empeños.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_05_008",
+"es": "Debo decir que no creo que ella haya hecho jamás tal cosa..."
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_007",
+"es": "<i>\"Lo que no es más que una conjetura mía, pero que creo que realmente puede arrojar luz sobre este peligro mío...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_008",
+"es": "<i>\"La propia Elise.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_009",
+"es": "<i>\"Si realmente fue concebida en ese bosque... solo puedo esperar que esa miserable <color=#934494><b>bruja</b></color> quiera recuperarla.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_010",
+"es": "<i>\"Creo que esa muchacha es la clave del pasado pecaminoso de la vieja Holle y, por lo tanto...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_011",
+"es": "<i>\"Si debo deshacerme de Elise para conocer, y potencialmente destruir, a la <color=#934494><b>bruja</b></color>...\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_012",
+"es": "<i>\"Que así sea.\"</i>"
+},
+{
+"id": "Flavour/FLV_8_3_VCS_03_014",
+"es": "No me siento bien..."
+},
+{
+"id": "Flavour/FLV_1_5_HLR_08_001",
+"es": "¡Ay, gracias al cielo que no tocaron la rueca de la abuelita!"
+},
+{
+"id": "Flavour/FLV_1_5_HLR_09_001",
+"es": "¡¿Qué es esta cosa asquerosa en mi pared?!"
+},
+{
+"id": "Flavour/FLV_1_5_HLR_09_002",
+"es": "¡Quien haya irrumpido en mi casa se llevará un buen sermón, eso seguro!"
+},
+{
+"id": "Flavour/FLV_3_2_VIN_01_001",
+"es": "La gente está empezando a prepararse para el festival, supongo."
+},
+{
+"id": "Flavour/FLV_3_2_VIN_01_002",
+"es": "¡Ojalá no dejaran todo amontonado justo en medio del pueblo!"
+},
+{
+"id": "Flavour/FLV_4_2_VIN_01_001",
+"es": "Seguro que hay unos cuantos más dentro del cobertizo de la señora Wilma."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_01_002",
+"es": "Un enorme y viejo barril de cerveza descansa sobre un soporte de madera."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_02_001",
+"es": "Demasiado ansiosos por armar una mesa para cenar afuera, ¿no?"
+},
+{
+"id": "Flavour/FLV_4_2_VIN_02_002",
+"es": "¡De todos modos, no es mi problema!"
+},
+{
+"id": "Flavour/FLV_4_2_VIN_03_001",
+"es": "Parece que alguien ya ha estado bebiendo..."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_03_002",
+"es": "La gente de verdad no tiene nada más que esperar con ilusión, ¿verdad?"
+},
+{
+"id": "Flavour/FLV_4_2_VIN_04_001",
+"es": "Quizás esta vez me dé un gustito..."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_04_002",
+"es": "Una pila de cajas de madera, barriles y materiales armados como un puesto del festival."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_05_001",
+"es": "Va avanzando, supongo..."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_05_002",
+"es": "El mástil de mayo de Kieferberg se inclina torpemente hacia un lado, aún despojado de sus adornos principales."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_06_001",
+"es": "Toda esta tela debe de ser de la señora Wilma..."
+},
+{
+"id": "Flavour/FLV_4_2_VIN_06_002",
+"es": "¡Es tan desordenada!"
+},
+{
+"id": "Flavour/FLV_8_3_VIN_02_001",
+"es": "Freya hizo un gran trabajo, ¿verdad?"
+},
+{
+"id": "Flavour/FLV_8_3_VIN_02_002",
+"es": "El mástil de mayo de seis anillos de Kieferberg se alza orgulloso, decorado con sedosos listones y coloridas flores."
+},
+{
+"id": "Flavour/FLV_8_3_VIN_03_001",
+"es": "El señor Gustav es realmente talentoso, ¿no?"
+},
+{
+"id": "Flavour/FLV_8_3_VIN_03_002",
+"es": "Varias figuras y estatuas de madera están a la venta, todas talladas por el propio Gustav."
+},
+{
+"id": "Flavour/FLV_4_5_HCR_01_001",
+"es": "No solía verse así... ¿o sí?"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_04_003",
+"es": "(La <color=#ed1c24><b>Buena compañía</b></color>, objeto de mis afectos...)"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_04_004",
+"es": "(Será mejor que revise mi canasta...)"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_04_005",
+"es": "(Debería haber algo que pueda poner ahí...)"
+},
+{
+"id": "Flavour/FLV_8_6_WDM_10_001",
+"es": "<sprite=\"murim\" name=\"black\">..."
+},
+{
+"id": "Flavour/FLV_8_6_WDM_10_002",
+"es": "Pensar que estoy tan cerca de conocer a <b>Él</b>..."
+},
+{
+"id": "Flavour/FLV_8_6_WDM_11_001",
+"es": "<sprite=\"aziel\" name=\"black\">..."
+},
+{
+"id": "Flavour/FLV_8_6_WDM_11_002",
+"es": "Apuesto a que esa serpiente no está lejos de aquí..."
+},
+{
+"id": "Flavour/FLV_6_2_VCH_01_001",
+"es": "Muy bien, veamos..."
+},
+{
+"id": "Flavour/FLV_6_2_VCH_01_002",
+"es": "Debería poder usar esa llave que encontré, pero parece que no puedo..."
+},
+{
+"id": "Flavour/FLV_6_2_VCH_01_003",
+"es": "Si no es para esta puerta, entonces tiene que ser algo que está <i>allí dentro</i>..."
+},
+{
+"id": "Flavour/FLV_6_2_VCH_01_004",
+"es": "El estudio del Padre Hans... Me pregunto cuándo podré colarme..."
+},
+{
+"id": "Flavour/FLV_5_6_WCW_01_001",
+"es": "Aquí estoy otra vez..."
+},
+{
+"id": "Flavour/FLV_5_6_WCW_01_002",
+"es": "¡Debo encontrar a Apfel, y rápido!"
+},
+{
+"id": "Flavour/FLV_5_6_WCW_02_001",
+"es": "Ese cuervo intenta decirme algo, supongo..."
+},
+{
+"id": "Flavour/FLV_5_6_WCW_03_001",
+"es": "No me queda más remedio que ir por el otro lado, supongo..."
+},
+{
+"id": "Flavour/FLV_5_1_VWM_01_001",
+"es": "(Rosmarine tiene razón...)"
+},
+{
+"id": "Flavour/FLV_5_1_VWM_01_002",
+"es": "(Debería encontrar la manera de entrar aquí...)"
+},
+{
+"id": "Flavour/FLV_5_1_VWM_01_003",
+"es": "(Preguntar por el pueblo debería bastar, pero...)"
+},
+{
+"id": "Flavour/FLV_5_6_VWM_05_001",
+"es": "(Al final no logré conseguir esa llave...)"
+},
+{
+"id": "Flavour/FLV_5_6_VWM_05_002",
+"es": "(Supongo que lo mejor es irme a casa.)"
+},
+{
+"id": "Flavour/FLV_5_6_VWM_06_001",
+"es": "(¡Debería entrar ahí y acabar con esto de una vez!)"
+},
+{
+"id": "Flavour/FLV_6_1_VWM_02_001",
+"es": "(No quisiera entrar ahí...)"
+},
+{
+"id": "Flavour/FLV_6_1_VWM_02_002",
+"es": "(No después de todo el alboroto de ayer...)"
+},
+{
+"id": "Flavour/FLV_2_6_DPL_01_001",
+"es": "¡Funcionó...!"
+},
+{
+"id": "Flavour/FLV_4_5_OCR_03_001",
+"es": "Eso fue peligroso..."
+},
+{
+"id": "Flavour/FLV_4_5_OCR_03_002",
+"es": "Estoy preocupada por Lebkuchen, pero..."
+},
+{
+"id": "Flavour/FLV_4_5_OCR_03_003",
+"es": "¡Debería ir a casa y contarle a Rosmarine lo que acabo de ver...!"
+},
+{
+"id": "Flavour/FLV_3_5_OWE_00_001",
+"es": "El bosque..."
+},
+{
+"id": "Flavour/FLV_3_5_OWE_00_002",
+"es": "Debería preguntarme qué intentaba decirme esa vieja bruja..."
+},
+{
+"id": "Flavour/FLV_4_1_OWE_00_001",
+"es": "Mejor me mantengo alejada del bosque..."
+},
+{
+"id": "Flavour/FLV_4_1_OWE_00_002",
+"es": "Todavía no logro entender lo que pasó anoche..."
+},
+{
+"id": "Flavour/FLV_4_5_OWE_00_001",
+"es": "Conocer a ese cuervo en el bosque..."
+},
+{
+"id": "Flavour/FLV_4_5_OWE_00_002",
+"es": "Debería hablar con Rosmarine, primero que nada..."
+},
+{
+"id": "Flavour/FLV_5_5_OWE_00_002",
+"es": "Al menos hasta que averigüe qué hacer a continuación..."
+},
+{
+"id": "Flavour/FLV_6_5_OWE_00_001",
+"es": "Ahora es la arboleda de esa maldita serpiente..."
+},
+{
+"id": "Flavour/FLV_6_5_OWE_00_002",
+"es": "Cada vez estoy más cerca de conocer a <b>Él</b>, ¿verdad?"
+},
+{
+"id": "Flavour/FLV_6_5_CSM_00_001",
+"es": "(Es mejor que vuelva en otro momento...)"
+},
+{
+"id": "Flavour/FLV_2_1_HLR_30_001",
+"es": "No sirve de nada ir a la despensa, ¿verdad?"
+},
+{
+"id": "Flavour/FLV_2_1_HLR_30_002",
+"es": "¡No hay nada de comer en esta casa!"
+},
+{
+"id": "Flavour/FLV_8_END_SAC_02_001",
+"es": "¿Qué <i>es</i> este lugar...?"
+},
+{
+"id": "Flavour/FLV_6_4_VSQ_1_001",
+"es": "(Nunca lo había visto desbordarse así...)"
+},
+{
+"id": "Flavour/FLV_6_4_VSQ_1_002",
+"es": "(Ni siquiera está lloviendo...)"
+},
+{
+"id": "Flavour/FLV_6_3_VSQ_1_001",
+"es": "(Seguro que la gente lo vació para ver bien.)"
+},
+{
+"id": "Flavour/FLV_WSV-C_03_001",
+"es": "Una estatua mía..."
+},
+{
+"id": "Flavour/FLV_WSV-C_03_002",
+"es": "Estos demonios no dejan de burlarse de mí a cada paso, ¿eh?"
+},
+{
+"id": "Flavour/FLV_WSV-C_03_003",
+"es": "Una estatua de Elise contempla al observador con una mirada fría y vacía."
+},
+{
+"id": "Tutorials/TUT_01_01",
+"es": "Cada día tiene <b><color=#E1402C>Seis</color></b> periodos de tiempo,\npero solo <b><color=#E1402C>Tres</color></b> son <color=#2F9FF3><b>periodos de trabajo</b></color>:\n<b>Mañana</b>\n<b>Tarde</b>\n<b>Anochecer</b>"
+},
+{
+"id": "Tutorials/TUT_01_01_Title",
+"es": "<b>Periodos de tiempo</b>"
+},
+{
+"id": "Tutorials/TUT_01_02",
+"es": "Todas las metas marcadas con el icono <sprite=\"balloonicons\" name=\"hourglass\"> <b><color=#E1402C>saltarán</color> un periodo de tiempo</b>."
+},
+{
+"id": "Tutorials/TUT_01_03",
+"es": "Perderás <b>1 x</b> <sprite=\"bread\" name=\"bread\"> por cada periodo de tiempo que pase.\n¡Son <b>6 x</b> <sprite=\"bread\" name=\"bread\"> al día!"
+},
+{
+"id": "Tutorials/TUT_01_03_Title",
+"es": "<b>Control de resistencia</b>"
+},
+{
+"id": "Tutorials/TUT_02_01",
+"es": "¡Todos los <color=#30C973><b>Eventos de historia</b></color> están marcados con el icono <sprite=\"balloonicons\" name=\"book_open\">!\nSi están marcados con el icono <sprite=\"balloonicons\" name=\"hourglass\">, <b><color=#E1402C>saltarán</color> un periodo de tiempo</b>."
+},
+{
+"id": "Tutorials/TUT_02_01_Title",
+"es": "<b>Eventos de historia</b>"
+},
+{
+"id": "Tutorials/TUT_03_01",
+"es": "Todas las <color=#EC0E51><b>Citas románticas</b></color> están marcadas con el icono <sprite=\"balloonicons\" name=\"love_token\">.\n¡Cada cita <b><color=#E1402C>saltará</color> un periodo de tiempo</b>!"
+},
+{
+"id": "Tutorials/TUT_03_01_Title",
+"es": "<b>Citas románticas</b>"
+},
+{
+"id": "Tutorials/TUT_03_02",
+"es": "Recibirás un <color=#EC0E51><b>Corazón de amor</b></color> <sprite=\"maxheart\" name=\"maxheart_0\"> después de cada cita exitosa.\n¡Revisa tu progreso en el <b>Menú de relaciones</b>!"
+},
+{
+"id": "Tutorials/TUT_04_01",
+"es": "Todas las <b><color=#B8581C>Tareas</color></b> disponibles están marcadas con el icono <sprite=\"balloonicons\" name=\"task\">.\n¡Cada tarea que hagas <b><color=#E1402C>saltará</color> un periodo de tiempo</b>!"
+},
+{
+"id": "Tutorials/TUT_04_01_Title",
+"es": "<b>¡Hora de trabajar!</b>"
+},
+{
+"id": "Tutorials/TUT_04_02",
+"es": "Mientras mejor lo hagas, mejor será tu recompensa.\n¡Esfuérzate al máximo y gasta tus <sprite=\"tiffle\" name=\"tiffle\"> con sabiduría en las <b>Tiendas</b> <sprite=\"balloonicons\" name=\"shop\">!"
+},
+{
+"id": "Tutorials/TUT_06_01",
+"es": "<b>¡Conserva tus cerillos!</b>"
+},
+{
+"id": "Tutorials/TUT_06_02",
+"es": "Enciende tu <b>farol</b> usando <b><color=#E1402C>cerillos</color></b><sprite=\"match_icon\" name=\"match_icon\">.\n¡Ten cuidado de no desperdiciarlos!"
+},
+{
+"id": "Tutorials/TUT_07_01",
+"es": "<b>¡Evita la sospecha!</b>"
+},
+{
+"id": "Tutorials/TUT_07_02",
+"es": "¡Cuida lo que dices y haz tu mejor esfuerzo por evitar levantar <b><color=#934494>Sospecha</color></b> <sprite=\"StatusSus\" name=\"StatusSus_0\"> hacia Elise, o afronta las consecuencias!"
+},
+{
+"id": "Tutorials/TUT_08_01",
+"es": "<b>¡Muffy te está espiando!</b>"
+},
+{
+"id": "Tutorials/TUT_08_02",
+"es": "¡Cumple sus <b><color=#2F9FF3>pedidos diarios</color></b> de <b>Alimentos</b> <sprite=\"bread\" name=\"bread\"> para evitar que te delate y levante <b><color=#934494>Sospecha</color></b> <sprite=\"StatusSus\" name=\"StatusSus_0\">!"
+},
+{
+"id": "Tutorials/TUT_09_01",
+"es": "<b>¡Vigila a Rozenmarine!</b>"
+},
+{
+"id": "Tutorials/TUT_09_02",
+"es": "¡Está ansiosa por conocer a todos en el pueblo, pero inevitablemente levantará <b><color=#934494>Sospecha</color></b> <sprite=\"StatusSus\" name=\"StatusSus_0\"> si se queda sola demasiado tiempo!"
+},
+{
+"id": "Tutorials/TUT_09_03",
+"es": "¡Llévala contigo para que te <b>ayude</b> con las <b><color=#B8581C>Tareas</color></b><sprite=\"balloonicons\" name=\"task\"> tan a menudo como puedas, o enfrenta la ira de los aldeanos!"
+},
+{
+"id": "Tutorials/TUT_11_01",
+"es": "<b>¡Sobre el uso de objetos!</b>"
+},
+{
+"id": "Tutorials/TUT_11_02",
+"es": "¡Los objetos de tu <b>inventario</b> pueden tener efectos sobre el <b>entorno</b>! \n¡Prueba <sprite=\"use_item\" name=\"use_item\"> usándolos sobre él!"
+},
+{
+"id": "Tutorials/TUT_12_01",
+"es": "<b>¿Necesitas algo?</b>"
+},
+{
+"id": "Tutorials/TUT_12_02",
+"es": "No olvides pasar por las <b>Tiendas</b> <sprite=\"balloonicons\" name=\"shop\"> del pueblo para conseguir objetos útiles.\n¡Gasta tus <sprite=\"tiffle\" name=\"tiffle\"> con sabiduría!"
+},
+{
+"id": "Tutorials/TUT_13_01",
+"es": "<b>¡Conquista a tus intereses románticos!</b>"
+},
+{
+"id": "Tutorials/TUT_13_02",
+"es": "¡Habla con tu chica favorita cuando veas un <sprite=\"balloonicons\" name=\"love_token\"> sobre su cabeza para programar una <b><color=#EC0E51>Cita romántica</color></b> para más tarde!"
+},
+{
+"id": "Tutorials/TUT_13_03",
+"es": "¡Las relaciones sólidas son <b>importantes para lograr tus metas</b>, así que ten presente <b>con quién</b> pasas tu tiempo!"
+},
+{
+"id": "Tutorials/TUT_05_01_Title",
+"es": "<b>¿Te sientes perdido?</b>"
+},
+{
+"id": "Tutorials/TUT_05_02",
+"es": "¡No olvides <b>encender tu farol</b> y mantener los ojos bien abiertos!"
+},
+{
+"id": "Tutorials/TUT_14_01_Title",
+"es": "<b>Mapa de Kieferberg</b>"
+},
+{
+"id": "Tutorials/TUT_14_02",
+"es": "¡Consulta tus <b><color=#2F9FF3>Objetivos</color></b>, <b><color=#EC0E51>Citas románticas</color></b> y <b><color=#B8581C>Tareas</color></b> en el Mapa de Kieferberg!"
+},
+{
+"id": "Tutorials/TUT_15_01_Title",
+"es": "<b>¡Ten cuidado!</b>"
+},
+{
+"id": "Tutorials/TUT_15_02",
+"es": "¡Hay todo tipo de peligros acechando en las sombras!\n¡Usa <b>Objetos curativos</b> <sprite=\"StatusHeartFull\" name=\"StatusHeartFull_0\"> para perseverar y sobrevivir!"
+},
+{
+"id": "Tutorials/TUT_17_01_Title",
+"es": "<b>¡Rozenmarine puede ayudar!</b>"
+},
+{
+"id": "Tutorials/TUT_17_02",
+"es": "¡Puedes llevarla contigo para que te <b>ayude</b> con las <b><color=#B8581C>Tareas</color></b><sprite=\"balloonicons\" name=\"task\"> y obtener mejores recompensas!"
+},
+{
+"id": "Tutorials/TUT_17_03",
+"es": "¡Te costará <b>3 x</b> <sprite=\"bread\" name=\"bread\"> cada vez, pero hará las <b><color=#B8581C>Tareas</color> </b><sprite=\"balloonicons\" name=\"task\"> más fáciles y evitará levantar <b><color=#934494>Sospecha</color></b> <sprite=\"StatusSus\" name=\"StatusSus_0\">!"
+},
+{
+"id": "Tutorials/TUT_16_01_Title",
+"es": "<b>¡Mantén la cordura!</b>"
+},
+{
+"id": "Tutorials/TUT_16_02",
+"es": "Evita que Elise se asuste con <b><color=#525AD3>Objetos que restauran Cordura</color></b>, ¡o podría perder la razón!"
+},
+{
+"id": "Tutorials/TUT_18_01_Title",
+"es": "<b>¡Guarda a menudo!</b>"
+},
+{
+"id": "Tutorials/TUT_18_02",
+"es": "¡Asegúrate de usar todas tus ranuras de guardado para <b>evitar</b> tener que retroceder demasiado!"
+},
+{
+"id": "Tutorials/TUT_19_01_Title",
+"es": "<b>Menú de relaciones</b>"
+},
+{
+"id": "Tutorials/TUT_19_02",
+"es": "¡Consulta el <b>Menú de relaciones</b> para seguir tus niveles de <b><color=#934494>Sospecha</color></b> <sprite=\"StatusSus\" name=\"StatusSus_0\"> en cualquier momento!"
+},
+{
+"id": "Tutorials/TUT_19_03",
+"es": "¡Abre el <b>Relicario</b> para ver tus <b>Relaciones románticas</b> con <color=#9757D3><b>Rozenmarine<b></color>, <color=#88C139><b>Freya</b></color> y <color=#3595C8><b>Lebkuchen</b></color>!"
+},
+{
+"id": "Tutorials/TUT_20_01_Title",
+"es": "<b>Menú de la canasta</b>"
+},
+{
+"id": "Tutorials/TUT_20_02",
+"es": "¡Usa el <b>Menú de la canasta</b> para ver tu progreso reuniendo la <color=#ed1c24><b>Carne tierna</b></color>, el <color=#ed1c24><b>Néctar más dulce</b></color> y la <color=#ed1c24><b>Buena compañía</b></color>!"
+},
+{
+"id": "Tutorials/TUT_20_03",
+"es": "¡Asegúrate de haberlos puesto todos en tu canasta antes de que termine la semana para conocer a <b>Él</b> y cumplir el deseo de Elise!"
+},
+{
+"id": "Tutorials/TUT_21_01_Title",
+"es": "<b>Menú de objetos</b>"
+},
+{
+"id": "Tutorials/TUT_21_02",
+"es": "¡Gestiona tus Objetos <b><color=#2BA4D8>Normales</color></b>, de <b><color=#E79312>Comida</color></b> y <b><color=#DC75A7>Clave</color></b> a través del <b>Menú de objetos</b>!"
+},
+{
+"id": "Tutorials/TUT_21_03",
+"es": "¡También puedes <b>Consumir</b> <sprite=\"eliseface\" name=\"eliseface\"> y <b>Usar</b> <sprite=\"use_item\" name=\"use_item\"> objetos a través del <b>Menú de objetos</b>!"
+},
+{
+"id": "Chores/CHR_001_001",
+"es": "¡Ah, me alegra tanto que hayas pasado, Elise! ¿Me echarías una mano?"
+},
+{
+"id": "Chores/CHR_001_002",
+"es": "Tengo las manos ocupadas ordenando después de esa tormenta de viento, ¿ves?"
+},
+{
+"id": "Chores/CHR_001_003",
+"es": "Puedo ayudarla con eso, señora Ariane."
+},
+{
+"id": "Chores/CHR_001_004",
+"es": "Esperaba que pudieras traerme unos huevos del gallinero."
+},
+{
+"id": "Chores/CHR_001_005",
+"es": "¡Por supuesto!"
+},
+{
+"id": "Chores/CHR_001_006",
+"es": "¡Déjelo en mis manos, señora Ariane!"
+},
+{
+"id": "Chores/CHR_001_007",
+"es": "Cuidado con las gallinas, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_001_008",
+"es": "Me atrevo a decir que todavía están alteradas después de anoche."
+},
+{
+"id": "Chores/CHR_001_009",
+"es": "Lo lamento..."
+},
+{
+"id": "Chores/CHR_001_010",
+"es": "Yo misma estoy bastante ocupada, señora Ariane..."
+},
+{
+"id": "Chores/CHR_001_011",
+"es": "No hay problema; le pediré a Freya o incluso a Heinrich que lo hagan más tarde, supongo."
+},
+{
+"id": "Chores/CHR_001_012",
+"es": "Mis disculpas, señora Ariane."
+},
+{
+"id": "Chores/CHR_001_013",
+"es": "Ay, ¿qué voy a hacer con todo este trabajo?"
+},
+{
+"id": "Chores/CHR_001_014",
+"es": "¡Ah, veo que has cambiado de opinión, Elise!"
+},
+{
+"id": "Chores/CHR_001_015",
+"es": "Ah, señora Ariane, yo..."
+},
+{
+"id": "Chores/CHR_001_016",
+"es": "¡Déjeme a mí esas gallinas!"
+},
+{
+"id": "Chores/CHR_001_017",
+"es": "¡Dudo que tarde mucho!"
+},
+{
+"id": "Chores/CHR_001_020",
+"es": "La verdad es que yo..."
+},
+{
+"id": "Chores/CHR_001_021",
+"es": "Me temo que mi día está ocupado con otros asuntos, lo siento."
+},
+{
+"id": "Chores/CHR_001_022",
+"es": "No hay problema, Elise, pero avísame si cambias de opinión."
+},
+{
+"id": "Chores/CHR_001_023",
+"es": "¡Por supuesto, señora Ariane!"
+},
+{
+"id": "Chores/CHR_001_024",
+"es": "¡Vaya, Elise! Te dejaste llevar, ¿verdad?"
+},
+{
+"id": "Chores/CHR_001_025",
+"es": "¡Ah, supongo que sí!"
+},
+{
+"id": "Chores/CHR_001_026",
+"es": "¡Esa es mi chica!"
+},
+{
+"id": "Chores/CHR_001_027",
+"es": "¡Toma, por todo tu arduo trabajo!"
+},
+{
+"id": "Chores/CHR_001_028",
+"es": "¡Gracias, señora Ariane!"
+},
+{
+"id": "Chores/CHR_001_029",
+"es": "¡Parece que esta noche haré lo favorito de Heinrich!"
+},
+{
+"id": "Chores/CHR_001_030",
+"es": "Ay, me habrían venido bien algunos más, ¡pero con estos bastará!"
+},
+{
+"id": "Chores/CHR_001_031",
+"es": "¡¿Cuántos huevos necesita?!"
+},
+{
+"id": "Chores/CHR_001_032",
+"es": "¡Son los favoritos de Heinrich, Elise: nunca le bastan!"
+},
+{
+"id": "Chores/CHR_001_034",
+"es": "Gracias, señora Ariane..."
+},
+{
+"id": "Chores/CHR_001_035",
+"es": "¡Ay, cielos! ¡Esto apenas servirá, Elise!"
+}
+]

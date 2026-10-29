@@ -1,0 +1,175 @@
+{
+"_ayuda": "Fuentes TextMeshPro a las que parche.py les añade las letras del español (ver herramientas/fuentes.py). Se genera con el escaneo de fuentes; si el juego se actualiza, revisa los path_id.",
+"fuentes": [
+{
+"paquete": "controllerdisconnectpopup",
+"file": "cab-a122503cfef8400b36e27fa821c77af3",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "daytimeskiploading",
+"file": "cab-e441ad1e6979a619a913c9eb8f5d28b0",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "largeinfopopup",
+"file": "cab-0d3009200d5938f78dbe7ea83802b950",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "mediumalertpopup",
+"file": "cab-82ad513eab0cb345a22297978e1cb235",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "mediumchoicepopup",
+"file": "cab-daa361105fd3b9133912733e7fb5c73e",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "mediummultiplechoicepopup",
+"file": "cab-9efc6853a04f7e23552d46bf47717d6f",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "minigames",
+"file": "cab-311b4de320e79cbf674fbdd3627804d5",
+"pid": 3129576685693909479,
+"nombre": "CustomFont_Mister Pixel Regular_0 SDF",
+"donante": {
+"file": "cab-311b4de320e79cbf674fbdd3627804d5",
+"pid": 495310799356884894
+}
+},
+{
+"paquete": "minigames",
+"file": "cab-311b4de320e79cbf674fbdd3627804d5",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "rewardalertpopup",
+"file": "cab-d016f9bc8686d013b6877ad226ff51fa",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "romancealertpopup",
+"file": "cab-49242824b726cdc85dfe734859135992",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "smallalertpopup",
+"file": "cab-18221ac1dad28b677e6b32ab422ec2aa",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "smallchoicepopup",
+"file": "cab-fe830412ac635c24c82c57f8c042ff6e",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "uiloading",
+"file": "cab-2fbea0181bd6a2d06107e6a480977fb5",
+"pid": 2007205300394813666,
+"nombre": "Adorn Serif SDglowF",
+"donante": {
+"file": "cab-2fbea0181bd6a2d06107e6a480977fb5",
+"pid": -343111075877660465
+}
+},
+{
+"paquete": "uiloading",
+"file": "cab-2fbea0181bd6a2d06107e6a480977fb5",
+"pid": 6334657174633360277,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "data.unity3d",
+"file": "sharedassets0.assets",
+"pid": 5564,
+"nombre": "Merriweather-BoldItalic SDF"
+},
+{
+"paquete": "data.unity3d",
+"file": "resources.assets",
+"pid": 13628,
+"nombre": "CustomFont_Mister Pixel Regular_0 SDF",
+"donante": {
+"file": "sharedassets0.assets",
+"pid": 5569
+}
+},
+{
+"paquete": "data.unity3d",
+"file": "sharedassets0.assets",
+"pid": 5558,
+"nombre": "Adorn Serif SDglowF",
+"donante": {
+"file": "sharedassets0.assets",
+"pid": 5557
+}
+},
+{
+"paquete": "data.unity3d",
+"file": "sharedassets31.assets",
+"pid": 205,
+"nombre": "Adornwhite Stroke",
+"donante": {
+"file": "sharedassets0.assets",
+"pid": 5557
+}
+},
+{
+"paquete": "data.unity3d",
+"file": "sharedassets0.assets",
+"pid": 5560,
+"nombre": "Adornwhite",
+"donante": {
+"file": "sharedassets0.assets",
+"pid": 5557
+}
+},
+{
+"paquete": "data.unity3d",
+"file": "resources.assets",
+"pid": 13627,
+"nombre": "adornblack",
+"donante": {
+"file": "sharedassets0.assets",
+"pid": 5557
+}
+},
+{
+"paquete": "data.unity3d",
+"file": "sharedassets0.assets",
+"pid": 5559,
+"nombre": "Adornwhite brown stroke",
+"donante": {
+"file": "sharedassets0.assets",
+"pid": 5557
+}
+},
+{
+"paquete": "data.unity3d",
+"file": "sharedassets0.assets",
+"pid": 5571,
+"nombre": "candlebright_sample SDF"
+},
+{
+"paquete": "data.unity3d",
+"file": "sharedassets0.assets",
+"pid": 5572,
+"nombre": "candlebrightred"
+}
+]
+}

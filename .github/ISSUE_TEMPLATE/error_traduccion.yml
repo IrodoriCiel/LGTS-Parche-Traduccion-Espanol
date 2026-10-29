@@ -1,0 +1,23 @@
+name: Error de traducción
+description: Algo está mal traducido, en inglés, cortado o con letras raras
+labels: ["error de traducción"]
+body:
+  - type: textarea
+    id: captura
+    attributes:
+      label: Captura de pantalla
+      description: Arrastra aquí la imagen
+    validations:
+      required: true
+  - type: input
+    id: dice
+    attributes:
+      label: ¿Qué dice ahora?
+  - type: input
+    id: deberia
+    attributes:
+      label: ¿Qué debería decir? (si lo sabes)
+  - type: input
+    id: donde
+    attributes:
+      label: ¿En qué parte del juego? (capítulo, lugar, personaje)

@@ -1,0 +1,7 @@
+* text=auto
+*.bat text eol=crlf
+*.png binary
+*.ttf binary
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf

@@ -1,0 +1,2438 @@
+[
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_009",
+"es": "También patrullaremos las afueras por las noches."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_010",
+"es": "Eso debería facilitar el sueño, eso seguro..."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_011",
+"es": "La protección de Kieferberg y de nuestros allegados está asegurada, amigos."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_012",
+"es": "¡Lo que le pasó al pobre Apfel ya fue bastante malo!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_013",
+"es": "Ay, Padre... ¿pero quién se encargará de nuestras oraciones nocturnas?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_014",
+"es": "Por supuesto, las puertas de la iglesia estarán abiertas para todos, pase lo que pase."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_015",
+"es": "¿Y qué hay del molino? ¿Y de la fuente?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_016",
+"es": "Todavía hay agua en el pozo, Wilma: ¡no hay por qué preocuparse!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_017",
+"es": "Ay, ¿pero quién sabe cuánto durará ese pozo?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_018",
+"es": "No es que esa fuente alimente al pozo, ¿o sí?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_019",
+"es": "¿Y tú qué sabrás, muchachita?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_020",
+"es": "Estoy perdido con lo de la fuente, si soy sincero."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_021",
+"es": "¿No había algún tipo de obstrucción, señor Ludwig?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_022",
+"es": "Vamos a tener que desarmarla..."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_023",
+"es": "¿Por qué no lo intenta ella, Fynn?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_024",
+"es": "Con esos dedos de palillo que tiene, ¡diría que haría el trabajo con bastante facilidad!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_025",
+"es": "¡No es el momento de provocar a la muchacha, Wilma!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_026",
+"es": "¡Está tan ansiosa por meter las narices en todo, Ludwig!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_027",
+"es": "Bien podríamos darle una pequeña lección, ¿no les parece?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_028",
+"es": "No nos dejemos llevar, Wilma: no estamos aquí para..."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_029",
+"es": "¡Vaya, qué idea tan estupenda!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_030",
+"es": "¡Elise! ¡Es peligroso, te vas a lastimar!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_031",
+"es": "¡Ay, Dios mío! ¡Se está metiendo ahí!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_032",
+"es": "¡Se lo voy a demostrar a todos!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_033",
+"es": "¡Una serpiente! ¡Había una serpiente negra en la fuente!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_034",
+"es": "¡Ay, Kieferberg está perdido!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_035",
+"es": "¡La <color=#934494><b>bruja</b></color>! ¡Es la <color=#934494><b>bruja</b></color>! ¡El mismísimo Diablo!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_036",
+"es": "¡Silencio!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_037",
+"es": "¡No podemos perder la cabeza! Debemos mantener la calma: ustedes no pueden..."
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_038",
+"es": "¡Calma! ¿¡Cómo vamos a mantener la calma, Padre!?"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_039",
+"es": "¡Todos pueden retirarse! ¡A trabajar!"
+},
+{
+"id": "Cutscenes/CUT_6_3_VSQ_01_040",
+"es": "¡Gustav y yo hablaremos de esto!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-D_01_001",
+"es": "Por el amor del cielo..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-D_01_002",
+"es": "Me volveré loca si me quedo aquí más tiempo..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-F_10_002",
+"es": "¡Rosmarine, espera!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-F_50_001",
+"es": "¡Leb!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-F_50_003",
+"es": "(¡Esa no es ella...!)"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-F_50_004",
+"es": "(Es... otra de las burlas de esa serpiente, seguro...)"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-G_50_004",
+"es": "(¿Qué en nombre del Señor...?)"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-G_50_005",
+"es": "(Esa no pudo haber sido ella...)"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_001",
+"es": "¡No puedo moverme...!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_002",
+"es": "¡Estoy paralizada...!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_003",
+"es": "Él solo dice la verdad... La fortuna corre por tu sangre, muchacha..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_004",
+"es": "¡Eres tú otra vez! ¡Serpiente miserable...!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_005",
+"es": "Siento su calor..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_006",
+"es": "¡Cuánto te duele este deseo tuyo, muchacha!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_007",
+"es": "¿Lo sientes? Este veneno mío llegando hasta la punta de tus dedos..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_008",
+"es": "¡Estoy ardiendo...! ¿¡Qué me haces, miserable!?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_009",
+"es": "Este miedo que habita en ti no es más que un guijarro en tu camino..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_010",
+"es": "Es tu coronación lo que estás concibiendo, un tributo a la vez, y así..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_012",
+"es": "Deberías mantener la fe en la palabra de <b>Él</b>..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_014",
+"es": "Pues es <b>Él</b> quien honrará tu nombre, y eres tú quien se reunirá con <b>Él</b> en el cénit de la luna llena..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_015",
+"es": "¿Reunirme? ¡Nunca he conocido a <b>Él</b>!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_016",
+"es": "Acéptalo, Elise..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_017",
+"es": "Tu más vil lujuria de soberanía, tu sed de blasfemia libertina..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_018",
+"es": "¡Lebkuchen! ¿¡Qué estás diciendo...!?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_019",
+"es": "Persíguelo, Elise... Anhelo beber de tu veneno y deleitarme en tu gloria..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_020",
+"es": "¿Mi gloria...?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_021",
+"es": "Tu más vil sed de extravagancia, tu devoción por la opulencia..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_022",
+"es": "Anhelo darme un festín con tu carne y bañarme en tu resplandor..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_023",
+"es": "¡Suéltame, tú...!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_024",
+"es": "Acógelo en tu seno, Elise..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_025",
+"es": "Tu osada lujuria por todo lo que reluce dorado..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_027",
+"es": "Permíteme, Elise, dotarte de todo lo que es mi ser y mi propósito..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_028",
+"es": "¡Anhelo adorar tu nombre, tu belleza: ansío el sabor de tu veneno!"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_030",
+"es": "Saboréalo, Elise..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_031",
+"es": "Deléitate en ello, Elise..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_032",
+"es": "Entrégate, Elise..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-J_01_033",
+"es": "Por esta liberación de castidad y por tu herencia... como yo atestiguo..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_001",
+"es": "Sabía que tarde o temprano aparecerías, muchacha."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_002",
+"es": "¿Por qué no acabamos con esto de una vez, serpiente?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_003",
+"es": "¿Dónde está el <color=#ed1c24><b>Testamento</b></color> que me prometiste?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_004",
+"es": "Vaya, no veo la necesidad de apurarse."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_005",
+"es": "Ya cargo con el escozor de tu mordida, serpiente."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_006",
+"es": "¿Qué más quieres de mí?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_007",
+"es": "Has recibido el obsequio de <b>Él</b>, compartido tu carne con ese zopenco de cuervo..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_008",
+"es": "Ahora me toca a mí participar, muchachita."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_010",
+"es": "¿Te escuece, verdad?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_011",
+"es": "¿¡Qué me hiciste, miserable!?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_012",
+"es": "Ven a buscarme al otro lado de estas puertas..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_013",
+"es": "Muéstrame tu determinación, atraviesa estas profundidades..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_014",
+"es": "Solo entonces te daré lo que quieres."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_015",
+"es": "¿Al menos no me dirás tu nombre, serpiente?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_01_016",
+"es": "Es <sprite=\"aziel\" name=\"black\">, muchacha..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_02_001",
+"es": "Qué cerradura tan extraña..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_02_002",
+"es": "¿Cómo haré para abrirla, me pregunto...?"
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_02_003",
+"es": "Debe de ser para algún tipo de llave, pero..."
+},
+{
+"id": "Cutscenes/CUT_D_WSN-X_03_001",
+"es": "¡No... no puedo...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-A_01_002",
+"es": "¡Muéstrate, serpiente!"
+},
+{
+"id": "Cutscenes/CUT_WSV-A_01_003",
+"es": "(Tengo que entender qué está pasando aquí...)"
+},
+{
+"id": "Cutscenes/CUT_WSV-A_02_001",
+"es": "¡Eso es...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-A_02_005",
+"es": "¡Suéltala!"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_002",
+"es": "¡Sé que estás aquí en algún lado, serpiente!"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_003",
+"es": "Ay, ¿qué estoy haciendo...?"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_004",
+"es": "Me metí yo sola en este lío, ¿y para qué...?"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_005",
+"es": "Para salir de Kieferberg, dejar por fin atrás a esta gente malcriada..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_006",
+"es": "¿A qué precio...?"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_007",
+"es": "Estas cosas que he visto y hecho... Me pregunto si..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_008",
+"es": "Si de verdad <i>soy</i> la <color=#934494><b>bruja</b></color> que Kieferberg teme..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_009",
+"es": "Sin embargo... Si acepto este <b>destino</b> mío, yo..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_010",
+"es": "Viviría cómodamente, sin tener que mover un dedo nunca más..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_011",
+"es": "No es que a ellos les importaría, ¿verdad?"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_012",
+"es": "Sea una <color=#934494><b>bruja</b></color> o una simple criada para todo, lo único que he recibido de este pueblo fue..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_013",
+"es": "Desprecio, desdén... Desde que murió la abuelita Holle, no he sido más que una paria..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_014",
+"es": "Me tienen lástima, me compadecen... Cualquier amabilidad que me ofrecen no es más que compasión..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_015",
+"es": "Si... si <b>Él</b> de verdad pudiera conceder este deseo mío, yo..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_016",
+"es": "¡Por fin viviría...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_017",
+"es": "¡Viviría para mí misma...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_019",
+"es": "Este deseo tuyo está a tu alcance, Elise..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_020",
+"es": "¿De verdad Él lo hará...?"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_021",
+"es": "Has recibido la bendición de <b>Él</b>, ¿no es así?"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_022",
+"es": "¿De verdad puedo alcanzarlo...? "
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_023",
+"es": "Confía en ti misma, Elise... Confía en la palabra de <b>Él</b>..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_024",
+"es": "Libera tu ardiente deseo desde lo más hondo de tu ser..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_025",
+"es": "Lo quiero..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_026",
+"es": "¡Lo anhelas, muchacha...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_027",
+"es": "Fortuna, riqueza... Vivir libre de estas cadenas..."
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_028",
+"es": "¡Acéptalo, Elise...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-J_01_029",
+"es": "¡Quiero...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-Z_01_001",
+"es": "¡Esto es...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-Z_01_002",
+"es": "(¿Cómo llegué aquí...?)"
+},
+{
+"id": "Cutscenes/CUT_WSV-Z_01_003",
+"es": "(No iba camino al bosque...)"
+},
+{
+"id": "Cutscenes/CUT_WSV-Z_01_004",
+"es": "¡Ese sonido...!"
+},
+{
+"id": "Cutscenes/CUT_WSV-Z_01_007",
+"es": "Debería encontrar la manera de salir de aquí...."
+},
+{
+"id": "Cutscenes/CUT_7_1_HBR_01_002",
+"es": "¡El <color=#ed1c24><b>Testamento</b></color>...!"
+},
+{
+"id": "Cutscenes/CUT_7_1_HBR_01_003",
+"es": "Ah... Está en mi bolsillo..."
+},
+{
+"id": "Cutscenes/CUT_7_1_HBR_01_004",
+"es": "Pensar que lo de anoche de verdad ocurrió..."
+},
+{
+"id": "Cutscenes/CUT_7_1_HBR_01_005",
+"es": "Será mejor ir a buscar a Rosmarine..."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_001",
+"es": "¡Hasta yo le echaré una mano a Freya con el palo de mayo si hace falta, Bertha!"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_002",
+"es": "¡Estas dos muchachitas también, apuesto!"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_003",
+"es": "Por supuesto, señor Heinrich."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_004",
+"es": "¿Echar una mano con el palo de mayo?"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_005",
+"es": "Nunca te enteras de nada, ¿verdad, Elise?"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_006",
+"es": "¿Qué pasó?"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_007",
+"es": "Parece que el viento y la lluvia dañaron el palo de mayo."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_008",
+"es": "Sigo sin estar segura de que haya sido eso, Padre."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_009",
+"es": "¡Esto fue mala fe, Padre!"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_010",
+"es": "Pudo haber sido la lluvia, señora Bertha."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_011",
+"es": "¡Como seguramente fue, de todos modos!"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_012",
+"es": "¡Lo que importa es que le echemos una mano a Freya, vecinos!"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_013",
+"es": "Heinrich tiene razón: mañana no podemos quedarnos sin palo de mayo."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_014",
+"es": "¡Ay, de veras ha sido una cosa tras otra!"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_015",
+"es": "Deberíamos reunirnos a rezar."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_016",
+"es": "Quisiera que todo Kieferberg se reúna en la iglesia esta tarde."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_017",
+"es": "¡Por fin haces algo!"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_018",
+"es": "Es imperativo que estemos todos unidos y de un mismo sentir."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_019",
+"es": "Me aseguraré de correr la voz, Padre."
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_020",
+"es": "(Reunir a toda esta gente asustada en un mismo lugar no puede ser buena idea...)"
+},
+{
+"id": "Cutscenes/CUT_7_1_VIN_01_021",
+"es": "(Aunque supongo que no puedo faltar...)"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_01_001",
+"es": "Este no es el lugar donde estuve ayer... ¿O sí?"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_01_002",
+"es": "¡Apfel...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_01_003",
+"es": "¡Apfel! ¿Me oyes?"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_01_004",
+"es": "Tengo que encontrarlo..."
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_01_005",
+"es": "¡Quién sabe lo que le habrá pasado ya!"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_02_001",
+"es": "Esta es... ¿mi casa...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_02_002",
+"es": "¡No, no puede ser! ¡Estoy imaginando cosas!"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_02_003",
+"es": "No tengo tiempo para estas tonterías, debería..."
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_02_004",
+"es": "¡Debería encontrar a Apfel...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_03_002",
+"es": "Ustedes, cuervos, de veras no saben cuándo cerrar el pico, ¿verdad?"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_INTRO_03_007",
+"es": "¿De qué hablan ahora...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_01_002",
+"es": "¡Esa es... mi casa!"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_01_003",
+"es": "Debo de estar perdiendo la razón..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_001",
+"es": "¿Qué... qué es esto...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_002",
+"es": "¡Mi casa...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_003",
+"es": "Mi descendiente... Elise..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_004",
+"es": "¿¡Quién anda ahí!?"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_005",
+"es": "Acércate, Elise... Adéntrate más..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_006",
+"es": "En mi arboleda..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_008",
+"es": "Tu destino, Elise... Tu génesis está en el tapiz..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_009",
+"es": "Esa mujer... Deseaba un hijo propio..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_010",
+"es": "Se arrodilló en el umbral de <b>Él</b> y rezó, no a mí, sino a <b>Él</b>."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_011",
+"es": "Mi arboleda se volvió el recipiente, mi tierra el cuerpo mortal de la criatura..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_012",
+"es": "En mi propio vientre... Celebraron su pacto..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_013",
+"es": "De <b>Él</b> vino lo que me falta, lo que no he logrado alcanzar..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_014",
+"es": "Un alma humana... para nutrirse en mi vientre..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_015",
+"es": "Y luego entregada a ella... como su hija..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_016",
+"es": "Cuando en verdad... Es a mí a quien pertenece tu cuerpo, Elise..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_01_017",
+"es": "¿Qué... en nombre del Señor...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_02_002",
+"es": "¡Esta cierva! ¡Sus entrañas han sido...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_02_003",
+"es": "Mi vientre... Usado para el deseo de esa mujer..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_02_004",
+"es": "¡Me usaron...! <shake a=0.3>¡Usada, usada, usada...!</shake>"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_02_005",
+"es": "¿Usada...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_02_006",
+"es": "¿Qué en nombre del Señor está pasando aquí?"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_02_007",
+"es": "¿Qué intentan decirme estas voces...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_03_001",
+"es": "Esa muchacha... Es como si me conociera..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_03_002",
+"es": "No sé qué está pasando aquí, pero..."
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_03_003",
+"es": "¡No puedo quedarme aquí más tiempo!"
+},
+{
+"id": "Cutscenes/CUT_WCW_A_HOUSE_INTERIOR_03_004",
+"es": "¡Debo encontrar y salvar a Apfel!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_01_001",
+"es": "Este lugar me está jugando con la cabeza..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_01_002",
+"es": "¡Debo reaccionar...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_01_003",
+"es": "¡Tengo que encontrar a Apfel!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_003",
+"es": "¡Dejen al muchacho! ¡Dejen al muchacho!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_004",
+"es": "¡Quédate donde pueda verte, Apfel...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_006",
+"es": "¡El muchacho se queda! ¡El muchacho se queda!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_007",
+"es": "¡Elise...! ¡Mi ojo...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_008",
+"es": "¡Lo devoraremos! ¡Lo devoraremos!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_009",
+"es": "¡O dejan al muchacho, o perecen con él...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_010",
+"es": "¡Malditos sean! ¡Malditos sean!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_011",
+"es": "¡Elise...! ¡No puedo moverme...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_03_012",
+"es": "¡Nos vamos de aquí, Apfel...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_MIRROR_01_002",
+"es": "¿¡A dónde vamos!?"
+},
+{
+"id": "Cutscenes/CUT_WCW_B_MIRROR_01_003",
+"es": "¡Cuidado donde pisas, Apfel! ¡Encontraremos la manera!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_001",
+"es": "¿Elise...? ¡No veo por dónde voy...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_002",
+"es": "¡No andes mucho de aquí para allá, Apfel!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_003",
+"es": "¡Intenta seguir mi voz!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_004",
+"es": "¿Elise? ¿Dónde estás?"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_005",
+"es": "¡Está bien, Apfel: camina en línea recta!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_006",
+"es": "¡Te estaré cuidando!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_007",
+"es": "¡Me siento mareado, Elise!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_01_008",
+"es": "¡Confía en mí, Apfel! ¡Estoy aquí!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_02_001",
+"es": "¿Cuál de estos debo pisar...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_02_002",
+"es": "¡Apfel anda perdido allá abajo y no sé cómo ayudarlo...!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_03_001",
+"es": "¡Eso es, Apfel! ¡Sigue caminando!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_03_002",
+"es": "¡Debemos apurarnos!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_04_001",
+"es": "¡Sigue, Apfel, ya casi llegamos!"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_05_001",
+"es": "¿Estás bien, Apfel?"
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_05_002",
+"es": "Elise... Me siento mareado..."
+},
+{
+"id": "Cutscenes/CUT_WCW_AW_PATHS_05_003",
+"es": "¡Espérame, voy por ti!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_002",
+"es": "¡Agárrate fuerte! ¡Te sacaré de ahí!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_003",
+"es": "¡Salgamos de ahí y vámonos a casa!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_007",
+"es": "El bosque, esta arboleda... Está sufriendo..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_008",
+"es": "¿¡Rosmarine!?"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_009",
+"es": "¿¡Lebkuchen!?"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_010",
+"es": "¿¡Freya!?"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_011",
+"es": "Tu carne, tu sangre... tu amor..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_012",
+"es": "Todo lo que por derecho es mío... mi descendiente..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_013",
+"es": "E-Esta cosa no es... Rosmarine..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_014",
+"es": "E-Esta cosa no es... Lebkuchen..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_015",
+"es": "E-Esta cosa no es... Freya..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_016",
+"es": "Puedo darte... Todo lo que deseas..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_018",
+"es": "Mi amada... hija..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_019",
+"es": "¿Qué... eres...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_020",
+"es": "Esta muchacha... Rozenmarine... "
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_021",
+"es": "Esta muchacha... Lebkuchen... "
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_022",
+"es": "Esta muchacha... Freya... "
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_023",
+"es": "¿Es ella a quien desea tu corazón?"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_024",
+"es": "¿Qué... eres...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_025",
+"es": "Vienen... Nos volveremos a encontrar..."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_026",
+"es": "¡Qué hedor tan vil! ¡Qué hedor tan vil!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_027",
+"es": "¡Mancillando nuestra arboleda! ¡Mancillando nuestra arboleda!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_029",
+"es": "¡El muchacho se queda donde está, muchachita!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_031",
+"es": "¡Apfel! ¡Ven, ya!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_032",
+"es": "¿Elise...?"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_033",
+"es": "¡Rápido, Apfel! ¡Tenemos que salir de este lugar!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_034",
+"es": "Esa criatura nos lo trajo directo al pico, muchacha."
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_035",
+"es": "¡No vamos a desperdiciar una comida tan abundante!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_036",
+"es": "¡Una comida abundante! ¡Una comida abundante!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_037",
+"es": "¡Argh! ¡Mi ojo!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_038",
+"es": "¡Ven, Apfel!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_039",
+"es": "¡Los maldeciremos! ¡Los maldeciremos!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_040",
+"es": "¡No te atrevas a desafiarme! ¡Deja al muchacho!"
+},
+{
+"id": "Cutscenes/CUT_WCW_E_PITFALLS_02_042",
+"es": "¡Apfel, corre...!"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_001",
+"es": "¡Ah, Elise! ¡Bienvenida a casa!"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_003",
+"es": "¿Qué hace Flocke adentro, Rosmarine?"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_004",
+"es": "¡Ay, perdón: iba a sacarlo al granero!"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_007",
+"es": "Estoy cansada, nada más..."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_008",
+"es": "(No estoy segura de si debería mencionar a esa serpiente...)"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_009",
+"es": "(Hablar con Rosmarine a veces hace más mal que bien...)"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_010",
+"es": "Estás pensando en algo, ¿verdad?"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_012",
+"es": "Saldré después de la cena, Rosmarine."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_013",
+"es": "Me... invitaron..."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_014",
+"es": "¿Adónde? ¿Quién?"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_016",
+"es": "Una serpiente..."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_017",
+"es": "Igual que ese cuervo, me... invitó a su <i>arboleda</i>..."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_018",
+"es": "¡Ay, qué maravilla, Elise!"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_021",
+"es": "Me quedaré en casa esta noche, si te parece bien..."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_022",
+"es": "La última vez no salió muy bien que digamos, ¿verdad?"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_024",
+"es": "Este es tu destino, Elise."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_025",
+"es": "Estuvo mal de mi parte interferir."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_026",
+"es": "¡Esto es algo que debes hacer por ti, y solo por ti!"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_028",
+"es": "Tienes razón..."
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_030",
+"es": "¿Qué pasa, Flocke? ¿No puedes calmarte?"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_031",
+"es": "Lo sacaré afuera, Elise: ¡ha estado un poco inquieto!"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_032",
+"es": "¡Y luego podremos cenar!"
+},
+{
+"id": "Cutscenes/CUT_6_5_HLR_01_033",
+"es": "(Un poco demasiado inquieto para mi gusto...)"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_002",
+"es": "¡Argh!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_003",
+"es": "¡Perdónanos, Elise!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_004",
+"es": "¡Suéltenme...!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_005",
+"es": "Hasta aquí llegas, Elise."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_007",
+"es": "¡Ya lo oíste, muchacha! ¡Estamos hartos de las <color=#934494><b>brujas</b></color> como tú!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_010",
+"es": "¿¡Qué significa esto, Padre!?"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_011",
+"es": "¡Es por tu propio bien, Elise!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_012",
+"es": "¡Debemos poner fin a esto antes de que sea demasiado tarde!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_014",
+"es": "¡Es hora de que confieses, Elise!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_015",
+"es": "¿Que confiese qué, tú...?"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_016",
+"es": "¡Tu brujería, muchacha! ¡Todo Kieferberg sabe lo que estás tramando!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_017",
+"es": "Encontramos una efigie en tu casa, Elise, en el dormitorio de la vieja Holle."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_018",
+"es": "¿¡Entraron a la fuerza al dormitorio de la abuelita Holle!?"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_019",
+"es": "Tu prima también: no podemos estar seguros de quién es en realidad."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_020",
+"es": "¡Una <color=#934494><b>bruja</b></color>! ¡Las dos, malditas <color=#934494><b>brujas</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_021",
+"es": "¡No somos <color=#934494><b>brujas</b></color>, viejo tonto!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_022",
+"es": "Si tan solo hubiera forma de estar seguros, Elise..."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_024",
+"es": "Debemos asegurarnos de que esto termine aquí, o..."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_025",
+"es": "¡Ay, por favor...!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_026",
+"es": "Por favor, perdóname: nunca fue mi intención..."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_028",
+"es": "¡Ni una palabra más, vecinos! ¡Fuera con las <color=#934494><b>brujas</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_029",
+"es": "¡No pueden hacer esto!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_030",
+"es": "¡Señor Gustav! ¡Usted, entre todos, debe saber que esto está mal!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_031",
+"es": "¡Elise tiene razón, papá! ¡No podemos hacerles esto!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_032",
+"es": "¡Se quedarán aquí hasta el amanecer, sean <color=#934494><b>brujas</b></color> o no!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_033",
+"es": "¡No pueden dejarnos aquí, viejos tontos!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_034",
+"es": "¿¡Qué se supone que lograrán con esto, Padre!?"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_035",
+"es": "Quizá el tiempo demuestre su inocencia..."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_036",
+"es": "Sin embargo, si el tormento de la <color=#934494><b>bruja</b></color> se detiene..."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_037",
+"es": "Sabremos que ellas están detrás de estos horrores."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_038",
+"es": "¡Eso es ridículo!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_039",
+"es": "Es nuestra única oportunidad de proteger a Kieferberg, Elise."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_041",
+"es": "Esperemos que todo esto termine esta noche."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_042",
+"es": "¡Insensatos!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_043",
+"es": "Lo siento, Elise... Todo esto es porque yo..."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_044",
+"es": "¡Este no es momento para tus tonterías autocompasivas, Rosmarine...!"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_045",
+"es": "¿No ves que estamos...?"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_046",
+"es": "¿¡Qué fue eso!?"
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_047",
+"es": "Por fin has venido a mí..."
+},
+{
+"id": "Cutscenes/CUT_3_OWC_01_049",
+"es": "Mi amada... descendiente..."
+},
+{
+"id": "Cutscenes/CUT_2_5_DPL_A_01_001",
+"es": "¿Dónde... dónde estoy?"
+},
+{
+"id": "Cutscenes/CUT_2_5_DPL_A_01_002",
+"es": "¿Es esto un sueño?"
+},
+{
+"id": "Cutscenes/CUT_2_5_DPL_B Hall_01_001",
+"es": "Qué corredor tan largo..."
+},
+{
+"id": "Cutscenes/CUT_2_5_DPL_B Hall_01_002",
+"es": "¡De verdad parece que estoy dentro de un palacio!"
+},
+{
+"id": "Cutscenes/CUT_2_5_DPL_B Hall_02_002",
+"es": "¡Tengo un mal presentimiento sobre esto...!"
+},
+{
+"id": "Cutscenes/CUT_2_5_DPL_C Candles_01_001",
+"es": "¿Qué es este lugar en nombre del Señor?"
+},
+{
+"id": "Cutscenes/CUT_2_5_DPL_C Candles_01_002",
+"es": "¿Qué son esas... <i>cosas</i>?"
+},
+{
+"id": "Cutscenes/CUT_3_5_HLR_02_003",
+"es": "Todavía no te he contado mucho sobre mí, pero..."
+},
+{
+"id": "Cutscenes/CUT_3_5_HLR_02_004",
+"es": "Estaré afuera, en el granero, si quieres hablar más."
+},
+{
+"id": "Cutscenes/CUT_3_5_HLR_02_005",
+"es": "Lo pensaré, Rosmarine."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_A_01_001",
+"es": "¿Qué es este lugar miserable...?"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_A_01_002",
+"es": "Será mejor tener cuidado: esto podría ser peligroso..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_A_02_001",
+"es": "Esto les llamó la atención, supongo..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_A_02_002",
+"es": "Será mejor ser cuidadosa al avanzar..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_003",
+"es": "No tengas miedo, Elise... Acércate..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_005",
+"es": "Has hecho bien en encontrar el camino a este bosque..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_007",
+"es": "Es imperativo, Elise, que me escuches con atención..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_008",
+"es": "<b>Él</b> otra vez intenta llevarte lejos de mí, pero no por mucho tiempo..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_010",
+"es": "Toma este canasto, ahora..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_011",
+"es": "Debes reunir los <color=#000000><b>Obsequios</b></color> en él, Elise..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_012",
+"es": "¿Los <color=#000000><b>Obsequios</b></color>, dices?"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_013",
+"es": "Encuentra el camino hacia <b>Él</b>, más adentro de esta arboleda mía..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_014",
+"es": "Solo entonces podrá tu deseo hacerse realidad, mi amada..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_015",
+"es": "¿Qué <i>eres</i>...?"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_016",
+"es": "Yo te guiaré hasta <b>Él</b>, Elise: debes confiar en mi palabra."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_017",
+"es": "Tu preciado deseo estará a salvo conmigo..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_018",
+"es": "¿Cómo voy a encontrar a <b>Él</b>...?"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_019",
+"es": "Tú, Elise, eres mi linaje... mi triunfo, mi amada descendiente..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_020",
+"es": "Lo que <b>Él</b> me hizo no importa, todo lo que quiero eres tú..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_021",
+"es": "¡Permitiré que <b>Él</b> y las mascotas de <b>Él</b> entren de nuevo en mi bosque...!"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_023",
+"es": "¡Permitiré que <b>Él</b> te tiente, que juegue contigo...!"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_024",
+"es": "¡Qué eres...!"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_025",
+"es": "¡Todo por un bien mayor, mi amada...!"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_026",
+"es": "¡Para que podamos reunirnos! ¡Para que pueda llevar vida en mi vientre una vez más...!"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_027",
+"es": "¡Tengo que salir de aquí!"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_01_028",
+"es": "<shake a=0.2>¡Para recuperar lo que es mío...!</shake>"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_B_01_001",
+"es": "¿¡Qué en nombre del Señor!?"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_B_01_002",
+"es": "Hay tantos... Debo encontrar la manera de distraerlos..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_02_001",
+"es": "Parece que los atrae la carne... Debería alejarlos del camino, pero..."
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_02_002",
+"es": "Me seguirán si no <i>apago mi farol</i>."
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_001",
+"es": "¡Qué... en nombre del Señor...!"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_002",
+"es": "¡Qué era esa cosa...!"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_004",
+"es": "¡Flocke...!"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_007",
+"es": "Pensé que estarías en el granero, o por ahí..."
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_008",
+"es": "Cielos... No me siento bien..."
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_010",
+"es": "¿Qué pasa, Flocke?"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_012",
+"es": "(No me gusta cómo me mira...)"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_014",
+"es": "¿Q-Qué haces...?"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_020",
+"es": "Yo... Estaba paseando..."
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_022",
+"es": "¿A estas horas de la noche...?"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_026",
+"es": "Ven, vámonos a casa, Rosmarine."
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_027",
+"es": "(No quiero quedarme aquí ni un minuto más...)"
+},
+{
+"id": "Cutscenes/CUT_1_5_OWE_02_028",
+"es": "¡Ah, Elise...! ¡Espera...!"
+},
+{
+"id": "Cutscenes/CUT_3_1_VSQ_02_017",
+"es": "¡Ay, ya empecé!"
+},
+{
+"id": "Cutscenes/CUT_3_1_VSQ_02_018",
+"es": "Vaya, ahora sí que lo hiciste, Elise..."
+},
+{
+"id": "Cutscenes/j64stzzpsj68m",
+"es": "¡E-Esto no es pan, Elise...!"
+},
+{
+"id": "Cutscenes/7i32mnnt27i66",
+"es": "¡E-Eres tan mala, Elise: solo es u-un poco de pan...!"
+},
+{
+"id": "Cutscenes/zjus3zzqsbj7q",
+"es": "¡Más te vale tener un trozo de pan para mí mañana...!"
+},
+{
+"id": "Cutscenes/s4rsl661s54mn",
+"es": "¡Fuera de mi vista, Mary!"
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_003",
+"es": "No era necesario ser tan dura, pero aun así..."
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_004",
+"es": "¿Y si es peligrosa, o...?"
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_005",
+"es": "Peor aún... ¿Y si...?"
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_006",
+"es": "¿Es la <color=#934494><b>bruja</b></color> de la que habla la gente del pueblo?"
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_007",
+"es": "Ay, ¿qué haría la abuelita Holle, me pregunto?"
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_008",
+"es": "Ella no me crio para ser así..."
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_009",
+"es": "Incluso amenacé con delatarla..."
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_010",
+"es": "Lo hecho, hecho está, supongo."
+},
+{
+"id": "Cutscenes/CUT_1_5_HBR_01_011",
+"es": "Lo entenderé mañana, mejor me voy a la cama..."
+},
+{
+"id": "Cutscenes/CUT_4_1_HBR_01_008",
+"es": "Rosmarine y Flocke..."
+},
+{
+"id": "Cutscenes/CUT_4_1_HBR_01_009",
+"es": "¿Qué hacen allá afuera?"
+},
+{
+"id": "Cutscenes/CUT_4_1_HFY_01_016",
+"es": "No tienes que contármelo, pero..."
+},
+{
+"id": "Cutscenes/CUT_4_1_HFY_01_017",
+"es": "Ahora lo sabes, ¿verdad? Que digo la verdad."
+},
+{
+"id": "Cutscenes/CUT_4_1_HFY_01_024",
+"es": "En fin, ven, vamos a trabajar."
+},
+{
+"id": "Cutscenes/CUT_4_1_VSQ_01_004",
+"es": "¡Vamos, Rosmarine, tenemos que averiguar qué está pasando!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_001",
+"es": "¡Hermanos!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_002",
+"es": "Los he reunido hoy aquí para tratar los acontecimientos recientes."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_003",
+"es": "Llega bastante tarde, Padre: ¡ya tuvimos suficiente!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_004",
+"es": "¡Muestra respeto, Elma!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_005",
+"es": "No, ella tiene razón: ¡necesitamos respuestas, Padre!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_006",
+"es": "Me temo que hoy no obtendremos muchas, Guido."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_007",
+"es": "Si esto es otro ruego para que pasemos por alto la situación..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_008",
+"es": "¿Por qué no dejamos que el Padre Hans tome la iniciativa?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_009",
+"es": "¡Ya la tuvo toda la semana, y mira adónde nos llevó, Gustav!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_010",
+"es": "Nos reuniremos aquí esta noche para una vigilia, hermanos."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_011",
+"es": "Juntos apelaremos a la misericordia y benevolencia del Señor, así como a..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_012",
+"es": "¡Eso solo tapará los problemas de la gente, Padre!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_013",
+"es": "¡Así es: necesitamos que esta <color=#934494><b>bruja</b></color> pague!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_014",
+"es": "¿A quién sugieres que debe pagar, Loreley?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_015",
+"es": "¿Dónde está esta <color=#934494><b>bruja</b></color> de la que hablan?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_016",
+"es": "Gustav tiene razón, no sabemos a dónde acudir."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_017",
+"es": "¡La oración nos mostrará el camino que debemos seguir, hermanos!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_018",
+"es": "¡Pues he rezado todo el día todos los días y nada ha cambiado, Padre!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_019",
+"es": "¡Temo por mi pobre Jakob, Padre!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_020",
+"es": "¡Quien sea que esté allá afuera se lleva a nuestros niños y compromete nuestro sustento!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_021",
+"es": "¡La gente quiere una decisión, Hans!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_022",
+"es": "¡Deberíamos revisar a todas las muchachas del pueblo en busca de la <color=#934494><b>marca de la bruja</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_023",
+"es": "¡No haremos tal cosa, viejo chocho!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_024",
+"es": "¡Esa no es manera de dirigirte a tus mayores, Elise!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_025",
+"es": "¡Quizá si mis mayores no hubieran perdido por completo la razón!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_026",
+"es": "Quédate tranquila, Elise: a ninguna muchacha de Kieferberg se la revisará, joven o vieja."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_027",
+"es": "¡Ustedes, necios, siguen resistiéndose a lo que debe hacerse!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_028",
+"es": "¡El viejo Jochen tiene razón! ¡Debemos llevar esto hasta el final!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_029",
+"es": "¿Y lo hará <i>usted</i> entonces, señor Ludwig?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_030",
+"es": "¡Si hay alguien que debería hacerlo, es Lebkuchen!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_031",
+"es": "¿Yo, señora Brunhilde?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_032",
+"es": "Claro, muchacha: ¡eres una mujer de Dios!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_033",
+"es": "¡Mujer de Dios o no, Lebkuchen también debe ser revisada!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_034",
+"es": "¡Ninguno de ustedes la va a tocar!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_035",
+"es": "Aun así, Elise: ¡deberíamos revisar a <i>alguien</i>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_036",
+"es": "Quizá sea lo mejor, Elise..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_037",
+"es": "¿Revisarán también a Freya, entonces? ¿Y a la señora Lisbeth?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_038",
+"es": "¡Sin excepciones, muchacha!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_039",
+"es": "La verdad es que no sabemos nada de tu prima, Elise."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_040",
+"es": "¿Por qué no empezamos con ella?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_041",
+"es": "¡Así es: todo esto empezó el día que llegó!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_042",
+"es": "¡N-No! Y-Yo no he hecho nada..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_043",
+"es": "¡Nadie le pondrá un dedo encima!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_044",
+"es": "¡La vi...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_045",
+"es": "¡Vi a la prima de Elise: ella es la <color=#934494><b>bruja</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_047",
+"es": "¡Vi a la <color=#934494><b>bruja</b></color>: vi a Freya en el bosque!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_049",
+"es": "¡Vi a la <color=#934494><b>bruja</b></color>: vi a Lebkuchen en el bosque!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_052",
+"es": "¡Elise también la vio! ¡Habló con la <color=#934494><b>bruja</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_053",
+"es": "¡Ahí lo tienen, vecinos! ¡Son las <color=#934494><b>brujas</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_054",
+"es": "¡Ay, Apfel!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_055",
+"es": "¡Contrólate, viejo!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_056",
+"es": "¡Así que era verdad, Elise!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_057",
+"es": "¡Tú y tu prima son quienes nos han hecho la vida un infierno!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_058",
+"es": "¡Tú y Freya son quienes nos han hecho la vida un infierno!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_059",
+"es": "¡Tú y Lebkuchen son quienes nos han hecho la vida un infierno!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_060",
+"es": "¡No!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_061",
+"es": "¡U-Ustedes se equivocan, no hemos hecho nada de eso!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_062",
+"es": "¡Yo jamás haría algo así!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_063",
+"es": "¿Qué están insinuando?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_064",
+"es": "¡Confiesen, todas! ¡Confiesen sus pecados, malditas <color=#934494><b>brujas</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_065",
+"es": "¿Te encontraste o no con tu prima en el bosque, Elise?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_066",
+"es": "¿Te encontraste o no con Freya en el bosque, Elise?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_067",
+"es": "¿Te encontraste o no con Lebkuchen en el bosque, Elise?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_068",
+"es": "E-Eso no es..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_069",
+"es": "¡Claro que no!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_070",
+"es": "¡Estuve completamente sola hasta que lo encontré a él!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_071",
+"es": "¡Pues el muchacho dice que las vio a ustedes dos, Elise!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_072",
+"es": "¡No me encontré con nadie en el bosque, lo juro!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_073",
+"es": "¡Ay, Dios mío! ¡Miren!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_074",
+"es": "¡Es la <color=#934494><b>bruja</b></color>! ¡La <color=#934494><b>bruja</b></color> está aquí!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_075",
+"es": "¡Ay, todos vamos a morir!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_076",
+"es": "¡Debemos mantener la calma, vecinos! ¡Calma!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_077",
+"es": "¡Estaba allí, la vi! ¡Tenía ojos amarillos!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_078",
+"es": "¿Qué tienes que decir en tu defensa, muchacha?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_079",
+"es": "¡Yo no estuve cerca del bosque, para entonces ya había vuelto a casa!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_080",
+"es": "¡Cómo vamos a saber algo así, maldita <color=#934494><b>bruja</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_081",
+"es": "¡Si el muchacho dice que te vio, muchacha...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_082",
+"es": "¡N-No, yo... De verdad había vuelto a casa!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_083",
+"es": "¿Ojos amarillos? ¡N-No entiendo!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_084",
+"es": "Ay, no creería que Freya..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_085",
+"es": "¡Nosotros sabemos mejor que eso, Brunhilde!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_086",
+"es": "Si Apfel dice que la vio, ¿quiénes somos para decir lo contrario?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_087",
+"es": "El muchacho está confundido, Guido: ¡no debes creer todo lo que oyes!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_088",
+"es": "Papá, ¡y-yo juro que no...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_089",
+"es": "¡Pero yo estaba justo aquí esa noche!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_090",
+"es": "Es cierto, me estuviste consolando hasta que ellos regresaron, pero..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_091",
+"es": "¡Yo te vi, Lebkuchen!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_092",
+"es": "¡No, Apfel: no creo que lo hayas hecho!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_093",
+"es": "¡Ella no sabría nada!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_094",
+"es": "¡No seas ridículo, Apfel!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_095",
+"es": "¿Por qué haces esto, pequeño...?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_096",
+"es": "¿Es siquiera tu prima, Elise?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_097",
+"es": "¡De verdad, llevo toda la semana pensándolo!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_098",
+"es": "¡Lo soy! ¡De verdad soy su prima, yo...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_099",
+"es": "Ni siquiera tú conoces a tu propia prima, Elise."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_100",
+"es": "¡Quizá ha sido una mala influencia para ti!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_101",
+"es": "¡Cómo se atreve a insinuar...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_102",
+"es": "¡Es todo menos eso, señor Bernhard!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_103",
+"es": "¡Ustedes están perdiendo la cabeza!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_104",
+"es": "Mala influencia o no: ¡lo que importa es si es una <color=#934494><b>bruja</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_105",
+"es": "¿Cómo explicas el atuendo estrafalario de tu prima, Elise?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_106",
+"es": "¡Y todo lo que ha dicho y hecho también!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_107",
+"es": "¡Y-Yo nunca...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_108",
+"es": "¿Qué les da el derecho?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_109",
+"es": "¡Es solo una muchachita!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_110",
+"es": "Echarle la culpa a mi prima no va a resolver..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_111",
+"es": "¡Apfel dijo que las vio a ustedes dos en el bosque, Elise!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_112",
+"es": "¿¡Qué sabe Apfel del bosque!?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_113",
+"es": "¡Es solo un niño!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_114",
+"es": "¡Debemos ser razonables!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_116",
+"es": "¡Regístrenla!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_117",
+"es": "¡Deberíamos revisar a la muchacha ahora mismo: encontrar la <color=#934494><b>marca de la bruja</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_118",
+"es": "¡No hablas en serio, Apfel!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_119",
+"es": "¡Ay, no quisiera creer algo así!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_120",
+"es": "¡Elise siempre ha sido una mala influencia para la pobre muchacha, después de todo!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_121",
+"es": "¡De todos, traicionar a Kieferberg, Lebkuchen!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_122",
+"es": "¡Yo no lo hice!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_130",
+"es": "¡Apfel perdió la cabeza!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_131",
+"es": "¡Todos saben que ella no podría haberlo hecho!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_132",
+"es": "¡Lebkuchen no está involucrada en nada de esto!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_133",
+"es": "¡Pero el muchacho dice lo contrario!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_134",
+"es": "Ustedes dos se encontraron en ese bosque, Elise: ¡ambas están involucradas!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_135",
+"es": "¡No sean ridículos! ¡Estuve todo el día en Kieferberg!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_136",
+"es": "¿Acusan en serio a Lebkuchen?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_138",
+"es": "¿No han tenido suficiente de esta tontería, ustedes...?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_139",
+"es": "Ni cerca, Elise: ¡de repente todo se aclara!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_140",
+"es": "¡Escúchense a sí mismos!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_141",
+"es": "Ya oí suficiente: no voy a tolerar..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_142",
+"es": "¡Regístrenlas a ambas!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_143",
+"es": "¡Debemos revisarlas ahora mismo: encontrar la <color=#934494><b>marca de la bruja</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_144",
+"es": "¡Estamos hablando de Freya, ustedes...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_145",
+"es": "¡Ay, yo jamás podría creer algo así!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_147",
+"es": "¿¡Qué hacías en el bosque, Freya!?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_148",
+"es": "¡Ella no estuvo cerca del bosque, Bernhard!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_149",
+"es": "Ay, diles, Elise: ¡no salí de Kieferberg en todo el día!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_150",
+"es": "¡Yo encontré a Freya hace un rato!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_151",
+"es": "¡Todos sabemos que Freya no lo haría!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_152",
+"es": "¡Apfel está claramente confundido, señor Bernhard!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_153",
+"es": "Ay, no estoy tan segura de que eso sea todo, Elise."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_154",
+"es": "¡N-No hay nada más, señora Wilma!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_155",
+"es": "El muchacho no mentiría sobre algo así..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_156",
+"es": "¿Verdad, muchacho?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_157",
+"es": "¡Y-Yo la vi! ¡De verdad!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_158",
+"es": "¿Dudan en serio de Freya?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_159",
+"es": "¡Apfel solo está cansado y asustado, eso es todo!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_160",
+"es": "¿No ven lo que está pasando aquí, ustedes...?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_161",
+"es": "¡Apfel sabe lo que vio, muchachita!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_162",
+"es": "No hay razón para dudar del muchacho..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_163",
+"es": "¡La <color=#934494><b>bruja</b></color> debe ser una de ustedes, si no ambas!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_165",
+"es": "¡P-Papá, juro que no lo hice!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_166",
+"es": "¡L-La <color=#934494><b>bruja</b></color> no es...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_168",
+"es": "Acusarme a mí es una cosa, ¡pero no toleraré una palabra sobre Freya!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_169",
+"es": "¡Así que <i>eres</i> la <color=#934494><b>bruja</b></color>, miserable!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_170",
+"es": "¡Ya oí suficiente: no voy a tolerar esto!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_173",
+"es": "¡No aguantaré más estas tonterías!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_174",
+"es": "¡Basta ya!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_175",
+"es": "¿No ven lo que le están haciendo a Kieferberg?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_176",
+"es": "¿No ven que esta tontería de las <color=#934494><b>brujas</b></color> nos está enfrentando unos contra otros?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_177",
+"es": "Me temo que todos hemos llegado a nuestro límite, Freya."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_178",
+"es": "¡Pero Padre...!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_179",
+"es": "De ninguna manera creo que pudieras haber traicionado a Kieferberg."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_180",
+"es": "De ninguna manera creo que Lebkuchen pudiera haber traicionado a Kieferberg."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_181",
+"es": "Tengo razones más que suficientes para creer que tú y tu prima están detrás de esto, Elise."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_182",
+"es": "¿Qué está diciendo, usted...?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_183",
+"es": "¡No, Padre: ellas no lo hicieron!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_184",
+"es": "Basta, Freya."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_185",
+"es": "¡Pero papá!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_186",
+"es": "¡Todo lo que debemos hacer es demostrar que son las <color=#934494><b>brujas</b></color>!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_187",
+"es": "¡Y yo no lo hice!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_188",
+"es": "Basta, Padre: no lo permitiré."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_189",
+"es": "¡Todo lo que necesitamos es demostrar que ella no es una <color=#934494><b>bruja</b></color>, Gustav!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_190",
+"es": "¡Y yo no lo hice, Padre!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_192",
+"es": "No, viejo Jochen: solo hay una persona con la que creo que debemos lidiar."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_193",
+"es": "Esa serías tú, Elise."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_194",
+"es": "¿¡Yo!?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_195",
+"es": "¡No! Ella no hizo nada, yo..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_196",
+"es": "¡No, Padre! ¡No puede llevarse a Elise!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_197",
+"es": "¡No, Padre! ¿Se está escuchando?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_198",
+"es": "¿Está seguro de que esto es lo que debemos hacer, Padre?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_199",
+"es": "¡Eso es! ¡Eso es lo que el viejo Jochen y yo decíamos toda la semana!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_200",
+"es": "¡Lo que dijo el viejo Stefan en su lecho de muerte!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_201",
+"es": "¡U-Ustedes, miserables, no me pondrán un dedo encima!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_202",
+"es": "Es mejor que acabemos contigo, Elise."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_203",
+"es": "Tu prima seguirá: debemos asegurarnos de hacerlo bien."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_204",
+"es": "¿Q-Qué están...?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_208",
+"es": "¡La <color=#934494><b>bruja</b></color> está claramente aquí mismo, en Kieferberg, muchacha!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_209",
+"es": "¡Nadie en Kieferberg podría hacer algo así, viejo Jochen!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_210",
+"es": "¡Somos una familia! ¡Todo Kieferberg, sin excepciones!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_211",
+"es": "Aunque todos comprendemos lo que sientes, Freya..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_212",
+"es": "¡Claramente no lo hace, Padre: nadie lo hace!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_213",
+"es": "Apfel cree haber visto a la <color=#934494><b>bruja</b></color>: ¡la gente ha estado alterada todo el día!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_214",
+"es": "¡Todo esto es consecuencia de cómo hemos enfrentado esta crisis!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_215",
+"es": "¡Con miedo, hostilidad y vacilación!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_216",
+"es": "Todo eso es muy bonito, Freya, ¡pero tenemos que hacer algo!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_217",
+"es": "¡Hagamos la vigilia, entonces!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_218",
+"es": "¡Trabajemos en los preparativos del festival! ¡Juntos!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_219",
+"es": "¡Como la familia que somos, la familia que siempre hemos sido!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_221",
+"es": "¿De verdad me quemarían en la hoguera?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_222",
+"es": "¿O a Elise? ¿A Lebkuchen? ¿Incluso a Rozenmarine?"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_223",
+"es": "Esperaba más de mi familia, eso era todo lo que quería decir."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_224",
+"es": "¡Ya has dicho más que suficiente, Freya!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_225",
+"es": "¡Todo Kieferberg se reunirá aquí esta noche para rezar!"
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_226",
+"es": "Como debimos haber hecho desde el principio."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_227",
+"es": "Sigamos, vecinos: concentrémonos en lo que debemos hacer..."
+},
+{
+"id": "Cutscenes/CUT_7_3_VSQ_01_228",
+"es": "¡Proteger nuestro hogar a toda costa!"
+},
+{
+"id": "Cutscenes/CUT_2_1_HBR_01_004",
+"es": "¡Por Dios! ¿¡En qué estaba pensando...!?"
+},
+{
+"id": "Cutscenes/CUT_2_1_HBR_01_006",
+"es": "¡Probablemente ya se haya llevado todo lo que tengo!"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_04_001",
+"es": "Se están devorando esa cosa, ¿eh?"
+},
+{
+"id": "Cutscenes/CUT_3_6_WDM_C_04_002",
+"es": "Quizá me despejen el camino si los atraigo a todos aquí, pero..."
+},
+{
+"id": "Cutscenes/CUT_7_6_VCH_03_001",
+"es": "(Usando el agua de la palangana...)"
+},
+{
+"id": "Cutscenes/CUT_7_6_VCH_03_002",
+"es": "(Supongo que puedo intentarlo...)"
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_001",
+"es": "¡No puedo dormir...!"
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_002",
+"es": "¡No puedo dejar de pensar en todas estas tonterías!"
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_003",
+"es": "Todo lo que me dijo esa vieja arpía: sobre los <color=#ed1c24><b>Testamentos</b></color>, los <color=#ed1c24><b>Obsequios</b></color>... sobre <b>Él</b>..."
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_004",
+"es": "Lo que me dijo Rosmarine también..."
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_005",
+"es": "Me cuesta creerlo, pero quizá... Quizá sea verdad..."
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_006",
+"es": "Si reúno estos <color=#ed1c24><b>Testamentos</b></color>, si encuentro el camino a <b>Él</b>..."
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_007",
+"es": "Quizá por fin pueda dejar este pueblo miserable y vivir la vida que estoy destinada a vivir..."
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_008",
+"es": "Empezar de nuevo, en algún lugar lejano, muy lejano..."
+},
+{
+"id": "Cutscenes/CUT_3_5_HBR_03_009",
+"es": "¡Esto bien podría ser mi oportunidad de ser feliz!"
+}
+]

@@ -1,0 +1,2302 @@
+[
+{
+"id": "Dialogue/DLG_6_5_OLH_01_015",
+"es": "¡Oh, yo le daría su merecido a ese malnacido! ¡Si tan solo supiéramos quién es!"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_01_016",
+"es": "(¿Golpearían a sus propios vecinos, me pregunto...?)"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_01_017",
+"es": "(Mejor me aseguro de no bajar la guardia...)"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_001",
+"es": "¿Qué rayos haces aquí afuera, Lebkuchen, por el amor del Señor?"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_002",
+"es": "¡Esperando tu sermón, al parecer!"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_003",
+"es": "¡Te habría alcanzado adentro, por el amor de Dios!"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_004",
+"es": "Estoy bien, Elise; estás exagerando."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_005",
+"es": "Tu pan."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_006",
+"es": "¡Has perdido el juicio, Leb!"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_007",
+"es": "Sea como sea, igual quiero cuidarte."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_008",
+"es": "¿Has pensado que no podrás hacer nada de eso si estás postrada en cama?"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_009",
+"es": "Te prometo que descansaré bastante esta noche, Elise."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_010",
+"es": "Mañana recibirás otro sermón si amaneces enferma."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_011",
+"es": "¡Vaya, casi haces que lo espere con ganas!"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_013",
+"es": "La gente ha estado bastante tensa últimamente."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_014",
+"es": "Lo he notado..."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_015",
+"es": "Sé que puedes cuidarte sola, pero..."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_016",
+"es": "Una buena acción no te protegerá de todo esto, Elise."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_018",
+"es": "La gente se ha pasado el día hablando mal de los demás, yo..."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_019",
+"es": "Ni siquiera la señora Mariele se ha librado, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_020",
+"es": "No te preocupes, Leb; me aseguraré de morderme la lengua."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_021",
+"es": "Asegúrate de quedarte en casa también."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_022",
+"es": "(¿Habrá notado que he estado merodeando de noche?)"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_024",
+"es": "Claro, Leb; y tú tienes que dejar de preocuparte. No queremos que te desmayes otra vez."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_025",
+"es": "Lo haré, a su debido tiempo."
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_026",
+"es": "(Lebkuchen no puede saber lo que he estado haciendo...)"
+},
+{
+"id": "Dialogue/DLG_6_5_OLH_02_027",
+"es": "(Aun así, debo asegurarme de que siga siendo así...)"
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_31_001",
+"es": "Así que este es el reflejo que mencionó la estatua..."
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_02_004",
+"es": "Debería encontrar algo parecido a una <b>corriente de agua</b>, ¿eh?"
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_02_005",
+"es": "Estas estatuas son bastante exigentes, ¿no?"
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_32_001",
+"es": "¿Las aguas torrenciales, eh?"
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_03_004",
+"es": "<b>Seis vasijas</b>... en el apogeo de la luminiscencia..."
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_03_005",
+"es": "Puede que las haya visto antes en esta laguna..."
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_33_001",
+"es": "Estas eran las seis vasijas, ¿eh?"
+},
+{
+"id": "Dialogue/DLG_D_WSN-F_33_002",
+"es": "Supongo que el apogeo de la luminiscencia se refería a la luna llena, ¿no?"
+},
+{
+"id": "Dialogue/DLG_7_1_HFY_01_030",
+"es": "Yo tampoco he vuelto al lugar de descanso de mi abuelita..."
+},
+{
+"id": "Dialogue/DLG_7_1_HFY_01_031",
+"es": "Entonces sí entiendes por qué no entro ahí."
+},
+{
+"id": "Dialogue/DLG_7_1_HFY_01_032",
+"es": "En cierto modo, sí."
+},
+{
+"id": "Dialogue/DLG_7_1_HFY_01_033",
+"es": "¿En cierto modo, eh?"
+},
+{
+"id": "Dialogue/DLG_7_1_HFY_01_034",
+"es": "(¿La habitación de la abuelita Holle, eh?)"
+},
+{
+"id": "Dialogue/DLG_7_1_HFY_01_035",
+"es": "(No creo que vuelva a entrar ahí nunca más...)"
+},
+{
+"id": "Dialogue/DLG_7_1_VIN_02_016",
+"es": "(¡Bueno, no les va a gustar quedarse en casa todo el día!)"
+},
+{
+"id": "Dialogue/DLG_7_1_VBA_01_014",
+"es": "(Mejor no meterse...)"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_001",
+"es": "¿Trabajando duro, incluso con esta lluvia horrible?"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_002",
+"es": "¡Lo mismo podría decir de usted, señor Wilhelm!"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_003",
+"es": "Estoy demasiado viejo para preocuparme por un poco de lluvia."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_004",
+"es": "¡No me van a privar de mis paseos matutinos!"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_005",
+"es": "Supongo que nadie puede, no."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_006",
+"es": "¡La gente está demasiado ocupada con esta tontería de la <color=#934494><b>bruja</b></color>!"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_007",
+"es": "¡Hasta un día de lluvia los deja fuera de sí!"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_008",
+"es": "Al menos el festival les dará algo de paz mental, ¿no?"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_009",
+"es": "Esperemos que sí, muchacha, ¡pero nunca se sabe!"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_010",
+"es": "¿A qué se refiere, señor Wilhelm?"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_011",
+"es": "¡La gente está enviciada con esta bobada, a eso me refiero!"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_012",
+"es": "Por eso evito a todos hasta esta tarde: ¡hay que cuidarse uno mismo!"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_013",
+"es": "Enviciada, dice..."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_01_014",
+"es": "(Es una forma bastante sensata de verlo, ¿no?)"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_016",
+"es": "¿No es mejor dejarlo así?"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_017",
+"es": "No viste nada el miércoles, ¿verdad?"
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_018",
+"es": "No, no vi nada..."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_019",
+"es": "Apfel dice lo contrario; por eso me parece tan extraño."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_020",
+"es": "No es descabellado, Loreley."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_021",
+"es": "Apfel está asustado, nada más."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_022",
+"es": "No lo sé, Elise... Me cuesta quitármelo de la cabeza..."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_023",
+"es": "Además, ha sido bastante insistente..."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_024",
+"es": "No quiero pensar que alguno de los dos esconde algo, pero... Ay, olvídalo..."
+},
+{
+"id": "Dialogue/DLG_7_2_VIN_03_025",
+"es": "(Esto podría ser malo, pero no creo que pueda hacer nada al respecto...)"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_014",
+"es": "Sea como sea, debemos tomar esta semana como una lección."
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_015",
+"es": "¡Por eso deberíamos reunirnos para una vigilia!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_016",
+"es": "¡Reunamos a todos para rezar; eso nos unirá!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_017",
+"es": "Ya le avisé a Lebkuchen que haga los preparativos."
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_018",
+"es": "(El viejo Jochen se ha portado bastante bien últimamente, ¿no?)"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_019",
+"es": "¿Mantener la cordura? ¿Con el viejo Jochen cerca?"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_020",
+"es": "¡Desde el domingo no hace más que alborotar con esta <color=#934494><b>bruja</b></color> día y noche!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_021",
+"es": "¡<i>Advertir</i> a la gente! ¡No hacer falsas acusaciones como tú!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_022",
+"es": "Es verdad, Elise... No puedes decir que no hayas molestado a la gente esta semana."
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_023",
+"es": "Aun así, la muchacha también ha sido bastante valiente..."
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_024",
+"es": "¡La muchacha sabe más de lo que deja ver! ¡Igual que ese chico!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_025",
+"es": "¡Lo que vio Apfel no tiene nada que ver, viejo...!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_026",
+"es": "¡Así que <i>sí</i> vio algo!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_027",
+"es": "No, lo que decía es que aunque así fuera, él..."
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_028",
+"es": "¡Les dije, muchachos, que no podíamos confiar en ella! ¡Y aquí estamos!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_029",
+"es": "Es mejor que te vayas, Elise..."
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_02_030",
+"es": "(¡Uf! ¡Ese viejo cascarrabias siempre me gana!)"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_01_014",
+"es": "Puedo cuidarme sola, Elise."
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_01_015",
+"es": "¡Ay, tú no empieces!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_01_016",
+"es": "¡Estoy tratando de cuidarte!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_01_017",
+"es": "¡Como siempre haces, lo sé!"
+},
+{
+"id": "Dialogue/DLG_7_2_VSQ_01_020",
+"es": "(Ella llegó a Kieferberg completamente sola...)"
+},
+{
+"id": "Dialogue/DLG_7_2_OLH_01_019",
+"es": "(Mejor la dejo en paz...)"
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_020",
+"es": "¡Me pregunto qué le pasa a Apfel!"
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_021",
+"es": "Más importante aún, Elise..."
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_022",
+"es": "Ahora que estamos a solas, quisiera preguntarte..."
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_023",
+"es": "No me encontré con nadie en ese bosque, Lebkuchen."
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_024",
+"es": "Está bien, yo... Solo necesitaba escucharlo directamente de ti, nada más."
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_025",
+"es": "No te mentiría, lo sabes."
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_026",
+"es": "Lo sé, sí."
+},
+{
+"id": "Dialogue/DLG_7_3_VCH_01_027",
+"es": "(Odio tener que mentirle...)"
+},
+{
+"id": "Dialogue/DLG_7_3_VSQ_03_029",
+"es": "¡Basta! ¡Hasta aquí llegamos!"
+},
+{
+"id": "Dialogue/DLG_7_3_VSQ_03_030",
+"es": "Solo estás empeorando las cosas, Elise..."
+},
+{
+"id": "Dialogue/DLG_7_3_VSQ_03_031",
+"es": "(¡Ay, si tan solo pudiera deshacerme de esta vieja arpía!)"
+},
+{
+"id": "Dialogue/DLG_7_3_VBA_03_031",
+"es": "(¡No tengo paciencia para todas estas tonterías!)"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_001",
+"es": "¿Corriendo bajo la lluvia, eh?"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_002",
+"es": "¿Usted no, señor Bernhard?"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_003",
+"es": "Me gusta bastante esta vista, nada más, incluso con la lluvia."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_004",
+"es": "¿Has visto al viejo Wilhelm, por casualidad?"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_005",
+"es": "¿Necesita algo, señor Bernhard?"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_006",
+"es": "Sabrás guardar un secreto, apostaría."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_007",
+"es": "Todos estamos preparando un regalo para Eugen, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_008",
+"es": "¡Para el señor Eugen!"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_009",
+"es": "No queremos dejarlo ir sin algún gesto de agradecimiento, nada más."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_010",
+"es": "El viejo Wilhelm ha estado trabajando en ello; ¿por qué no le preguntas?"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_011",
+"es": "Puedo hacerlo, señor Bernhard."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_012",
+"es": "(Es bastante amable de su parte, ¿no?)"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_013",
+"es": "¿Y bien? ¿Qué dijo?"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_014",
+"es": "Dice que lo tendrá listo para mañana, señor Bernhard."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_015",
+"es": "¡Bien, bien!"
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_016",
+"es": "Toma, Elise; gracias."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_017",
+"es": "No tenía por qué, señor Bernhard."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_018",
+"es": "Tampoco teníamos por qué ser tan duros contigo hace rato, y sin embargo aquí estamos."
+},
+{
+"id": "Dialogue/DLG_7_4_VWW_01_020",
+"es": "(La gente se siente culpable, pero ya es un poco tarde para eso, ¿no?)"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_001",
+"es": "¡Ah, aquí estás, muchacha!"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_002",
+"es": "Aquí estoy, señor Wilhelm."
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_003",
+"es": "No dejes que esas tonterías te afecten, ¿me oyes?"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_005",
+"es": "¡La gente está asustada, eso es todo!"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_006",
+"es": "Pudo haber sido cualquiera, pero con esa prima tuya..."
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_007",
+"es": "¿Qué pasa con mi prima, señor Wilhelm?"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_008",
+"es": "¡Es una forastera, eso es! ¡La gente no lo soporta!"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_009",
+"es": "(No estoy muy segura de que sea solo eso, pero...)"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_010",
+"es": "El señor Bernhard lo está buscando, señor Wilhelm."
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_011",
+"es": "Ah, por lo de Eugen, apostaría."
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_012",
+"es": "Dile que lo tendré listo para mañana, Elise."
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_013",
+"es": "¿Qué le va a regalar, señor Wilhelm?"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_014",
+"es": "¿Estás segura de que puedes guardar el secreto?"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_016",
+"es": "Eugen dijo que quería una navaja nueva, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_017",
+"es": "He estado trabajando en ella desde el martes: ¡ha costado mucho trabajo!"
+},
+{
+"id": "Dialogue/DLG_7_4_VCH_02_018",
+"es": "(Es amable de su parte, supongo.)"
+},
+{
+"id": "Dialogue/DLG_7_5_VWW_01_018",
+"es": "(Me hace pensar...)"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_002",
+"es": "¡El Padre Hans casi me atrapa, Rosmarine!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_003",
+"es": "¡Oh, pero no lo hizo!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_004",
+"es": "No, no entiendes..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_005",
+"es": "Conseguiste el <color=#ed1c24><b>Regalo</b></color>, ¿verdad?"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_006",
+"es": "¿El <color=#ed1c24><b>Néctar más dulce</b></color>?"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_007",
+"es": "Supongo que sí, pero..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_008",
+"es": "¡Lo único que falta ahora es la <color=#ed1c24><b>Buena compañía</b></color>!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_009",
+"es": "La <color=#ed1c24><b>Buena compañía</b></color>, dices..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_010",
+"es": "Sigo sin entender qué es eso..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_011",
+"es": "¡Pues es el objeto de tu afecto, Elise!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_012",
+"es": "El objeto de mi afecto, dices..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_013",
+"es": "¡Todo se trata de compromiso, Elise!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_014",
+"es": "¡Ay, ya estoy harta de esta tontería del <i>compromiso</i>...!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_015",
+"es": "¡No quiero volver a oír esa palabra nunca más!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_016",
+"es": "¡Eres tan dramática, Elise!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_017",
+"es": "¡Oh, cómo me encantaría ser tu <color=#ed1c24><b>Buena compañía</b></color>!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_018",
+"es": "¡Bueno, ya fue suficiente!"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_019",
+"es": "¿Qué? ¿Dije algo malo?"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_020",
+"es": "¿Qué es la <color=#ed1c24><b>Buena compañía</b></color>, Rosmarine?"
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_021",
+"es": "Pues... Estoy segura de que ya lo sabes, en el fondo..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_022",
+"es": "Es en esencia una representación de tu corazón, Elise..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_023",
+"es": "Así que tenemos la carne, la sangre y el corazón."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_024",
+"es": "Entiendo el significado de todo eso, pero..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_025",
+"es": "Es a quien amas, Elise."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_027",
+"es": "Debes demostrarle a <b>Él</b> que estás comprometida..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_028",
+"es": "Ofreciéndole tu carne, y tu sangre, y..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_029",
+"es": "Presentándote ante <b>Él</b> en tu estado más vulnerable."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_031",
+"es": "A quien más amas, Elise..."
+},
+{
+"id": "Dialogue/DLG_7_6_VSQ_02_032",
+"es": "Debes llevarla ante <b>Él</b> contigo."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_001",
+"es": "Es una lástima que no podamos llevar a Flocke al festival..."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_002",
+"es": "¿De qué le serviría a él, de todos modos?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_003",
+"es": "¡Oh, ya sabes cuánto disfruta que lo acaricien, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_004",
+"es": "¡Y los niños tampoco se cansan de él!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_005",
+"es": "¡Es una cabra, Rosmarine!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_006",
+"es": "¡Aun así, estoy segura de que lo disfrutaría!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_007",
+"es": "¿Y qué hacemos si empieza a masticar el palo de mayo?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_008",
+"es": "¡Podemos llevar un nabo o dos!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_009",
+"es": "¿Y si la gente nos pregunta por él? ¿Entonces qué?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_010",
+"es": "¡Podemos fingir que no lo conocemos!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_011",
+"es": "Si nos mostramos tan sorprendidas de verlo como todos los demás, quizá podamos..."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_012",
+"es": "¡Ay, eres un caso perdido!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_014",
+"es": "Has estado bastante inquieta..."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_015",
+"es": "Ah, bueno... Yo... Creo que solo estoy un poco nerviosa..."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_016",
+"es": "(Por lo de esta noche, supongo...)"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_017",
+"es": "Es mi primera vez en un festival, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_019",
+"es": "¡Oh, sé que es una tontería, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_020",
+"es": "¿Por qué darle tanta importancia?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_021",
+"es": "¿Y si tropiezo con mis zuecos, o si no estoy bien vestida...?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_022",
+"es": "¡Estaré justo a tu lado! Yo cuidaré de ti."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_025",
+"es": "Es agridulce, ¿no?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_026",
+"es": "¿Qué cosa, Rosmarine?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_027",
+"es": "¡Pues llegar al final de la semana!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_029",
+"es": "¿Prefieres evitar hablar de eso?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_030",
+"es": "Me conoces desde hace una semana, Rosmarine."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_031",
+"es": "Y sin embargo se siente como si hubiera estado aquí por años, ¿verdad?"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_032",
+"es": "Un poquito..."
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_033",
+"es": "¡Vaya, no tienes por qué ser tan tímida al respecto!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_034",
+"es": "¡¿A quién llamas tímida, tú...?!"
+},
+{
+"id": "Dialogue/DLG_8_1_HBY_01_035",
+"es": "(De verdad se siente como si nos conociéramos desde hace mucho más, ¿no?)"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_002",
+"es": "¡Todas esas tonterías están muertas y enterradas, Guido!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_003",
+"es": "¿Qué tonterías, señor Tristan?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_004",
+"es": "¡Guido aquí sigue parloteando sobre la semana pasada!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_005",
+"es": "Sigamos adelante: ya llegamos al sábado."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_006",
+"es": "¡Al festival!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_008",
+"es": "Ya era hora, si soy sincero."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_009",
+"es": "¡Hasta la prima de Elise está más emocionada por el festival que tú, Guido!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_010",
+"es": "¡Esto no es cosa de risa, Tristan!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_011",
+"es": "¡Vamos, amigos: debemos aprovechar el día de hoy!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_01_012",
+"es": "(¡Me parece que están de muy buen ánimo!)"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_001",
+"es": "¿Con ganas de que llegue el día de hoy, eh?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_003",
+"es": "¿Todo bien, señor Eugen?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_004",
+"es": "Kieferberg ha recuperado algo de su alegría, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_005",
+"es": "No estoy seguro de poder decir lo mismo de mí, eso es todo."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_006",
+"es": "Por sus caballos..."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_008",
+"es": "Ella tiene razón, Elise: las cosas ya no son como antes."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_009",
+"es": "Me duele dejar el pueblo, para ser sincero..."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_010",
+"es": "Pero no creo que pueda volver a verlo como antes."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_011",
+"es": "Señor Eugen, yo..."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_012",
+"es": "Eso ya quedó en el pasado, muchacha."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_013",
+"es": "¡Ahora solo nos queda aprovechar al máximo el festival!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_014",
+"es": "¡Después de todo, será el último!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_02_015",
+"es": "(Parece que el señor Eugen y yo compartimos el mismo sentimiento...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_002",
+"es": "Estás llena de alegría, ¿no?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_003",
+"es": "¿Qué más podemos esperar de Freya hoy, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_005",
+"es": "¡Ah, sí...!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_006",
+"es": "¡Hice coronas de flores para todas, y para ti también, por supuesto!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_007",
+"es": "¡Oh, una corona de flores!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_008",
+"es": "¿Qué dices si bailamos juntas alrededor del palo de mayo, Rozenmarine?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_009",
+"es": "¡Oh, bailar alrededor del palo de mayo!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_010",
+"es": "¡Ustedes dos la están consintiendo demasiado!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_011",
+"es": "¡Pero si ella no es de Kieferberg, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_012",
+"es": "Freya tiene razón, Elise: no tendremos muchas otras oportunidades."
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_013",
+"es": "Entonces, ¿por qué no se la llevan a casa ustedes dos?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_015",
+"es": "¿Qué cosa?"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_016",
+"es": "¡Pues una pijamada, por supuesto!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_017",
+"es": "¡Oh, una pijamada!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_018",
+"es": "¡Por el amor de Dios, ustedes dos!"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_019",
+"es": "(Supongo que hoy será la última vez que pasemos tiempo juntas así...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VSQ_03_020",
+"es": "(Mi última vez en Kieferberg, en todo caso...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_001",
+"es": "¡Qué bueno verlas aquí para la procesión, muchachas!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_002",
+"es": "Ah, tuvimos que sacar tiempo porque..."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_004",
+"es": "¿Cuánto más de mi tiempo va a desperdiciar el Padre Hans?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_005",
+"es": "¿Qué le pasa, señora Wilma?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_006",
+"es": "Quiere volver a su posada, Elise..."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_007",
+"es": "¡No hace falta decirlo así, Ariane!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_008",
+"es": "¡Vaya, vaya! ¡Es el día del festival, Wilma!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_009",
+"es": "No puede reunir sus oraciones ni por un día, ya veo..."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_011",
+"es": "Será mejor que todos tomemos asiento."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_012",
+"es": "¿Elise ya te explicó la procesión, Rozenmarine?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_013",
+"es": "Eh, no... No lo ha hecho."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_014",
+"es": "Es bastante sencilla..."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_01_015",
+"es": "(Esta procesión ayuda a mantener tranquila a la gente, supongo...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_001",
+"es": "¡Viniste, Rozenmarine!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_002",
+"es": "Estás muy alegre por el festival, ¿no, Grüne?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_003",
+"es": "Estos dos no han parado quietos desde esta mañana."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_004",
+"es": "Rosmarine también: ¡me ha estado taladrando el oído con eso todo el día!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_005",
+"es": "¡No puedo evitarlo!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_006",
+"es": "¡Bailemos juntas alrededor del palo de mayo, Rozenmarine!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_007",
+"es": "¡Tú también, Apfel! Hoy debemos divertirnos, ¿me oyes?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_009",
+"es": "¡Dilo de una vez, Apfel!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_010",
+"es": "(Todavía se ve bastante afligido...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_011",
+"es": "¡Es mejor que lo digas, Apfel! Estoy segura de que Elise lo agradecerá."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_012",
+"es": "¿Agradecer qué...?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_013",
+"es": "Lo siento, Elise, por lo que dije ayer..."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_014",
+"es": "Está bien, Apfel, no hay rencor."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_016",
+"es": "¡Oh, hoy se pone cada vez mejor!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_017",
+"es": "Es un alivio ver a todos divirtiéndose, ¿no?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_018",
+"es": "¡Podemos ir todos a jugar después de la procesión!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_019",
+"es": "(El pobre Apfel ha estado preocupado por eso desde ayer...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_02_020",
+"es": "(Aunque no es como si estuviera equivocado...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_001",
+"es": "¿Listas para la procesión?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_002",
+"es": "¡No podíamos perdérnosla, señor Gustav!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_003",
+"es": "¡Qué suerte que haya tanto sol hoy!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_004",
+"es": "¡Así es como debería ser Kieferberg!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_005",
+"es": "Alegría, esperanza y fe: eso es lo que la gente necesita hoy."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_006",
+"es": "¡Su alegría por sí sola es más que suficiente para todo Kieferberg, señor Gustav!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_007",
+"es": "¡Ya veo de dónde saca la suya Freya!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_008",
+"es": "Es lo que nos mantiene avanzando, ¿no?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_009",
+"es": "Recuerdas lo que solía decir la vieja Holle, ¿verdad, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_010",
+"es": "¿Sobre qué, señor Gustav?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_011",
+"es": "¡Que nosotros, la gente, debemos mantener nuestros recuerdos cerca del corazón, muchacha!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_012",
+"es": "¡Especialmente en días como estos, después de todo están contados!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_014",
+"es": "¡Oh, qué cosa tan maravillosa de decir!"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_015",
+"es": "Eso es lo que ellas habrían querido que hiciéramos, Elise."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_016",
+"es": "La vieja Holle... y Heidi también."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_017",
+"es": "¿Heidi...?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_018",
+"es": "Lo sé, señor Gustav, lo sé..."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_019",
+"es": "¿De quién hablaba el señor Gustav, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_020",
+"es": "Es la madre de Freya, Rosmarine; falleció hace mucho tiempo."
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_022",
+"es": "(Mantén tus recuerdos cerca del corazón...)"
+},
+{
+"id": "Dialogue/DLG_8_1_VCH_03_023",
+"es": "(Sí solía decir eso de vez en cuando, ¿verdad?)"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_001",
+"es": "¿Disfrutando del festival, muchacha?"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_002",
+"es": "¡Usted también se ve bastante contento, señor Wilhelm!"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_003",
+"es": "¡Tengo prisa por traer un martillo y clavos!"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_004",
+"es": "No estoy segura de que deba correr a su edad."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_005",
+"es": "¡Soy bastante robusto, incluso a mi edad!"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_006",
+"es": "Ya lo veo, señor Wilhelm."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_007",
+"es": "¡Oh, no puedo ocultarlo, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_008",
+"es": "Ser útil a esta edad... ¡No hay nada igual!"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_009",
+"es": "¡Echar una mano con el festival me hace sentir como un mozo otra vez!"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_010",
+"es": "Yo diría que mucha gente cuenta con usted bastante seguido."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_011",
+"es": "Esto es diferente, muchacha: ¡es el día del festival, después de todo!"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_01_012",
+"es": "(No me imagino llegando a la edad del señor Wilhelm...)"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_001",
+"es": "¿Ya tuviste suficiente de las celebraciones, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_002",
+"es": "Solo me tomo un momento, Padre, nada más."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_003",
+"es": "Lo mejor es que lo pases en oración."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_004",
+"es": "Yo mismo pasé un momento junto al altar."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_005",
+"es": "¿No fue suficiente devoción por un día la procesión?"
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_006",
+"es": "Hoy es una fecha importante, muchacha: Santa Walpurga vela por nosotros."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_007",
+"es": "Tenemos mucho que agradecerle a nuestra patrona también."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_008",
+"es": "Lo pensaré, Padre."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_009",
+"es": "Muy bien, Elise."
+},
+{
+"id": "Dialogue/DLG_8_3_VSQ_02_010",
+"es": "(¡Que la oración esto, que la oración aquello! ¡Por el amor de Dios!)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_001",
+"es": "¿Escabulléndote por el pueblo incluso en un día como hoy, Miffy?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_003",
+"es": "¡Gracias al cielo que estás aquí!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_004",
+"es": "Déjame adivinar..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_005",
+"es": "La señora Gretel t-traerá más pasteles más tarde, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_006",
+"es": "Pero mi tía solo me dio unas pocas monedas, y-y yo todavía..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_007",
+"es": "¡No te voy a prestar ni una sola moneda, Molly!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_008",
+"es": "¡Ah, p-pero Elise...! "
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_009",
+"es": "¡M-Mi tía es tan tacaña y y-yo no he probado...!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_010",
+"es": "¡Ni uno! "
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_012",
+"es": "No voy a ceder aunque llores, Mandy: ¡supéralo!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_017",
+"es": "Ve a pedírselo a la abuelita Gretel, ¿por qué no? Dile que yo te mandé."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_019",
+"es": "¡La abuelita Gretel no te diría que no, de todos modos!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_020",
+"es": "¡Ah...! ¡Q-Quizá debí pedírselo a ella primero, tienes razón!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_01_022",
+"es": "(¡Esta chica es increíble!)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_001",
+"es": "Quizá tengas razón, Linda..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_002",
+"es": "Aquí estás, Elise: ¡qué gusto verte!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_003",
+"es": "¡Hasta tú has dejado atrás esas ideas a estas alturas, apostaría!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_004",
+"es": "¿Qué ideas, señora Brunhilde?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_005",
+"es": "¡Pues la de irte de Kieferberg, muchacha!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_006",
+"es": "Yo diría que Elise puede ser un caso distinto, Brunhilde."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_007",
+"es": "¡Ah, eso es seguro!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_008",
+"es": "Tiene razón, supongo..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_010",
+"es": "Oh, ¿pero no es maravilloso estar aquí, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_011",
+"es": "¡Mira a tu alrededor! ¿Qué hay que no amar?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_013",
+"es": "¡No fastidies a la muchacha, Brunhilde!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_014",
+"es": "¡En serio, Elise tiene edad suficiente para decidir dónde quiere vivir!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_015",
+"es": "¡Oh, tú te lo pierdes: eso es todo lo que tengo que decir!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_016",
+"es": "(Parece que hoy ha hecho maravillas con el ánimo de todos...)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_02_017",
+"es": "(¡Si tan solo fueran así de amables conmigo el resto de los días del año!)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_001",
+"es": "¡Deberías intentarlo en serio, Bernhard!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_002",
+"es": "¿Por qué no le preguntas a Elise, entonces?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_003",
+"es": "¿No han bebido ustedes dos un poco de más?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_004",
+"es": "¡No importa eso, Elise: esto es sobre Eugen!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_005",
+"es": "¿Qué pasa con el señor Eugen?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_006",
+"es": "¡Pues se va! ¡Ese desgraciado!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_007",
+"es": "¡Creo que ya tuviste suficiente!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_008",
+"es": "¡Tú también, viejo cascarrabias!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_009",
+"es": "Ustedes dos..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_010",
+"es": "¡No podemos dejar que Eugen se vaya de Kieferberg, y punto!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_011",
+"es": "No estoy segura de que alguien pueda convencerlo de quedarse, señor Heinrich."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_012",
+"es": "¡Eso es lo que no dejo de decirle, muchacha!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_013",
+"es": "¡Eugen es demasiado bueno para dejarnos atrás!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_014",
+"es": "¡Voy a ir a hablar con él!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_015",
+"es": "¡Si tú vas, yo también!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_03_016",
+"es": "(Están demasiado ebrios, ¿verdad...?)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_001",
+"es": "¡Wilma puede cuidarse sola, yo diría!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_002",
+"es": "¿No crees que eso es bastante duro, Wilma?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_003",
+"es": "¿Qué cosa, señora Marlen?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_005",
+"es": "¿Necesita algo, viejo Jochen?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_006",
+"es": "¡Vaya, no me digas que sigues con lo de la <color=#934494><b>bruja</b></color>!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_007",
+"es": "¡Oh, otra vez con estas tonterías!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_008",
+"es": "Más nos vale rezar para que la bendición de Santa Walpurga dure, amigos."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_009",
+"es": "Quizá hoy disfrutemos de un día bendecido, pero nosotros..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_010",
+"es": "¡Un día bendecido que casi arruinamos por su necedad, viejo Jochen!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_011",
+"es": "Ya pasó; todos parecen haber dejado atrás la semana pasada, de todos modos."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_012",
+"es": "En serio, ya era hora de dejar esas tonterías."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_013",
+"es": "Ustedes de verdad no saben..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_014",
+"es": "En fin, como decía: ¡Wilma puede volver a Primeldorf todo lo que quiera!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_015",
+"es": "Aun así... Te quedarás completamente sola otra vez, Wilma..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_04_016",
+"es": "(Si tan solo hubieran manejado así las cosas la semana pasada...)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_001",
+"es": "¡Ah, mírate, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_002",
+"es": "¿Qué pasa conmigo, señora Mechtilde?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_003",
+"es": "Esa corona de flores te sienta muy bien, querida."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_004",
+"es": "La vieja Holle estaría muy orgullosa de ti, Elise."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_005",
+"es": "Oh, abuelita Gretel..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_006",
+"es": "¡En serio, yo diría que estaría saltando de alegría!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_007",
+"es": "Has crecido hasta convertirte en una muchacha encantadora, Elise."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_008",
+"es": "Ya van como diez años, ¿no es así?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_009",
+"es": "Supongo que sí..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_010",
+"es": "¡Cómo extraño la alegría de esa vieja amiga!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_011",
+"es": "¿Recuerdas, Mechtilde? Cuando teníamos la edad de Elise..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_012",
+"es": "Nos hacía esas coronas de flores de diente de león el día del festival."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_013",
+"es": "¡Claro que sí! Nos trenzaba el cabello y también nos pellizcaba las mejillas."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_014",
+"es": "¿Pellizcarles las mejillas, señora Mechtilde?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_015",
+"es": "¡Las mejillas sonrosadas son el mejor atributo de una muchacha, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_016",
+"es": "Es tal como ella solía decir, ¿no es cierto, Gretel?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_017",
+"es": "No hay duda alguna, Mechtilde."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_05_018",
+"es": "(Supongo que todos desearíamos haber pasado más tiempo con la abuelita Holle...)"
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_001",
+"es": "¡Piénsalo bien!"
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_002",
+"es": "Ya lo hice, Guido."
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_003",
+"es": "¿El señor Guido le está dando un sermón, verdad?"
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_004",
+"es": "¡Kieferberg está lejos de perder el ánimo, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_005",
+"es": "Soy yo quien ha perdido el ánimo, Guido."
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_006",
+"es": "¡Todos tememos tu partida, Eugen!"
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_007",
+"es": "El señor Eugen la teme igual que ustedes, yo diría."
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_008",
+"es": "No se equivoca, Guido."
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_009",
+"es": "Entonces, ¿por qué no lo reconsideras?"
+},
+{
+"id": "Dialogue/DLG_8_3_VST_01_011",
+"es": "(El señor Guido nunca lo va a entender, ¿verdad?)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_001",
+"es": "¡Ahí está!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_002",
+"es": "Aquí estoy... supongo..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_003",
+"es": "¡Anímate un poco, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_004",
+"es": "¡En serio, <i>es</i> el día del festival!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_006",
+"es": "¡Pues fue vergonzoso, a decir verdad!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_007",
+"es": "¿Qué cosa?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_008",
+"es": "¡Todo ese alboroto sobre la <color=#934494><b>bruja</b></color> y demás, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_009",
+"es": "Kieferberg no necesitaba todo ese conflicto, eso es seguro."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_011",
+"es": "La gente estuvo alterada por demasiado tiempo, yo diría..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_012",
+"es": "¡¿Qué hacemos hablando otra vez de estas tonterías?!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_013",
+"es": "¡En serio, deberíamos estar divirtiéndonos!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_014",
+"es": "Ah, si me disculpan..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_016",
+"es": "¡Debemos agradecer a Santa Walpurga!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_07_018",
+"es": "(¡Bien está lo que bien acaba, dicen!)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_001",
+"es": "¡Oh, muchacha!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_003",
+"es": "¡Es por todos estos forasteros hoy!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_004",
+"es": "No soporto bien todo este alboroto..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_005",
+"es": "Las tonterías de la semana pasada de verdad dejaron una cicatriz, ¿eh?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_006",
+"es": "¡No digas esas cosas, muchacha!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_007",
+"es": "Está bien, señora Odilie..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_008",
+"es": "Dicho eso..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_009",
+"es": "Supongo que es bueno ver a Kieferberg tan alegre otra vez..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_010",
+"es": "(Me sorprende que esta vieja bruja haya sobrevivido a esta semana, si soy sincera...)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_08_011",
+"es": "(¡Solo espero no terminar nunca como la señora Odilie!)"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_001",
+"es": "No hay vuelta de hoja: ¡deberíamos hacerlo!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_002",
+"es": "¿Hacer qué, señor Ludwig?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_003",
+"es": "¡Mira a toda esta gente, muchacha!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_004",
+"es": "El viejo está parloteando sobre restaurar las casas antiguas de Kieferberg, Elise."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_005",
+"es": "¡¿A quién llamas viejo, Fynn?!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_006",
+"es": "Ya tuvo suficiente, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_007",
+"es": "Eso sin duda lo puedo ver, sí."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_008",
+"es": "¡Kieferberg aún tiene lo suyo, amigos, eso es!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_009",
+"es": "Aunque restauremos y reconstruyamos todas esas casas abandonadas, Ludwig..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_010",
+"es": "Será mejor que no lo provoques, Fynn."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_011",
+"es": "¡Los oí, ustedes dos!"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_012",
+"es": "Parece que los jóvenes ahora tienen mejores pueblos donde establecerse, señor Ludwig."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_013",
+"es": "¿Primeldorf, dices?"
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_014",
+"es": "Oh, ahí va otra vez..."
+},
+{
+"id": "Dialogue/DLG_8_3_VIN_10_015",
+"es": "(Esta gente mayor de verdad no puede soltar, ¿cierto?)"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_003",
+"es": "¿Podemos quedarnos con Flocke?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_005",
+"es": "No sabemos qué va a pasar esta noche, pero..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_006",
+"es": "¡No soporto la idea de separarme de él, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_007",
+"es": "¿Por qué le tienes tanto apego a esa cabra, de todos modos?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_008",
+"es": "¡Oh, porque me acompañó hasta aquí!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_009",
+"es": "¡Él está igual de apegado a mí, Elise: es una verdadera mascota!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_010",
+"es": "Una verdadera mascota, dices..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_011",
+"es": "¡Siempre ha dormido conmigo y me da besos todos los días!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_012",
+"es": "¡¿Dejas que esa cabra te lama?!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_013",
+"es": "¡Ah, y una vez también intentó comerse mi sombrero!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_014",
+"es": "¡¿Cómo es eso algo bueno, Rosmarine?!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_015",
+"es": "¡Tener una mascota es algo maravilloso, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_016",
+"es": "Está bien... Supongo que podemos quedárnoslo..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_017",
+"es": "¡Oh, qué feliz se pondrá al enterarse!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_019",
+"es": "Nunca has tenido mascotas, ¿verdad, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_020",
+"es": "La abuelita Holle era alérgica."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_021",
+"es": "¡Oh, lo sabía! ¡Se nota mucho!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_024",
+"es": "Antes de continuar..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_026",
+"es": "Me alegra que hayamos podido pasar esta semana juntas aquí en Kieferberg."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_028",
+"es": "Me sentía sola, Rosmarine..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_029",
+"es": "Desde que la abuelita Holle falleció... Creo que ni siquiera me di cuenta del todo..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_031",
+"es": "Aunque destruiste mi casa..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_032",
+"es": "Y no dejabas de meter a Flocke adentro..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_033",
+"es": "Y aunque eres tan tonta y despreocupada..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_034",
+"es": "Te entiendo, Elise."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_035",
+"es": "Empaparnos bailando afuera bajo la lluvia..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_036",
+"es": "¡E incluso después de esa horrible sopa de uvas!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_037",
+"es": "¡Dijiste que no estaba tan mala, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_038",
+"es": "Me gusta tu compañía, Rosmarine."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_039",
+"es": "De verdad."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_040",
+"es": "¡Qué tontita eres, Elise: lo sé!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_041",
+"es": "¡Vaya, nunca lo había puesto en palabras así!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_042",
+"es": "Oh, ¿de verdad creías que no se notaba, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_046",
+"es": "Tus labios son tan suaves que me preguntaba si..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_047",
+"es": "¡¿Eh?!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_049",
+"es": "¡T-Tú...!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_051",
+"es": "¡Lo haces a propósito, pequeña...!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_052",
+"es": "Oh, yo..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_053",
+"es": "Solo me lo preguntaba, nada más..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_054",
+"es": "¡Ni una palabra más hasta que lleguemos, Rosmarine!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_055",
+"es": "No hace falta que te pongas tan nerviosa, Elise..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_056",
+"es": "¡N-No estoy nerviosa, tú...!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_057",
+"es": "Todo lo que hice fue..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_058",
+"es": "¡Sé perfectamente lo que hiciste!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_059",
+"es": "No puedes seguir evitándolo, Elise, pensé que nosotras..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_060",
+"es": "¡Pues sí puedo!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_061",
+"es": "Solo fue un..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_062",
+"es": "¡Puedo, y lo haré!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_063",
+"es": "Te besaré otra vez si sigues..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_067",
+"es": "(Debo concentrarme en encontrar a <b>Él</b>...)"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_03_068",
+"es": "(Si <b>Él</b> de verdad cumple mi deseo, entonces... ¡también podré darle a Rosmarine una vida mejor!)"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_002",
+"es": "¡No puedo contenerme más: tengo que decirlo!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_004",
+"es": "¡Iba a esperar hasta que estuviera terminado, pero no puedo!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_005",
+"es": "¡Por el amor de Dios, Freya! ¡Suéltalo ya!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_006",
+"es": "¡Te estoy haciendo un vestido de invierno!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_008",
+"es": "La señora Mariele tenía esta maravillosa tela roja por ahí, ¿ves?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_009",
+"es": "¡No pude resistirme, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_010",
+"es": "Ah, bueno... No veo el daño en eso..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_011",
+"es": "¡Oh, debí esperar antes de decírtelo, pero estaba tan emocionada!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_012",
+"es": "¡Estoy pensando en hacerte también una capa a juego!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_013",
+"es": "La señora Mariele tenía algo de piel por ahí, así que también pensé en..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_014",
+"es": "Lo estaré esperando con ansias, Freya."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_015",
+"es": "¡Perdón! Sé que estoy divagando, pero debo preguntar..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_016",
+"es": "¿Qué opinas de las diademas, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_018",
+"es": "¡Necesito saberlo: es muy importante!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_019",
+"es": "Oye, Freya..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_020",
+"es": "De verdad desearía que siempre hubiéramos estado así de cerca..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_021",
+"es": "Estaba resentida sin motivo, ni siquiera te dirigía la palabra..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_023",
+"es": "¡Hablo en serio, Freya!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_024",
+"es": "No hay nada que podamos hacer con el tiempo perdido, ¿verdad?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_025",
+"es": "¡Lo que importa es que hagamos buenos recuerdos de aquí en adelante!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_027",
+"es": "Verás, Elise... Yo solía lamentar el tiempo que me perdí con mi madre..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_029",
+"es": "Aunque, por supuesto, desearía que siguiera conmigo..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_030",
+"es": "He aprendido a valorar el poco tiempo que tuve con ella, y la persona que fue..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_031",
+"es": "¡En lugar de lo que pudo haber sido!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_033",
+"es": "Aunque <i>sí</i> hay algo que podrías hacer para compensármelo..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_034",
+"es": "¿Qué es, Freya?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_035",
+"es": "¡Déjame peinarte!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_037",
+"es": "¡Hablo en serio! ¡Me encantaría trenzártelo!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_038",
+"es": "Te verías maravillosa con trenzas de lechera, y también podríamos..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_039",
+"es": "¡Está bien! ¡De acuerdo!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_041",
+"es": "¡Oh, no puedo esperar a contárselo a papá!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_042",
+"es": "¡¿C-C-Contárselo?!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_043",
+"es": "¡Pues que nos vamos...!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_044",
+"es": "¡F-F-Freya...!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_045",
+"es": "¡Que nos vamos a Primeldorf, tontita!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_046",
+"es": "¡Ah...!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_047",
+"es": "Claro, y también debería decirle que nosotras..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_048",
+"es": "¡Por el amor de Dios, Freya!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_049",
+"es": "¡Es que no puedo <i>no</i> decírselo, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_050",
+"es": "¡No sabría cómo mirarlo a la cara, Freya!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_051",
+"es": "¡Igual que siempre lo has hecho, Elise!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_052",
+"es": "¡Es más fácil decirlo que hacerlo, Freya!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_053",
+"es": "¡Te llevaré cargando si es necesario, quieras o no!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_054",
+"es": "¡Vamos a pedir juntas la bendición de papá, y punto!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_055",
+"es": "¡Oh, estoy muerta!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_02_058",
+"es": "(Si <b>Él</b> de verdad cumple mi deseo... ¡quizá también pueda darle a Freya una vida mejor!)"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_001",
+"es": "¿No te alegra que haya terminado, Elise?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_002",
+"es": "¿Te refieres a esta última semana?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_003",
+"es": "Me siento mucho más liviana, ¿tú no?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_004",
+"es": "Te verías mucho más liviana si te quitaras también el hábito, Leb."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_006",
+"es": "La procesión terminó hace rato, eso es todo."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_007",
+"es": "Insistes mucho con mi hábito... ¿Por qué?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_008",
+"es": "¡Porque te ves mucho mejor sin él!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_009",
+"es": "¡Apuesto a que ni siquiera sabrías qué ponerte si pudieras elegir!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_010",
+"es": "¡Claro que sí sabría!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_011",
+"es": "¡No, no sabrías, Leb!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_012",
+"es": "Por supuesto que sí, Elise; tengo muchos vestidos en casa."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_013",
+"es": "¡De cuando eras una niña pequeña, tal vez!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_015",
+"es": "Sabes que tengo razón, Lebkuchen; no discutamos..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_016",
+"es": "¿Cómo crees que debería vestirme, entonces?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_017",
+"es": "¡No como una monja, eso es seguro!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_018",
+"es": "¡Bueno, eso <i>no</i> ayuda!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_019",
+"es": "Quiero que puedas decidirlo por ti misma, Leb..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_022",
+"es": "No pudimos bailar alrededor del palo de mayo, ¿verdad?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_023",
+"es": "Supongo que no..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_024",
+"es": "La gente no lo desmontará hasta mañana por la mañana, así que..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_025",
+"es": "¿Qué dices si nos escabullimos esta noche?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_027",
+"es": "¡Podemos bailar juntas cuando no haya nadie, solo nosotras dos!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_028",
+"es": "¿Quizá incluso subir al campanario y mirar las estrellas?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_029",
+"es": "¡Das mucha vergüenza, Lebkuchen!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_030",
+"es": "Quiero aprovechar al máximo mi tiempo contigo, Elise."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_031",
+"es": "Lo haces sonar como si yo fuera a..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_032",
+"es": "Hablaba en serio, Elise."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_034",
+"es": "¿Cuándo nos vamos, entonces?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_036",
+"es": "De Kieferberg, Elise: nos vamos, ¿no?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_037",
+"es": "Supongo, pero ahora que nos vamos juntas..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_038",
+"es": "La abuelita Gretel todavía necesita que la ayudes, ¿no es así?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_039",
+"es": "No necesariamente; es bastante enérgica para su edad."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_041",
+"es": "¿Pensé que querías que dejara de contenerme?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_042",
+"es": "Sí, pero pensé que tú..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_043",
+"es": "Ya tomé mi decisión, Elise: mi futuro está contigo."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_045",
+"es": "¡Vaya, estás tan roja como tus zapatos!"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_047",
+"es": "¿Quizá sea mejor que me contenga un poco, después de todo?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_050",
+"es": "Vas a ser mi perdición si sigues..."
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_051",
+"es": "¿Podemos ir de la mano en el camino, si quieres?"
+},
+{
+"id": "Dialogue/DLG_8_3_OCR_01_057",
+"es": "(Si <b>Él</b> de verdad cumple mi deseo... ¡quizá también pueda darle a Lebkuchen una vida mejor!)"
+}
+]

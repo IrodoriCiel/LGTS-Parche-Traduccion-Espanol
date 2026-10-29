@@ -1,0 +1,15 @@
+# Compilación del instalador
+build/
+dist/
+__pycache__/
+*.pyc
+.venv/
+
+# Archivos del juego de cada persona: NUNCA se suben
+respaldo/
+*.assets
+*.resS
+*.unity3d
+*.dll
+ruta_juego.txt
+*.log

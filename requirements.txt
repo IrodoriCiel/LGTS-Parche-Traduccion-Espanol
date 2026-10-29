@@ -1,0 +1,14 @@
+# Para generar el instalador (.exe). Los jugadores no necesitan instalar nada.
+UnityPy==1.25.4
+TypeTreeGeneratorAPI==0.0.10
+lz4==4.4.5
+pillow==13.0.0
+etcpak==0.9.15
+opencv-python-headless==4.10.0.84
+numpy==2.5.4
+pywebview==5.3.2
+pythonnet==3.2.1
+clr_loader==0.3.1
+bottle==0.13.4
+proxy_tools==0.1.0
+pyinstaller==6.11.1

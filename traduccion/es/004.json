@@ -1,0 +1,2322 @@
+[
+{
+"id": "Chores/CHR_039_039",
+"es": "¡Aquí tienes, Elise! ¡Lo hiciste bien!"
+},
+{
+"id": "Chores/CHR_039_040",
+"es": "Supongo, pero..."
+},
+{
+"id": "Chores/CHR_039_041",
+"es": "No diría que quiero que <i>eso</i> sea mi único talento..."
+},
+{
+"id": "Chores/CHR_039_042",
+"es": "¡Tienes un montón de otros talentos, Elise!"
+},
+{
+"id": "Chores/CHR_039_043",
+"es": "¿Como cuáles?"
+},
+{
+"id": "Chores/CHR_039_044",
+"es": "¡Bueno, ya lo descubrirás a su debido tiempo!"
+},
+{
+"id": "Chores/CHR_039_046",
+"es": "¡Oh, esto me será muy útil!"
+},
+{
+"id": "Chores/CHR_039_047",
+"es": "(De alguna manera me han puesto a trabajar... ¡a pesar de que es el festival!)"
+},
+{
+"id": "Chores/CHR_039_048",
+"es": "Aquí tienes, Elise, una pequeña recompensa para ti."
+},
+{
+"id": "Chores/CHR_039_049",
+"es": "¡Ah, gracias, señora Ariane!"
+},
+{
+"id": "Chores/CHR_039_050",
+"es": "¿Por qué no te das un gustito?"
+},
+{
+"id": "Chores/CHR_039_051",
+"es": "¡Escuché que la vieja Gretel traerá más de sus pasteles más tarde!"
+},
+{
+"id": "Chores/CHR_039_053",
+"es": "No puedo culparte, ¿verdad?"
+},
+{
+"id": "Chores/CHR_039_054",
+"es": "¿Qué quiere decir con eso, señora Ariane?"
+},
+{
+"id": "Chores/CHR_039_055",
+"es": "¡Vaya, hasta yo temo quedarme aquí vendiendo esto!"
+},
+{
+"id": "Chores/CHR_039_056",
+"es": "¡Estás recogiendo huevos incluso en un día como este, Elise! ¡No me extraña que te hayas rendido!"
+},
+{
+"id": "Chores/CHR_039_057",
+"es": "Pero yo no..."
+},
+{
+"id": "Chores/CHR_039_058",
+"es": "Esto debería alcanzar para una rebanada de pastel o dos, ¿no te parece?"
+},
+{
+"id": "Chores/CHR_039_059",
+"es": "(¡Pero me esforcé al máximo!)"
+},
+{
+"id": "Chores/CHR_039_060",
+"es": "¿Todavía te quedan boletos, Elise?"
+},
+{
+"id": "Chores/CHR_039_061",
+"es": "¡Sí, tengo!"
+},
+{
+"id": "Chores/CHR_039_062",
+"es": "No me molestaría canjearlo con usted, señora Ariane."
+},
+{
+"id": "Chores/CHR_039_063",
+"es": "Esas gallinas van a recibir su merecido hoy, ¿no es así?"
+},
+{
+"id": "Chores/CHR_039_064",
+"es": "Dicho así..."
+},
+{
+"id": "Chores/CHR_039_066",
+"es": "Todavía estoy bastante cansada, ¿sabe?"
+},
+{
+"id": "Chores/CHR_039_067",
+"es": "No hay problema, ¡solo vuelve cuando estés lista!"
+},
+{
+"id": "Chores/CHR_039_068",
+"es": "No puedo hacer nada si ya no te quedan boletos, Elise."
+},
+{
+"id": "Chores/CHR_039_069",
+"es": "Ah, supongo que no..."
+},
+{
+"id": "Chores/CHR_039_070",
+"es": "Los niños los quieren de vuelta para el final del día, ¿entiendes?"
+},
+{
+"id": "Chores/CHR_039_071",
+"es": "¿Por qué no vas a disfrutar del festival, Elise?"
+},
+{
+"id": "Chores/CHR_040_001",
+"es": "¿Disfrutando del festival, querida?"
+},
+{
+"id": "Chores/CHR_040_002",
+"es": "Por supuesto, señora Lisbeth. Espero que usted también."
+},
+{
+"id": "Chores/CHR_040_004",
+"es": "Pero lo más importante: ¡los muchachos me dijeron que estarías aquí!"
+},
+{
+"id": "Chores/CHR_040_005",
+"es": "¡Para canjear sus tontos boletos!"
+},
+{
+"id": "Chores/CHR_040_006",
+"es": "Saben cómo atraparnos, ¿verdad?"
+},
+{
+"id": "Chores/CHR_040_007",
+"es": "Yo diría que están haciendo un buen trabajo manteniendo el ánimo de todos."
+},
+{
+"id": "Chores/CHR_040_008",
+"es": "No podemos quedarnos atrás, ¿o sí?"
+},
+{
+"id": "Chores/CHR_040_009",
+"es": "¡Hagámoslo!"
+},
+{
+"id": "Chores/CHR_040_010",
+"es": "¡Estaré esperando esa recompensa de la que me hablaron!"
+},
+{
+"id": "Chores/CHR_040_011",
+"es": "¡Por supuesto, Elise, te estaré esperando!"
+},
+{
+"id": "Chores/CHR_040_012",
+"es": "Pensándolo mejor..."
+},
+{
+"id": "Chores/CHR_040_013",
+"es": "Dijeron que la señora Ariane y el señor Gustav también estaban en el asunto."
+},
+{
+"id": "Chores/CHR_040_014",
+"es": "Ah, ¿quieres hablar primero con ellos?"
+},
+{
+"id": "Chores/CHR_040_015",
+"es": "¡No hay problema, Elise! Tómate tu tiempo, querida."
+},
+{
+"id": "Chores/CHR_040_016",
+"es": "¡Gracias, señora Lisbeth!"
+},
+{
+"id": "Chores/CHR_040_017",
+"es": "¿Pudiste echar un vistazo por el pueblo?"
+},
+{
+"id": "Chores/CHR_040_018",
+"es": "¡Canjéelo, señora Lisbeth!"
+},
+{
+"id": "Chores/CHR_040_019",
+"es": "¡Los muchachos se alegrarían si lo hiciera con usted!"
+},
+{
+"id": "Chores/CHR_040_021",
+"es": "No te esfuerces demasiado, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_040_023",
+"es": "Será mejor que mire un poco más."
+},
+{
+"id": "Chores/CHR_040_024",
+"es": "¡Tómate tu tiempo en el festival, Elise! ¡Aprovéchalo al máximo!"
+},
+{
+"id": "Chores/CHR_040_025",
+"es": "De todos modos, estaré aquí todo el día cuidando a los muchachos."
+},
+{
+"id": "Chores/CHR_040_026",
+"es": "Te has vuelto bastante buena en esto, ¿no es cierto?"
+},
+{
+"id": "Chores/CHR_040_027",
+"es": "No lo hice exactamente a propósito..."
+},
+{
+"id": "Chores/CHR_040_028",
+"es": "¿Por qué no le compras algo rico a tu prima para la cena?"
+},
+{
+"id": "Chores/CHR_040_030",
+"es": "Me alegra tanto que Kieferberg haya vuelto a la normalidad, Elise."
+},
+{
+"id": "Chores/CHR_040_031",
+"es": "Ya era hora, ¿no?"
+},
+{
+"id": "Chores/CHR_040_032",
+"es": "De verdad..."
+},
+{
+"id": "Chores/CHR_040_033",
+"es": "¡Vaya, Elise! ¡Los niños quedarán impresionados!"
+},
+{
+"id": "Chores/CHR_040_034",
+"es": "No hago esto para impresionar a nadie, señora Lisbeth."
+},
+{
+"id": "Chores/CHR_040_035",
+"es": "Te respetan bastante... Lo sabes, ¿verdad?"
+},
+{
+"id": "Chores/CHR_040_036",
+"es": "¿Desde cuándo?"
+},
+{
+"id": "Chores/CHR_040_037",
+"es": "Aquí tienes, querida... Lo hiciste bien."
+},
+{
+"id": "Chores/CHR_040_039",
+"es": "Grüne siempre te ha admirado, Elise."
+},
+{
+"id": "Chores/CHR_040_040",
+"es": "Y Apfel también ha estado hablando de ti desde el miércoles."
+},
+{
+"id": "Chores/CHR_040_042",
+"es": "Asegúrate de jugar con ellos, ¿me oyes?"
+},
+{
+"id": "Chores/CHR_040_043",
+"es": "Se pondrán contentos."
+},
+{
+"id": "Chores/CHR_040_044",
+"es": "¡Siempre haces un trabajo estupendo, Elise!"
+},
+{
+"id": "Chores/CHR_040_047",
+"es": "Lamento que los muchachos te pusieran a trabajar hoy, precisamente hoy."
+},
+{
+"id": "Chores/CHR_040_048",
+"es": "Bueno, debo decir que ¡hoy no se siente como trabajo!"
+},
+{
+"id": "Chores/CHR_040_049",
+"es": "De verdad, es maravilloso ver a Kieferberg de tan buen ánimo, ¿no es cierto?"
+},
+{
+"id": "Chores/CHR_040_050",
+"es": "Es bastante difícil encontrar la motivación para trabajar hoy, ¿no es cierto?"
+},
+{
+"id": "Chores/CHR_040_051",
+"es": "Ah, no quise..."
+},
+{
+"id": "Chores/CHR_040_052",
+"es": "No te preocupes, Elise."
+},
+{
+"id": "Chores/CHR_040_053",
+"es": "Señora Lisbeth..."
+},
+{
+"id": "Chores/CHR_040_054",
+"es": "Cómprate algo rico, Elise. Te agradezco tu tiempo."
+},
+{
+"id": "Chores/CHR_040_055",
+"es": "Gracias."
+},
+{
+"id": "Chores/CHR_040_056",
+"es": "¿Buscas canjear más boletos, Elise?"
+},
+{
+"id": "Chores/CHR_040_057",
+"es": "¡Tengo uno!"
+},
+{
+"id": "Chores/CHR_040_058",
+"es": "Más vale usarlo, ¿no te parece?"
+},
+{
+"id": "Chores/CHR_040_059",
+"es": "Los muchachos se pondrán contentos, estoy segura."
+},
+{
+"id": "Chores/CHR_040_061",
+"es": "Creo que caminaré un poco más por el pueblo."
+},
+{
+"id": "Chores/CHR_040_062",
+"es": "No hay problema, Elise, tómate tu tiempo, querida."
+},
+{
+"id": "Chores/CHR_040_063",
+"es": "Ah, les prometí a los niños que no te dejaría jugar sin boletos..."
+},
+{
+"id": "Chores/CHR_040_064",
+"es": "Quieren los boletos de vuelta para el final del día, ¿entiendes?"
+},
+{
+"id": "Chores/CHR_040_065",
+"es": "¡No hay problema, señora Lisbeth!"
+},
+{
+"id": "Chores/CHR_040_066",
+"es": "¡Ay, qué día tan maravilloso estamos pasando!"
+},
+{
+"id": "Chores/CHR_QUOTE_CHICKENS",
+"es": "¡<b>Quítate de mi camino</b>, pajarraco <b>inmundo</b>!"
+},
+{
+"id": "Chores/CHR_QUOTE_APPLES",
+"es": "¡¿Cuántas <b>manzanas</b> necesita esta gente, <b>por todos los cielos</b>?!"
+},
+{
+"id": "Chores/CHR_QUOTE_CHOP",
+"es": "¡¿Por qué mejor no le <b>piden a Freya</b> que lo parta por ellos?!"
+},
+{
+"id": "Chores/CHR_QUOTE_RAT",
+"es": "¡<b>Qué asco</b>! ¡No quiero esta <b>rata apestosa</b> cerca de mí!"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_001",
+"es": "¡Ahí estás, Rosmarine!"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_002",
+"es": "¡No sabía que volverías tan pronto, Elise!"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_003",
+"es": "Aun así, debería volver al pueblo, ¿sabes?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_004",
+"es": "¿Qué haces parada aquí afuera?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_005",
+"es": "¡Oh, solo espero a que salgan las estrellas!"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_007",
+"es": "Un poco temprano para las estrellas, ¿no crees?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_008",
+"es": "¡Me ayuda a despejar mis pensamientos!"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_009",
+"es": "Despejar tus pensamientos, dices."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_012",
+"es": "Espero la luna creciente, es..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_013",
+"es": "Importante que fije la vista en lo que vendrá, cuanto antes mejor."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_014",
+"es": "¿A qué te refieres, Rosmarine?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_015",
+"es": "Verás, Elise..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_016",
+"es": "He soñado contigo antes; con Kieferberg también."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_017",
+"es": "¿Anoche, o...?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_018",
+"es": "Sé que esto puede sonar extraño, pero..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_019",
+"es": "No llegué a Kieferberg por pura casualidad."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_020",
+"es": "¿A qué te refieres?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_021",
+"es": "¿Crees en el destino, Elise?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_022",
+"es": "No lo sé... Nunca lo he pensado mucho..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_023",
+"es": "Entonces probablemente no creas lo que tengo que decirte, pero..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_024",
+"es": "Siempre he sabido que mi destino estaba contigo, Elise."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_025",
+"es": "¿Eh...?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_026",
+"es": "Es demasiado pronto para tener esta conversación, si soy sincera."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_027",
+"es": "Pensaba esperar hasta que estuvieras lista, pero..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_028",
+"es": "No entiendo, Rosmarine, ¿lista para qué?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_029",
+"es": "Lo sabrás, con el tiempo."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_030",
+"es": "¿A qué viene tanto misterio?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_031",
+"es": "Suéltalo ya, Rosmarine, ¿qué intentas decirme?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_034",
+"es": "A mí misma me costó bastante entenderlo, pero..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_035",
+"es": "Todo me resulta extrañamente nostálgico."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_056",
+"es": "¿Nostálgico, dices...?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_036",
+"es": "Tu nombre, tu voz, tu hogar... Hasta esta brisa..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_037",
+"es": "Todo lo que te rodea... Gran parte de ello me parece un hogar..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_038",
+"es": "Eso no es posible, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_039",
+"es": "Fue de ti de quien me hablaron las estrellas, Elise. Ahora estoy segura."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_040",
+"es": "(¡En mi vida había oído semejante disparate! Y sin embargo...)"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_041",
+"es": "(¡Tengo la piel de gallina!)"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_042",
+"es": "¡Se nota que no crees ni una palabra de lo que acabo de decir!"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_043",
+"es": "Rosmarine, yo... "
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_044",
+"es": "Creo que me quedaré aquí afuera un ratito más, si no te molesta."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_045",
+"es": "¡Prometo que no llegaré tarde a la cena!"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_046",
+"es": "Está bien..."
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_057",
+"es": "No te quedes aquí mucho tiempo, ¿me oyes?"
+},
+{
+"id": "Love_Event/LVE_2_4_HBY_R_047",
+"es": "¡No lo haré, no lo haré!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_001",
+"es": "¡Más vale que esto no tarde mucho, Rosmarine, tengo trabajo que hacer!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_002",
+"es": "¡Y no puedo ausentarme por mucho tiempo después de todo ese asunto!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_003",
+"es": "¡Ah, prometo que será rápido, Elise!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_004",
+"es": "¡Vamos, deja que te muestre el ático!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_005",
+"es": "Te has instalado, ¿eh?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_006",
+"es": "¡Claro! ¡Después de todo, este es mi nuevo hogar!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_007",
+"es": "(Se está adelantando un poco, ¿no...?)"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_008",
+"es": "Dormir bajo un techo me costó acostumbrarme..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_009",
+"es": "He dormido bajo las estrellas desde pequeña, ¿sabes?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_010",
+"es": "Dijiste que eres viajera..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_011",
+"es": "Ah, sí, ¡solía viajar con mi abuelita cuando todavía gozaba de buena salud!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_012",
+"es": "¿Dónde está ella ahora, Rosmarine?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_013",
+"es": "¡Vamos, siéntate! "
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_014",
+"es": "¡Déjame ver tu mano, Elise!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_083",
+"es": "¡Rosmarine, espera...!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_015",
+"es": "¡Ah, ya veo...!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_016",
+"es": "No puedes estar leyéndome la palma..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_017",
+"es": "¡Quédate quieta, Elise, intento descifrarlo!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_018",
+"es": "No creo en nada de estos disparates, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_019",
+"es": "Tal como pensaba, ¡tus líneas dicen mucho de quién eres!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_020",
+"es": "¿Quién soy, entonces?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_021",
+"es": "Obstinada, ambiciosa... "
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_022",
+"es": "Hay cierta intuición en ti que aún no ha despertado..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_023",
+"es": "¿Qué se supone que significa eso?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_024",
+"es": "¡Ah, tu fortuna y tu destino también son muy claros!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_025",
+"es": "Estás destinada a algo grande, ¿verdad, Elise?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_026",
+"es": "Destinada a algo grande, dices..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_027",
+"es": "También eres terca, muy aferrada a tus costumbres... y tu ambición es..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_028",
+"es": "Mira, Rosmarine, no sé de qué estás parloteando, pero..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_029",
+"es": "De verdad no creo en nada de estos disparates, ¿de acuerdo?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_030",
+"es": "¡Ah, pero antes de que te vayas, Elise, tengo algo para ti!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_031",
+"es": "De verdad eres..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_032",
+"es": "¿Qué es?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_033",
+"es": "Toma, quiero que lo tengas."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_034",
+"es": "(¡¿Qué rayos <i>es</i> esta cosa, por el amor del Señor?!)"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_035",
+"es": "Ya te he contado que te he visto en mis sueños, y yo..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_036",
+"es": "Hice esta pulsera para ti, sabiendo que te encontraría..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_037",
+"es": "Rosmarine, yo..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_038",
+"es": "Eres mi alma gemela, Elise, por fin me di cuenta."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_040",
+"es": "Apenas nos conocemos, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_081",
+"es": "Te conozco desde hace mucho tiempo, en realidad."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_082",
+"es": "¿Es por lo que dijiste ayer?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_041",
+"es": "Significaría mucho para mí que te la quedaras, Elise."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_042",
+"es": "Lo haré... Después de todo, la hiciste para mí..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_043",
+"es": "Aun así, Rosmarine... yo..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_044",
+"es": "Sé que no crees nada de esto, Elise, pero..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_045",
+"es": "Creo que lo harás, con el tiempo."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_046",
+"es": "(De alguna manera, ya empiezo a creerlo...)"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_047",
+"es": "Además, ¡que tú seas mi alma gemela no significa que yo sea la tuya!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_049",
+"es": "Las cosas apenas están empezando a cambiar para ti, Elise..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_050",
+"es": "De más de una manera, seguro lo has notado."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_052",
+"es": "(Es verdad: primero apareció Rosmarine, luego encontré estos zapatos, y...)"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_053",
+"es": "(También estuvo esa vieja bruja que conocí esta mañana...)"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_099",
+"es": "(Hasta ese sueño tan extraño que tuve... Me pregunto si eso también...)"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_054",
+"es": "¡Oye, Elise!"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_056",
+"es": "¿Quieres acompañarme a dar un paseo mañana por la mañana?"
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_057",
+"es": "En la encrucijada, hay algo que quisiera mostrarte."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_059",
+"es": "Vamos, debería volver antes de que los aldeanos pierdan la cabeza..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_070",
+"es": "No, yo..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_071",
+"es": "Será mejor que vuelva al pueblo..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_072",
+"es": "Elise..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_073",
+"es": "No estoy muy segura de todo esto, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_074",
+"es": "De quién eres, o..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_075",
+"es": "Del destino, o de esta tontería del alma gemela, yo..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_076",
+"es": "Creo que necesito tomar un poco de aire fresco."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_077",
+"es": "Antes de que te vayas, Elise..."
+},
+{
+"id": "Love_Event/LVE_3_4_HAT_R_080",
+"es": "Lo pensaré, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_001",
+"es": "¡Ah, qué bueno que viniste, Elise!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_002",
+"es": "¡Cualquier cosa con tal de sacarme de ese cuchitril!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_005",
+"es": "¡Y pensar que tengo que lidiar con esa gente todo el día!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_006",
+"es": "Puedo echarte una mano, Elise, ¡lo que necesites!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_007",
+"es": "Dejando eso de lado, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_008",
+"es": "¿Qué querías mostrarme?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_011",
+"es": "Ah, esto es algo vergonzoso, pero..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_013",
+"es": "Mira esto, Elise..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_014",
+"es": "¿Una piña?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_015",
+"es": "¿<i>Eso</i> era lo que querías mostrarme?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_016",
+"es": "¡Ah, es más importante de lo que crees...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_017",
+"es": "Esta piña es mi tesoro, Elise..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_019",
+"es": "Mi abuelita me la dio cuando era pequeña..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_020",
+"es": "¿Tu abuelita, eh?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_021",
+"es": "(Supongo que entiendo cómo se siente...)"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_023",
+"es": "Somos igualitas a esta piña, Elise."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_024",
+"es": "¡¿Cómo voy a ser igual a una piña, Rosmarine?!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_025",
+"es": "¡Ah, te prometo que lo que digo tiene un sentido profundo...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_027",
+"es": "Nuestro tiempo en este mundo es bastante limitado, ¿no es cierto?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_029",
+"es": "¿Ves cómo la piña está cubierta de escamas?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_030",
+"es": "Si piensas en ella como tú misma y en tu vida hasta este momento..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_031",
+"es": "Puedes entender que cada escama representa algo, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_033",
+"es": "Tus experiencias y sueños, y las cosas que aprecias..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_034",
+"es": "Todas esas cosas son iguales que las escamas de esta piña..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_035",
+"es": "Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_036",
+"es": "A veces una se cae, o se daña..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_037",
+"es": "Y ya no te sientes tan completa, pero..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_038",
+"es": "Aprendes a estar sin ella y descubres que perder una no significa..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_039",
+"es": "Que vayas a perder todas las demás..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_040",
+"es": "¡Oh, Elise...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_041",
+"es": "¡Esta piña es la representación de mi camino!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_042",
+"es": "¡Te representa a ti, Elise...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_043",
+"es": "¡Hace tanto que quería contártelo todo!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_044",
+"es": "¡Ay, por el amor de Dios...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_045",
+"es": "¡Todas estas escamas representan el camino que recorrí para llegar hasta ti!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_046",
+"es": "¡Y ahora que estoy a tu lado, me siento completa como nunca antes!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_047",
+"es": "Entiendes lo que quiero decir, ¿verdad, Elise?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_048",
+"es": "¡Sí! ¡Sí!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_049",
+"es": "¡Ay, qué alegría poder contártelo por fin!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_050",
+"es": "¡Flocke también es una de estas escamas! ¿Sabías que él es...?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_051",
+"es": "¡Respira, Rosmarine!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_052",
+"es": "¡T-Tú me haces sentir completa, Elise!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_053",
+"es": "Eso es... lo que intento decirte..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_055",
+"es": "Oh, no te pongas nerviosa... ¡yo también me pondré nerviosa!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_056",
+"es": "¡Cállate ya...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_057",
+"es": "¡Vamos, deberíamos volver al pueblo!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_058",
+"es": "Antes de irnos, Elise..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_059",
+"es": "¿Te reunirías conmigo en el mirador mañana por la mañana?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_061",
+"es": "¡A este paso pasaré todo mi tiempo contigo!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_062",
+"es": "Oh, si estás muy ocupada, entonces..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_063",
+"es": "¡Por el amor de Dios, Rosmarine...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_064",
+"es": "¡Ah, espera...! ¡Elise...!"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_066",
+"es": "Sabes perfectamente que hoy tengo trabajo, Rosmarine."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_067",
+"es": "Ah, yo solo..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_068",
+"es": "No sé de qué estás hablando, pero ¿no puede esperar?"
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_069",
+"es": "Claro que puede..."
+},
+{
+"id": "Love_Event/LVE_4_2_OCR_R_070",
+"es": "Está bien, entonces volvamos al pueblo."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_001",
+"es": "¡Flocke!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_002",
+"es": "¡Tú y esa cabra tuya, Rosmarine!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_003",
+"es": "¡Oh, Elise, no hay necesidad de ponerse celosa!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_004",
+"es": "¡No estoy celosa de una cabra, tú...!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_005",
+"es": "¿Verdad que no, Flocke?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_007",
+"es": "¿Qué te parecería dormir con él en el granero, Rosmarine?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_008",
+"es": "¡Ah, tendría a Flocke para abrazar, no pasaría nada de frío!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_011",
+"es": "¡Ah, Flocke! ¡No te acerques tanto al borde!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_012",
+"es": "¡Tú también ten cuidado, Rosmarine!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_013",
+"es": "Se ve todo desde aquí, ¿no es cierto?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_015",
+"es": "Algo te ronda la cabeza, Elise, ¡se nota!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_016",
+"es": "Ni siquiera me dejan cavilar en paz, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_017",
+"es": "¡Solo estás pasando por algunos cambios, nada más!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_018",
+"es": "Algunos cambios, dices..."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_019",
+"es": "¡Tu camino se irá aclarando cada vez más, ya verás!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_020",
+"es": "¿No estás demasiado alegre?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_021",
+"es": "¡Casi parece que te burlas de mí, Rosmarine!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_022",
+"es": "Vamos, Elise, ¡dame tus manos!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_024",
+"es": "¡Rosmarine, qué haces...!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_025",
+"es": "¡Bailemos, Elise!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_026",
+"es": "¡Vas demasiado rápido, Rosmarine...!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_027",
+"es": "Nos acercamos a la luna llena, Elise, ¡ya sabes lo que eso significa!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_028",
+"es": "¡¿Cómo voy a saber algo así?!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_029",
+"es": "¡Es hora de celebrar nuevos comienzos...!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_030",
+"es": "¡Nuestro nuevo comienzo, juntas!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_031",
+"es": "¿Qué nuevo comienzo, Rosmarine? ¡No tiene sentido lo que dices!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_032",
+"es": "¡Pues que tú sigas tus sueños, Elise!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_033",
+"es": "¡Y que yo cumpla mi propósito también!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_034",
+"es": "¡Todo se está uniendo tal como me dijeron las estrellas!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_035",
+"es": "¡Rosmarine...!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_036",
+"es": "¡Deberíamos celebrar nuestra buena fortuna, Elise!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_037",
+"es": "¡Espera, Rosmarine! ¡Giras demasiado rápido!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_038",
+"es": "¡¿Estás bien, Elise?!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_041",
+"es": "¡Oh, lo siento! ¡No pensé...!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_042",
+"es": "Yo solía bailar así con mi abuelita todos los meses, y..."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_043",
+"es": "¿Hacías girar a tu abuelita así?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_044",
+"es": "¡Claro! ¡Todos los meses!"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_046",
+"es": "Creas o no en mí, Elise, déjame decirlo de este modo."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_047",
+"es": "Ves ese castillo a lo lejos, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_048",
+"es": "¿Sí...?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_049",
+"es": "Puede parecer lejano desde donde estás ahora, pero..."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_050",
+"es": "Las estrellas están aún más lejos y, aun así, me guiaron hasta ti, ¿no es cierto?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_052",
+"es": "¿Hay otros lugares con lindas vistas en Kieferberg?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_053",
+"es": "Supongo que el molino no está mal..."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_054",
+"es": "¿Entonces nos vemos allí mañana por la tarde?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_055",
+"es": "(Nuestro nuevo comienzo juntas, dice...)"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_056",
+"es": "¿Elise?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_057",
+"es": "Allí estaré, Rosmarine. Será mejor que volvamos ahora."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_059",
+"es": "No sé qué pensar de esto..."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_060",
+"es": "Ahora no, Rosmarine, no estoy lista..."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_061",
+"es": "Sigues abrumada, ya veo..."
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_062",
+"es": "Es difícil no estarlo, ¿no te parece?"
+},
+{
+"id": "Love_Event/LVE_5_2_OVP_R_063",
+"es": "¿Por qué no volvemos al pueblo, Elise?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_001",
+"es": "¡Tenías razón, Elise, es una vista preciosa!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_002",
+"es": "Apuesto a que has visto cosas mejores en tus viajes."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_003",
+"es": "¡Oh, pero Kieferberg es uno de los pueblos más lindos que he visitado!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_004",
+"es": "¿Intentas fastidiarme?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_005",
+"es": "¡Oh, no fue mi intención...!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_006",
+"es": "Lo sé, Rosmarine, es que estoy harta de todo, nada más."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_007",
+"es": "¿De Kieferberg?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_008",
+"es": "También de todas estas tonterías con las que tenemos que lidiar..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_009",
+"es": "Aun así, de algún modo todavía no me decido a dejarlo todo atrás..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_011",
+"es": "Hago todo lo posible y, sin embargo..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_012",
+"es": "Yo diría que dudar de ti misma es bueno."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_013",
+"es": "Tú eres distinta, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_014",
+"es": "Siempre has tenido algo que esperar, mientras que yo..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_015",
+"es": "Aun así, Elise..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_016",
+"es": "Me pongo a pensar en ciertas cosas, viviendo aquí contigo..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_018",
+"es": "Cuánto desearía haberte encontrado antes, y..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_019",
+"es": "Tener la oportunidad de compartir recuerdos contigo..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_020",
+"es": "Tal como lo hacen Lebkuchen y Freya."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_021",
+"es": "Llevas aquí solo unos días, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_022",
+"es": "Si hubieras nacido aquí, estarías tan harta como yo."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_024",
+"es": "Nunca he vivido en un pueblo; este sentido de comunidad es algo que nunca he experimentado..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_025",
+"es": "Yo he vivido aquí toda mi vida y tampoco lo he experimentado, Rosmarine."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_026",
+"es": "Al menos no desde que murió la abuelita Holle..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_027",
+"es": "Oye, Rosmarine, sobre las estrellas que no dejas de mencionar..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_028",
+"es": "¡Ah, puedo contarte todo al respecto, Elise!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_029",
+"es": "¿No te parece extraño?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_030",
+"es": "¿Todo este disparate de que tu destino está conmigo?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_031",
+"es": "Para nada, Elise."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_032",
+"es": "Ya lo dije antes: ¡me siento en casa contigo!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_033",
+"es": "¿Para nada, eh?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_034",
+"es": "Desearía haber nacido aquí, si soy del todo sincera..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_035",
+"es": "He recorrido todo este camino y nuestros caminos por fin se han cruzado, pero..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_036",
+"es": "Yo también, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_037",
+"es": "Me siento en casa contigo, como si te conociera desde hace mucho tiempo..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_039",
+"es": "Debo decir que Kieferberg no es tan malo contigo cerca..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_040",
+"es": "¿No me das tu mano?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_041",
+"es": "Ya la leíste una vez, ¿no?"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_042",
+"es": "Podría ser más minuciosa... Quizá te dé algo de tranquilidad."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_045",
+"es": "Eres mi alma gemela del destino, Elise."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_046",
+"es": "¡Santo cielo! ¡Eso ya lo dijiste!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_047",
+"es": "Sé que todavía no terminas de creerme, pero..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_048",
+"es": "Mis sentimientos por ti son genuinos, Elise."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_049",
+"es": "¡Apenas me conoces, Rosmarine!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_050",
+"es": "Tus sentimientos no pueden ser..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_051",
+"es": "Pero lo son, Elise, son totalmente genuinos."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_052",
+"es": "Das tanta vergüenza..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_053",
+"es": "Ojalá tuviéramos más tiempo para conocernos y..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_054",
+"es": "Aunque esto no fuera mi destino, igual elegiría estar contigo, Elise..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_056",
+"es": "¡Oh, Elise! ¡Estás roja como un tomate!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_058",
+"es": "¡Ya tuve suficiente de estas tonterías! ¡Vuelvo al trabajo!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_067",
+"es": "¡Ah! ¡Espérame, Elise!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_068",
+"es": "¡Vayamos al arroyo mañana por la tarde!"
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_069",
+"es": "Allí estaré. ¡Ahora apúrate!                                                "
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_060",
+"es": "Te han traído aquí, precisamente aquí..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_061",
+"es": "A este podrido Kieferberg..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_063",
+"es": "Ya tuve suficiente de esta conversación..."
+},
+{
+"id": "Love_Event/LVE_6_3_VWM_R_064",
+"es": "Vuelvo al trabajo."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_001",
+"es": "¡Ah, Elise, mira lo que encontré!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_002",
+"es": "Una piedra."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_003",
+"es": "¡Oh, pero ¿no se parece a Flocke?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_004",
+"es": "¡Hasta tiene una colita! ¡Mira!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_005",
+"es": "¿Una colita, dices?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_006",
+"es": "¡Esta también! ¿No parece una gallina?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_007",
+"es": "Ahí está el pico, ¿ves?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_008",
+"es": "Así que así armaste esa pulsera, ¿eh?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_009",
+"es": "¡Ah, sí! ¡Así es!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_010",
+"es": "Dios sabrá por qué te atrae tanto la basura inútil..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_011",
+"es": "¡Deja de ser basura en cuanto le das significado, Elise!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_012",
+"es": "Esa pulsera significa mucho para las dos, ¿no te parece?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_013",
+"es": "Oh, cállate..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_014",
+"es": "Oye, Rosmarine, ¿por qué no logro encontrarle sentido a nada de esto?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_015",
+"es": "¿A qué te refieres, Elise?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_016",
+"es": "Kieferberg es tan querido para todos y, sin embargo, a mí me tratan como a una desdichada..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_017",
+"es": "Matándome trabajando, soportando sus malos humores..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_018",
+"es": "Todo tenía más sentido cuando la abuelita Holle aún estaba conmigo..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_019",
+"es": "Creo que la muerte de nuestras abuelitas nos ha afectado de forma parecida..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_020",
+"es": "No nos parecemos en nada, Rosmarine."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_021",
+"es": "Para mí, la muerte de la abuelita Holle solo significó aislamiento..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_022",
+"es": "Eso también, Elise, yo también me sentí sola, pero verás..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_023",
+"es": "Fue entonces cuando empecé a seguir mi propio camino, y diría que..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_024",
+"es": "Dirías que lo mismo se aplica a mí, ¿eh?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_025",
+"es": "¿No es así?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_026",
+"es": "En Kieferberg no, Rosmarine, aquí no hay nada para mí.                                                "
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_027",
+"es": "Soy mucho más de lo que este pueblo ve en mí..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_028",
+"es": "¡Ah, mira, Elise...! "
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_029",
+"es": "¡Hay algo en el arroyo!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_031",
+"es": "Es oro..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_032",
+"es": "Verás, Elise, no creo que el significado sea algo que se encuentra."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_033",
+"es": "Creo que es algo que se crea."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_035",
+"es": "Toma esa pepita que acabamos de encontrar, por ejemplo."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_036",
+"es": "¿Qué pasa con ella?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_039",
+"es": "Algo tan precioso en un lugar así, esperando a ser visto..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_040",
+"es": "Me recuerda a ti, Elise..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_042",
+"es": "No te pido que cambies de opinión sobre Kieferberg, pero..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_043",
+"es": "Perseguir lo que de verdad te importa: ahí es donde se encuentra el significado."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_044",
+"es": "¿El significado, eh?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_045",
+"es": "No es igual para todos, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_046",
+"es": "¡Deberías concentrarte en lo que de verdad más te importa, Elise!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_047",
+"es": "Eso es..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_048",
+"es": "Hay algo que quisiera decirte, Elise, y diría que..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_049",
+"es": "Que tú también quieres decirme algo."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_050",
+"es": "Supongo... Puede que sí, pero..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_051",
+"es": "¡Vamos, volvamos al pueblo antes de que te pongas más roja!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_053",
+"es": "¡Date prisa, Elise!"
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_055",
+"es": "Ahora no, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_056",
+"es": "No quiero hablar de eso..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_057",
+"es": "Oh, no quise..."
+},
+{
+"id": "Love_Event/LVE_7_3_OCK_R_058",
+"es": "Vamos, la lluvia solo está empeorando."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_001",
+"es": "¡Ah! ¡Mira, Elise!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_003",
+"es": "El atardecer es precioso desde aquí arriba, ¿no te parece?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_004",
+"es": "¡Por el amor de Dios, Rosmarine! ¡Eso es peligroso!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_005",
+"es": "Ven, Elise, ¡te echo una mano!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_006",
+"es": "¡Eres increíble...!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_007",
+"es": "¿No es esta la vista más hermosa, Elise?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_008",
+"es": "¿El pueblo de Kieferberg?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_009",
+"es": "Solía soñar con este momento todas las noches..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_010",
+"es": "Pensar que de verdad logré llegar a tiempo para la luna llena..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_011",
+"es": "Aquí fue donde me hablaste de eso por primera vez."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_012",
+"es": "Del destino, quiero decir."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_013",
+"es": "Entonces no me creíste del todo, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_014",
+"es": "Pero tenías razón, Rosmarine, en todo."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_015",
+"es": "Ahora lo veo... Cómo todo nos unió..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_017",
+"es": "La semana pasada estaba un poquito demasiado ansiosa, ¿no?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_018",
+"es": "¡Eso es decir poco, Rosmarine!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_019",
+"es": "¡Estaba tan emocionada de haberte encontrado por fin!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_020",
+"es": "Todo siempre me ha señalado hacia ti..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_021",
+"es": "Mis sueños, las estrellas, cada cosita, desde que tengo memoria..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_022",
+"es": "Cuando te vi por primera vez esa noche, yo..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_023",
+"es": "Fue una revelación tremenda..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_024",
+"es": "Una revelación, dices..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_025",
+"es": "No solo que no había sido un simple sueño, sino también..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_026",
+"es": "De mi destino, de mi propósito, de mi propio ser como parte de este mundo."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_027",
+"es": "Fue mi fe en ti lo que me trajo hasta aquí, estoy segura."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_029",
+"es": "¡Oh, sé que todo esto te suena bastante tonto, Elise!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_030",
+"es": "<i>Es</i> bastante tonto, pero..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_031",
+"es": "Tiene sentido para mí, Rosmarine... Es que no quería admitirlo..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_033",
+"es": "Estar contigo todos los días me hace feliz, Rosmarine."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_034",
+"es": "Todo lo que dijiste sobre el destino, sobre el propósito... Tu presencia también..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_035",
+"es": "Todo resuena tan profundamente en mí, yo..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_036",
+"es": "A veces no sé muy bien qué hacer conmigo misma..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_038",
+"es": "Dijiste ayer, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_039",
+"es": "Que debería perseguir lo que más me importa..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_040",
+"es": "¡Sí, claro!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_041",
+"es": "Y antes también... Dijiste que..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_042",
+"es": "Que yo sea tu alma gemela no significa que tú seas la mía."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_043",
+"es": "No lo significa, no..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_044",
+"es": "Este deseo ya no es solo mío, Rosmarine..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_045",
+"es": "Quiero que ahora tú también formes parte de él..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_047",
+"es": "Esta luna llena de la que hablas... Este nuevo comienzo..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_048",
+"es": "Es un nuevo comienzo para las dos, Rosmarine, juntas."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_049",
+"es": "Elise, yo..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_050",
+"es": "Qué..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_051",
+"es": "¿Eso significa que tú...?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_052",
+"es": "Bueno, yo..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_053",
+"es": "Nunca me hablaron las estrellas ni soñé contigo, pero..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_054",
+"es": "Tu nombre... Tu voz... Todo simplemente...                                                "
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_055",
+"es": "Te amo, Elise..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_056",
+"es": "Rozenmarine..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_057",
+"es": "¡Así que sí sabes mi nombre, Elise!"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_058",
+"es": "Claro que sí... Es que Rosmarine es más fácil de decir..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_059",
+"es": "El destino siempre encuentra su camino, ¿no es así?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_061",
+"es": "Vamos, Rosmarine, es hora de seguir."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_062",
+"es": "¿Estás segura, Elise?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_063",
+"es": "¿De qué?"
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_064",
+"es": "De cambiar tu deseo por mí..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_065",
+"es": "Nada ha cambiado, Rosmarine, mi deseo sigue siendo el mismo."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_066",
+"es": "Simplemente elijo compartirlo contigo, nada más."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_068",
+"es": "Vamos, ya es hora de irnos."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_069",
+"es": "Ya he oído todo eso antes, Rosmarine."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_070",
+"es": "Sobre el destino, tus sueños y demás..."
+},
+{
+"id": "Love_Event/LVE_8_3_HBY_R_071",
+"es": "Eso fue lo que nos unió, Elise..."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_001",
+"es": "¡Vaya, no hacía falta que corrieras, Elise!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_002",
+"es": "¡¿Quién corre, tú...?!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_004",
+"es": "¡Siempre eres así, Lebkuchen!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_005",
+"es": "¡No puedo evitarlo, eres tan fácil de molestar, Elise!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_006",
+"es": "Por el amor de Dios..."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_007",
+"es": "Hoy es un día tan lindo... Podría quedarme aquí hasta el anochecer..."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_008",
+"es": "¿Con ganas de otro sermón del Padre Hans, eh?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_009",
+"es": "¿Recuerdas cuando nos escabullíamos aquí de noche?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_010",
+"es": "Para mirar las estrellas y comer pretzels sobrantes, ¡como si pudiera olvidarlo!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_011",
+"es": "¡O aquella noche en que ese vejestorio nos atrapó!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_012",
+"es": "Nunca vas a olvidar esa, ¿verdad, Elise?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_013",
+"es": "¡Ese malvado me tuvo de rodillas rezando durante horas...!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_014",
+"es": "¡Y a <i>ti</i> solo te tocó un sermón!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_015",
+"es": "Recuerdo haber rezado a tu lado esa noche, ¿no?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_016",
+"es": "¡Porque te dio lástima de mí, no porque él te lo ordenara!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_017",
+"es": "Ustedes dos nunca se pondrán de acuerdo, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_018",
+"es": "¿Qué hay que acordar?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_019",
+"es": "¡Tú eres la que lo ha soportado demasiado tiempo, tal como yo lo veo!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_020",
+"es": "No es como si nunca hubiéramos tenido nuestras diferencias."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_021",
+"es": "¡Ay, no me vengas con eso! ¿Por qué?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_022",
+"es": "¿Crees que me faltan quejas?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_023",
+"es": "Complácenos, ¿por qué no?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_024",
+"es": "<wave a=0.3><size=115%>¡Los viejos calvos como usted pertenecen al chiquero, cerdo!</size></wave>"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_025",
+"es": "<shake a=0.3>¡L-Lebkuchen...!</shake>"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_027",
+"es": "¡Nunca nos oirá desde aquí arriba, Elise!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_028",
+"es": "Está bien, ¡pero tú serás la que reciba el sermón si nos atrapa!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_029",
+"es": "¡A todo pulmón, ahora!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_030",
+"es": "<wave a=0.3><size=115%>¡Es usted tan feo que ni Santa Walpurga puede salvarlo, ogro!</size></wave>"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_033",
+"es": "<wave a=0.3><size=115%>¡Atrévase a decirme otra vez que mi cabello es muy largo y le cortaré lo poco que le queda, viejo comadreja!</size></wave>"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_034",
+"es": "¿De verdad te dijo eso?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_035",
+"es": "Al menos a una religiosa."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_036",
+"es": "¿A quién le importan unas reglas inventadas, Leb?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_037",
+"es": "¿No te sientes mucho más ligera después de todo eso, Elise?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_038",
+"es": "¡Se nota que lo necesitabas!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_039",
+"es": "Después de todo, no soy ninguna santa, ¡a pesar de mi velo!                                                "
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_040",
+"es": "Es una lástima que no te sueltes el cabello más a menudo, Leb..."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_041",
+"es": "¡Te queda mucho mejor que ese trapo que llevas en la cabeza!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_042",
+"es": "¡Vaya, qué encantadora eres, Elise!"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_043",
+"es": "Solo te pesa... ¡y además te hace ver sombría!                                                "
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_044",
+"es": "¿Y cómo me veo sin él, entonces?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_045",
+"es": "Eres una aguafiestas, Lebkuchen..."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_046",
+"es": "En fin, Elise, será mejor que sigamos, ¿no crees?"
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_047",
+"es": "Supongo que esos huevos no se van a recoger solos..."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_048",
+"es": "Te espero junto a la panadería más tarde, no lo olvides."
+},
+{
+"id": "Love_Event/LVE_2_3_VCT_L_049",
+"es": "Claro, Leb, ¡allí estaré!                                                "
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_001",
+"es": "¡Echarás raíces de tanto quedarte ahí parada todo el día, Lebkuchen!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_002",
+"es": "Vaya, haría una flor bastante bonita, ¿no te parece?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_005",
+"es": "Un poco alegre para esta hora del día, ¿no crees?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_006",
+"es": "Tú eres la que ha tenido un día movido, Elise."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_007",
+"es": "¡Demasiado movido para mi gusto, incluso!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_008",
+"es": "Entonces tienes mucho que contarme, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_009",
+"es": "¡Pues creo que no!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_011",
+"es": "¡Vine a pasar tiempo contigo, Leb!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_013",
+"es": "¡Ahora, siéntate!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_014",
+"es": "¿Sentarme?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_015",
+"es": "¡Ahí mismo! ¡Siéntate, siéntate!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_016",
+"es": "¡Ahora <i>esto</i> es a lo que vine!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_017",
+"es": "Es mejor que estar de pie, ¿no te parece?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_018",
+"es": "Yo digo que te consiento demasiado."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_019",
+"es": "¡Aunque no lo querría de otra manera!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_020",
+"es": "Me contarás todo más tarde, Elise."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_021",
+"es": "Sobre esos zapatos y sobre esa muchacha..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_023",
+"es": "Ni una palabra más de este disparate, ¿me oyes?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_025",
+"es": "Aun así, Elise, pensé que lo sabías..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_026",
+"es": "¿Saber qué?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_027",
+"es": "Sobre lo que pasó hoy más temprano..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_028",
+"es": "Oh, probablemente sea mejor que te lo cuente después..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_029",
+"es": "¡Lebkuchen...!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_031",
+"es": "¡Y pensar que eres una monja de verdad! ¡Más bien pareces un duendecillo!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_032",
+"es": "¡De verdad eres tan fácil de molestar, Elise!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_033",
+"es": "Fácil o no, Leb..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_034",
+"es": "¡Más te vale no esconderme nada!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_035",
+"es": "¿Tú puedes guardar secretos y yo no?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_036",
+"es": "¡Entonces <i>sí</i> hay algo...!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_037",
+"es": "No diría que te lo estoy ocultando, pero..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_038",
+"es": "Pensarás que desconfío, Elise..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_040",
+"es": "Verás, he estado pensando en ti..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_041",
+"es": "Todo Kieferberg sabe que no te quedarás aquí para siempre..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_042",
+"es": "¿O sí?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_043",
+"es": "Eso es un asunto muy distinto, Elise."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_044",
+"es": "A mí me parece que son lo mismo, si soy sincera."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_045",
+"es": "Sea como sea... ¿Qué voy a hacer cuando te vayas, Elise?                                                "
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_046",
+"es": "Tú eres... ¿Cómo decirlo...?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_047",
+"es": "¿Mi único consuelo en este lugar aburrido?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_048",
+"es": "También eres muy irritante, como un duendecillo, diría yo."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_049",
+"es": "¿Ah, sí?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_050",
+"es": "Terriblemente."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_051",
+"es": "No pensaste que podría leerte con tanta facilidad, ¿o sí?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_052",
+"es": "¡Vaya, a este paso podría arrojarte al pozo!"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_053",
+"es": "¡Podría ahogarme, Leb, y entonces <i>sí</i> te quedarías sin mí!                                                "
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_055",
+"es": "Lo sé perfectamente, Lebkuchen..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_056",
+"es": "No eres la única que aprecia lo que tenemos, pero..."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_057",
+"es": "¿Pero...?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_058",
+"es": "Eso no significa que no podamos estar juntas en otro lugar, ¿o sí?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_060",
+"es": "No lo habías pensado así, ¿verdad?"
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_061",
+"es": "En fin."
+},
+{
+"id": "Love_Event/LVE_3_4_VCH_L_062",
+"es": "Te esperaré junto a la fuente mañana por la tarde."
+}
+]

@@ -1,0 +1,347 @@
+[
+ {
+  "png": "WARNING_PHOTOSENSITIVITY_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 182
+   }
+  ]
+ },
+ {
+  "png": "New_Party_Member_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 372
+   }
+  ]
+ },
+ {
+  "png": "Now_Available_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 224
+   }
+  ]
+ },
+ {
+  "png": "short-objective_0001s_0000_New-Objective-_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 495
+   }
+  ]
+ },
+ {
+  "png": "shortitem_0003s_0000_Item-Get_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 436
+   }
+  ]
+ },
+ {
+  "png": "suspicionexport_0000s_0000s_0004_Suspicion-Up_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 375
+   }
+  ]
+ },
+ {
+  "png": "suspicionexport_0000s_0000s_0003_Suspicion-Down_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 546
+   }
+  ]
+ },
+ {
+  "png": "Load_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets28.assets",
+    "path_id": 272
+   }
+  ]
+ },
+ {
+  "png": "log-export_0001__-close_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 90
+   }
+  ]
+ },
+ {
+  "png": "Untitled-1_0000s_0001_Layer-33_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 301
+   }
+  ]
+ },
+ {
+  "png": "heartlocketexport2_0004_relationship_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 128
+   }
+  ]
+ },
+ {
+  "png": "options_0000s_0006_configration_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 140
+   }
+  ]
+ },
+ {
+  "png": "gifts title_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 143
+   }
+  ]
+ },
+ {
+  "png": "0000_newday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": -5235347785247456756
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": -5235347785247456756
+   }
+  ]
+ },
+ {
+  "png": "0007_sunday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": -6222318105250140347
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": -6222318105250140347
+   }
+  ]
+ },
+ {
+  "png": "0006_monday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": 6158024402090759929
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": 6158024402090759929
+   }
+  ]
+ },
+ {
+  "png": "0005_tuesday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": -2234880084638792845
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": -2234880084638792845
+   }
+  ]
+ },
+ {
+  "png": "0004_wednesday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": 8683737611554366311
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": 8683737611554366311
+   }
+  ]
+ },
+ {
+  "png": "0003_thursday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": 4375456424092425596
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": 4375456424092425596
+   }
+  ]
+ },
+ {
+  "png": "0002_friday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": 1564658875251617213
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": 1564658875251617213
+   }
+  ]
+ },
+ {
+  "png": "0001_saturday_es.png",
+  "destinos": [
+   {
+    "paquete": "daytimeskiploading",
+    "file": "CAB-e441ad1e6979a619a913c9eb8f5d28b0",
+    "path_id": 3575484213591975993
+   },
+   {
+    "paquete": "weekdaychangeloading",
+    "file": "CAB-d4cd0d8043224751e901d8e2d4e9cf96",
+    "path_id": 3575484213591975993
+   }
+  ]
+ },
+ {
+  "png": "Paper_505_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 505
+   }
+  ]
+ },
+ {
+  "png": "Paper_144_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 144
+   }
+  ]
+ },
+ {
+  "png": "Paper_411_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 411
+   }
+  ]
+ },
+ {
+  "png": "notice_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 373
+   },
+   {
+    "paquete": "mediumalertpopup",
+    "file": "CAB-82ad513eab0cb345a22297978e1cb235",
+    "path_id": -8122184884876430240
+   },
+   {
+    "paquete": "mediumchoicepopup",
+    "file": "CAB-daa361105fd3b9133912733e7fb5c73e",
+    "path_id": -8122184884876430240
+   },
+   {
+    "paquete": "mediummultiplechoicepopup",
+    "file": "CAB-9efc6853a04f7e23552d46bf47717d6f",
+    "path_id": -8122184884876430240
+   }
+  ]
+ },
+ {
+  "png": "0000_Layer-2_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets28.assets",
+    "path_id": 75
+   }
+  ]
+ },
+ {
+  "png": "ChopChop_StartScreen_StartButon_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "resources.assets",
+    "path_id": 81
+   },
+   {
+    "paquete": "minigames",
+    "file": "CAB-311b4de320e79cbf674fbdd3627804d5",
+    "path_id": -2567787109025480893
+   }
+  ]
+ },
+ {
+  "png": "KissTheRat_TitleScreen_Start_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "resources.assets",
+    "path_id": 55
+   },
+   {
+    "paquete": "minigames",
+    "file": "CAB-311b4de320e79cbf674fbdd3627804d5",
+    "path_id": -4564879753791296135
+   }
+  ]
+ }
+]
