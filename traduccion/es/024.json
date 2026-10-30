@@ -2409,7 +2409,7 @@
 },
 {
 "id": "UI/BUY_ITEM",
-"es": "Comprar"
+"es": "Llevar"
 },
 {
 "id": "UI/EAT_ITEM",
@@ -2465,7 +2465,7 @@
 },
 {
 "id": "UI/STG_TEXTAUTO",
-"es": "Tiempo de espera automático"
+"es": "Espera automática"
 },
 {
 "id": "UI/STG_AUDIOMASTER",
@@ -2509,7 +2509,7 @@
 },
 {
 "id": "UI/STG_WINDOWED",
-"es": "Ventana"
+"es": "Pantalla"
 },
 {
 "id": "UI/STG_VSYNC",
@@ -2529,7 +2529,7 @@
 },
 {
 "id": "UI/STG_SHAKE",
-"es": "Sacudida de cámara"
+"es": "Sacudir cámara"
 },
 {
 "id": "UI/STG_BLOOM",
@@ -2665,7 +2665,7 @@
 },
 {
 "id": "UI/StoryEvent",
-"es": "¡Lo siguiente en la historia!"
+"es": "¡Sigue la historia!"
 },
 {
 "id": "UI/RomanticEvent",

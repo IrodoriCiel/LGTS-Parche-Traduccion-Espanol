@@ -343,5 +343,15 @@
     "path_id": -4564879753791296135
    }
   ]
+ },
+ {
+  "png": "balloonicons_es.png",
+  "destinos": [
+   {
+    "paquete": "data.unity3d",
+    "file": "sharedassets0.assets",
+    "path_id": 137
+   }
+  ]
  }
 ]

@@ -19,6 +19,7 @@ CODIGO_ES = os.path.join(TRAD, "codigo", "es.json")
 FUENTES_UBIC = os.path.join(RAIZ, "datos", "fuentes_ubicaciones.json")
 GUIONES_ES = os.path.join(TRAD, "guiones", "es.json")
 GUIONES_UBIC = os.path.join(RAIZ, "datos", "guiones_ubicaciones.json")
+TRADUCTORES_UBIC = os.path.join(RAIZ, "datos", "traductores_ubicaciones.json")
 
 # El respaldo de los originales vive dentro de la carpeta del juego: así lo encuentra cualquier copia del
 # instalador, desde cualquier cuenta de Windows (Steam no borra carpetas extra al verificar o actualizar).

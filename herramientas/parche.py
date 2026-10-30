@@ -55,7 +55,19 @@ def estado():
     respaldo = json.load(open(meta_p)) if os.path.exists(meta_p) else None
     tam = respaldo["size"] if parchado and respaldo else os.path.getsize(game)
     return dict(parchado=parchado, respaldo=respaldo is not None,
-                version=VERSION_PROBADA.get(tam), tam_original=tam if (respaldo or not parchado) else None)
+                version=VERSION_PROBADA.get(tam), tam_original=tam if (respaldo or not parchado) else None,
+                parche=version_aplicada() if parchado else None)
+
+
+MARCA = "parche.json"   # en la carpeta del respaldo: qué versión del parche está aplicada
+
+
+def version_aplicada():
+    """Versión del parche aplicado según su marca, o None si no la tiene (1.0.0 o el repo de trabajo)."""
+    try:
+        return json.load(open(os.path.join(config.respaldo(), MARCA), encoding="utf-8")).get("version")
+    except (OSError, ValueError, AttributeError):
+        return None
 
 
 def quitar():
@@ -92,6 +104,9 @@ def quitar():
     dll_bak = os.path.join(config.respaldo(), DLL)
     if os.path.exists(dll_bak):
         shutil.copyfile(dll_bak, os.path.join(data, "Managed", DLL))
+    marca = os.path.join(config.respaldo(), MARCA)
+    if os.path.exists(marca):
+        os.remove(marca)
     print("Juego restaurado al original en inglés.")
 
 
@@ -105,12 +120,16 @@ def parchar_codigo(data):
     bak = os.path.join(config.respaldo(), DLL)
     if not os.path.exists(bak):
         shutil.copyfile(destino, bak)
-    mapa = {k: v for k, v in json.load(open(config.CODIGO_ES, encoding="utf-8")).items() if not k.startswith("_")}
+    codigo = json.load(open(config.CODIGO_ES, encoding="utf-8"))
+    mapa = {k: v for k, v in codigo.items() if not k.startswith("_")}
     nuevo, n, largos = dll_textos.reemplazar(open(bak, "rb").read(), mapa)
+    nuevo, n_valores, fallidos = dll_textos.renombrar_valores(nuevo, codigo.get("_valores", {}))
     open(destino, "wb").write(nuevo)
-    print("Textos del código:", n)
+    print("Textos del código:", n, "| opciones de ajustes:", n_valores)
     for en, es, a, b in largos:
         print(f"  AVISO: «{es}» tiene {a} caracteres y solo caben {b} (de «{en}»); se dejó en inglés")
+    for v in fallidos:
+        print(f"  AVISO: no cupo el nombre nuevo de {v}; se dejó en inglés")
 
 
 def traductor_subtitulos():
@@ -187,12 +206,56 @@ def cambiar_texto(obj, tr, campo="m_text"):
     es = tr(t[campo])
     if es and es != t[campo]:
         t[campo] = es
-        # en data.unity3d el árbol de tipos lee desalineada la cabecera (28 bytes): se conserva tal cual
-        cabecera = bytes(obj.get_raw_data()[:28])
-        obj.save_typetree(t)
-        obj.set_raw_data(cabecera + bytes(obj.data[28:]))
+        # una sola palabra que no cabe: TMP la parte letra por letra («MOVE» → «MOVE/R»); mejor que se salga un poco
+        if t.get("m_enableWordWrapping") and una_palabra(es):
+            t["m_enableWordWrapping"] = 0
+        guardar(obj, t)
         return True
     return False
+
+
+def una_palabra(texto):
+    return not re.search(r"\s", re.sub(r"<[^>]*>", "", texto).strip())
+
+
+def no_partir(obj, es):
+    """Igual que en cambiar_texto, para los textos que Gridly pone al vuelo (componente Translator)."""
+    t = obj.read_typetree()
+    if t.get("m_enableWordWrapping") and una_palabra(es):
+        t["m_enableWordWrapping"] = 0
+        guardar(obj, t)
+        return True
+    return False
+
+
+def guardar(obj, t):
+    """Guarda el árbol de tipos de un componente."""
+    # en data.unity3d el árbol de tipos lee desalineada la cabecera (28 bytes): se conserva tal cual
+    cabecera = bytes(obj.get_raw_data()[:28])
+    obj.save_typetree(t)
+    obj.set_raw_data(cabecera + bytes(obj.data[28:]))
+
+
+QUESTLOG = ("level0", 6914)   # componente QuestLog: tipos de misión del registro de quehaceres
+
+
+def etiquetas_misiones(ql, mapa):
+    """Pone en español las claves de las etiquetas de misión («StoryEvent», «ChoreEvent»...).
+
+    Al crear una misión, QuestLogEntry.SetupNewEntry busca la clave en Gridly (UI/StoryEvent),
+    pero al cargar una partida LoadEntry la muestra tal cual. Con el texto en español como
+    clave, LoadEntry lo muestra bien; SetupNewEntry lo encuentra en los registros UI/<español>
+    que devuelve esta función para añadirlos a Gridly.
+    """
+    t = ql.read_typetree()
+    nuevos = []
+    for config in ("storyConfig", "romanticConfig", "taskConfig", "smallGoalConfig"):
+        es = mapa.get("UI/" + t[config]["questTypeInfo"])
+        if es:
+            t[config]["questTypeInfo"] = es
+            nuevos.append((es, [("enUS", es)], ""))
+    guardar(ql, t)
+    return nuevos
 
 
 def destinos_imagenes():
@@ -348,7 +411,8 @@ def cargar_traduccion(raw_gridly):
     return mapa
 
 
-def aplicar():
+def aplicar(version=None):
+    """Aplica la traducción. version: la del instalador, que queda anotada en el respaldo (MARCA)."""
     if not os.path.exists(config.COMPILADO) and not glob.glob(os.path.join(config.ES_DIR, "*.json")):
         sys.exit("No encontré la traducción (traduccion/es).")
     data, game, bundles = rutas()
@@ -386,16 +450,28 @@ def aplicar():
         usados[0] += 1
         # se conservan los espacios del inicio y del final del inglés (el juego pega textos)
         return text[:len(text) - len(text.lstrip())] + es.strip() + text[len(text.rstrip()):]
-    obj.set_raw_data(gridly.build(raw, tr))
-    modificados.add("resources.assets")
+    nuevos = etiquetas_misiones(sfs[QUESTLOG[0]].objects[QUESTLOG[1]], mapa)
+    obj.set_raw_data(gridly.build(raw, tr, {"UI": nuevos}))
+    modificados.update(("resources.assets", QUESTLOG[0]))
     print("Textos de diálogos y menús:", usados[0])
+    print("Etiquetas de misiones:", len(nuevos))
 
     # 2) textos fijos en escenas
     n = 0
+    cambiados = set()
     for r in ubic:
         if r["bundle"] == "data.unity3d" and cambiar_texto(sfs[r["file"]].objects[r["pid"]], tr_fijos, r.get("campo", "m_text")):
-            n += 1; modificados.add(r["file"])
+            n += 1; modificados.add(r["file"]); cambiados.add((r["file"], r["pid"]))
     print("Textos fijos en escenas:", n)
+
+    # 2a) textos que pone Gridly al abrir la pantalla («Moderno» en Controles): que no se partan.
+    # Los que ya cambió el paso 2 tienen su propia regla (UnityPy los releería sin ese cambio).
+    n = 0
+    for r in json.load(open(config.TRADUCTORES_UBIC, encoding="utf-8")):
+        es = mapa.get(r["clave"])
+        if es and (r["file"], r["pid"]) not in cambiados and no_partir(sfs[r["file"]].objects[r["pid"]], es):
+            n += 1; modificados.add(r["file"])
+    print("Textos de Gridly sin partir palabras:", n)
 
     # 2b) subtítulos de cinemáticas (SubtitleClip)
     tr_subs = traductor_subtitulos()
@@ -478,6 +554,9 @@ def aplicar():
         f.seek(0)
         f.write(head)
     parchar_codigo(data)
+    import datetime
+    json.dump({"version": version, "fecha": f"{datetime.datetime.now():%Y-%m-%d %H:%M}"},
+              open(os.path.join(config.respaldo(), MARCA), "w", encoding="utf-8"))
     print("Traducción aplicada. ¡Listo para jugar!")
 
 

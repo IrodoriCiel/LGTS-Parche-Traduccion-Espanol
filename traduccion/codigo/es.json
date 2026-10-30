@@ -1,5 +1,11 @@
 {
   "_ayuda": "Textos escritos directamente en el código (Assembly-CSharp.dll). Clave = texto en inglés exacto. El español NO puede tener más caracteres que el inglés (el número máximo va en _max); si es más corto se centra con espacios. Solo se traducen textos que ve el jugador: cambiar un texto que el código usa internamente puede romper el juego.",
+  "_valores": {
+    "_ayuda": "Opciones de los menús de ajustes: el juego muestra el nombre del valor del enum (ToString). Clave = Tipo.VALOR. Se guardan como número, así que cambiar el nombre solo cambia lo que se ve.",
+    "Toggle.YES": "SÍ",
+    "Level.LOW": "BAJA", "Level.MEDIUM": "MEDIA", "Level.HIGH": "ALTA",
+    "ScreenMode.FULLSCREEN": "COMPLETA", "ScreenMode.BORDERLESS": "SIN BORDES", "ScreenMode.WINDOWED": "VENTANA"
+  },
   "_max": {
     "Quit to Title Screen?": 21, "Save these settings?": 20, "Keep this Controller Profile?": 29,
     "Load Game?": 10, "CANT USE ITEM!": 14, "Please select 2 buckets!": 24,
@@ -8,7 +14,7 @@
     "<b>DATE</b>  ": 13, "<b>TIME</b>  ": 13, "NOT ENOUGH MONEY": 16,
     "MATCHES ITEM LIMIT REACHED": 26, "MAX STACK ITEM LIMIT REACHED": 28, "Description not yet available.": 30,
     "Keep these settings? (Will default to previous values in {0} seconds.)": 70, "Is the smallest of the bunch and holds only 1L, but at least it has no holes!": 77, "Bucket # {0}": 12,
-    "Please reconnect your controller to continue": 44, "Unlock for ": 11
+    "Please reconnect your controller to continue": 44, "Unlock for ": 11, "Score: ": 7
   },
   "Quit to Title Screen?": "¿Volver al título?",
   "Save these settings?": "¿Guardar ajustes?",
@@ -32,5 +38,6 @@
   "Is the smallest of the bunch and holds only 1L, but at least it has no holes!": "Es la más pequeña y solo le cabe 1 L, ¡pero al menos no tiene agujeros!",
   "Bucket # {0}": "Cubeta {0}",
   "Please reconnect your controller to continue": "Vuelve a conectar el control para continuar",
-  "Unlock for ": "Compra por "
+  "Unlock for ": "Compra por ",
+  "Score: ": "Total: "
 }

@@ -11,13 +11,13 @@ Windows). Si la PC no tiene WebView2, se abre una ventana sencilla en tkinter.
   instalador.exe --aplicar  [--ruta R]   (también --instalar)
   instalador.exe --quitar   [--ruta R]
 """
-import os, sys, json, queue, shutil, threading, traceback, webbrowser, datetime
+import os, re, sys, json, queue, shutil, threading, traceback, webbrowser, datetime
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "herramientas"))
 import config  # noqa: E402
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 REPO = "https://github.com/IrodoriCiel/LGTS-Parche-Traduccion-Espanol"
 STEAM_APPID = 1812370
 UI = os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "app", "ui")
@@ -63,6 +63,29 @@ def ruta_inicial():
     return os.path.realpath(r) if config.es_juego(r) else config.detectar_juego()
 
 
+def relacion(aplicada):
+    """Cómo es el parche aplicado respecto a este instalador: "igual", "anterior" o "posterior".
+
+    Las versiones anteriores a 1.1.0 no dejaban marca de versión: sin marca se toma como anterior.
+    """
+    if not aplicada:
+        return "anterior"
+    num = lambda v: tuple(int(x) for x in re.findall(r"\d+", v))
+    a, b = num(aplicada), num(VERSION)
+    return "igual" if a == b else "anterior" if a < b else "posterior"
+
+
+def describir(e):
+    """Texto corto sobre el parche aplicado («Parche 1.1.0 aplicado», «… se puede actualizar»)."""
+    rel = relacion(e.get("parche"))
+    if rel == "igual":
+        return f"Parche {VERSION} aplicado (juego en español)"
+    if rel == "anterior":
+        cual = f"Parche {e['parche']}" if e.get("parche") else "Parche de una versión anterior"
+        return f"{cual} aplicado · se puede actualizar a la {VERSION}"
+    return f"Parche {e['parche']} aplicado (más nuevo que este programa, {VERSION})"
+
+
 def comprobar(ruta):
     """Devuelve (estado, problema). problema es None si se puede aplicar o quitar el parche."""
     if not config.es_juego(ruta):
@@ -90,7 +113,7 @@ def ejecutar(accion, ruta):
         if libre < ESPACIO_MINIMO:
             raise SystemExit(f"Hay poco espacio libre en el disco del juego ({libre // 2**20} MB). Se necesitan unos 500 MB.")
         try:
-            parche.aplicar()
+            parche.aplicar(VERSION)
         except BaseException:
             # si algo falla a medias, se deja el juego como estaba
             traceback.print_exc(file=sys.stdout)
@@ -114,6 +137,8 @@ def consola(argv):
     print("Juego:", ruta)
     e, problema = comprobar(ruta)
     print("Estado:", e)
+    if e and e["parchado"]:
+        print(describir(e))
     if "--estado" in argv:
         return 0 if e else 1
     if problema:
@@ -168,7 +193,8 @@ class Api:
         try:
             import parche
             e = parche.estado()
-            e.update(ruta=ruta, juego_ok=True, abierto=parche.juego_abierto())
+            e.update(ruta=ruta, juego_ok=True, abierto=parche.juego_abierto(), instalador=VERSION,
+                     relacion=relacion(e["parche"]) if e["parchado"] else None)
             return e
         except Exception as ex:
             return dict(ruta=ruta, juego_ok=False, problema=f"No pude leer los archivos del juego: {ex}")
@@ -394,7 +420,7 @@ def ventana_tk():
             estado_var.set("⚠ " + problema); b_inst.state(["disabled"]); b_quit.state(["disabled"]); return
         guardar_ajustes(juego=ruta)
         version = f"versión {e['version']}" if e["version"] else "versión no probada (puede que una actualización de Steam cambie algo)"
-        trad = "✅ Parche aplicado (juego en español)" if e["parchado"] else "Parche no aplicado (el juego está en inglés)"
+        trad = ("✅ " + describir(e)) if e["parchado"] else "Parche no aplicado (el juego está en inglés)"
         texto = f"Juego encontrado · {version}\n{trad}"
         if e["parchado"] and not e["respaldo"]:
             texto += "\n⚠ No encontré el respaldo de los archivos originales: para volver al inglés usa «Verificar integridad» en Steam."
@@ -403,7 +429,8 @@ def ventana_tk():
         estado_var.set(texto)
         b_inst.state(["!disabled"])
         b_quit.state(["!disabled"] if e["parchado"] and e["respaldo"] else ["disabled"])
-        b_inst.configure(text="Reaplicar parche" if e["parchado"] else "Aplicar parche")
+        rel = relacion(e["parche"]) if e["parchado"] else None
+        b_inst.configure(text="Actualizar parche" if rel == "anterior" else "Reaplicar parche" if e["parchado"] else "Aplicar parche")
 
     def lanzar(accion):
         ruta = ruta_var.get()
@@ -415,9 +442,14 @@ def ventana_tk():
                                        "Esta versión del juego no se ha probado con la traducción "
                                        "(quizá Steam la actualizó). ¿Intentar de todos modos?"):
                 return
+        rel = relacion(e["parche"]) if e["parchado"] else None
+        cual = f"el parche {e['parche']}" if e.get("parche") else "el parche anterior"
+        aviso = (f"Se reemplazará {cual} por la versión {VERSION}. " if rel == "anterior"
+                 else f"El juego tiene {cual}, más nuevo que este programa. Se pondrá la versión {VERSION}. " if rel == "posterior"
+                 else "Se aplicará el parche en español. ")
         if accion == "aplicar" and not messagebox.askokcancel(
-                "Aplicar parche", "Se aplicará el parche en español. Tarda unos 5 minutos y usa 1–2 GB de memoria.\n\n"
-                            "No abras el juego hasta que termine."):
+                "Actualizar parche" if rel == "anterior" else "Aplicar parche",
+                aviso + "Tarda unos 5 minutos y usa 1–2 GB de memoria.\n\nNo abras el juego hasta que termine."):
             return
         ocupado["v"] = True
         b_inst.state(["disabled"]); b_quit.state(["disabled"]); barra.start(12)

@@ -13,6 +13,11 @@ import struct, re, sys
 
 def _heap_us(d):
     """(inicio, tamaño) del heap #US."""
+    return _flujos(d)["#US"]
+
+
+def _flujos(d):
+    """{nombre: (inicio, tamaño)} de los flujos de metadatos (#~, #Strings, #US...)."""
     pe = struct.unpack_from("<I", d, 0x3C)[0]
     nsec = struct.unpack_from("<H", d, pe + 6)[0]
     opt = pe + 24
@@ -36,12 +41,90 @@ def _heap_us(d):
     vlen = struct.unpack_from("<I", d, meta + 12)[0]
     p = meta + 16 + vlen + 2
     n = struct.unpack_from("<H", d, p)[0]; p += 2
+    flujos = {}
     for _ in range(n):
         off, size = struct.unpack_from("<II", d, p); p += 8
         e = d.index(b"\0", p); nombre = d[p:e].decode(); p = (e + 4) & ~3
-        if nombre == "#US":
-            return meta + off, size
-    raise ValueError("sin #US")
+        flujos[nombre] = (meta + off, size)
+    return flujos
+
+
+def _tablas(d):
+    """Dónde empiezan las tablas TypeDef y Field del flujo #~ y cómo son sus filas (ECMA-335 II.22)."""
+    ini, _ = _flujos(d)["#~"]
+    tam_heaps = d[ini + 6]
+    validas = struct.unpack_from("<Q", d, ini + 8)[0]
+    p = ini + 24
+    filas = {}
+    for t in range(64):
+        if validas >> t & 1:
+            filas[t] = struct.unpack_from("<I", d, p)[0]; p += 4
+    s, g, b = (4 if tam_heaps & bit else 2 for bit in (1, 2, 4))   # índices a #Strings, #GUID, #Blob
+    idx = lambda t: 4 if filas.get(t, 0) > 0xFFFF else 2
+    cod = lambda ts: 4 if max(filas.get(t, 0) for t in ts) >= 1 << 14 else 2   # índice codificado de 2 bits
+    extends = cod((0x02, 0x01, 0x1B))
+    tam = {0: 2 + s + 3 * g,                                   # Module
+           1: cod((0x00, 0x1A, 0x23, 0x01)) + 2 * s,          # TypeRef
+           2: 4 + 2 * s + extends + idx(0x04) + idx(0x06),    # TypeDef
+           3: idx(0x04),                                       # FieldPtr
+           4: 2 + s + b}                                       # Field
+    pos = {}
+    for t in range(5):
+        pos[t] = p; p += filas.get(t, 0) * tam[t]
+    return dict(filas=filas, pos=pos, tam=tam, s=s, campos_de_tipo=4 + 2 * s + extends, idx_campo=idx(0x04))
+
+
+# Cadenas de #Strings que se pueden sobrescribir para dar nombres más largos que el original:
+# nombres de parámetros de código de ejemplo que el juego nunca usa (versión 1.1.2).
+ESPACIO_LIBRE = [(116690, "LangName")]   # Example_ChangeLanguage.SetLanguage(LangName)
+
+
+def renombrar_valores(d, nombres):
+    """Cambia nombres de valores de enum: {"Level.LOW": "BAJA"}.
+
+    Los menús de ajustes muestran las opciones con ToString() (Toggle.YES, Level.MEDIUM,
+    ScreenMode.WINDOWED...). Los ajustes se guardan como número, así que el nombre solo se ve.
+    El nombre nuevo se escribe en el mismo lugar de #Strings si cabe; si no, en ESPACIO_LIBRE.
+    Devuelve (bytes nuevos, cuántos se cambiaron, [nombres que no se pudieron cambiar]).
+    """
+    d = bytearray(d)
+    m = _tablas(d)
+    cad, _ = _flujos(d)["#Strings"]
+    s = m["s"]
+
+    def leer(p, n):
+        return struct.unpack_from("<I" if n == 4 else "<H", d, p)[0]
+
+    def texto(o):
+        return bytes(d[cad + o:d.index(b"\0", cad + o)])
+    libres = [o for o, viejo in ESPACIO_LIBRE if texto(o) == viejo.encode()]
+    tipos, n_campos = m["filas"].get(0x02, 0), m["filas"].get(0x04, 0)
+    hechos, fallidos = 0, []
+    for i in range(tipos):
+        fila = m["pos"][0x02] + i * m["tam"][0x02]
+        tipo = texto(leer(fila + 4, s)).decode()
+        if not any(k.startswith(tipo + ".") for k in nombres):
+            continue
+        primero = leer(fila + m["campos_de_tipo"], m["idx_campo"])
+        ultimo = leer(fila + m["tam"][0x02] + m["campos_de_tipo"], m["idx_campo"]) if i + 1 < tipos else n_campos + 1
+        for c in range(primero, ultimo):
+            fc = m["pos"][0x04] + (c - 1) * m["tam"][0x04]
+            o = leer(fc + 2, s)
+            nuevo = nombres.get(f"{tipo}.{texto(o).decode()}")
+            if nuevo is None:
+                continue
+            nuevo, viejo = nuevo.encode(), texto(o)
+            if len(nuevo) <= len(viejo):
+                d[cad + o:cad + o + len(viejo)] = nuevo.ljust(len(viejo), b"\0")
+            elif libres and len(nuevo) <= len(texto(libres[0])):
+                o = libres.pop(0)
+                d[cad + o:cad + o + len(nuevo) + 1] = nuevo + b"\0"
+                struct.pack_into("<I" if s == 4 else "<H", d, fc + 2, o)
+            else:
+                fallidos.append(f"{tipo}.{viejo.decode()}")
+                continue
+            hechos += 1
+    return bytes(d), hechos, fallidos
 
 
 def _longitud(d, p):

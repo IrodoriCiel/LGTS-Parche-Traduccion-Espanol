@@ -68,6 +68,12 @@ Abre el programa y pulsa **Quitar parche**: devuelve los archivos originales des
 </details>
 
 <details>
+<summary><b>🆕 Salió una versión nueva del parche</b></summary>
+
+Descarga el `.zip` de la [última versión](../../releases/latest) y abre el programa nuevo: te dice qué versión del parche tienes y muestra **Actualizar parche**. Quita la traducción anterior y pone la nueva en un solo paso; no hace falta quitarla antes.
+</details>
+
+<details>
 <summary><b>🔄 El juego se actualizó y salen textos en inglés</b></summary>
 
 Las actualizaciones de Steam reemplazan los archivos con el parche. Vuelve a pulsar **Aplicar parche**. Si la versión es nueva, se te avisará; puede que necesites una versión nueva del parche.

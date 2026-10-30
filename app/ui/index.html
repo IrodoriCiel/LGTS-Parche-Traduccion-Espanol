@@ -250,6 +250,7 @@ button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer
         <div class="faq"><b>¿Necesito el juego original?</b><span>Sí. El parche solo añade los textos en español a tu copia de Steam.</span></div>
         <div class="faq"><b>¿Cómo se aplica?</b><span>Cierra el juego, pulsa «Aplicar parche» y espera a que diga «¡Parche aplicado!» (unos 5 minutos). Después pulsa «▶ Jugar» o abre el juego desde Steam como siempre: el español reemplaza al inglés, no hay que elegir idioma.</span></div>
         <div class="faq"><b>¿Cómo vuelvo al inglés?</b><span>Pulsa «Quitar parche». Si no hay respaldo, usa en Steam: clic derecho en el juego → Propiedades → Archivos instalados → Verificar integridad.</span></div>
+        <div class="faq"><b>Salió una versión nueva del parche</b><span>Descarga el programa nuevo y ábrelo: verás qué versión tienes y el botón «Actualizar parche». Quita la traducción anterior y pone la nueva en un solo paso; no hace falta quitarla antes.</span></div>
         <div class="faq"><b>El juego se actualizó y salen textos en inglés</b><span>Las actualizaciones de Steam reemplazan los archivos con el parche. Vuelve a pulsar «Aplicar parche». Si la versión es nueva, se te avisará; puede que necesites una versión nueva del parche.</span></div>
         <div class="faq"><b>No encuentra el juego</b><span>Pulsa «Cambiar carpeta» y elige la carpeta «Little Goody Two Shoes» (la que contiene LGTS.exe). En Steam la encuentras con clic derecho en el juego → Administrar → Ver archivos locales.</span></div>
         <div class="faq"><b>Windows o el antivirus muestran un aviso</b><span>El programa no está firmado, así que Windows puede decir «Windows protegió su PC»: elige «Más información → Ejecutar de todas formas». Algunos antivirus marcan por error los programas hechos con Python; el código está publicado en el proyecto.</span></div>
@@ -278,8 +279,8 @@ button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer
 
 <script>
 var $ = function(id){ return document.getElementById(id); };
-var st = {}, phase = 'idle', target = 0, shown = 0, sv = null;
-var COL = {ok: '#7fe0a0', warn: '#ffb36b', err: '#ff7a85', raw: '#7d86c2'};
+var st = {}, phase = 'idle', target = 0, shown = 0, sv = null, actualizando = false;
+var COL = {ok: '#7fe0a0', warn: '#ffb36b', err: '#ff7a85', raw: '#7d86c2', nuevo: '#8fd3ff'};
 
 // Luciérnagas
 document.querySelectorAll('.ffs').forEach(function(box){
@@ -321,6 +322,12 @@ setInterval(function(){
 }, 120);
 
 function versionTxt(e){ return e.version ? 'versión ' + e.version : 'versión no probada'; }
+// Parche aplicado y su versión respecto a este programa (relacion: igual / anterior / posterior)
+function parcheTxt(e){
+  if (e.relacion === 'anterior') return 'Parche ' + (e.parche || 'anterior') + ' aplicado · actualízalo a la ' + e.instalador;
+  if (e.relacion === 'posterior') return 'Parche ' + e.parche + ' aplicado (más nuevo que este programa)';
+  return 'Parche ' + (e.parche || '') + ' aplicado (juego en español)';
+}
 
 // ---- Pantalla inicial: búsqueda del juego
 function splashState(name){
@@ -354,7 +361,7 @@ function resultado(e){
   if (phase === 'idle') target = e.juego_ok && e.parchado ? 100 : 0;
   if (e.juego_ok){
     $('foundPath').textContent = e.ruta; $('foundPath').title = e.ruta;
-    $('foundMsg').textContent = (e.version ? 'Versión ' + e.version : 'Versión no probada') + ' · ' + (e.parchado ? 'parche aplicado' : 'sin parche (en inglés)');
+    $('foundMsg').textContent = (e.version ? 'Versión ' + e.version : 'Versión no probada') + ' · ' + (e.parchado ? (e.relacion === 'anterior' ? 'parche anterior: se puede actualizar' : 'parche ' + (e.parche || '') + ' aplicado') : 'sin parche (en inglés)');
     log('Juego encontrado en ' + e.ruta + ' · ' + versionTxt(e), 'ok');
     splashState('found');
   } else {
@@ -395,7 +402,9 @@ function render(){
       : ['Juego encontrado · ' + versionTxt(e), COL.ok, COL.ok],
     busy ? ['Trabajando…', '#c9cdf0', '#eef0ff']
       : aplicado && !e.respaldo ? ['Parche aplicado, sin respaldo: para quitarlo usa «Verificar integridad» en Steam', COL.warn, COL.warn]
-      : aplicado ? ['Parche aplicado (juego en español)', COL.ok, COL.ok]
+      : aplicado && e.relacion === 'anterior' ? [parcheTxt(e), COL.nuevo, COL.nuevo]
+      : aplicado && e.relacion === 'posterior' ? [parcheTxt(e), COL.warn, COL.warn]
+      : aplicado ? [parcheTxt(e), COL.ok, COL.ok]
       : ['Parche no aplicado (juego en inglés)', '#c9cdf0', '#eef0ff']
   ];
   $('checks').innerHTML = '';
@@ -408,8 +417,10 @@ function render(){
   $('pathShown').textContent = e.ruta || 'Sin carpeta seleccionada'; $('pathShown').title = e.ruta || '';
   var go = $('go');
   go.disabled = busy || !ok || !!e.abierto; go.classList.toggle('busy', phase === 'applying');
-  $('goIc').textContent = phase === 'applying' ? '✦' : aplicado ? '↻' : '⚑';
-  $('goLbl').textContent = phase === 'applying' ? 'APLICANDO…' : aplicado ? 'REAPLICAR PARCHE' : 'APLICAR PARCHE';
+  var mejorar = aplicado && e.relacion === 'anterior';
+  $('goIc').textContent = phase === 'applying' ? '✦' : mejorar ? '⬆' : aplicado ? '↻' : '⚑';
+  $('goLbl').textContent = phase === 'applying' ? (actualizando ? 'ACTUALIZANDO…' : 'APLICANDO…')
+    : mejorar ? 'ACTUALIZAR PARCHE' : aplicado ? 'REAPLICAR PARCHE' : 'APLICAR PARCHE';
   $('play').classList.toggle('on', aplicado && !busy);
   $('remove').classList.toggle('on', aplicado && !!e.respaldo && !busy && !e.abierto);
   $('remLbl').textContent = phase === 'removing' ? 'QUITANDO…' : 'QUITAR PARCHE'; $('remove').classList.toggle('busy', phase === 'removing');
@@ -433,11 +444,12 @@ window.ui = {
     else if (ev.tipo === 'linea'){ log(ev.texto, 'raw'); }
     else if (ev.tipo === 'fin'){
       target = ev.accion === 'aplicar' ? 100 : 0;
-      log(ev.texto, 'ok'); $('stepTxt').textContent = ev.texto;
-      phase = 'idle'; actualizar();
+      var texto = ev.accion === 'aplicar' && actualizando ? '¡Parche actualizado a la versión ' + st.instalador + '! Ya puedes jugar en español.' : ev.texto;
+      log(texto, 'ok'); $('stepTxt').textContent = texto;
+      phase = 'idle'; actualizando = false; actualizar();
     }
     else if (ev.tipo === 'error'){
-      target = 0; phase = 'idle'; log(ev.texto, 'err'); $('stepTxt').textContent = 'No se pudo completar. Revisa el registro.';
+      target = 0; phase = 'idle'; actualizando = false; log(ev.texto, 'err'); $('stepTxt').textContent = 'No se pudo completar. Revisa el registro.';
       actualizar(); showTab('log');
     }
   }
@@ -446,12 +458,18 @@ window.ui = {
 function lanzar(accion){
   actualizar().then(function(e){
     if (!e.juego_ok || e.abierto) return;
+    var rel = e.parchado ? e.relacion : null, cual = e.parche ? 'el parche ' + e.parche : 'el parche anterior';
     var aviso = accion === 'aplicar'
       ? (e.version ? '' : 'Esta versión del juego no se ha probado con la traducción. ')
-        + 'Se aplicará el parche en español. Tarda unos 5 minutos.\n\nNo abras el juego hasta que termine. ¿Continuar?'
+        + (rel === 'anterior' ? 'Se reemplazará ' + cual + ' por la versión ' + e.instalador + '. '
+           : rel === 'posterior' ? 'El juego tiene ' + cual + ', más nuevo que este programa. Se pondrá la versión ' + e.instalador + '. '
+           : 'Se aplicará el parche en español. ')
+        + 'Tarda unos 5 minutos.\n\nNo abras el juego hasta que termine. ¿Continuar?'
       : '¿Quitar el parche y volver al inglés?';
-    pywebview.api.confirmar(accion === 'aplicar' ? 'Aplicar parche' : 'Quitar parche', aviso).then(function(si){
+    var titulo = accion === 'aplicar' ? (rel === 'anterior' ? 'Actualizar parche' : 'Aplicar parche') : 'Quitar parche';
+    pywebview.api.confirmar(titulo, aviso).then(function(si){
       if (!si) return;
+      actualizando = accion === 'aplicar' && rel === 'anterior';
       phase = accion === 'aplicar' ? 'applying' : 'removing';
       target = 2; shown = 0; $('stepTxt').textContent = ''; render();
       pywebview.api[accion]();

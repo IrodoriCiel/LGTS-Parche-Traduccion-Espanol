@@ -43,9 +43,14 @@ def _w_str(b, s):
         b += b"\0"
 
 
-def build(d, tr):
-    """Devuelve la tabla con cada texto pasado por tr(grid, record_id, columna, texto)."""
+def build(d, tr, nuevos=None):
+    """Devuelve la tabla con cada texto pasado por tr(grid, record_id, columna, texto).
+
+    nuevos: {grid: [(record_id, [(columna, texto)], extra)]} registros que se añaden al final del grid.
+    """
     name, grids, tail = parse(d)
+    for g in grids:
+        g["recs"] += (nuevos or {}).get(g["name"], [])
     b = bytearray(d[:28]); _w_str(b, name)
     b += d[len(b):len(b) + 4]
     b += struct.pack("<i", len(grids))
