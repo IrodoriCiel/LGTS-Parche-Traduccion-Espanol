@@ -48,7 +48,7 @@ El parche se aplica **directamente a los archivos del juego**: después lo abres
 1. Descarga el **`.zip`** de la [última versión](../../releases/latest) (lleva la versión en el nombre: `Instalar-Traduccion-LGTS-1.1.1.zip`) y extráelo (clic derecho → *Extraer todo*).
 2. **Cierra el juego.**
 3. Abre el `.exe` que viene dentro: busca el juego solo en tus bibliotecas de Steam; si lo tienes en otra carpeta, elige **Lo instalé en otra carpeta** (o **Cambiar carpeta**) y selecciona la carpeta `Little Goody Two Shoes`. Comprueba que sea el juego, su versión y que no esté abierto.
-4. Presiona **Aplicar parche** y espera a que diga «¡Parche aplicado!» (unos 5 minutos). **No abras el juego mientras tanto.**
+4. Presiona **Aplicar parche** y espera a que diga «¡Parche aplicado!» (menos de un minuto). **No abras el juego mientras tanto.**
 5. Pulsa **▶ Jugar** (o abre el juego desde Steam como siempre). No hay que elegir idioma: el español reemplaza al inglés.
 
 La misma ayuda de abajo está en la pestaña **Ayuda** del programa, y **Registro** muestra lo que hizo.

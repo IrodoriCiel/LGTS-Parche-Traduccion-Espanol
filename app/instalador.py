@@ -449,7 +449,7 @@ def ventana_tk():
                  else "Se aplicará el parche en español. ")
         if accion == "aplicar" and not messagebox.askokcancel(
                 "Actualizar parche" if rel == "anterior" else "Aplicar parche",
-                aviso + "Tarda unos 5 minutos y usa 1–2 GB de memoria.\n\nNo abras el juego hasta que termine."):
+                aviso + "Tarda menos de un minuto y usa 1–2 GB de memoria.\n\nNo abras el juego hasta que termine."):
             return
         ocupado["v"] = True
         b_inst.state(["disabled"]); b_quit.state(["disabled"]); barra.start(12)
