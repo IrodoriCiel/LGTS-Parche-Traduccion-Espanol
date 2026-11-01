@@ -275,11 +275,23 @@ def generar(t, atlas, receta, donante=None):
 
 # ---------- lectura y escritura en los archivos del juego ----------
 
-def _obj(archivos, sf, ptr):
+def _indice(archivos):
+    """(buscar, real): consultar `archivos` por nombre sin recorrerlo.
+
+    Para data.unity3d parche.py pasa un mapa perezoso (341 archivos internos,
+    18 GB descomprimidos): recorrerlo los abriría todos. Su atributo `reales`
+    dice qué nombres hay sin abrir ninguno; los paquetes chicos de
+    StreamingAssets llegan como dict normal.
+    """
+    reales = getattr(archivos, "reales", None) or {k.lower(): k for k in archivos}
+    return (lambda n: archivos.get(reales.get(n, n))), (lambda n: reales.get(n, n))
+
+
+def _obj(buscar, sf, ptr):
     if not ptr["m_PathID"]:
         return None
     if ptr["m_FileID"]:
-        sf = archivos.get(os.path.basename(sf.externals[ptr["m_FileID"] - 1].path).lower())
+        sf = buscar(os.path.basename(sf.externals[ptr["m_FileID"] - 1].path).lower())
     return sf.objects.get(ptr["m_PathID"]) if sf else None
 
 
@@ -310,13 +322,13 @@ def _ajustar_material(obj_mat, alto):
     obj_mat.save_typetree(t)
 
 
-def _donante(archivos, ubic):
-    sf = archivos.get(ubic["file"].lower())
+def _donante(buscar, ubic):
+    sf = buscar(ubic["file"].lower())
     o = sf.objects.get(ubic["pid"]) if sf else None
     if not o:
         return None
     t = o.read_typetree()
-    return dict(atlas=_leer_atlas(_obj(archivos, sf, t["m_AtlasTextures"][0])),
+    return dict(atlas=_leer_atlas(_obj(buscar, sf, t["m_AtlasTextures"][0])),
                 glifos={g["m_Index"]: g for g in t["m_GlyphTable"]},
                 caracteres={c["m_Unicode"]: c["m_GlyphIndex"] for c in t["m_CharacterTable"]},
                 pad=t["m_AtlasPadding"], puntos=t["m_FaceInfo"]["m_PointSize"])
@@ -327,12 +339,11 @@ def completar(archivos, ubicaciones):
 
     Devuelve el conjunto de archivos internos modificados (con el nombre tal como viene en `archivos`).
     """
-    nombres = {k.lower(): k for k in archivos}
-    archivos = {k.lower(): v for k, v in archivos.items()}
+    buscar, real = _indice(archivos)
     modificados, letras_total = set(), 0
     for u in ubicaciones:
         nombre, f = u["nombre"], u["file"].lower()
-        sf = archivos.get(f)
+        sf = buscar(f)
         o = sf.objects.get(u["pid"]) if sf else None
         if not o:
             print(f"  AVISO: no encontré la fuente {nombre} ({u['file']}:{u['pid']})")
@@ -346,13 +357,13 @@ def completar(archivos, ubicaciones):
             receta = RECETAS[nombre]
             don = None
             if receta.get("componer"):
-                don = _donante(archivos, u)          # la propia fuente
+                don = _donante(buscar, u)            # la propia fuente
             elif "donante" in receta:
-                don = _donante(archivos, u["donante"]) if "donante" in u else None
+                don = _donante(buscar, u["donante"]) if "donante" in u else None
                 if not don:
                     print(f"  AVISO: no encontré la fuente {receta['donante']} para completar {nombre}")
                     continue
-            atlas = _leer_atlas(_obj(archivos, sf, t["m_AtlasTextures"][0]))
+            atlas = _leer_atlas(_obj(buscar, sf, t["m_AtlasTextures"][0]))
             _cache[clave] = generar(t, atlas, receta, don)
         nuevo, atlas, letras = _cache[clave]
         if not letras:
@@ -367,11 +378,11 @@ def completar(archivos, ubicaciones):
         cabecera = bytes(o.get_raw_data()[:28])
         o.save_typetree(t)
         o.set_raw_data(cabecera + bytes(o.data[28:]))   # o.data: lo que acaba de escribir save_typetree
-        _escribir_atlas(_obj(archivos, sf, t["m_AtlasTextures"][0]), atlas)
+        _escribir_atlas(_obj(buscar, sf, t["m_AtlasTextures"][0]), atlas)
         if atlas.shape[0] != alto_original:
-            mat = _obj(archivos, sf, t["material"])
+            mat = _obj(buscar, sf, t["material"])
             if mat:
                 _ajustar_material(mat, atlas.shape[0])
-        modificados.add(nombres[f])
+        modificados.add(real(f))
         letras_total += len(letras)
     return modificados, letras_total

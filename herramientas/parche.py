@@ -15,9 +15,11 @@ paquetes originales guardados en <juego>/respaldo_traduccion_es.
 import sys, os, re, json, struct, shutil, glob, gc
 import lz4.block
 import UnityPy
+from UnityPy.helpers import ImportHelper
 from UnityPy.helpers.TypeTreeGenerator import TypeTreeGenerator
+from UnityPy.streams import EndianBinaryReader
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from bundle import read_header
+from bundle import read_header, LectorBundle, Ventana
 import gridly
 import fuentes
 import config
@@ -198,6 +200,58 @@ def archivos_internos(env):
         for name, sub in getattr(f, "files", {}).items():
             out[name] = sub
     return out
+
+
+class ArchivosPerezosos(dict):
+    """Archivos internos de un bundle, abiertos a medida que se piden.
+
+    Hace de env.cabs, que es por donde UnityPy resuelve tanto las referencias
+    entre archivos (PPtr -> Environment.find_file) como los datos de texturas y
+    audio guardados en los .resS (ResourceReader): con esto todo se lee por
+    demanda. Da igual cómo vengan las mayúsculas, como en UnityPy.
+    """
+
+    def __init__(self, env, lector, nodes):
+        super().__init__()
+        self.env, self.lector = env, lector
+        self.ubic = {n[3].lower(): (n[0], n[1], n[3]) for n in nodes}
+        self.reales = {k: v[2] for k, v in self.ubic.items()}   # minúsculas -> nombre real
+
+    def __missing__(self, nombre):
+        clave = nombre.lower()
+        if clave in self:
+            return dict.__getitem__(self, clave)
+        if clave not in self.ubic:
+            raise KeyError(nombre)
+        inicio, tam, real = self.ubic[clave]
+        r = EndianBinaryReader(Ventana(self.lector, inicio, tam))
+        # los .resS no son archivos serializados: se dejan como flujo para leer trozos
+        f = r if real.endswith((".resS", ".resource")) else ImportHelper.parse_file(r, self.env, real)
+        self[clave] = f
+        return f
+
+    def get(self, nombre, default=None):
+        try:
+            return self[nombre]
+        except KeyError:
+            return default
+
+    def cerrar(self):
+        self.lector.close()
+
+
+def abrir_perezoso(game, blocks, nodes, data_start, gen):
+    """(env, archivos) de UnityPy sobre un bundle, leyendo solo lo que se pida.
+
+    UnityPy.load() no sirve con data.unity3d: descomprimiría sus 18 GB en memoria
+    y encima copiaría cada archivo interno (ver LectorBundle en bundle.py). El
+    parche solo modifica 44 de los 341 archivos internos, 257 MB en total.
+    """
+    env = UnityPy.Environment()
+    env.typetree_generator = gen
+    archivos = ArchivosPerezosos(env, LectorBundle(game, blocks, data_start), nodes)
+    env.cabs = archivos
+    return env, archivos
 
 
 def cambiar_texto(obj, tr, campo="m_text"):
@@ -430,9 +484,8 @@ def aplicar(version=None):
     fuentes_ubic = ubicaciones_fuentes()
     parchar_paquetes(gen, ubic, tr_fijos, bundles, imagenes, fuentes_ubic)
 
-    print("Leyendo data.unity3d (tarda unos minutos)...")
-    env = UnityPy.load(game); env.typetree_generator = gen
-    sfs = archivos_internos(env)
+    print("Leyendo data.unity3d...")
+    env, sfs = abrir_perezoso(game, blocks, nodes, data_start, gen)
     modificados = set()
 
     # 1) tabla Gridly: diálogos, menús, objetos, misiones...
@@ -509,6 +562,7 @@ def aplicar(version=None):
     print("Letras añadidas a fuentes:", letras)
 
     nuevos = {name: sfs[name].save() for name in modificados}
+    sfs.cerrar()
     del env, sfs, obj
     gc.collect()
 
@@ -520,7 +574,7 @@ def aplicar(version=None):
     colocados = {}
     cur = relleno + orig_u
     for name, d in nuevos.items():
-        colocados[name] = (cur, len(d))
+        colocados[name.lower()] = (cur, len(d))
         for i in range(0, len(d), BLOCK):
             chunk = d[i:i + BLOCK]
             c = lz4.block.compress(chunk, mode="high_compression", store_size=False)
@@ -534,7 +588,7 @@ def aplicar(version=None):
         info += struct.pack(">IIH", u, c, fl)
     info += struct.pack(">i", len(nodes))
     for off, sz, fl, name in nodes:
-        off, sz = colocados.get(name, (relleno + off, sz))
+        off, sz = colocados.get(name.lower(), (relleno + off, sz))
         info += struct.pack(">qqI", off, sz, fl) + name.encode() + b"\0"
     cinfo = lz4.block.compress(bytes(info), mode="high_compression", store_size=False)
 

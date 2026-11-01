@@ -17,7 +17,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "herramientas"))
 import config  # noqa: E402
 
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 REPO = "https://github.com/IrodoriCiel/LGTS-Parche-Traduccion-Espanol"
 STEAM_APPID = 1812370
 UI = os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "app", "ui")
@@ -76,7 +76,7 @@ def relacion(aplicada):
 
 
 def describir(e):
-    """Texto corto sobre el parche aplicado («Parche 1.1.0 aplicado», «… se puede actualizar»)."""
+    """Texto corto sobre el parche aplicado («Parche 1.1.1 aplicado», «… se puede actualizar»)."""
     rel = relacion(e.get("parche"))
     if rel == "igual":
         return f"Parche {VERSION} aplicado (juego en español)"
