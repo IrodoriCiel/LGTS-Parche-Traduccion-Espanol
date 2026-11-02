@@ -21,14 +21,11 @@ jobs:
       - name: Generar el .exe
         run: pyinstaller app/instalador.spec --noconfirm
       # Se publica dentro de un .zip: los navegadores bloquean o avisan más con un .exe suelto.
-      # El nombre lleva la versión (Instalar-Traduccion-LGTS-1.1.1.zip), que sale de app/instalador.py.
+      # El nombre lleva la versión (Instalar-Traduccion-LGTS-1.2.0.zip), que sale de app/instalador.py.
       - name: Comprimir y suma SHA-256
         shell: pwsh
         run: |
           $v = (Select-String -Path app/instalador.py -Pattern '^VERSION = "([^"]+)"').Matches[0].Groups[1].Value
-          if ($env:GITHUB_REF_TYPE -eq "tag" -and $env:GITHUB_REF_NAME -ne "v$v") {
-            throw "La etiqueta $env:GITHUB_REF_NAME no coincide con VERSION = $v en app/instalador.py"
-          }
           $exe = "dist/Instalar-Traduccion-LGTS-$v.exe"
           if (-not (Test-Path $exe)) { throw "No encontre $exe" }
           Compress-Archive -Path $exe -DestinationPath "dist/Instalar-Traduccion-LGTS-$v.zip" -Force
@@ -36,14 +33,82 @@ jobs:
             Out-File -Encoding ascii "dist/Instalar-Traduccion-LGTS-$v.zip.sha256"
       - uses: actions/upload-artifact@v4
         with:
-          name: instalador
+          name: instalador-windows
           path: dist/Instalar-Traduccion-LGTS-*.zip*
+
+  steamdeck:
+    # Ubuntu 22.04 tiene una glibc más antigua que la de SteamOS: lo compilado aquí arranca en la Steam Deck
+    # (y en casi cualquier Linux de escritorio). Compilado con una glibc más nueva no arrancaría.
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      # Bibliotecas del sistema que necesita Qt WebEngine: PyInstaller las mete en el ejecutable.
+      - name: Instalar bibliotecas de Qt
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libegl1 libgl1 libgbm1 libnss3 libxkbcommon-x11-0 \
+            libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 \
+            libxcb-shape0 libxcb-xinerama0 libxcb-xkb1 libxcomposite1 libxdamage1 libxrandr2 libxtst6 \
+            libxshmfence1 libxkbfile1 libasound2 libdbus-1-3 libfontconfig1 libwayland-client0 libwayland-cursor0 \
+            libwayland-egl1
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+      - name: Generar el ejecutable
+        run: pyinstaller app/instalador.spec --noconfirm
+      # En .tar.gz para que el ejecutable conserve el permiso de ejecución al descargarlo y extraerlo.
+      - name: Probar, comprimir y suma SHA-256
+        run: |
+          v=$(sed -n 's/^VERSION = "\([^"]*\)"/\1/p' app/instalador.py)
+          nombre="Instalar-Traduccion-LGTS-$v-SteamDeck"
+          test -x "dist/$nombre" || { echo "No encontré dist/$nombre"; exit 1; }
+          # sin juego, --estado termina con error, pero debe arrancar y llegar a buscarlo
+          "dist/$nombre" --estado | tee prueba.txt || true
+          grep -q "^Juego:" prueba.txt || { echo "El ejecutable no arrancó"; exit 1; }
+          tar -czf "dist/$nombre.tar.gz" -C dist "$nombre"
+          sha256sum "dist/$nombre.tar.gz" | cut -d' ' -f1 | tr a-f A-F > "dist/$nombre.tar.gz.sha256"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: instalador-steamdeck
+          path: dist/Instalar-Traduccion-LGTS-*-SteamDeck.tar.gz*
+
+  publicar:
+    needs: [exe, steamdeck]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      # Las notas de la publicación son las novedades de esa versión (CHANGELOG.md) y debajo .github/release.md.
+      - name: Comprobar versión y escribir notas
+        shell: pwsh
+        run: |
+          $v = (Select-String -Path app/instalador.py -Pattern '^VERSION = "([^"]+)"').Matches[0].Groups[1].Value
+          if ($env:GITHUB_REF_TYPE -eq "tag" -and $env:GITHUB_REF_NAME -ne "v$v") {
+            throw "La etiqueta $env:GITHUB_REF_NAME no coincide con VERSION = $v en app/instalador.py"
+          }
+          $lineas = @(Get-Content CHANGELOG.md -Encoding utf8)
+          $ini = ($lineas | Select-String -Pattern "^## $([regex]::Escape($v))( |$)" | Select-Object -First 1).LineNumber
+          if (-not $ini) { throw "CHANGELOG.md no tiene la sección «## $v»: escribe las novedades antes de publicar" }
+          $resto = @($lineas | Select-Object -Skip $ini)
+          $fin = ($resto | Select-String -Pattern '^## ' | Select-Object -First 1).LineNumber
+          $seccion = if (-not $fin) { $resto } elseif ($fin -gt 1) { $resto[0..($fin - 2)] } else { @() }
+          if (-not ($seccion | Where-Object { $_ -match '^- ' })) { throw "La sección «## $v» de CHANGELOG.md está vacía" }
+          $instrucciones = @(Get-Content .github/release.md -Encoding utf8) -replace '\{VERSION\}', $v
+          @("## Novedades de la versión $v") + $seccion + @('', '---', '') + $instrucciones |
+            Out-File -Encoding utf8 dist/notas.md
       - name: Publicar en Releases
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           name: Parche ${{ github.ref_name }}
-          body_path: .github/release.md
+          body_path: dist/notas.md
           files: |
             dist/Instalar-Traduccion-LGTS-*.zip
             dist/Instalar-Traduccion-LGTS-*.zip.sha256
+            dist/Instalar-Traduccion-LGTS-*-SteamDeck.tar.gz
+            dist/Instalar-Traduccion-LGTS-*-SteamDeck.tar.gz.sha256

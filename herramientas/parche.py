@@ -38,7 +38,18 @@ VERSION_PROBADA = {6476759553: "1.1.2"}   # tamaño de data.unity3d original →
 
 
 def juego_abierto():
-    """True si LGTS.exe se está ejecutando."""
+    """True si LGTS.exe se está ejecutando (en la Steam Deck, dentro de Proton)."""
+    if not config.WINDOWS:
+        # Proton lanza el juego como un proceso más cuya línea de órdenes termina en ...\LGTS.exe
+        for pid in os.listdir("/proc"):
+            if pid.isdigit() and pid != str(os.getpid()):
+                try:
+                    orden = open(f"/proc/{pid}/cmdline", "rb").read().split(b"\0")[0]
+                except OSError:
+                    continue
+                if re.search(rb"(^|[\\/])lgts\.exe$", orden.lower()):
+                    return True
+        return False
     import subprocess
     try:
         r = subprocess.run(["tasklist", "/FI", "IMAGENAME eq LGTS.exe", "/NH"], capture_output=True,
@@ -125,11 +136,14 @@ def parchar_codigo(data):
     codigo = json.load(open(config.CODIGO_ES, encoding="utf-8"))
     mapa = {k: v for k, v in codigo.items() if not k.startswith("_")}
     nuevo, n, largos = dll_textos.reemplazar(open(bak, "rb").read(), mapa)
+    # los que no caben en su hueco van al de una cadena donante (ver dll_textos.redirigir)
+    nuevo, n_redir, no_cupieron = dll_textos.redirigir(nuevo, {t: es for t, es, _, _ in largos})
     nuevo, n_valores, fallidos = dll_textos.renombrar_valores(nuevo, codigo.get("_valores", {}))
     open(destino, "wb").write(nuevo)
-    print("Textos del código:", n, "| opciones de ajustes:", n_valores)
-    for en, es, a, b in largos:
-        print(f"  AVISO: «{es}» tiene {a} caracteres y solo caben {b} (de «{en}»); se dejó en inglés")
+    print("Textos del código:", n + n_redir, f"({n_redir} redirigidos)" if n_redir else "",
+          "| opciones de ajustes:", n_valores)
+    for en, es, motivo in no_cupieron:
+        print(f"  AVISO: «{es}» no cupo en el hueco de «{en}» ({motivo}); se dejó en inglés")
     for v in fallidos:
         print(f"  AVISO: no cupo el nombre nuevo de {v}; se dejó en inglés")
 
@@ -160,6 +174,82 @@ def cambiar_guion(obj, mapa):
         t.m_Script = nuevo
         t.save()
     return n[0]
+
+
+_COMA_FINAL = re.compile(r",(\s*[}\]])")
+
+
+def leer_conversacion(txt):
+    """JSON de una conversación. El juego acepta comas finales («[ 1 ],» antes de «}»); Python no."""
+    return json.loads(_COMA_FINAL.sub(r"\1", txt), strict=False)
+
+
+def _cierre(txt, ini):
+    """Posición de la llave que cierra el objeto que empieza en txt[ini] («{»), sin contar las de las cadenas."""
+    nivel, en_cadena, escape = 0, False, False
+    for i in range(ini, len(txt)):
+        c = txt[i]
+        if en_cadena:
+            if escape:
+                escape = False
+            elif c == "\\":
+                escape = True
+            elif c == '"':
+                en_cadena = False
+        elif c == '"':
+            en_cadena = True
+        elif c == "{":
+            nivel += 1
+        elif c == "}":
+            nivel -= 1
+            if nivel == 0:
+                return i
+    raise ValueError("objeto sin cerrar")
+
+
+def poner_alias(obj, alias):
+    """Pone en español el nombre de personajes cuyo alias es su propio identificador.
+
+    En el código, «Crow» es a la vez el identificador (el «Author» de los diálogos) y el
+    nombre del cartel, así que no se puede traducir ahí. En cambio, el juego tiene
+    stage.SetEntityAlias, que se usa en la historia («Witch» → «Walpurga»): se añade al
+    nodo con que empieza la conversación y al primero que dice cada personaje. El alias
+    queda guardado en la partida. Solo se insertan instrucciones: el resto del guion no
+    cambia. Devuelve cuántos nodos se tocaron.
+    """
+    t = obj.read()
+    txt = t.m_Script if isinstance(t.m_Script, str) else bytes(t.m_Script).decode("utf-8")
+    conv = leer_conversacion(txt)["Conversation"]
+    quienes = [a for a in dict.fromkeys(n.get("Author") for n in conv.values()) if a in alias]
+    if not quienes:
+        return 0
+    # en el texto del JSON: \" para las comillas y \n entre instrucciones, como en los demás «Action»
+    orden = "".join('stage.SetEntityAlias(\\"%s\\", \\"%s\\")\\n' % (q, alias[q]) for q in quienes)
+    destinos = [str(x) for k, n in conv.items() if k.startswith("START") for x in n.get("Next", [])]
+    destinos += [next(k for k, n in conv.items() if n.get("Author") == q) for q in quienes]
+    destinos = [d for d in dict.fromkeys(destinos) if d in conv]
+    sitios = []
+    for k in destinos:
+        m = re.search(r'(?<!\\)"%s"\s*:\s*\{' % re.escape(k), txt)
+        sitios.append(m.end() - 1)
+    for ini in sorted(sitios, reverse=True):          # de atrás hacia adelante: las posiciones no se mueven
+        accion = re.search(r'"Action"\s*:\s*"', txt[ini:_cierre(txt, ini)])
+        if accion:
+            p = ini + accion.end()
+            txt = txt[:p] + orden + txt[p:]
+        else:
+            txt = txt[:ini + 1] + ' "Action": "%s",' % orden[:-2] + txt[ini + 1:]
+    nuevo = leer_conversacion(txt)["Conversation"]       # que siga leyéndose, igual salvo los «Action» tocados
+    assert set(nuevo) == set(conv)
+    for k in conv:
+        a, b = dict(conv[k]), dict(nuevo[k])
+        if k in destinos:
+            assert b["Action"].startswith(orden.replace('\\"', '"').replace("\\n", "\n")[:-1])
+            a.pop("Action", None); b.pop("Action", None)
+        assert a == b, k
+    t.m_Script = txt
+    t.save()
+    return len(destinos)
 
 
 def respaldar(game, data_start):
@@ -254,8 +344,12 @@ def abrir_perezoso(game, blocks, nodes, data_start, gen):
     return env, archivos
 
 
-def cambiar_texto(obj, tr, campo="m_text"):
-    """Traduce el campo de texto de un componente (m_text en TextMeshPro, m_Text en UI.Text...)."""
+def cambiar_texto(obj, tr, campo="m_text", encoger=None):
+    """Traduce el campo de texto de un componente (m_text en TextMeshPro, m_Text en UI.Text...).
+
+    encoger: tamaño mínimo de letra. Si se indica, TMP encoge el texto hasta que quepa
+    en su caja (ajuste automático), para etiquetas pensadas al milímetro para el inglés.
+    """
     t = obj.read_typetree()
     es = tr(t[campo])
     if es and es != t[campo]:
@@ -263,9 +357,52 @@ def cambiar_texto(obj, tr, campo="m_text"):
         # una sola palabra que no cabe: TMP la parte letra por letra («MOVE» → «MOVE/R»); mejor que se salga un poco
         if t.get("m_enableWordWrapping") and una_palabra(es):
             t["m_enableWordWrapping"] = 0
+        if encoger and "m_enableAutoSizing" in t:
+            t["m_enableAutoSizing"] = 1
+            t["m_fontSizeMin"] = float(encoger)
+            t["m_fontSizeMax"] = t["m_fontSize"]
         guardar(obj, t)
         return True
     return False
+
+
+def _campo(t, ruta):
+    for parte in ruta.split("."):
+        t = t[parte]
+    return t
+
+
+def _poner(t, ruta, valor):
+    *camino, ultimo = ruta.split(".")
+    for parte in camino:
+        t = t[parte]
+    t[ultimo] = valor
+
+
+def ajustar_interfaz(sfs, bundle="data.unity3d"):
+    """Tamaños y posiciones de la interfaz que cambian para que quepa el español (datos/ajustes_ui.json).
+
+    Cada ajuste dice los valores de antes y los nuevos de un RectTransform. Si los de
+    antes no coinciden (otra versión del juego) no se toca nada. Devuelve los archivos internos modificados.
+    """
+    tocados = set()
+    for a in json.load(open(config.AJUSTES_UI, encoding="utf-8"))["ajustes"]:
+        if a["bundle"] != bundle:
+            continue
+        o = sfs[a["file"]].objects.get(a["pid"])
+        try:
+            t = o.read_typetree()
+            igual = all(abs(_campo(t, k) - v) < 0.5 for k, v in a["antes"].items())
+        except (AttributeError, KeyError, TypeError):
+            igual = False
+        if not igual:
+            print(f"  AVISO: {a['nombre']} no está como se esperaba; no se ajusta")
+            continue
+        for k, v in a["ahora"].items():
+            _poner(t, k, float(v))
+        o.save_typetree(t)
+        tocados.add(a["file"])
+    return tocados
 
 
 def una_palabra(texto):
@@ -513,9 +650,12 @@ def aplicar(version=None):
     n = 0
     cambiados = set()
     for r in ubic:
-        if r["bundle"] == "data.unity3d" and cambiar_texto(sfs[r["file"]].objects[r["pid"]], tr_fijos, r.get("campo", "m_text")):
+        if r["bundle"] == "data.unity3d" and cambiar_texto(sfs[r["file"]].objects[r["pid"]], tr_fijos,
+                                                           r.get("campo", "m_text"), r.get("encoger")):
             n += 1; modificados.add(r["file"]); cambiados.add((r["file"], r["pid"]))
     print("Textos fijos en escenas:", n)
+    ajustados = ajustar_interfaz(sfs)
+    modificados |= ajustados
 
     # 2a) textos que pone Gridly al abrir la pantalla («Moderno» en Controles): que no se partan.
     # Los que ya cambió el paso 2 tienen su propia regla (UnityPy los releería sin ese cambio).
@@ -547,6 +687,15 @@ def aplicar(version=None):
             if c:
                 n += c; modificados.add(r["file"])
     print("Textos en guiones:", n)
+
+    # 2d) nombres de personaje que son su propio identificador: se ponen desde sus conversaciones
+    alias = {k: v for k, v in json.load(open(config.ALIAS_ES, encoding="utf-8")).items() if not k.startswith("_")}
+    n = 0
+    for r in json.load(open(config.ALIAS_UBIC, encoding="utf-8"))["conversaciones"]:
+        if r["paquete"] == "data.unity3d" and poner_alias(sfs[r["file"]].objects[r["pid"]], alias):
+            n += 1
+            modificados.add(r["file"])
+    print("Conversaciones con nombres de personaje:", n)
 
     # 3) imágenes con texto
     n = 0

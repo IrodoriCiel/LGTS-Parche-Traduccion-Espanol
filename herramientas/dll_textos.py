@@ -6,6 +6,10 @@ alargar sin reconstruir el ensamblado, así que el texto en español debe tener
 como máximo el mismo número de caracteres que el inglés; si es más corto, se
 rellena con espacios repartidos a ambos lados para que siga centrado.
 
+Cuando el español no cabe, `redirigir()` lo escribe en el hueco de una cadena
+donante (mensajes internos que el jugador nunca ve) y cambia el operando de la
+instrucción `ldstr` que cargaba el original. Nada se mueve de sitio.
+
   python dll_textos.py listar      muestra los textos que parecen de interfaz
 """
 import struct, re, sys
@@ -123,6 +127,87 @@ def renombrar_valores(d, nombres):
             else:
                 fallidos.append(f"{tipo}.{viejo.decode()}")
                 continue
+            hechos += 1
+    return bytes(d), hechos, fallidos
+
+
+# Cadenas del #US que el juego solo manda al registro o a una excepción interna
+# (biblioteca de recorte de polígonos, avisos de Rewired): su hueco se reutiliza
+# para nombres que no caben en el suyo. Comprobadas en la versión 1.1.2.
+DONANTES = [
+    "DoMaxima error",                                            # 14 caracteres
+    "Invalid scene exception",                                   # 23
+    "ProcessIntersections error",                                # 26
+    "UpdateEdgeIntoAEL: invalid call",                           # 31
+    "No joysticks found, using keyboard",                        # 34
+    "Error: PolyTree struct is needed for open path clipping.",  # 56
+]
+
+
+def _detalle(d):
+    """[(posición de la longitud, posición del texto, cuántos caracteres, texto)] del #US."""
+    ini, tam = _heap_us(d)
+    p, fin, out = ini + 1, ini + tam, []
+    while p < fin:
+        n, k = _longitud(d, p)
+        if n == 0:
+            p += k
+            continue
+        out.append((p, p + k, (n - 1) // 2, d[p + k:p + k + n - 1].decode("utf-16-le", "replace")))
+        p += k + n
+    return out
+
+
+def _centrado(texto, hueco):
+    """El texto rellenado con espacios a ambos lados hasta ocupar `hueco` caracteres."""
+    falta = hueco - len(texto)
+    return " " * (falta // 2) + texto + " " * (falta - falta // 2)
+
+
+def _usos_ldstr(d, token):
+    """Posiciones de cada instrucción `ldstr` (0x72) que carga ese token."""
+    patron = b"\x72" + token
+    fuera, i = [], d.find(patron)
+    while i >= 0:
+        fuera.append(i)
+        i = d.find(patron, i + 1)
+    return fuera
+
+
+def redirigir(d, mapa):
+    """Escribe textos más largos que su hueco, sin mover nada ni cambiar el tamaño del archivo.
+
+    El español va al hueco de una cadena donante y la instrucción `ldstr` que
+    cargaba el original pasa a apuntar ahí. Devuelve (bytes nuevos, cuántos se
+    cambiaron, [(inglés, español, motivo)] de los que no se pudieron).
+    """
+    d = bytearray(d)
+    ini, _ = _heap_us(d)
+    sitio = {t: (pl, pt, cap) for pl, pt, cap, t in _detalle(d)}
+    libres = sorted((sitio[t] for t in DONANTES if t in sitio), key=lambda x: x[2])
+    hechos, fallidos = 0, []
+    for en, es in mapa.items():
+        if en not in sitio:
+            fallidos.append((en, es, "no está en el DLL"))
+            continue
+        pl, pt, cap = sitio[en]
+        if len(es) <= cap:
+            continue                      # cabe en su sitio: de eso se encarga reemplazar()
+        usos = _usos_ldstr(d, struct.pack("<I", 0x70000000 | (pl - ini)))
+        donante = next((x for x in libres if x[2] >= len(es)), None)
+        if not usos:
+            fallidos.append((en, es, "no encontré dónde lo carga el código"))
+        elif donante is None:
+            fallidos.append((en, es, f"no queda ninguna cadena donante de {len(es)} caracteres"))
+        else:
+            libres.remove(donante)
+            dpl, dpt, dcap = donante
+            texto = _centrado(es, dcap)
+            d[dpt:dpt + dcap * 2] = texto.encode("utf-16-le")
+            d[dpt + dcap * 2] = 1 if any(ord(c) > 0x7E for c in texto) else 0
+            nuevo = struct.pack("<I", 0x70000000 | (dpl - ini))
+            for u in usos:
+                d[u + 1:u + 5] = nuevo
             hechos += 1
     return bytes(d), hechos, fallidos
 

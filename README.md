@@ -12,6 +12,7 @@
   <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/IrodoriCiel/LGTS-Parche-Traduccion-Espanol?label=versi%C3%B3n&color=c8202f&style=for-the-badge" alt="Versión"></a>
   <a href="../../releases"><img src="https://img.shields.io/github/downloads/IrodoriCiel/LGTS-Parche-Traduccion-Espanol/total?label=descargas&color=f4c55a&style=for-the-badge" alt="Descargas"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1a2a6e?style=for-the-badge&logo=windows" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Steam%20Deck-SteamOS-1a2a6e?style=for-the-badge&logo=steamdeck" alt="Steam Deck">
   <img src="https://img.shields.io/badge/Steam-v1.1.2-1a2a6e?style=for-the-badge&logo=steam" alt="Steam v1.1.2">
 </p>
 
@@ -20,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Descargar%20el%20parche-Instalar--Traduccion--LGTS.zip-c8202f?style=for-the-badge" alt="Descargar el parche"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Descargar%20el%20parche-Windows%20%7C%20Steam%20Deck-c8202f?style=for-the-badge" alt="Descargar el parche para Windows o Steam Deck"></a>
 </p>
 
 El parche se aplica **directamente a los archivos del juego**: después lo abres desde Steam como siempre y está en español de forma nativa, sin programas externos, mods ni nada ejecutándose aparte.
@@ -43,15 +44,32 @@ El parche se aplica **directamente a los archivos del juego**: después lo abres
 
 ## 🎮 Aplicar el parche
 
+Hay un programa para **Windows** (`.zip` con un `.exe`) y otro para **Steam Deck** (`-SteamDeck.tar.gz`). Los dos hacen lo mismo y no necesitan instalar Python ni nada más.
+
+### 🪟 Windows
+
 **Necesitas:** Windows 10 u 11, el juego de Steam (probado con la versión 1.1.2) y unos 500 MB libres en el disco del juego. No necesitas instalar Python ni nada más.
 
-1. Descarga el **`.zip`** de la [última versión](../../releases/latest) (lleva la versión en el nombre: `Instalar-Traduccion-LGTS-1.1.1.zip`) y extráelo (clic derecho → *Extraer todo*).
+1. Descarga el **`.zip`** de la [última versión](../../releases/latest) (lleva la versión en el nombre, por ejemplo `Instalar-Traduccion-LGTS-1.2.0.zip`) y extráelo (clic derecho → *Extraer todo*).
 2. **Cierra el juego.**
 3. Abre el `.exe` que viene dentro: busca el juego solo en tus bibliotecas de Steam; si lo tienes en otra carpeta, elige **Lo instalé en otra carpeta** (o **Cambiar carpeta**) y selecciona la carpeta `Little Goody Two Shoes`. Comprueba que sea el juego, su versión y que no esté abierto.
 4. Presiona **Aplicar parche** y espera a que diga «¡Parche aplicado!» (menos de un minuto). **No abras el juego mientras tanto.**
 5. Pulsa **▶ Jugar** (o abre el juego desde Steam como siempre). No hay que elegir idioma: el español reemplaza al inglés.
 
+### 🎮 Steam Deck
+
+**Necesitas:** el juego de Steam instalado en la Deck (en la memoria interna o en la tarjeta SD) y unos 500 MB libres en ese disco.
+
+1. **Cierra el juego** y pasa al **Modo Escritorio**: botón Steam → *Apagar* → *Cambiar a escritorio*.
+2. Abre el navegador, entra a la [última versión](../../releases/latest) y descarga el **`.tar.gz`** que dice **SteamDeck** (por ejemplo `Instalar-Traduccion-LGTS-1.2.0-SteamDeck.tar.gz`). Queda en la carpeta *Descargas*.
+3. Extráelo: clic derecho sobre el archivo → *Extraer* → *Extraer aquí*.
+4. Abre con doble clic el archivo `Instalar-Traduccion-LGTS-…-SteamDeck` (si pregunta qué hacer, elige **Ejecutar**). Busca el juego solo en tus bibliotecas de Steam, también en la tarjeta SD.
+5. Presiona **Aplicar parche** y espera a que diga «¡Parche aplicado!» (menos de un minuto). Luego cierra el programa.
+6. Vuelve al **Modo de Juego** con el icono *Return to Gaming Mode* del escritorio y abre el juego como siempre: el parche queda en los archivos del juego y funciona con Proton.
+
 La misma ayuda de abajo está en la pestaña **Ayuda** del programa, y **Registro** muestra lo que hizo.
+
+Qué trae cada versión: [historial de cambios](CHANGELOG.md). El programa también lo muestra al actualizar y avisa cuando sale una versión nueva.
 
 ## ❓ Ayuda
 
@@ -82,7 +100,9 @@ Las actualizaciones de Steam reemplazan los archivos con el parche. Vuelve a pul
 <details>
 <summary><b>🔍 No encuentra el juego</b></summary>
 
-Pulsa **Cambiar carpeta** (o **Lo instalé en otra carpeta**) y elige la carpeta `Little Goody Two Shoes` (la que contiene `LGTS.exe`). En Steam la encuentras con clic derecho en el juego → *Administrar → Ver archivos locales*.
+Pulsa **Cambiar carpeta** (o **Lo instalé en otra carpeta**) y elige la carpeta `Little Goody Two Shoes` (la que contiene `LGTS.exe`, también en la Steam Deck). En Steam la encuentras con clic derecho en el juego → *Administrar → Ver archivos locales*.
+
+En la Steam Deck suele estar en `~/.local/share/Steam/steamapps/common/` o, en la tarjeta SD, en `/run/media/…/steamapps/common/`.
 </details>
 
 <details>
@@ -114,23 +134,25 @@ El programa no reemplaza el juego por una copia: aplica el parche sobre tus arch
 - `LGTS_Data/data.unity3d` (6 GB) **no se reescribe**: se añaden al final las partes traducidas y un índice nuevo. Así quitar el parche es solo recortar lo añadido.
 - Se reescriben los paquetes pequeños de `StreamingAssets/AssetBundles` y `Managed/Assembly-CSharp.dll`.
 - Antes de cambiar nada guarda los originales en `respaldo_traduccion_es`, dentro de la carpeta del juego (unos 3 MB). **No la borres** mientras el parche esté aplicado. Como está junto al juego, cualquier copia del programa la encuentra, aunque la abras desde otra cuenta de Windows.
-- El registro de lo que hizo queda en `%LOCALAPPDATA%\LGTS-Parche-Traduccion-Espanol\instalador.log`.
+- El registro de lo que hizo queda en `%LOCALAPPDATA%\LGTS-Parche-Traduccion-Espanol\instalador.log` (en la Steam Deck, en `~/.local/share/LGTS-Parche-Traduccion-Espanol/instalador.log`).
 
 | Carpeta | Qué hay |
 |---|---|
 | 📁 `traduccion/` | La traducción: diálogos (`es/`), textos fijos, textos del código, subtítulos, guiones e imágenes traducidas |
 | 📁 `datos/` | Dónde está cada texto, imagen y fuente dentro del juego |
 | 📁 `herramientas/` | El motor del parche (Python) |
-| 📁 `app/` | El programa con ventana: `instalador.py`, su ventana (`ui/index.html`, que se muestra con pywebview y el motor WebView2 de Windows) y la configuración de PyInstaller |
+| 📁 `app/` | El programa con ventana: `instalador.py`, su ventana (`ui/index.html`, que se muestra con pywebview: motor WebView2 en Windows y Qt WebEngine en la Steam Deck) y la configuración de PyInstaller |
 
-### 🛠️ Generar el .exe desde el código
+### 🛠️ Generar los instaladores desde el código
 
 ```bash
 pip install -r requirements.txt
 pyinstaller app/instalador.spec --noconfirm
 ```
 
-El `.exe` queda en `dist/`, con la versión en el nombre y en sus propiedades (clic derecho → *Propiedades* → *Detalles*), tomada de `VERSION` en `app/instalador.py`. Al publicar una etiqueta `vX.Y.Z`, GitHub Actions lo genera, comprueba que la etiqueta coincida con esa versión, lo comprime en `Instalar-Traduccion-LGTS-X.Y.Z.zip` (con su suma SHA-256) y lo sube a Releases.
+El mismo spec genera el programa del sistema donde se ejecuta: en Windows, el `.exe`; en Linux, `Instalar-Traduccion-LGTS-X.Y.Z-SteamDeck`, un solo archivo con Python y Qt dentro (pesa unos 290 MB porque lleva el motor web de Qt, que en Windows ya trae el sistema). Para que arranque en la Steam Deck hay que compilarlo en un Linux con una glibc igual o más antigua que la de SteamOS (GitHub Actions usa Ubuntu 22.04).
+
+El `.exe` queda en `dist/`, con la versión en el nombre y en sus propiedades (clic derecho → *Propiedades* → *Detalles*), tomada de `VERSION` en `app/instalador.py`. Al publicar una etiqueta `vX.Y.Z`, GitHub Actions lo genera, comprueba que la etiqueta coincida con esa versión, lo comprime en `Instalar-Traduccion-LGTS-X.Y.Z.zip`, hace lo mismo con el de Steam Deck (`Instalar-Traduccion-LGTS-X.Y.Z-SteamDeck.tar.gz`) y sube los dos, con sus sumas SHA-256, a Releases.
 
 ## 🙌 Créditos
 

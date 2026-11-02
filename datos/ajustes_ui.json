@@ -1,0 +1,33 @@
+{
+  "_ayuda": "Tamaño y posición de elementos de la interfaz que cambian para que quepa el español. Cada entrada es un RectTransform: «antes» son los valores originales (si el juego cambió y no coinciden, se omite) y «ahora» los nuevos. Las medidas de texto son con la fuente real del juego.",
+  "ajustes": [
+    {
+      "bundle": "data.unity3d",
+      "file": "level0",
+      "pid": 5713,
+      "nombre": "Cuadro de diálogo · SkipLabel/text skip",
+      "nota": "Con Adorn Serif a 24, «Skip» mide 61,2 y «Saltar» 104,7. La flecha va pegada al final de la caja (espaciado -11,96 en el grupo), así que la caja crece la diferencia, 44, y el texto termina a la misma distancia de la flecha que en inglés.",
+      "antes": {
+        "m_SizeDelta.x": 75.08
+      },
+      "ahora": {
+        "m_SizeDelta.x": 119.08
+      }
+    },
+    {
+      "bundle": "data.unity3d",
+      "file": "level0",
+      "pid": 5710,
+      "nombre": "Cuadro de diálogo · SkipLabel",
+      "nota": "El grupo crece lo mismo y su centro se corre la mitad a la derecha: el borde izquierdo queda donde estaba y no se acerca a «Auto».",
+      "antes": {
+        "m_SizeDelta.x": 100.38,
+        "m_AnchoredPosition.x": -246.6
+      },
+      "ahora": {
+        "m_SizeDelta.x": 144.38,
+        "m_AnchoredPosition.x": -224.6
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Textos escritos directamente en el código (Assembly-CSharp.dll). Clave = texto en inglés exacto. El español NO puede tener más caracteres que el inglés (el número máximo va en _max); si es más corto se centra con espacios. Solo se traducen textos que ve el jugador: cambiar un texto que el código usa internamente puede romper el juego.",
+  "_ayuda": "Textos escritos directamente en el código (Assembly-CSharp.dll). Clave = texto en inglés exacto. Si el español cabe en el hueco del inglés (el máximo va en _max) se escribe ahí, centrado con espacios; si no, va al hueco de una cadena donante y se redirige la instrucción que lo carga (ver dll_textos.redirigir). Solo se traducen textos que ve el jugador: cambiar un texto que el código usa internamente puede romper el juego.",
   "_valores": {
     "_ayuda": "Opciones de los menús de ajustes: el juego muestra el nombre del valor del enum (ToString). Clave = Tipo.VALOR. Se guardan como número, así que cambiar el nombre solo cambia lo que se ve.",
     "Toggle.YES": "SÍ",
@@ -14,7 +14,8 @@
     "<b>DATE</b>  ": 13, "<b>TIME</b>  ": 13, "NOT ENOUGH MONEY": 16,
     "MATCHES ITEM LIMIT REACHED": 26, "MAX STACK ITEM LIMIT REACHED": 28, "Description not yet available.": 30,
     "Keep these settings? (Will default to previous values in {0} seconds.)": 70, "Is the smallest of the bunch and holds only 1L, but at least it has no holes!": 77, "Bucket # {0}": 12,
-    "Please reconnect your controller to continue": 44, "Unlock for ": 11, "Score: ": 7
+    "Please reconnect your controller to continue": 44, "Unlock for ": 11, "Score: ": 7,
+    "Old Hag": 7, "Golden Girl": 11, "Father Hans": 11, "Girl": 4
   },
   "Quit to Title Screen?": "¿Volver al título?",
   "Save these settings?": "¿Guardar ajustes?",
@@ -39,5 +40,9 @@
   "Bucket # {0}": "Cubeta {0}",
   "Please reconnect your controller to continue": "Vuelve a conectar el control para continuar",
   "Unlock for ": "Compra por ",
-  "Score: ": "Total: "
+  "Score: ": "Total: ",
+  "Old Hag": "Vieja bruja",
+  "Golden Girl": "Chica dorada",
+  "Father Hans": "Padre Hans",
+  "Girl": "Niña"
 }

@@ -1,0 +1,473 @@
+{
+ "_ayuda": "Conversaciones (TextAsset JSON de resources.assets) donde habla un personaje cuyo alias se traduce con stage.SetEntityAlias (ver traduccion/alias/es.json). Generado buscando los «Author» de traduccion/alias/es.json en todas las conversaciones del juego 1.1.2.",
+ "conversaciones": [
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1005,
+   "conversacion": "CUT_2_1_VCH_02",
+   "personajes": [
+    "Crowd"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1174,
+   "conversacion": "CUT_2_1_VCH_03",
+   "personajes": [
+    "Crowd"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1168,
+   "conversacion": "CUT_4_5_OCR_01",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1216,
+   "conversacion": "CUT_4_5_WCR_B_01",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1227,
+   "conversacion": "CUT_4_5_WCR_D_01",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1853,
+   "conversacion": "CUT_5_5_VIN_02",
+   "personajes": [
+    "Crowd"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1320,
+   "conversacion": "CUT_6_1_OGR_01",
+   "personajes": [
+    "Snake"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1503,
+   "conversacion": "CUT_7_6_VCH_02",
+   "personajes": [
+    "Snake"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 647,
+   "conversacion": "CUT_8_END_B_F",
+   "personajes": [
+    "Crowd"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1315,
+   "conversacion": "CUT_8_END_B_L",
+   "personajes": [
+    "Crowd"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 970,
+   "conversacion": "CUT_D_WSN-X_01",
+   "personajes": [
+    "Snake"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1768,
+   "conversacion": "CUT_WCW_B_INTRO_03",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1856,
+   "conversacion": "CUT_WCW_E_PITFALLS_02",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 765,
+   "conversacion": "CUT_WCW_E_PITFALLS_03",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1023,
+   "conversacion": "DLG_4_5_WCR_01",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1006,
+   "conversacion": "DLG_4_5_WCR_02",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1118,
+   "conversacion": "DLG_4_5_WCR_03",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 703,
+   "conversacion": "DLG_4_5_WCR_A_04",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1240,
+   "conversacion": "DLG_4_5_WCR_A_05",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1138,
+   "conversacion": "DLG_4_5_WCR_A_06",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1192,
+   "conversacion": "DLG_4_5_WCR_B_01",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1721,
+   "conversacion": "DLG_4_5_WCR_B_02",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1740,
+   "conversacion": "DLG_4_5_WCR_B_03",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1358,
+   "conversacion": "DLG_4_5_WCR_B_04",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 783,
+   "conversacion": "DLG_4_5_WCR_B_05",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1003,
+   "conversacion": "DLG_4_5_WCR_B_06",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1342,
+   "conversacion": "DLG_4_5_WCR_B_07",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 788,
+   "conversacion": "DLG_4_5_WCR_C_01",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1649,
+   "conversacion": "DLG_4_5_WCR_C_02",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1183,
+   "conversacion": "DLG_4_5_WCR_C_03",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1872,
+   "conversacion": "DLG_8_3_VSQ_11",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1081,
+   "conversacion": "DLG_8_3_VSQ_12",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1165,
+   "conversacion": "DLG_8_3_VSQ_13",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 637,
+   "conversacion": "DLG_8_3_VSQ_14",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1801,
+   "conversacion": "DLG_8_3_VSQ_15",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1285,
+   "conversacion": "DLG_8_3_VSQ_16",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1290,
+   "conversacion": "DLG_8_3_VSQ_17",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1271,
+   "conversacion": "DLG_8_3_VSQ_18",
+   "personajes": [
+    "Traveler"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1642,
+   "conversacion": "DLG_D_WSN-A_01",
+   "personajes": [
+    "Snake"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 820,
+   "conversacion": "DLG_D_WSN-F_01",
+   "personajes": [
+    "Statue"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1712,
+   "conversacion": "DLG_D_WSN-F_02",
+   "personajes": [
+    "Statue"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1082,
+   "conversacion": "DLG_D_WSN-F_03",
+   "personajes": [
+    "Statue"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1049,
+   "conversacion": "DLG_WCW_B_INTRO_01",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1582,
+   "conversacion": "DLG_WCW_B_INTRO_04",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1111,
+   "conversacion": "DLG_WCW_B_INTRO_05",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1728,
+   "conversacion": "DLG_WCW_B_INTRO_06",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 817,
+   "conversacion": "DLG_WCW_B_INTRO_07",
+   "personajes": [
+    "Crow"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1300,
+   "conversacion": "FLV_WSV-C_01",
+   "personajes": [
+    "Statue"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1669,
+   "conversacion": "PIC_WSV-D_01",
+   "personajes": [
+    "Snake"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 729,
+   "conversacion": "SNK_Boss_Freya",
+   "personajes": [
+    "Snake"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1562,
+   "conversacion": "SNK_Boss_Leb",
+   "personajes": [
+    "Snake"
+   ]
+  },
+  {
+   "paquete": "data.unity3d",
+   "file": "resources.assets",
+   "pid": 1286,
+   "conversacion": "SNK_Boss_Rozen",
+   "personajes": [
+    "Snake"
+   ]
+  }
+ ]
+}

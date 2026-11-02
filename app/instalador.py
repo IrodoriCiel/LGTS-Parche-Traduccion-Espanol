@@ -1,30 +1,67 @@
 """Parche de la traducción al español de Little Goody Two Shoes (interfaz gráfica).
 
 Aplica el parche sobre el juego que tiene el usuario: no distribuye archivos del
-juego. Se empaqueta como .exe con PyInstaller (ver app/instalador.spec).
+juego. Se empaqueta con PyInstaller (ver app/instalador.spec): un .exe para
+Windows y un ejecutable para Linux (Steam Deck, donde el juego corre con Proton).
 
-La ventana es app/ui/index.html mostrada con pywebview (motor Edge/WebView2 de
-Windows). Si la PC no tiene WebView2, se abre una ventana sencilla en tkinter.
+La ventana es app/ui/index.html mostrada con pywebview: motor Edge/WebView2 en
+Windows y Qt WebEngine (va dentro del ejecutable) en Linux. Si falla, se abre
+una ventana sencilla en tkinter.
 
   instalador.exe                      abre la ventana
   instalador.exe --estado  [--ruta R] muestra el estado sin ventana
   instalador.exe --aplicar  [--ruta R]   (también --instalar)
   instalador.exe --quitar   [--ruta R]
 """
-import os, re, sys, json, queue, shutil, threading, traceback, webbrowser, datetime
+import os, re, sys, json, queue, shutil, threading, traceback, subprocess, webbrowser, datetime
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "herramientas"))
 import config  # noqa: E402
 
-VERSION = "1.1.1"
+VERSION = "1.2.0"
 REPO = "https://github.com/IrodoriCiel/LGTS-Parche-Traduccion-Espanol"
 STEAM_APPID = 1812370
 UI = os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "app", "ui")
-DATOS_APP = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), "LGTS-Parche-Traduccion-Espanol")
+ICONO = os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "app", "icono.ico")
+CAMBIOS = os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "CHANGELOG.md")
+DATOS_APP = config.DATOS_APP
 AJUSTES = os.path.join(DATOS_APP, "ajustes.json")
 REGISTRO = os.path.join(DATOS_APP, "instalador.log")
 ESPACIO_MINIMO = 500 * 1024 * 1024
+
+
+def abrir(destino):
+    """Abre un archivo, carpeta, página o enlace steam:// con el programa que el sistema tenga para eso."""
+    if config.WINDOWS:
+        os.startfile(destino); return
+    subprocess.Popen(["xdg-open", destino], env=entorno_sistema(), stdout=subprocess.DEVNULL,
+                     stderr=subprocess.DEVNULL, start_new_session=True)
+
+
+def entorno_sistema():
+    """Las variables de entorno con las que se abrió el programa, sin las que añade el ejecutable.
+
+    Dentro del ejecutable de PyInstaller, LD_LIBRARY_PATH, QT_PLUGIN_PATH y otras apuntan a las bibliotecas
+    y al Qt que lleva dentro. En la Steam Deck, xdg-open abre los enlaces con kde-open, que también es de Qt:
+    con esas variables se cae y el botón «Jugar» no hacía nada.
+    """
+    if not getattr(sys, "frozen", False):
+        return None
+    try:
+        crudo = open("/proc/self/environ", "rb").read()      # las de inicio, sin las que puso Python después
+        entorno = dict(v.decode("utf-8", "surrogateescape").split("=", 1) for v in crudo.split(b"\0") if b"=" in v)
+    except OSError:
+        entorno = {k: v for k, v in os.environ.items() if not k.startswith(("QT_", "QML", "QTWEBENGINE"))}
+    original = entorno.pop("LD_LIBRARY_PATH_ORIG", None)
+    entorno.pop("LD_LIBRARY_PATH", None)
+    if original is not None:
+        entorno["LD_LIBRARY_PATH"] = original
+    return {k: v for k, v in entorno.items() if not k.startswith(("_PYI_", "_MEI"))}
+
+
+def abrir_web(url):
+    abrir(url) if not config.WINDOWS else webbrowser.open(url)
 
 
 class Salida:
@@ -75,8 +112,25 @@ def relacion(aplicada):
     return "igual" if a == b else "anterior" if a < b else "posterior"
 
 
+def novedades_de(notas):
+    """Los puntos de «## Novedades…» en las notas de una publicación de GitHub (las arma el workflow con CHANGELOG.md)."""
+    cambios, dentro = [], False
+    for linea in notas.replace("\r\n", "\n").split("\n"):
+        if linea.startswith("## "):
+            if dentro:
+                break
+            dentro = linea[3:].lower().startswith("novedades")
+        elif dentro and linea.strip() == "---":
+            break
+        elif dentro and linea.startswith("- "):
+            cambios.append(linea[2:].strip())
+        elif dentro and cambios and linea.startswith("  ") and linea.strip():
+            cambios[-1] += " " + linea.strip()
+    return cambios
+
+
 def describir(e):
-    """Texto corto sobre el parche aplicado («Parche 1.1.1 aplicado», «… se puede actualizar»)."""
+    """Texto corto sobre el parche aplicado («Parche 1.2.0 aplicado», «… se puede actualizar»)."""
     rel = relacion(e.get("parche"))
     if rel == "igual":
         return f"Parche {VERSION} aplicado (juego en español)"
@@ -159,7 +213,7 @@ PASOS = [
     ("El juego ya tiene una traducción", "Quitando la traducción anterior…", 3),
     ("Juego restaurado", "Archivos originales restaurados.", 6),
     ("Paquetes pequeños", "Ventanas, minijuegos y pantallas de carga listos.", 25),
-    ("Leyendo data.unity3d", "Leyendo los archivos principales del juego (tarda unos minutos)…", 28),
+    ("Leyendo data.unity3d", "Leyendo los archivos principales del juego…", 28),
     ("Textos de diálogos", "Diálogos, menús, objetos y misiones traducidos.", 50),
     ("Textos fijos en escenas", "Textos de pantallas traducidos.", 56),
     ("Subtítulos de cinemáticas", "Subtítulos de cinemáticas traducidos.", 60),
@@ -177,11 +231,13 @@ class Api:
         self._win = None
         self._ruta = ruta_inicial()
         self._ocupado = False
+        self._portapapeles = None if config.WINDOWS else portapapeles_qt()
 
     # --- estado
     def info(self):
         import parche
-        return dict(version=VERSION, juego_probado=", ".join(sorted(set(parche.VERSION_PROBADA.values()))))
+        return dict(version=VERSION, juego_probado=", ".join(sorted(set(parche.VERSION_PROBADA.values()))),
+                    sistema="windows" if config.WINDOWS else "linux")
 
     def estado(self):
         ruta = self._ruta
@@ -201,7 +257,8 @@ class Api:
 
     def buscar(self):
         import webview
-        r = self._win.create_file_dialog(webview.FOLDER_DIALOG, directory=self._ruta or "C:\\")
+        r = self._win.create_file_dialog(webview.FOLDER_DIALOG,
+                                         directory=self._ruta or ("C:\\" if config.WINDOWS else os.path.expanduser("~")))
         if not r:
             return None
         r = os.path.normpath(r[0] if isinstance(r, (list, tuple)) else r)
@@ -218,9 +275,56 @@ class Api:
             self._ruta = r; guardar_ajustes(juego=r)
         return self.estado()
 
+    def novedades(self):
+        """Las versiones publicadas en GitHub más nuevas que este programa, o None si no hay.
+
+        {version, url} de la última e historial: [{version, fecha, cambios}] de todas las más
+        nuevas, con sus novedades sacadas de las notas de cada publicación (así se ve si ya se
+        arregló algo aunque el jugador se haya saltado versiones). Solo pide la lista pública
+        de publicaciones; sin internet, o si GitHub tarda, no hay aviso.
+        """
+        import urllib.request
+        api = REPO.replace("https://github.com/", "https://api.github.com/repos/") + "/releases?per_page=30"
+        try:
+            pet = urllib.request.Request(api, headers={"User-Agent": "Instalar-Traduccion-LGTS/" + VERSION,
+                                                       "Accept": "application/vnd.github+json"})
+            with urllib.request.urlopen(pet, timeout=4) as r:
+                publicaciones = json.load(r)
+        except Exception:
+            return None
+        nuevas = []
+        for p in publicaciones:
+            version = str(p.get("tag_name", "")).lstrip("vV")
+            if p.get("draft") or p.get("prerelease") or not re.fullmatch(r"\d+(\.\d+)*", version):
+                continue
+            if relacion(version) == "posterior":
+                nuevas.append(dict(version=version, fecha=str(p.get("published_at") or "")[:10],
+                                   cambios=novedades_de(p.get("body") or ""), url=p.get("html_url")))
+        if not nuevas:
+            return None
+        nuevas.sort(key=lambda n: tuple(int(x) for x in n["version"].split(".")), reverse=True)
+        return dict(version=nuevas[0]["version"], url=nuevas[0]["url"] or REPO + "/releases/latest", historial=nuevas)
+
+    def historial(self):
+        """Las novedades de CHANGELOG.md: [{version, fecha, cambios: [...]}], la más nueva primero."""
+        out = []
+        try:
+            for linea in open(CAMBIOS, encoding="utf-8"):
+                m = re.match(r"## (\d+(?:\.\d+)*)\s*(?:—\s*(.+))?$", linea.strip())
+                if m:
+                    out.append(dict(version=m.group(1), fecha=(m.group(2) or "").strip(), cambios=[]))
+                elif out and linea.startswith("- "):
+                    out[-1]["cambios"].append(linea[2:].strip())
+                elif out and out[-1]["cambios"] and linea.startswith("  ") and linea.strip():
+                    out[-1]["cambios"][-1] += " " + linea.strip()      # punto partido en varias líneas
+        except OSError:
+            pass
+        return out
+
     # --- acciones
-    def confirmar(self, titulo, mensaje):
-        return bool(self._win.create_confirmation_dialog(titulo, mensaje))
+    def abrir_url(self, url):
+        if url.startswith(REPO + "/"):        # solo páginas del proyecto
+            abrir_web(url)
 
     def aplicar(self):
         self._lanzar("aplicar")
@@ -279,28 +383,30 @@ class Api:
 
     # --- utilidades
     def jugar(self):
-        os.startfile(f"steam://rungameid/{STEAM_APPID}")
+        abrir(f"steam://rungameid/{STEAM_APPID}")
 
     def abrir_steam(self):
         try:
-            os.startfile(f"steam://store/{STEAM_APPID}")
+            abrir(f"steam://store/{STEAM_APPID}")
         except OSError:                          # sin Steam: la tienda en el navegador
-            webbrowser.open(f"https://store.steampowered.com/app/{STEAM_APPID}")
+            abrir_web(f"https://store.steampowered.com/app/{STEAM_APPID}")
 
     def abrir_proyecto(self, sub=""):
-        webbrowser.open(REPO + ("/" + sub if sub else ""))
+        abrir_web(REPO + ("/" + sub if sub else ""))
 
     def abrir_registro(self):
         if os.path.exists(REGISTRO):
-            os.startfile(REGISTRO)
+            abrir(REGISTRO)
 
     def abrir_respaldo(self):
         carpeta = os.path.join(config.JUEGO or "", config.CARPETA_RESPALDO)
-        os.startfile(carpeta if os.path.isdir(carpeta) else (config.JUEGO or DATOS_APP))
+        abrir(carpeta if os.path.isdir(carpeta) else (config.JUEGO or DATOS_APP))
 
     def copiar(self, texto):
-        import subprocess
-        subprocess.run(["clip"], input=texto.encode("utf-16-le"), creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        if config.WINDOWS:
+            subprocess.run(["clip"], input=texto.encode("utf-16-le"), creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        else:
+            self._portapapeles.texto.emit(texto)       # el portapapeles de Qt solo se toca desde su hilo
         return True
 
     def minimizar(self):
@@ -322,9 +428,29 @@ class Api:
         return True
 
 
+def portapapeles_qt():
+    """Objeto de Qt creado en el hilo principal: su señal lleva el texto al portapapeles desde cualquier hilo."""
+    from qtpy.QtCore import QObject, Signal
+    from qtpy.QtWidgets import QApplication
+
+    class Portapapeles(QObject):
+        texto = Signal(str)
+
+    p = Portapapeles()
+    p.texto.connect(lambda t: QApplication.clipboard().setText(t))
+    return p
+
+
 def ventana():
-    """Ventana con el diseño HTML. Si no hay WebView2 (o falla), usa la de tkinter."""
+    """Ventana con el diseño HTML. Si no hay WebView2 / Qt WebEngine (o falla), usa la de tkinter."""
     try:
+        if not config.WINDOWS:
+            # En la Steam Deck, Qt WebEngine dibuja con la GPU una ventana vacía («Backend texture is not a
+            # Vulkan texture»); la página es sencilla y sin GPU se ve bien.
+            os.environ.setdefault("QTWEBENGINE_CHROMIUM_FLAGS", "--disable-gpu")
+            # El aislamiento de Chromium puede no arrancar desde la carpeta temporal del ejecutable;
+            # la ventana solo muestra la página local del programa.
+            os.environ.setdefault("QTWEBENGINE_DISABLE_SANDBOX", "1")
         import webview
         sys.stdout = Salida()
         api = Api()
@@ -333,7 +459,8 @@ def ventana():
                                     easy_drag=False, background_color="#0b0f2a")
         api._win = win
         win.events.closing += api._al_cerrar
-        webview.start(gui="edgechromium", http_server=True)
+        webview.start(gui="edgechromium" if config.WINDOWS else "qt", http_server=True,
+                      icon=None if config.WINDOWS else ICONO)     # en Windows el icono ya va en el .exe
     except Exception:
         traceback.print_exc(file=sys.stdout)
         ventana_tk()
@@ -349,7 +476,7 @@ def ventana_tk():
     raiz.title("Traducción al español · Little Goody Two Shoes")
     raiz.geometry("720x560"); raiz.minsize(600, 480)
     try:
-        raiz.iconbitmap(os.path.join(getattr(sys, "_MEIPASS", AQUI), "app", "icono.ico"))
+        raiz.iconbitmap(ICONO)
     except Exception:
         pass
     est = ttk.Style()
@@ -375,7 +502,7 @@ def ventana_tk():
 
     def buscar():
         r = filedialog.askdirectory(title="Elige la carpeta «Little Goody Two Shoes»",
-                                    initialdir=ruta_var.get() or "C:\\")
+                                    initialdir=ruta_var.get() or ("C:\\" if config.WINDOWS else os.path.expanduser("~")))
         if r:
             r = os.path.normpath(r)
             if not config.es_juego(r) and config.es_juego(os.path.dirname(r)):
@@ -405,7 +532,7 @@ def ventana_tk():
     pie = ttk.Frame(marco); pie.pack(fill="x", pady=(8, 0))
     ttk.Label(pie, text=f"Parche {VERSION} · por Iro", foreground="#777").pack(side="left")
     enlace = ttk.Label(pie, text="Reportar un error o ver el proyecto", foreground="#0a5fb4", cursor="hand2")
-    enlace.pack(side="right"); enlace.bind("<Button-1>", lambda e: webbrowser.open(REPO + "/issues"))
+    enlace.pack(side="right"); enlace.bind("<Button-1>", lambda e: abrir_web(REPO + "/issues"))
 
     def escribir(s):
         log.configure(state="normal"); log.insert("end", s); log.see("end"); log.configure(state="disabled")

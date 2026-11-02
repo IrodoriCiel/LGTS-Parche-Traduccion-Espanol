@@ -1,0 +1,8 @@
+{
+  "_ayuda": "Nombres de personaje cuyo alias es la misma cadena que su identificador interno (el «Author» de los diálogos), así que no se pueden traducir en el código sin romper los diálogos. Se ponen con stage.SetEntityAlias al empezar cada conversación donde hablan (datos/alias_ubicaciones.json) y quedan guardados en la partida. Clave = identificador.",
+  "Traveler": "Viajero",
+  "Snake": "Serpiente",
+  "Crow": "Cuervo",
+  "Statue": "Estatua",
+  "Crowd": "Gente"
+}

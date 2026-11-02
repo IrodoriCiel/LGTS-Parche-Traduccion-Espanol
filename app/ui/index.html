@@ -10,6 +10,7 @@
 @font-face{font-family:'Alegreya Sans';src:url('fuentes/AlegreyaSans-Bold.ttf') format('truetype');font-weight:700 800}
 :root{--accent:#c8202f;--accent-d:#7a0f19;--gold:#f4c55a;--gold-l:#ffe29a;--ok:#7fe0a0;--warn:#ffb36b;--err:#ff7a85;--ink:#eef0ff;--ink2:#c9cdf0;--ink3:#a9b0dc;--ink4:#7d86c2;--line:#2d3a7a;--line2:#3a4892;--bg0:#05071a;--bg1:#070a22;--bg2:#0b0f2a;--bg3:#0e1336;--blue:#1a2a6e;--blue-h:#22348a}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html,body{height:100%}
 body{margin:0;overflow:hidden;background:var(--bg2);font-family:'Alegreya Sans',sans-serif;color:var(--ink);user-select:none}
 a{color:var(--gold);text-decoration:none;cursor:pointer}a:hover{color:var(--gold-l);text-decoration:underline}
@@ -17,7 +18,7 @@ button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer
 @keyframes ff{0%,100%{opacity:.15;transform:translate(0,0)}50%{opacity:1;transform:translate(6px,-10px)}}
 @keyframes glow{0%,100%{box-shadow:0 0 10px #f4c55a88}50%{box-shadow:0 0 22px #f4c55acc}}
 .win{position:relative;height:100%;display:flex;flex-direction:column;background:var(--bg2);border:1px solid var(--line);overflow:hidden}
-.tb{height:34px;flex:none;display:flex;align-items:center;justify-content:space-between;padding-left:14px;background:#080b22}
+.tb{height:34px;flex:none;display:flex;align-items:center;justify-content:space-between;padding-left:14px;background:#0a0e2a;border-bottom:1px solid #1c2350}
 .tb .t{flex:1;height:100%;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink3)}
 .gdot{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold)}
 .wb{display:flex;height:100%}.wb div{width:44px;display:flex;align-items:center;justify-content:center;color:var(--ink3);cursor:pointer}
@@ -30,78 +31,175 @@ button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer
 .ribbons{position:absolute;left:0;bottom:8px;display:flex}
 .rb1{font-family:'Cinzel',serif;font-weight:900;font-size:15px;letter-spacing:2px;background:linear-gradient(180deg,#e0303f,#9a1422);color:#fff;padding:7px 34px 7px 20px;clip-path:polygon(0 0,100% 0,calc(100% - 16px) 100%,0 100%);white-space:nowrap}
 .rb2{font-family:'Cinzel',serif;font-weight:700;font-size:13px;letter-spacing:1px;background:var(--gold);color:#3a0a10;padding:7px 26px 7px 22px;margin-left:-12px;clip-path:polygon(16px 0,100% 0,calc(100% - 16px) 100%,0 100%);display:flex;align-items:center;white-space:nowrap}
-.notice{flex:none;display:flex;align-items:center;gap:10px;padding:6px 16px;background:var(--blue);font-size:13px;color:#dfe3ff}
-.notice b{color:var(--gold);font-weight:400}
-.body{flex:1;min-height:0;display:grid;grid-template-columns:200px minmax(0,1fr)}
-.side{background:#0d1240;border-right:1px solid var(--line);padding:14px 0;display:flex;flex-direction:column;gap:8px}
-.side .h{font-size:12px;letter-spacing:1.5px;color:var(--ink4);padding:0 16px 4px;font-weight:700}
-.tab{display:flex;align-items:center;gap:12px;margin-right:14px;padding:11px 18px;font-family:'Cinzel',serif;font-weight:900;font-size:14px;cursor:pointer;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 50%,calc(100% - 12px) 100%,0 100%);background:#18205a;color:#dfe3ff;text-align:left}
-.tab:hover{background:#202a70}
-.tab .i{width:16px;text-align:center;color:var(--gold)}
-.tab.on{background:linear-gradient(180deg,#fff7e0,#f4dca0);color:#3a0a10;box-shadow:inset 4px 0 0 var(--accent)}
-.tab.on .i{color:var(--accent)}
-.credit{margin-top:auto;padding:0 16px;font-size:12px;color:var(--ink4);line-height:1.5}.credit b{color:var(--gold)}
-.main{padding:12px 22px;background:var(--bg3);overflow:auto}
+@keyframes panelIn{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+@keyframes rowIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes shimmer{from{transform:translateX(-100%)}to{transform:translateX(250%)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+.notice{height:30px;flex:none;display:flex;align-items:center;gap:10px;padding:0 14px;background:#16204f;border-bottom:1px solid #222c63;font-size:13.5px;color:#e6e8f5}
+.notice>b{color:var(--gold);font-weight:400}
+#noticeTxt{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#noticeTxt b{color:#ffe08a;font-weight:700}
+/* hay una versión más nueva del programa en GitHub */
+.notice.nueva{padding-right:8px;background:linear-gradient(90deg,#3a2a10,#2a2010);border-bottom-color:#5a4418;color:#f6e6c0}
+.notice .nv{height:22px;flex:none;padding:0 10px;display:flex;align-items:center;border-radius:4px;background:var(--gold);color:#2a1606;font-weight:800;font-size:13px;transition:background .2s,transform .2s}
+.notice .nv:hover{background:#ffe08a;transform:translateX(-2px)}
+/* confirmaciones con el estilo de la ventana (en vez del cuadro blanco de Windows) */
+#modal{position:absolute;top:34px;left:0;right:0;bottom:0;z-index:6;display:flex;align-items:center;justify-content:center;background:#03051acc}
+.mbox{width:450px;max-width:calc(100% - 40px);background:#0e1336;border:1px solid var(--line2);border-radius:10px;box-shadow:0 20px 60px #000c;overflow:hidden}
+.mbox .top{height:4px;background:linear-gradient(90deg,var(--accent),var(--gold),var(--accent))}
+.m-in{padding:20px 24px 18px;display:flex;flex-direction:column;gap:12px}
+.m-t{font-family:'Cinzel',serif;font-weight:900;font-size:19px;color:#fff}
+.m-t .mi{color:var(--gold);margin-right:8px}
+.m-m{display:flex;flex-direction:column;gap:8px;max-height:340px;overflow:auto;font-size:14.5px;line-height:1.45;color:var(--ink2)}
+.m-m::-webkit-scrollbar{width:8px}.m-m::-webkit-scrollbar-thumb{background:var(--line2);border-radius:8px}
+.m-m p{margin:0}.m-m b{color:var(--gold);font-weight:700}
+.m-b{display:flex;justify-content:flex-end;gap:10px;margin-top:4px}
+.m-no{padding:8px 16px;border-radius:5px;background:var(--blue);color:var(--ink2);font-size:14px}
+.m-no:hover{background:var(--blue-h);color:#fff}
+.m-si{padding:8px 18px;border-radius:5px;background:linear-gradient(180deg,#e0303f,#9a1422);font-family:'Cinzel',serif;font-weight:900;font-size:14px;letter-spacing:1px;color:#fff;text-shadow:0 1px 0 #0006}
+.m-si:hover{filter:brightness(1.12)}
+.m-si.quitar{background:linear-gradient(180deg,#6e1420,#3d0911);color:#ffc2c8}
+.m-no:focus-visible,.m-si:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.body{flex:1;min-height:0;display:grid;grid-template-columns:198px minmax(0,1fr)}
+/* menú: flechas que se alargan al elegirlas */
+.side{background:#111843;border-right:1px solid #1f2858;padding:12px 0;display:flex;flex-direction:column;gap:6px}
+.side .h{font-family:'Cinzel',serif;font-weight:700;font-size:11.5px;letter-spacing:2px;color:#8f97c7;padding:0 16px 4px}
+.tab{width:176px;height:40px;flex:none;display:flex;align-items:center;gap:12px;padding-left:18px;font-family:'Cinzel',serif;font-weight:800;font-size:13.5px;letter-spacing:.3px;white-space:nowrap;color:#d8dcf2;background:#1a2257;border-left:4px solid transparent;clip-path:polygon(0 0,92% 0,100% 50%,92% 100%,0 100%);text-align:left;transition:width .3s cubic-bezier(.2,.8,.2,1),background .3s,color .3s,transform .2s,filter .2s}
+.tab:hover{transform:translateX(6px);filter:brightness(1.15)}.tab:active{transform:translateX(3px) scale(.98)}
+.tab .i{width:16px;text-align:center;color:var(--gold);transition:transform .3s,color .3s}
+.tab.on{width:186px;color:#2a1606;background:linear-gradient(#fff1c9,#f2c45a);border-left-color:#c8203a}
+.tab.on .i{color:#c8203a;transform:scale(1.2)}
+.credit{margin-top:auto;padding:0 16px;font-size:13px;color:#8f97c7;line-height:1.6}.credit b{color:var(--gold)}
+.main{padding:14px 22px 14px;background:#0d1236;overflow:auto}
 .main::-webkit-scrollbar,.log::-webkit-scrollbar{width:8px}
 .main::-webkit-scrollbar-thumb,.log::-webkit-scrollbar-thumb{background:var(--line2);border-radius:8px}
 .main::-webkit-scrollbar-track,.log::-webkit-scrollbar-track{background:transparent}
-.pane{display:none;flex-direction:column;gap:10px}.pane.on{display:flex}
+.pane{display:none;flex-direction:column;gap:12px}
+.pane.on{display:flex;min-height:100%;animation:panelIn .32s cubic-bezier(.2,.8,.2,1)}
+#pane-install{gap:10px}   /* con la tarjeta de actualización, la pestaña justo cabe sin scroll */
 .sec{display:flex;align-items:center;gap:10px}
-.sec i{width:14px;height:2px;background:var(--ink4)}
-.sec span{font-size:14px;font-weight:700;color:#dfe3ff}
-.sec em{flex:1;height:1px;background:var(--line)}
-.checks{display:flex;flex-direction:column;gap:4px;font-size:14px}
-.ck span:last-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ck{display:flex;align-items:center;gap:8px}
-.led{width:8px;height:8px;border-radius:50%;flex:none}
-.folder{display:flex;gap:12px;align-items:center;padding:8px 10px;background:var(--bg1);border:1px solid var(--line);border-radius:6px;flex-wrap:wrap}
-.folder .ic{font-size:18px;color:var(--gold)}
-.folder .txt{flex:1;min-width:180px;display:flex;flex-direction:column;gap:1px;overflow:hidden}
-.folder .lbl{font-size:11px;letter-spacing:1px;color:var(--ink4);font-weight:700}
-.mono{font-family:Consolas,monospace;font-size:13px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;user-select:text}
-.b-red{padding:7px 12px;background:var(--accent);border-radius:4px;font-size:13px;font-weight:700}
-.b-red:hover:not(:disabled){filter:brightness(1.15)}
+.sec i{width:14px;height:1px;background:#8f97c7}
+.sec span{font-family:'Cinzel',serif;font-weight:700;font-size:14px;letter-spacing:1px;color:#fff}
+.sec em{flex:1;height:1px;background:#252e63}
+.pill{padding:2px 10px;border-radius:999px;border:1px solid #2a6a4a;background:#7fe0a01a;color:#7fe0a0;font-size:12.5px;font-weight:700;white-space:nowrap;transition:all .3s}
+.pill.err{color:#ff8a98;background:#ff6b7d1a;border-color:#8a2a3c}
+.box{background:#141c4a;border:1px solid #27306a;border-radius:6px}
+.lbl{font-size:11.5px;letter-spacing:1.2px;font-weight:700;color:#8f97c7}
+.pulso{animation:pulse .9s ease infinite}
+/* franja Juego · Parche · Idioma */
+.strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:hidden;animation:rowIn .3s ease}
+.cell{min-width:0;display:flex;flex-direction:column;gap:3px;padding:9px 14px;margin-left:-1px;border-left:1px solid #27306a;transition:background .2s}
+.cell:hover{background:#1b2560}
+.val{display:flex;align-items:center;gap:6px;font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden}
+.val span{overflow:hidden;text-overflow:ellipsis}
+.val i{width:7px;height:7px;flex:none;border-radius:50%;background:currentColor;box-shadow:0 0 6px currentColor}
+/* actualización disponible: versión instalada → versión de este programa */
+.upd{display:flex;flex-direction:column;gap:7px;padding:8px 10px 10px 12px;border-color:#5a4a20;animation:rowIn .3s ease}
+.upd-h{display:flex;align-items:baseline;gap:10px;white-space:nowrap}
+.upd-t{flex:1;font-size:12px;letter-spacing:1.4px;font-weight:700;color:var(--gold)}
+.upd-n{font-size:12.5px;color:#c9cde6}
+.upd-n.aviso{color:#f2a84a;font-weight:700}
+.upd-v{display:grid;grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr);align-items:center}
+.vbox{padding:5px 12px;border:1px solid #27306a;border-radius:5px;background:#10173f}
+.vbox .lbl{font-size:11px}
+.vbox.new{border-color:var(--gold);background:#231f2a;box-shadow:0 0 14px #f2c45a26}
+.vbox.new .lbl{flex:1;color:var(--gold)}
+.vl-r{display:flex;align-items:center;gap:8px}
+.vv{font-family:'Cinzel',serif;font-size:17px;line-height:1.3}
+.vbox.old .vv{font-weight:700;color:#7d86b8;text-decoration:line-through;text-decoration-color:#c8203a}
+.vbox.new .vv{font-weight:800;color:#fff}
+.vlink{font-size:12.5px;font-weight:700;color:var(--gold);cursor:pointer;white-space:nowrap}
+.vlink:hover{color:var(--gold-l);text-decoration:underline}
+.uarrow{text-align:center;font-size:16px;color:var(--gold);animation:nudge 1.6s ease-in-out infinite}
+/* novedades (CHANGELOG.md): en «Acerca de» y en la ventana de «Novedades» */
+.nov{display:flex;flex-direction:column;gap:10px}
+.nov-v{display:flex;flex-direction:column;gap:4px}
+.nov-h{font-family:'Cinzel',serif;font-weight:900;font-size:15px;color:#fff}
+.nov-h span{font-family:'Alegreya Sans',sans-serif;font-weight:400;font-size:12.5px;color:var(--ink4);margin-left:8px}
+.nov ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px;font-size:14px;line-height:1.4;color:var(--ink2)}
+.nov li::marker{color:var(--gold)}
+/* carpeta: la ruta en gris y el nombre de la carpeta en blanco */
+.folder{display:flex;align-items:center;gap:10px;padding:8px 8px 8px 14px;transition:border-color .25s,box-shadow .25s}
+.folder:hover{border-color:#4a56a8;box-shadow:0 0 0 3px #4a56a82e}
+.folder .ic{font-size:17px}
+.folder .info{flex:1;min-width:0}
+.path{display:flex;min-width:0;font-family:Consolas,monospace;font-size:12.5px;white-space:nowrap;user-select:text}
+.path .dir{min-width:0;overflow:hidden;text-overflow:ellipsis;color:#7d86b8}
+.path .nm{flex:none;color:#fff}.path .nm.vacio{color:#7d86b8}
+.sbtn{height:28px;flex:none;display:flex;align-items:center;justify-content:center;padding:0 12px;border:1px solid #3a4590;border-radius:4px;color:#e6e8f5;font-size:13px;font-weight:700;transition:background .2s,border-color .2s,transform .15s}
+.sbtn:hover:not(:disabled){background:#1f2860;border-color:var(--gold)}.sbtn:active:not(:disabled){transform:scale(.95)}
+.sbtn.hot{background:#c8203a;border-color:#e0485e;color:#fff;box-shadow:0 0 0 3px #c8203a40}   /* sin juego: hay que elegir la carpeta */
+.sbtn.hot:hover:not(:disabled){background:#e0304c;border-color:#e0485e}
+.sbtn:disabled{background:none;border-color:#2a3268;color:#5d669c;box-shadow:none;cursor:not-allowed}
+.sbtn.sq{width:28px;padding:0}
+.sbtn.sq span{width:100%;height:100%;display:flex;align-items:center;justify-content:center;transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.sbtn.sq:not(:disabled):hover span{transform:rotate(180deg)}
 .b-blue{padding:7px 10px;background:var(--blue);border-radius:4px;font-size:13px}
 .b-blue:hover:not(:disabled){background:var(--blue-h)}
-.b-red:disabled,.b-blue:disabled{opacity:.45;cursor:default}
-.hr{height:1px;background:var(--line)}
-.acts{display:flex;gap:10px}
-.arrow{display:flex;align-items:center;justify-content:center;gap:12px;height:54px;font-family:'Cinzel',serif;font-weight:900;font-size:20px;letter-spacing:2px;clip-path:polygon(0 0,calc(100% - 24px) 0,100% 50%,calc(100% - 24px) 100%,0 100%,12px 50%);color:#fff;text-shadow:0 2px 0 #0006}
-#go{flex:1;background:linear-gradient(180deg,var(--accent),var(--accent-d))}
-#go:hover:not(:disabled){filter:brightness(1.12)}
-#go.busy{background:linear-gradient(180deg,#4a3a7a,#2d2560);cursor:default}
-#go:disabled:not(.busy){background:#3a3f6e;color:var(--ink4);text-shadow:none;cursor:default}
-#play{width:170px;background:#5a7a9a;color:#33506e;text-shadow:none;cursor:default}
-#play.on{background:linear-gradient(180deg,#3aa86b,#1d6a40);color:#fff;text-shadow:0 2px 0 #0006;cursor:pointer}
-#play.on:hover{filter:brightness(1.12)}
+.b-blue:disabled{opacity:.45;cursor:default}
+/* botones grandes: aplicar / actualizar y quitar */
+.actions{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:14px}
+.big{height:58px;display:flex;align-items:center;justify-content:center;gap:12px;clip-path:polygon(0 0,95% 0,100% 50%,95% 100%,0 100%,4% 50%);font-family:'Cinzel',serif;white-space:nowrap;transition:filter .2s,transform .2s cubic-bezier(.2,.8,.2,1),background .3s,color .3s}
+.big.p{font-weight:800;font-size:18px;letter-spacing:2px}
+.big.q{gap:10px;font-weight:700;font-size:14px;letter-spacing:1px}
+.big .gl{display:inline-block;font-family:'Alegreya Sans',sans-serif}.big.p .gl{font-size:18px}.big.q .gl{font-size:15px}
+.v-red{background:linear-gradient(#d32a44,#9e1328);color:#fff;text-shadow:0 1px 0 #5a0a16}
+.v-dark{background:linear-gradient(#6a1426,#4e0d1b);color:#f0c7cf}
+.v-red:hover,.v-dark:hover{filter:brightness(1.15);transform:translateX(4px)}.v-dark:hover{color:#fff}
+.v-red:active,.v-dark:active{transform:scale(.98)}
+.v-busy{background:linear-gradient(#5b3fa0,#3f2a7a);color:#fff;cursor:progress}
+.v-off{background:#262e66;color:#6f78ad;cursor:not-allowed}
+.gira{animation:spin 1.2s linear infinite}
+/* abajo: mensaje del estado, Jugar, porcentaje y barra */
+.bottom{display:flex;flex-direction:column;gap:7px;margin-top:auto}
+.msg{display:flex;align-items:center;gap:9px;min-height:32px}
+.mdot{width:18px;height:18px;flex:none;display:flex;align-items:center;justify-content:center;border-radius:50%;font-size:11px;font-weight:800;color:#0d1236}
+.mtext{flex:1;min-width:0;font-size:13.5px;line-height:1.35;text-wrap:pretty;user-select:text}
+.mtext a{font-weight:700;text-decoration:underline}
+.play{height:30px;flex:none;display:flex;align-items:center;gap:7px;padding:0 14px;border:1px solid #2a3268;border-radius:4px;font-family:'Cinzel',serif;font-weight:700;font-size:13px;letter-spacing:1px;white-space:nowrap;color:#5d669c;cursor:not-allowed;transition:background .2s,color .2s,border-color .2s,transform .2s}
+.play .gl{font-family:'Alegreya Sans',sans-serif;font-size:13px}
+.play.on{border-color:#2aa35a;background:#2aa35a1f;color:#9ff0bd;cursor:pointer}
+.play.on:hover{background:#2aa35a;color:#fff;transform:translateY(-1px)}.play.on:active{transform:scale(.96)}
 .prog{display:flex;align-items:center;gap:12px}
 .track{flex:1;height:10px;background:var(--bg1);border:1px solid var(--line);border-radius:20px;overflow:hidden}
 .bar{height:100%;width:0;border-radius:20px;background:linear-gradient(90deg,#f4a23a,var(--gold),#fff1b8);transition:width .5s}
 .bar.lit{animation:glow 1.6s infinite}
 .pct{font-family:'Cinzel',serif;font-weight:700;font-size:13px;color:var(--gold);width:40px;text-align:right}
-/* «Quitar parche»: flecha hacia atrás (de vuelta al inglés) */
-.arrow.back{flex:1;height:42px;font-size:17px;clip-path:polygon(24px 0,100% 0,calc(100% - 12px) 50%,100% 100%,24px 100%,0 50%);background:#3a3f6e;color:var(--ink4);text-shadow:none;cursor:default}
-#remove.on{background:linear-gradient(180deg,#6e1420,#3d0911);color:#ffc2c8;text-shadow:0 2px 0 #0006;cursor:pointer}
-#remove.on:hover{filter:brightness(1.18)}
-#remove.busy{background:linear-gradient(180deg,#4a3a7a,#2d2560);color:#fff;text-shadow:0 2px 0 #0006}
-.chipbox{width:170px;display:flex;align-items:center;justify-content:center}
-.chip{display:flex;align-items:center;gap:6px;padding:5px 12px;border-radius:20px;border:1px solid;font-size:13px;font-weight:500;white-space:nowrap}
-.chip.ok{color:var(--ok);border-color:#3fa56d;background:#1d5e3c55}
-.chip.bad{color:#ff9aa2;border-color:var(--err);background:#5e0a1255}
-.step{margin-top:-6px;font-size:13px;color:var(--ink3);min-height:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.log{overflow:auto;background:var(--bg1);border:1px solid var(--line);padding:8px 12px;font-family:Consolas,monospace;font-size:12px;line-height:1.6;color:var(--ink2);user-select:text;white-space:pre-wrap;word-break:break-word}
-.log .ts{color:var(--ink4);margin-right:10px}
-#bigLog{height:250px;font-size:12.5px;line-height:1.7}
+.msg .pct{width:42px;font-size:14px}
+.mbar{height:6px;border-radius:3px;background:#1c2458;overflow:hidden}
+.fill{position:relative;width:0;height:100%;overflow:hidden;border-radius:3px;background:linear-gradient(90deg,#f2a83a,#ffe08a);transition:width .5s,background .3s}
+.fill.err{background:#ff6b7d}
+.fill.lit::after{content:'';position:absolute;top:0;bottom:0;left:0;width:40%;background:linear-gradient(90deg,transparent,#ffffff8c,transparent);animation:shimmer 1.6s linear infinite}
+/* registro */
+#pane-log.on{height:100%}
+.log{overflow:auto;background:#0a0f2e;border:1px solid #27306a;border-radius:6px;padding:8px 0;font-family:Consolas,monospace;font-size:12px;line-height:1.5;color:var(--ink2);user-select:text;word-break:break-word}
+.log>div{display:flex;gap:14px;padding:3px 14px;white-space:pre-wrap;animation:rowIn .3s ease both}
+.log>div:hover{background:#141c4a}
+.log .ts{flex:none;color:#5d669c}
+#bigLog{flex:1;min-height:0;font-size:12.5px}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.faq{display:flex;flex-direction:column;gap:4px;padding:10px 14px;background:#131a4a;border:1px solid var(--line);border-radius:4px}
-.faq b{color:var(--gold);font-size:14px}.faq span{font-size:14px;color:var(--ink2);line-height:1.45}
-.about-t{font-family:'Cinzel',serif;font-weight:700;font-size:21px;color:#fff}
-.about-p{margin:0;font-size:15px;line-height:1.55;color:var(--ink2);text-wrap:pretty}
-.cred{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0;font-size:14px;color:var(--ink2)}
-.cred dt{color:var(--gold);font-family:'Cinzel',serif;font-weight:700;font-size:12px;letter-spacing:1px;padding-top:2px}
-.cred dd{margin:0}
-.footer{flex:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 16px;background:var(--bg1);border-top:1px solid var(--line);font-size:12px;color:var(--ink4)}
+/* ayuda: preguntas que se abren de una en una */
+#pane-help{gap:8px}
+.faq{display:flex;flex-direction:column;padding:9px 14px;background:#141c4a;border:1px solid #27306a;border-radius:6px;cursor:pointer;transition:background .2s,border-color .2s}
+.faq:hover,.faq.open{background:#18215a;border-color:#4a56a8}
+.faq b{display:flex;align-items:center;gap:10px;font-size:14.5px;font-weight:700;color:#e6e8f5}
+.faq b::before{content:'›';width:8px;color:var(--gold);transition:transform .3s}
+.faq.open b::before{transform:rotate(90deg)}
+.faq span{display:none;padding:6px 0 2px 18px;font-size:14px;line-height:1.5;color:#b9bfe0;cursor:auto;user-select:text}
+.faq.open span{display:block;animation:rowIn .25s ease}
+/* acerca de */
+.about-t{font-family:'Cinzel',serif;font-weight:800;font-size:22px;color:var(--gold)}
+.about-p{margin:0;font-size:15px;line-height:1.55;color:#c9cde6;text-wrap:pretty}
+.agrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.agrid .box{padding:9px 12px;transition:transform .2s,border-color .2s}
+.agrid .box:hover{transform:translateY(-2px);border-color:var(--gold)}
+.agrid .ancho{grid-column:1/-1}
+.agrid .v{margin-top:2px;font-size:14px;font-weight:500;color:#e6e8f5}.agrid .v.g{color:var(--gold);font-weight:700}
+.footer{height:32px;flex:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:0 14px;background:#0a0e2a;border-top:1px solid #1c2350;font-size:12.5px;color:#8f97c7}
 .footer b{color:var(--gold);font-weight:400}
+#footVer b{font-weight:700}
 /* pantalla inicial: búsqueda del juego */
 #splash{position:absolute;top:34px;left:0;right:0;bottom:0;z-index:5;display:flex;align-items:center;justify-content:center;background:var(--bg0);overflow:hidden;transition:opacity .35s}
 #splash.hide{opacity:0;pointer-events:none}
@@ -202,7 +300,7 @@ button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer
     <div class="ribbons"><span class="rb1">PARCHE EN ESPAÑOL</span><span class="rb2">NO OFICIAL</span></div>
   </div>
 
-  <div class="notice"><b>✦</b><span>Necesitas el juego original de Steam. No se modifica nada hasta que pulses «Aplicar parche».</span></div>
+  <div class="notice" id="notice"><b>✦</b><span id="noticeTxt">Necesitas el juego original de Steam. No se modifica nada hasta que pulses «Aplicar parche».</span></div>
 
   <div class="body">
     <nav class="side">
@@ -216,24 +314,38 @@ button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer
 
     <main class="main">
       <section class="pane on" id="pane-install">
-        <div class="sec"><i></i><span>Juego</span><em></em></div>
-        <div class="checks" id="checks"></div>
-        <div class="folder">
-          <span class="ic">📂</span>
-          <div class="txt"><span class="lbl">CARPETA DEL JUEGO</span><span class="mono" id="pathShown">Sin carpeta seleccionada</span></div>
-          <button class="b-red" data-act="choose" id="chooseBtn">Cambiar carpeta</button>
-          <button class="b-blue" data-act="rescan" id="rescanBtn" title="Buscar otra vez">↻</button>
+        <div class="sec"><i></i><span>Juego</span><em></em><div class="pill" id="chip"></div></div>
+        <div class="box strip" id="strip">
+          <div class="cell"><span class="lbl">JUEGO</span><div class="val" id="vJuego"><i></i><span></span></div></div>
+          <div class="cell"><span class="lbl">PARCHE</span><div class="val" id="vParche"><i></i><span></span></div></div>
+          <div class="cell"><span class="lbl">IDIOMA</span><div class="val" id="vIdioma"><i></i><span></span></div></div>
         </div>
-        <div class="acts">
-          <button class="arrow" id="go"><span id="goIc">⚑</span><span id="goLbl">APLICAR PARCHE</span></button>
-          <button class="arrow" id="play">▶ JUGAR</button>
+        <div class="box upd" id="upd" hidden>
+          <div class="upd-h"><span class="upd-t">ACTUALIZACIÓN DEL PARCHE DISPONIBLE</span><span class="upd-n" id="updNota">Tus partidas guardadas no se tocan</span></div>
+          <div class="upd-v">
+            <div class="vbox old"><div class="lbl">INSTALADO</div><div class="vv" id="updOld"></div></div>
+            <span class="uarrow">→</span>
+            <div class="vbox new"><div class="vl-r"><span class="lbl">NUEVA</span><a class="vlink" id="updVer" hidden>Novedades ›</a></div><div class="vv" id="updNew"></div></div>
+          </div>
         </div>
-        <div class="acts">
-          <button class="arrow back" id="remove" title="Quitar el parche y volver al inglés"><span>✕</span><span id="remLbl">QUITAR PARCHE</span></button>
-          <div class="chipbox"><span class="chip" id="chip"></span></div>
+        <div class="box folder">
+          <span class="ic">📁</span>
+          <div class="info"><div class="lbl">CARPETA DEL JUEGO</div><div class="path" id="pathShown"><span class="dir" id="pathDir"></span><span class="nm vacio" id="pathNm">Sin carpeta seleccionada</span></div></div>
+          <button class="sbtn" data-act="choose" id="chooseBtn">Cambiar carpeta</button>
+          <button class="sbtn sq" data-act="rescan" id="rescanBtn" title="Buscar otra vez"><span>↻</span></button>
         </div>
-        <div class="prog"><div class="track"><div class="bar" id="bar"></div></div><span class="pct" id="pct">0%</span></div>
-        <div class="step" id="stepTxt"></div>
+        <div class="actions">
+          <button class="big p v-off" id="go"><span class="gl" id="goIc">⚑</span><span id="goLbl">APLICAR PARCHE</span></button>
+          <button class="big q v-off" id="remove" title="Quitar el parche y volver al inglés"><span class="gl">✕</span><span id="remLbl">QUITAR PARCHE</span></button>
+        </div>
+        <div class="bottom">
+          <div class="msg">
+            <span class="mdot" id="mDot"></span><div class="mtext" id="mTxt"></div>
+            <button class="play" id="play" title="También puedes abrirlo desde Steam"><span class="gl">▶</span>JUGAR</button>
+            <span class="pct" id="pct">0%</span>
+          </div>
+          <div class="mbar"><div class="fill" id="bar"></div></div>
+        </div>
       </section>
 
       <section class="pane" id="pane-log">
@@ -248,32 +360,44 @@ button{font-family:inherit;color:inherit;border:0;background:none;cursor:pointer
       <section class="pane" id="pane-help">
         <div class="sec"><i></i><span>Ayuda</span><em></em></div>
         <div class="faq"><b>¿Necesito el juego original?</b><span>Sí. El parche solo añade los textos en español a tu copia de Steam.</span></div>
-        <div class="faq"><b>¿Cómo se aplica?</b><span>Cierra el juego, pulsa «Aplicar parche» y espera a que diga «¡Parche aplicado!» (unos 5 minutos). Después pulsa «▶ Jugar» o abre el juego desde Steam como siempre: el español reemplaza al inglés, no hay que elegir idioma.</span></div>
+        <div class="faq"><b>¿Cómo se aplica?</b><span>Cierra el juego, pulsa «Aplicar parche» y espera a que diga «¡Parche aplicado!» (menos de un minuto). Después pulsa «▶ Jugar» o abre el juego desde Steam como siempre: el español reemplaza al inglés, no hay que elegir idioma.</span></div>
         <div class="faq"><b>¿Cómo vuelvo al inglés?</b><span>Pulsa «Quitar parche». Si no hay respaldo, usa en Steam: clic derecho en el juego → Propiedades → Archivos instalados → Verificar integridad.</span></div>
-        <div class="faq"><b>Salió una versión nueva del parche</b><span>Descarga el programa nuevo y ábrelo: verás qué versión tienes y el botón «Actualizar parche». Quita la traducción anterior y pone la nueva en un solo paso; no hace falta quitarla antes.</span></div>
+        <div class="faq"><b>Salió una versión nueva del parche</b><span>Descarga el programa nuevo y ábrelo: verás qué versión tienes, a cuál se actualizará y el botón «Actualizar». Quita la traducción anterior y pone la nueva en un solo paso; no hace falta quitarla antes.</span></div>
         <div class="faq"><b>El juego se actualizó y salen textos en inglés</b><span>Las actualizaciones de Steam reemplazan los archivos con el parche. Vuelve a pulsar «Aplicar parche». Si la versión es nueva, se te avisará; puede que necesites una versión nueva del parche.</span></div>
         <div class="faq"><b>No encuentra el juego</b><span>Pulsa «Cambiar carpeta» y elige la carpeta «Little Goody Two Shoes» (la que contiene LGTS.exe). En Steam la encuentras con clic derecho en el juego → Administrar → Ver archivos locales.</span></div>
-        <div class="faq"><b>Windows o el antivirus muestran un aviso</b><span>El programa no está firmado, así que Windows puede decir «Windows protegió su PC»: elige «Más información → Ejecutar de todas formas». Algunos antivirus marcan por error los programas hechos con Python; el código está publicado en el proyecto.</span></div>
-        <div class="faq"><b>¿Qué cambia en mi PC?</b><span>Solo archivos del juego: se añade la traducción al final de data.unity3d y se reescriben unos paquetes pequeños y Assembly-CSharp.dll. Antes guarda los originales en la carpeta <a id="backupLink">respaldo_traduccion_es</a>, dentro de la del juego; no la borres mientras el parche esté aplicado.</span></div>
+        <div class="faq" id="faqAviso"><b>Windows o el antivirus muestran un aviso</b><span>El programa no está firmado, así que Windows puede decir «Windows protegió su PC»: elige «Más información → Ejecutar de todas formas». Algunos antivirus marcan por error los programas hechos con Python; el código está publicado en el proyecto.</span></div>
+        <div class="faq" id="faqCambia"><b>¿Qué cambia en mi PC?</b><span>Solo archivos del juego: se añade la traducción al final de data.unity3d y se reescriben unos paquetes pequeños y Assembly-CSharp.dll. Antes guarda los originales en la carpeta <a id="backupLink">respaldo_traduccion_es</a>, dentro de la del juego; no la borres mientras el parche esté aplicado.</span></div>
         <div class="faq"><b>Encontré algo en inglés o un error</b><span>Repórtalo con una captura en <a data-url="issues">la página del proyecto</a>. ¡Ayuda mucho!</span></div>
       </section>
 
       <section class="pane" id="pane-about">
         <div class="sec"><i></i><span>Acerca de</span><em></em></div>
-        <div class="about-t">Little Goody Two Shoes — Traducción al español</div>
+        <div class="about-t">Little Goody Two Shoes</div>
         <p class="about-p">Traducción no oficial al español latinoamericano hecha para fans, sin relación con los desarrolladores. El parche se aplica directamente a los archivos del juego (textos, imágenes y letras con tilde), así que el juego queda en español de forma nativa: lo abres desde Steam como siempre, sin programas externos ni mods. Se puede quitar en cualquier momento para volver al inglés.</p>
-        <dl class="cred">
-          <dt>TRADUCCIÓN</dt><dd><b style="color:#fff">Iro</b> — traducción, herramientas y parche</dd>
-          <dt>JUEGO</dt><dd>Little Goody Two Shoes © AstralShift / Square Enix Collective</dd>
-          <dt>FUENTES</dt><dd>Merriweather, Cinzel y Alegreya Sans (SIL Open Font License)</dd>
-          <dt>LICENCIA</dt><dd>Programa: MIT · Traducción: CC BY-NC-SA 4.0</dd>
-          <dt>VERSIÓN</dt><dd id="verText"></dd>
-        </dl>
+        <div class="agrid">
+          <div class="box"><div class="lbl">TRADUCCIÓN Y PARCHE</div><div class="v g">Iro</div></div>
+          <div class="box"><div class="lbl">VERSIÓN</div><div class="v" id="verText"></div></div>
+          <div class="box"><div class="lbl">JUEGO</div><div class="v">Little Goody Two Shoes © AstralShift / Square Enix Collective</div></div>
+          <div class="box"><div class="lbl">LICENCIA</div><div class="v">Programa: MIT · Traducción: CC BY-NC-SA 4.0</div></div>
+          <div class="box ancho"><div class="lbl">FUENTES</div><div class="v">Merriweather, Cinzel y Alegreya Sans (SIL Open Font License)</div></div>
+        </div>
         <div class="row"><a data-url="">Ver el proyecto ›</a><span style="color:var(--ink4)">·</span><a data-url="issues">Reportar un error ›</a></div>
+        <div class="sec"><i></i><span>Novedades</span><em></em></div>
+        <div class="nov" id="novedades"></div>
       </section>
     </main>
   </div>
 
+  <div id="modal" hidden>
+    <div class="mbox" role="dialog" aria-modal="true" aria-labelledby="mT">
+      <div class="top"></div>
+      <div class="m-in">
+        <div class="m-t" id="mT"></div>
+        <div class="m-m" id="mM"></div>
+        <div class="m-b"><button class="m-no" id="mNo"></button><button class="m-si" id="mSi"></button></div>
+      </div>
+    </div>
+  </div>
   <div class="footer"><span id="footVer">Parche</span><span>Hecho con cariño por <b>Iro</b> · <a data-url="issues">Reportar un error o ver el proyecto</a></span></div>
 </div>
 
@@ -322,11 +446,37 @@ setInterval(function(){
 }, 120);
 
 function versionTxt(e){ return e.version ? 'versión ' + e.version : 'versión no probada'; }
-// Parche aplicado y su versión respecto a este programa (relacion: igual / anterior / posterior)
-function parcheTxt(e){
-  if (e.relacion === 'anterior') return 'Parche ' + (e.parche || 'anterior') + ' aplicado · actualízalo a la ' + e.instalador;
-  if (e.relacion === 'posterior') return 'Parche ' + e.parche + ' aplicado (más nuevo que este programa)';
-  return 'Parche ' + (e.parche || '') + ' aplicado (juego en español)';
+// Versión del parche que tiene el juego. Antes de la 1.1.0 el parche no la anotaba: sin marca es la 1.0.0.
+function instalada(e){ return 'v' + (e.parche || '1.0.0'); }
+var verPrograma = '';
+var TONO = {ok: '#7fe0a0', warn: '#f2a84a', err: '#ff6b7d', neu: '#c9cde6', busy: '#b9a6ff'};
+var TONO_TXT = {ok: '#bdf0cf', warn: '#f2a84a', err: '#ff6b7d', neu: '#c9cde6', busy: '#d9d0ff'};
+var ICONO = {ok: '✓', warn: '!', err: '✕', neu: '•', busy: '…'};
+// Lo último que pasó: [tono, texto, con enlace al registro]. Manda sobre el mensaje del estado hasta la siguiente acción.
+var aviso = null;
+// El parche cambia los archivos del juego: no hace falta este programa para jugar en español
+var SIN_JUGAR = 'No hace falta abrir el juego desde aquí: desde Steam también sale en español.';
+
+// Una casilla de la franja Juego · Parche · Idioma
+function valor(id, tono, texto){
+  var v = $(id);
+  v.style.color = TONO[tono]; v.classList.toggle('pulso', tono === 'busy');
+  v.lastChild.textContent = texto; v.title = texto;
+}
+
+// Mensaje de abajo, junto a «Jugar»: [tono, texto, con enlace al registro]
+function mensaje(e, busy, tarjeta){
+  var aplicado = e.juego_ok && e.parchado;
+  if (!e.juego_ok) return ['err', e.ruta ? (e.problema || 'Esa carpeta no es la del juego.') : 'No encontramos el juego. Elige su carpeta con «Cambiar carpeta».'];
+  if (busy) return ['busy', aviso ? aviso[1] : 'Trabajando…'];
+  if (e.abierto) return ['warn', tarjeta ? 'El juego está abierto: ciérralo para actualizar.' : 'El juego está abierto: ciérralo para continuar.'];
+  if (aviso) return aviso;
+  if (tarjeta) return ['warn', 'Tu juego sigue en español con el parche ' + instalada(e) + '. Actualiza para tener las últimas correcciones.'];
+  if (aplicado && !e.respaldo) return ['warn', 'No hay respaldo: para quitar el parche usa «Verificar integridad» en Steam.'];
+  if (aplicado && e.relacion === 'posterior') return ['warn', 'El parche aplicado (' + instalada(e) + ') es más nuevo que este programa. Descarga la última versión.'];
+  if (aplicado) return ['ok', '¡Parche aplicado! ' + SIN_JUGAR];
+  if (!e.version) return ['warn', 'Versión del juego no probada (¿actualización de Steam?). Puedes aplicar el parche, pero podría fallar algún texto.'];
+  return ['neu', 'Listo para traducir el juego. No se modifica nada hasta que pulses «Aplicar parche».'];
 }
 
 // ---- Pantalla inicial: búsqueda del juego
@@ -357,11 +507,11 @@ function scan(promesa, carpeta){
 }
 
 function resultado(e){
-  st = e;
+  st = e; aviso = null;
   if (phase === 'idle') target = e.juego_ok && e.parchado ? 100 : 0;
   if (e.juego_ok){
     $('foundPath').textContent = e.ruta; $('foundPath').title = e.ruta;
-    $('foundMsg').textContent = (e.version ? 'Versión ' + e.version : 'Versión no probada') + ' · ' + (e.parchado ? (e.relacion === 'anterior' ? 'parche anterior: se puede actualizar' : 'parche ' + (e.parche || '') + ' aplicado') : 'sin parche (en inglés)');
+    $('foundMsg').textContent = (e.version ? 'Versión ' + e.version : 'Versión no probada') + ' · ' + (e.parchado ? (e.relacion === 'anterior' ? 'parche ' + instalada(e) + ', hay actualización a v' + e.instalador : 'parche ' + (e.parche || '') + ' aplicado') : 'sin parche (en inglés)');
     log('Juego encontrado en ' + e.ruta + ' · ' + versionTxt(e), 'ok');
     splashState('found');
   } else {
@@ -394,39 +544,69 @@ document.addEventListener('click', function(ev){
 function render(){
   var busy = phase === 'applying' || phase === 'removing', e = st || {};
   var ok = !!e.juego_ok, aplicado = ok && e.parchado;
-  // Siempre dos líneas (así la pestaña cabe sin scroll); los avisos van dentro de la línea que corresponde
-  var checks = [
-    !ok ? [e.ruta ? (e.problema || 'Esa carpeta no es la del juego') : 'Juego no encontrado: elige la carpeta con «Cambiar carpeta»', COL.err, COL.err]
-      : e.abierto ? ['Juego encontrado · el juego está abierto: ciérralo para continuar', COL.warn, COL.warn]
-      : !e.version ? ['Juego encontrado · versión no probada (¿actualización de Steam?)', COL.warn, COL.warn]
-      : ['Juego encontrado · ' + versionTxt(e), COL.ok, COL.ok],
-    busy ? ['Trabajando…', '#c9cdf0', '#eef0ff']
-      : aplicado && !e.respaldo ? ['Parche aplicado, sin respaldo: para quitarlo usa «Verificar integridad» en Steam', COL.warn, COL.warn]
-      : aplicado && e.relacion === 'anterior' ? [parcheTxt(e), COL.nuevo, COL.nuevo]
-      : aplicado && e.relacion === 'posterior' ? [parcheTxt(e), COL.warn, COL.warn]
-      : aplicado ? [parcheTxt(e), COL.ok, COL.ok]
-      : ['Parche no aplicado (juego en inglés)', '#c9cdf0', '#eef0ff']
-  ];
-  $('checks').innerHTML = '';
-  checks.forEach(function(c){
-    var d = document.createElement('div'); d.className = 'ck';
-    var l = document.createElement('span'); l.className = 'led'; l.style.background = c[1]; l.style.boxShadow = '0 0 6px ' + c[1];
-    var t = document.createElement('span'); t.textContent = c[0]; t.style.color = c[2];
-    d.appendChild(l); d.appendChild(t); $('checks').appendChild(d);
-  });
-  $('pathShown').textContent = e.ruta || 'Sin carpeta seleccionada'; $('pathShown').title = e.ruta || '';
-  var go = $('go');
-  go.disabled = busy || !ok || !!e.abierto; go.classList.toggle('busy', phase === 'applying');
   var mejorar = aplicado && e.relacion === 'anterior';
-  $('goIc').textContent = phase === 'applying' ? '✦' : mejorar ? '⬆' : aplicado ? '↻' : '⚑';
-  $('goLbl').textContent = phase === 'applying' ? (actualizando ? 'ACTUALIZANDO…' : 'APLICANDO…')
-    : mejorar ? 'ACTUALIZAR PARCHE' : aplicado ? 'REAPLICAR PARCHE' : 'APLICAR PARCHE';
-  $('play').classList.toggle('on', aplicado && !busy);
-  $('remove').classList.toggle('on', aplicado && !!e.respaldo && !busy && !e.abierto);
-  $('remLbl').textContent = phase === 'removing' ? 'QUITANDO…' : 'QUITAR PARCHE'; $('remove').classList.toggle('busy', phase === 'removing');
-  $('chip').className = 'chip ' + (ok ? 'ok' : 'bad');
+  // el juego tiene un parche más nuevo que este programa: aplicar pone una versión anterior, no es «reaplicar»
+  var posterior = aplicado && e.relacion === 'posterior';
+  // Hay una versión anterior: la tarjeta dice cuál hay y a cuál se pasa (ocupa el lugar de la franja)
+  var tarjeta = mejorar && !!e.respaldo && !busy;
+  $('upd').hidden = !tarjeta; $('strip').hidden = tarjeta;
+  if (tarjeta){
+    $('updOld').textContent = instalada(e); $('updNew').textContent = 'v' + e.instalador;
+    var nota = e.abierto ? '⚠ Cierra el juego para actualizar' : !e.version ? '⚠ Versión del juego no probada' : 'Tus partidas guardadas no se tocan';
+    $('updNota').textContent = nota; $('updNota').classList.toggle('aviso', nota.charAt(0) === '⚠');
+    $('updVer').hidden = !nuevasDesde(e).length;
+  }
+  var pie = $('footVer'); pie.textContent = 'Parche ' + (tarjeta ? instalada(e) + ' → ' : (verPrograma ? 'v' + verPrograma : ''));
+  if (tarjeta){ var b = document.createElement('b'); b.textContent = 'v' + e.instalador + ' disponible'; pie.appendChild(b); }
+  // Franja Juego · Parche · Idioma
+  if (!ok) valor('vJuego', 'err', e.ruta ? 'Carpeta incorrecta' : 'No encontrado');
+  else if (e.abierto) valor('vJuego', 'warn', 'Abierto');
+  else if (!e.version) valor('vJuego', 'warn', 'Versión no probada');
+  else valor('vJuego', 'ok', 'Encontrado · v' + e.version);
+  if (!ok) valor('vParche', 'neu', '—');
+  else if (busy) valor('vParche', 'busy', 'Trabajando…');
+  else if (aviso && aviso[0] === 'err') valor('vParche', 'err', 'Falló');
+  else if (!aplicado) valor('vParche', 'neu', 'Sin aplicar');
+  else if (!e.respaldo) valor('vParche', 'warn', 'Aplicado · sin respaldo');
+  else if (posterior) valor('vParche', 'warn', instalada(e) + ' · más nuevo');
+  else if (mejorar) valor('vParche', 'warn', instalada(e) + ' aplicado');
+  else valor('vParche', 'ok', instalada(e) + ' aplicado');
+  if (!ok) valor('vIdioma', 'neu', '—');
+  else valor('vIdioma', aplicado ? 'ok' : 'neu', aplicado ? 'Español' : 'Inglés');
+  $('chip').className = 'pill' + (ok ? '' : ' err');
   $('chip').textContent = ok ? '✓ Juego encontrado' : '✕ Juego no encontrado';
+  // Carpeta: la ruta en gris y el nombre de la carpeta en blanco
+  var ruta = e.ruta || '', corte = Math.max(ruta.lastIndexOf('\\'), ruta.lastIndexOf('/')) + 1;
+  $('pathDir').textContent = ruta.slice(0, corte);
+  $('pathNm').textContent = ruta ? ruta.slice(corte) : 'Sin carpeta seleccionada';
+  $('pathNm').classList.toggle('vacio', !ruta); $('pathShown').title = ruta;
   $('chooseBtn').disabled = $('rescanBtn').disabled = busy;
+  $('chooseBtn').classList.toggle('hot', !ok);
+  // Botones grandes
+  var go = $('go');
+  go.disabled = busy || !ok || !!e.abierto;
+  go.className = 'big p ' + (phase === 'applying' ? 'v-busy' : go.disabled ? 'v-off' : 'v-red');
+  $('goIc').textContent = phase === 'applying' ? '✦' : mejorar ? '⬆' : aplicado && !posterior ? '↻' : '⚑';
+  $('goIc').classList.toggle('gira', phase === 'applying');
+  $('goLbl').textContent = phase === 'applying' ? (actualizando ? 'ACTUALIZANDO…' : 'APLICANDO…')
+    : mejorar ? 'ACTUALIZAR A V ' + e.instalador : posterior ? 'APLICAR V ' + e.instalador
+    : aplicado ? 'REAPLICAR PARCHE' : 'APLICAR PARCHE';
+  var quitar = aplicado && !!e.respaldo && !busy && !e.abierto;
+  $('remove').disabled = !quitar;
+  $('remove').className = 'big q ' + (phase === 'removing' ? 'v-busy' : quitar ? 'v-dark' : 'v-off');
+  $('remLbl').textContent = phase === 'removing' ? 'QUITANDO…' : 'QUITAR PARCHE';
+  $('play').hidden = !ok;
+  $('play').classList.toggle('on', ok && !busy);      // con o sin parche: sin él, el juego abre en inglés
+  // Mensaje de abajo
+  var m = mensaje(e, busy, tarjeta);
+  $('mDot').textContent = ICONO[m[0]]; $('mDot').style.background = TONO[m[0]]; $('mDot').classList.toggle('pulso', m[0] === 'busy');
+  var t = $('mTxt'); t.textContent = m[1]; t.style.color = TONO_TXT[m[0]];
+  if (m[2]){
+    var a = document.createElement('a'); a.textContent = 'Abrir registro ›';
+    a.addEventListener('click', function(){ showTab('log'); });
+    t.appendChild(document.createTextNode(' ')); t.appendChild(a);
+  }
+  $('bar').classList.toggle('err', m[0] === 'err' && !!m[2]);
 }
 
 function actualizar(){
@@ -440,48 +620,160 @@ function actualizar(){
 // Eventos que manda Python mientras trabaja
 window.ui = {
   evento: function(ev){
-    if (ev.tipo === 'paso'){ log(ev.texto); $('stepTxt').textContent = ev.texto; if (ev.pct != null) target = ev.pct; }
+    if (ev.tipo === 'paso'){ log(ev.texto); aviso = ['busy', ev.texto]; if (ev.pct != null) target = ev.pct; render(); }
     else if (ev.tipo === 'linea'){ log(ev.texto, 'raw'); }
     else if (ev.tipo === 'fin'){
       target = ev.accion === 'aplicar' ? 100 : 0;
       var texto = ev.accion === 'aplicar' && actualizando ? '¡Parche actualizado a la versión ' + st.instalador + '! Ya puedes jugar en español.' : ev.texto;
-      log(texto, 'ok'); $('stepTxt').textContent = texto;
+      log(texto, 'ok');
+      aviso = ['ok', ev.accion !== 'aplicar' ? texto : (actualizando ? '¡Parche actualizado a la v' + st.instalador + '! ' : '¡Parche aplicado! ') + SIN_JUGAR];
       phase = 'idle'; actualizando = false; actualizar();
     }
     else if (ev.tipo === 'error'){
-      target = 0; phase = 'idle'; actualizando = false; log(ev.texto, 'err'); $('stepTxt').textContent = 'No se pudo completar. Revisa el registro.';
-      actualizar(); showTab('log');
+      // el detalle queda en el registro; abajo se dice que falló, con el enlace para verlo
+      target = 0; phase = 'idle'; actualizando = false; log(ev.texto, 'err');
+      aviso = ['err', 'No se pudo completar. Los detalles están en el registro.', true];
+      actualizar();
     }
   }
 };
 
+// Confirmación dibujada en la propia ventana. Cada párrafo es un texto o una lista que
+// alterna texto normal y resaltado: ['Se reemplazará ', 'v1.0.0', ' por la ', 'v1.2.0', '.']
+function confirmar(o){
+  return new Promise(function(listo){
+    $('mT').innerHTML = '';
+    var ic = document.createElement('span'); ic.className = 'mi'; ic.textContent = o.icono;
+    $('mT').appendChild(ic); $('mT').appendChild(document.createTextNode(o.titulo));
+    $('mM').innerHTML = '';
+    if (o.nodo) $('mM').appendChild(o.nodo);
+    (o.parrafos || []).forEach(function(p){
+      var el = document.createElement('p');
+      [].concat(p).forEach(function(trozo, i){
+        var n = document.createElement(i % 2 ? 'b' : 'span'); n.textContent = trozo; el.appendChild(n);
+      });
+      $('mM').appendChild(el);
+    });
+    $('mSi').textContent = o.si || ''; $('mSi').className = 'm-si' + (o.quitar ? ' quitar' : ''); $('mSi').hidden = !o.si;
+    $('mNo').textContent = o.no || 'Cancelar';
+    $('modal').hidden = false; $('mM').scrollTop = 0; (o.si ? $('mSi') : $('mNo')).focus();
+    function fin(r){ $('modal').hidden = true; document.removeEventListener('keydown', tecla); listo(r); }
+    function tecla(ev){ if (ev.key === 'Escape') fin(false); }
+    $('mSi').onclick = function(){ fin(true); };
+    $('mNo').onclick = function(){ fin(false); };
+    document.addEventListener('keydown', tecla);
+  });
+}
+
 function lanzar(accion){
   actualizar().then(function(e){
     if (!e.juego_ok || e.abierto) return;
-    var rel = e.parchado ? e.relacion : null, cual = e.parche ? 'el parche ' + e.parche : 'el parche anterior';
-    var aviso = accion === 'aplicar'
-      ? (e.version ? '' : 'Esta versión del juego no se ha probado con la traducción. ')
-        + (rel === 'anterior' ? 'Se reemplazará ' + cual + ' por la versión ' + e.instalador + '. '
-           : rel === 'posterior' ? 'El juego tiene ' + cual + ', más nuevo que este programa. Se pondrá la versión ' + e.instalador + '. '
-           : 'Se aplicará el parche en español. ')
-        + 'Tarda unos 5 minutos.\n\nNo abras el juego hasta que termine. ¿Continuar?'
-      : '¿Quitar el parche y volver al inglés?';
-    var titulo = accion === 'aplicar' ? (rel === 'anterior' ? 'Actualizar parche' : 'Aplicar parche') : 'Quitar parche';
-    pywebview.api.confirmar(titulo, aviso).then(function(si){
-      if (!si) return;
-      actualizando = accion === 'aplicar' && rel === 'anterior';
-      phase = accion === 'aplicar' ? 'applying' : 'removing';
-      target = 2; shown = 0; $('stepTxt').textContent = ''; render();
-      pywebview.api[accion]();
-    });
+    var rel = e.parchado ? e.relacion : null, nueva = 'v' + e.instalador, boton = 'V ' + e.instalador, o;
+    if (accion === 'quitar'){
+      o = {icono: '✕', titulo: 'Quitar parche', si: 'QUITAR PARCHE', quitar: true, parrafos: [
+        'El juego vuelve al inglés con los archivos originales que se guardaron al aplicar el parche.',
+        'Tus partidas guardadas no se tocan.']};
+    } else {
+      o = rel === 'anterior' ? {icono: '⬆', titulo: 'Actualizar parche', si: 'ACTUALIZAR A ' + boton,
+                                parrafos: [['Se reemplazará el parche ', instalada(e), ' por la ', nueva, '.']]}
+        : rel === 'posterior' ? {icono: '⚑', titulo: 'Aplicar parche', si: 'APLICAR ' + boton,
+                                 parrafos: [['El juego tiene el parche ', instalada(e), ', más nuevo que este programa. Se pondrá la ', nueva, '.']]}
+        : e.parchado ? {icono: '↻', titulo: 'Reaplicar parche', si: 'REAPLICAR',
+                        parrafos: [['Se volverá a aplicar la ', nueva, ' sobre la que ya tienes.']]}
+        : {icono: '⚑', titulo: 'Aplicar parche', si: 'APLICAR PARCHE',
+           parrafos: [['Se aplicará la traducción al español, ', nueva, '.']]};
+      if (!e.version) o.parrafos.unshift('Esta versión del juego no se ha probado con la traducción.');
+      o.parrafos.push('Tarda menos de un minuto. No abras el juego hasta que termine.');
+    }
+    confirmar(o).then(function(si){ if (si) iniciar(accion, e); });
   });
 }
+
+function iniciar(accion, e){
+  actualizando = accion === 'aplicar' && e.parchado && e.relacion === 'anterior';
+  phase = accion === 'aplicar' ? 'applying' : 'removing';
+  aviso = ['busy', actualizando ? 'Actualizando el parche…' : accion === 'aplicar' ? 'Aplicando el parche…' : 'Quitando el parche…'];
+  target = 2; shown = 0; render();
+  pywebview.api[accion]();
+}
+
+// ---- Novedades (CHANGELOG.md, empaquetado con el programa)
+var historial = [];
+function cmpVer(a, b){
+  var x = String(a).split('.').map(Number), y = String(b).split('.').map(Number);
+  for (var i = 0; i < Math.max(x.length, y.length); i++){ var d = (x[i] || 0) - (y[i] || 0); if (d) return d; }
+  return 0;
+}
+// Lo que gana el juego al pasar de su parche al de este programa
+function nuevasDesde(e){
+  var desde = e.parche || '1.0.0';
+  return historial.filter(function(h){ return cmpVer(h.version, desde) > 0 && cmpVer(h.version, e.instalador) <= 0; });
+}
+function listaNovedades(versiones){
+  var caja = document.createElement('div'); caja.className = 'nov';
+  versiones.forEach(function(h){
+    var v = document.createElement('div'); v.className = 'nov-v';
+    var t = document.createElement('div'); t.className = 'nov-h'; t.textContent = 'v' + h.version;
+    if (h.fecha){ var f = document.createElement('span'); f.textContent = h.fecha; t.appendChild(f); }
+    var ul = document.createElement('ul');
+    (h.cambios.length ? h.cambios : ['Los detalles están en su página de GitHub.']).forEach(function(c){
+      var li = document.createElement('li'); li.textContent = c; ul.appendChild(li);
+    });
+    v.appendChild(t); v.appendChild(ul); caja.appendChild(v);
+  });
+  return caja;
+}
+function pintarNovedades(){
+  var n = $('novedades'); n.innerHTML = '';
+  n.appendChild(historial.length ? listaNovedades(historial) : document.createTextNode('—'));
+}
+function verNovedades(){
+  actualizar().then(function(e){
+    var lista = nuevasDesde(e);
+    if (!lista.length) return;
+    var puede = e.juego_ok && !e.abierto;
+    confirmar({icono: '✦', titulo: 'Novedades hasta la v' + e.instalador, nodo: listaNovedades(lista),
+               parrafos: puede ? ['Tarda menos de un minuto. No abras el juego hasta que termine.'] : ['Cierra el juego para poder actualizar.'],
+               si: puede ? 'ACTUALIZAR A V ' + e.instalador : null, no: 'Cerrar'})
+      .then(function(si){ if (si) iniciar('aplicar', e); });
+  });
+}
+$('updVer').addEventListener('click', verNovedades);
+// Hay una versión más nueva del programa en GitHub (n = {version, url}): se dice en la barra de arriba
+// n.historial: las versiones publicadas más nuevas que este programa, con sus novedades
+function avisoNueva(n){
+  if (!n) return;
+  log('Hay una versión nueva del programa en GitHub: v' + n.version, 'ok');
+  $('notice').classList.add('nueva');
+  var t = $('noticeTxt'), v = document.createElement('b');
+  t.textContent = 'Hay una versión nueva del programa: '; v.textContent = 'v' + n.version; t.appendChild(v);
+  t.appendChild(document.createTextNode('. Mira qué trae y descárgala para actualizar el parche.'));
+  var b = document.createElement('button'); b.className = 'nv'; b.textContent = 'Ver novedades ›';
+  b.addEventListener('click', function(){
+    confirmar({icono: '✦', titulo: 'Versión nueva: v' + n.version, nodo: listaNovedades(n.historial || []),
+               parrafos: ['Descarga el programa nuevo y ábrelo: actualizará el parche de tu juego en un solo paso.'],
+               si: 'DESCARGAR V ' + n.version, no: 'Cerrar'})
+      .then(function(si){ if (si){ log('Abriendo la página de descarga…'); pywebview.api.abrir_url(n.url); } });
+  });
+  $('notice').appendChild(b);
+}
+
 $('go').addEventListener('click', function(){ lanzar('aplicar'); });
-$('remove').addEventListener('click', function(){ if ($('remove').classList.contains('on')) lanzar('quitar'); });
+$('remove').addEventListener('click', function(){ lanzar('quitar'); });     // desactivado si no se puede quitar
 $('play').addEventListener('click', function(){ if (!$('play').classList.contains('on')) return; pywebview.api.jugar(); log('Abriendo el juego en Steam…', 'ok'); });
 $('copyLog').addEventListener('click', function(){ pywebview.api.copiar($('bigLog').innerText).then(function(){ log('Registro copiado al portapapeles.', 'ok'); }); });
 $('fileLog').addEventListener('click', function(){ pywebview.api.abrir_registro(); });
 $('backupLink').addEventListener('click', function(){ pywebview.api.abrir_respaldo(); });
+// Ayuda: una pregunta abierta a la vez; la respuesta (con sus enlaces) no la cierra
+document.querySelectorAll('.faq').forEach(function(f, i, todas){
+  f.classList.toggle('open', i === 0);
+  f.addEventListener('click', function(ev){
+    if (ev.target.closest('span')) return;
+    var abrir = !f.classList.contains('open');
+    todas.forEach(function(o){ o.classList.remove('open'); });
+    f.classList.toggle('open', abrir);
+  });
+});
 document.querySelectorAll('[data-url]').forEach(function(a){ a.addEventListener('click', function(){ pywebview.api.abrir_proyecto(a.dataset.url); }); });
 $('minBtn').addEventListener('click', function(){ pywebview.api.minimizar(); });
 $('closeBtn').addEventListener('click', function(){ pywebview.api.cerrar(); });
@@ -489,11 +781,20 @@ $('closeBtn').addEventListener('click', function(){ pywebview.api.cerrar(); });
 render();
 window.addEventListener('pywebviewready', function(){
   pywebview.api.info().then(function(i){
-    $('footVer').textContent = 'Parche ' + i.version;
+    verPrograma = i.version; render();
+    if (i.sistema === 'linux'){
+      // Steam Deck: el juego corre con Proton y el programa se abre en el Modo Escritorio
+      $('faqAviso').innerHTML = '<b>¿Cómo lo uso en la Steam Deck?</b><span>Abre este programa en el Modo Escritorio. '
+        + 'Cuando diga «¡Parche aplicado!», vuelve al Modo de Juego y abre el juego como siempre: '
+        + 'el parche queda en los archivos del juego y funciona igual con Proton.</span>';
+      $('faqCambia').querySelector('b').textContent = '¿Qué cambia en mi Steam Deck?';
+    }
     $('verText').textContent = 'Parche ' + i.version + ' · probado con el juego v' + i.juego_probado;
   });
   log('Programa iniciado.');
   scan(pywebview.api.estado(), false);
+  pywebview.api.novedades().then(avisoNueva);
+  pywebview.api.historial().then(function(h){ historial = h || []; pintarNovedades(); render(); });
   // vigila si el juego se abre o se cierra
   setInterval(function(){ if (phase === 'idle' && $('splash').classList.contains('hide')) actualizar(); }, 3000);
 });

@@ -20,12 +20,21 @@ FUENTES_UBIC = os.path.join(RAIZ, "datos", "fuentes_ubicaciones.json")
 GUIONES_ES = os.path.join(TRAD, "guiones", "es.json")
 GUIONES_UBIC = os.path.join(RAIZ, "datos", "guiones_ubicaciones.json")
 TRADUCTORES_UBIC = os.path.join(RAIZ, "datos", "traductores_ubicaciones.json")
+AJUSTES_UI = os.path.join(RAIZ, "datos", "ajustes_ui.json")
+ALIAS_ES = os.path.join(TRAD, "alias", "es.json")
+ALIAS_UBIC = os.path.join(RAIZ, "datos", "alias_ubicaciones.json")
+
+WINDOWS = sys.platform == "win32"
+# Ajustes y registro del instalador: %LOCALAPPDATA% en Windows, ~/.local/share en Linux (Steam Deck)
+DATOS_APP = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")) if WINDOWS else
+                         os.environ.get("XDG_DATA_HOME") or os.path.expanduser("~/.local/share"),
+                         "LGTS-Parche-Traduccion-Espanol")
 
 # El respaldo de los originales vive dentro de la carpeta del juego: así lo encuentra cualquier copia del
 # instalador, desde cualquier cuenta de Windows (Steam no borra carpetas extra al verificar o actualizar).
 CARPETA_RESPALDO = "respaldo_traduccion_es"
 # Donde lo guardaban versiones anteriores; si está ahí, se copia a la carpeta del juego.
-RESPALDOS_VIEJOS = [os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), "LGTS-Parche-Traduccion-Espanol", "respaldo"),
+RESPALDOS_VIEJOS = [os.path.join(DATOS_APP, "respaldo"),
                     os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "respaldo")]
 
 CARPETA_JUEGO = "Little Goody Two Shoes"
@@ -39,8 +48,14 @@ def es_juego(ruta):
 
 
 def bibliotecas_steam():
-    """Carpetas de bibliotecas de Steam (registro de Windows + libraryfolders.vdf)."""
+    """Carpetas de bibliotecas de Steam (registro de Windows o carpetas de Steam en Linux + libraryfolders.vdf)."""
     raices = []
+    if not WINDOWS:
+        # Steam Deck y Linux: la instalación normal, sus enlaces de ~/.steam, la de Flatpak y la de Snap.
+        # La tarjeta SD y otros discos salen de libraryfolders.vdf.
+        raices = [os.path.expanduser(r) for r in ("~/.local/share/Steam", "~/.steam/steam", "~/.steam/root",
+                                                  "~/.var/app/com.valvesoftware.Steam/.local/share/Steam",
+                                                  "~/snap/steam/common/.local/share/Steam")]
     try:
         import winreg
         for raiz, clave, valor in ((winreg.HKEY_CURRENT_USER, r"Software\Valve\Steam", "SteamPath"),
@@ -52,18 +67,22 @@ def bibliotecas_steam():
                 pass
     except ImportError:
         pass
-    raices += [r"C:\Program Files (x86)\Steam", r"C:\Program Files\Steam"]
+    else:
+        raices += [r"C:\Program Files (x86)\Steam", r"C:\Program Files\Steam"]
     libs = []
     for r in raices:
+        if not os.path.isdir(r):
+            continue
         libs.append(r)
         vdf = os.path.join(r, "steamapps", "libraryfolders.vdf")
         if os.path.isfile(vdf):
             for m in re.finditer(r'"path"\s+"([^"]+)"', open(vdf, encoding="utf-8", errors="replace").read()):
                 libs.append(os.path.normpath(m.group(1).replace("\\\\", "\\")))
-    vistas = []
+    vistas, claves = [], set()
     for l in libs:
-        if l.lower() not in (v.lower() for v in vistas):
-            vistas.append(l)
+        clave = os.path.normcase(os.path.realpath(l))     # en Linux ~/.steam/steam es un enlace a ~/.local/share/Steam
+        if clave not in claves:
+            claves.add(clave); vistas.append(l)
     return vistas
 
 
@@ -75,7 +94,8 @@ def detectar_juego():
     if os.path.exists(archivo):
         candidatos.append(open(archivo, encoding="utf-8").read().strip().strip('"'))
     candidatos += [os.path.join(l, "steamapps", "common", CARPETA_JUEGO) for l in bibliotecas_steam()]
-    candidatos += [rf"{u}:\SteamLibrary\steamapps\common\{CARPETA_JUEGO}" for u in "DEFGH"]
+    if WINDOWS:
+        candidatos += [rf"{u}:\SteamLibrary\steamapps\common\{CARPETA_JUEGO}" for u in "DEFGH"]
     for c in candidatos:
         if es_juego(c):
             return os.path.realpath(c)   # con las mayúsculas reales (el registro de Steam la da en minúsculas)
