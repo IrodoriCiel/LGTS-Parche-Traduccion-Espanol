@@ -83,6 +83,19 @@ if not WINDOWS:
         if not suelta(nombre):
             usadas.update(os.path.basename(ref) for ref, _ in get_imports(origen))
     a.binaries = [x for x in a.binaries if not suelta(x[0]) or os.path.basename(x[0]) in usadas]
+    # Bibliotecas que deben ser las del sistema donde se abre: las usan los drivers de gráficos (Mesa) y las
+    # fuentes. Las de Ubuntu 22.04, donde se compila, son más viejas que las de SteamOS: con ellas Mesa no crea
+    # el contexto de OpenGL («QRhiGles2: Failed to create context») y la ventana se queda en blanco.
+    # Las que traen un sufijo de hash (libfreetype-57f805ba..., de Pillow u OpenCV) son de esos paquetes y se quedan.
+    DEL_SISTEMA = ["libstdc++.so.*", "libgcc_s.so.*", "libgbm.so.*", "libdrm*.so.*", "libEGL*.so.*", "libGL*.so.*",
+                   "libOpenGL.so.*", "libfontconfig.so.*", "libfreetype.so.*", "libexpat.so.*", "libz.so.*",
+                   "libzstd.so.*", "libelf.so.*", "libwayland-*.so.*", "libX11.so.*", "libX11-xcb.so.*", "libXext.so.*",
+                   "libXfixes.so.*", "libXdamage.so.*", "libxshmfence.so.*", "libxcb.so.*", "libxcb-glx.so.*",
+                   "libxcb-dri2.so.*", "libxcb-dri3.so.*", "libxcb-present.so.*", "libxcb-sync.so.*",
+                   "libxcb-xfixes.so.*", "libxcb-randr.so.*", "libxcb-shm.so.*", "libxcb-render.so.*",
+                   "libxcb-shape.so.*", "libxkbcommon.so.*", "libxkbcommon-x11.so.*", "libasound.so.*"]
+    sistema = lambda n: suelta(n) and any(fnmatch.fnmatch(os.path.basename(n), p) for p in DEL_SISTEMA)
+    a.binaries = [x for x in a.binaries if not sistema(x[0])]
 pyz = PYZ(a.pure)
 exe = EXE(pyz, a.scripts, a.binaries, a.datas, name=NOMBRE, version=propiedades,
           console=False, upx=False, icon=icono if WINDOWS and os.path.exists(icono) else None)

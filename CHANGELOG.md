@@ -2,6 +2,10 @@
 
 Lo que trae cada versión del parche, la más nueva arriba. El instalador muestra estas novedades al actualizar, y cada publicación en GitHub lleva las de su versión.
 
+## 1.2.1 — 2026-11-02
+
+- Steam Deck: el instalador ya abre su ventana. En la 1.2.0 se quedaba en blanco porque no podía usar los gráficos de SteamOS.
+
 ## 1.2.0 — 2026-11-01
 
 - Nuevo instalador para **Steam Deck**: el mismo programa, como un único archivo que se abre en el Modo Escritorio sin instalar nada.

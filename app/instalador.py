@@ -19,7 +19,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "herramientas"))
 import config  # noqa: E402
 
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 REPO = "https://github.com/IrodoriCiel/LGTS-Parche-Traduccion-Espanol"
 STEAM_APPID = 1812370
 UI = os.path.join(getattr(sys, "_MEIPASS", os.path.join(AQUI, "..")), "app", "ui")
